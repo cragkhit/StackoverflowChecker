@@ -22,7 +22,7 @@ import java.io.FileReader;
 import java.io.FileWriter;
 
 public class Main {
-	public static String basePath = "/Users/Chaiyong/Downloads";
+	public static String basePath = "";
 	public static String pathToRemove = "/dev/shm/gbianco";
 	public static String pathSo = "extracted_data";
 	public static String pathQualitas = "QualitasCorpus-20130901r/compressed_src";
@@ -31,21 +31,22 @@ public class Main {
 		DocumentBuilder builder;
 		try {
 			builder = factory.newDocumentBuilder();
-			Document doc = builder.parse("/Users/Chaiyong/Documents/stackoverflow/results/simian_filtered_results/all.xml");
+			Document doc = builder.parse("/Users/Chaiyong/IdeasProjects/StackAnalyzer/simian_fragments_default.xml");
 			XPathFactory xPathfactory = XPathFactory.newInstance();
 			XPath xpath = xPathfactory.newXPath();
 			
 			BufferedReader br = null;
 			try {
 				String sCurrentLine;
-				br = new BufferedReader(new FileReader("/Users/Chaiyong/Downloads/34tocheck.txt"));
+                FileWriter fwriter = new FileWriter("simian_fragments_pairs_default.csv", true);
+				br = new BufferedReader(new FileReader("/Users/Chaiyong/IdeasProjects/StackAnalyzer/results/simian_stats_default_no_errors/fragment_list.txt"));
 				while ((sCurrentLine = br.readLine()) != null) {
-					FileWriter fwriter = new FileWriter(basePath + "/" + sCurrentLine+".csv", true);
+
 					BufferedWriter bw = new BufferedWriter(fwriter);
 				    PrintWriter writer = new PrintWriter(bw);
 				    ArrayList<String> pair = new ArrayList<String>();
 					XPathExpression expr = xpath.compile(
-							"//FRAGMENT_LOG[@filePath=\"/dev/shm/gbianco/extracted_data_full/" + sCurrentLine + "\"]");
+							"//FRAGMENT_LOG[@filePath=\"stackoverflow_formatted/" + sCurrentLine + "\"]");
 					NodeList nl = (NodeList) expr.evaluate(doc, XPathConstants.NODESET);
 					for (int i = 0; i < nl.getLength(); i++) {
 						Node n = nl.item(i);
@@ -57,24 +58,30 @@ public class Main {
 							// System.out.println(j);
 							Node x = children.item(j);
 							if (x.getNodeName() != null) {
-								String soPath = "/dev/shm/gbianco/extracted_data_full/";
+								String soPath = "stackoverflow_formatted/";
 								String fragPath = x.getAttributes().item(1).getNodeValue();
 								if (!fragPath.startsWith(soPath)) {
-									System.out.println(x.getAttributes().item(2).getNodeValue() + ","
-											+ x.getAttributes().item(0).getNodeValue() + "|" + n.getAttributes().item(2).getNodeValue() + ","
-											+ n.getAttributes().item(0).getNodeValue());
-									System.out.println("vim -c \":e "+n.getAttributes().item(1).getNodeValue().replace(pathToRemove + "/extracted_data_full", pathSo)+"|:"+n.getAttributes().item(2).getNodeValue()
-											+"|:vsplit "+x.getAttributes()
-											.item(1).getNodeValue().replace(pathToRemove + "/src", pathQualitas)+"|:"+x.getAttributes().item(2).getNodeValue()+"\"");
+//									System.out.println(x.getAttributes().item(2).getNodeValue() + ","
+//											+ x.getAttributes().item(0).getNodeValue() + "|" + n.getAttributes().item(2).getNodeValue() + ","
+//											+ n.getAttributes().item(0).getNodeValue());
+//									System.out.println("vim -c \":e "+n.getAttributes().item(1).getNodeValue().replace(pathToRemove + "/extracted_data_full", pathSo)+"|:"+n.getAttributes().item(2).getNodeValue()
+//											+"|:vsplit "+x.getAttributes()
+//											.item(1).getNodeValue().replace(pathToRemove + "/src", pathQualitas)+"|:"+x.getAttributes().item(2).getNodeValue()+"\"");
 									
 //									Scanner in = new Scanner(System.in);
 //									System.out.println("TP/FP, Classification, Type, Notes: ");
 //									String input = in.nextLine();
 //									String input = "";
-									writer.println(n.getAttributes().item(1).getNodeValue().replace(pathToRemove + "/extracted_data_full", pathSo) + "," 
+									System.out.println(n.getAttributes().item(1).getNodeValue().replace(pathToRemove + "stackoverflow_formatted/", pathSo) + ","
 											+ n.getAttributes().item(2).getNodeValue() + ","
 											+ n.getAttributes().item(0).getNodeValue() + "," + x.getAttributes()
-											.item(1).getNodeValue().replace(pathToRemove + "/src", pathQualitas) + "," 
+											.item(1).getNodeValue().replace(pathToRemove + "/src", pathQualitas) + ","
+											+ x.getAttributes().item(2).getNodeValue() + ","
+											+ x.getAttributes().item(0).getNodeValue() /* + "," + input */);
+									writer.println(n.getAttributes().item(1).getNodeValue().replace(pathToRemove + "stackoverflow_formatted/", pathSo) + ","
+											+ n.getAttributes().item(2).getNodeValue() + ","
+											+ n.getAttributes().item(0).getNodeValue() + "," + x.getAttributes()
+											.item(1).getNodeValue().replace(pathToRemove + "/src", pathQualitas) + ","
 											+ x.getAttributes().item(2).getNodeValue() + ","
 											+ x.getAttributes().item(0).getNodeValue() /* + "," + input */);
 								}
