@@ -24,30 +24,30 @@ import java.io.FileWriter;
 
 public class Main {
 
-	public static String basePath = "";
-	private static String pathToRemove = "/dev/shm/gbianco";
+	// public static String basePath = "";
+	// private static String pathToRemove = "/dev/shm/gbianco";
 	private static String pathSo = "stackoverflow_formatted/";
-	private static String pathQualitas = "QualitasCorpus-20130901r/compressed_src";
+	// private static String pathQualitas = "QualitasCorpus-20130901r/compressed_src";
 
     private static String tool1 = "simian";
-    private static String settings1 = "default";
+    private static String settings1 = "fse13";
 
     // choose mode between old, good, ok
-    private static String mode = "good";
+    private static String mode = "ok";
     private static double p = 0.7;
 
     private static String tool2 = "nicad";
-    private static String settings2 = "fse13";
+    private static String settings2 = "df";
 
     private static HashMap<String, ArrayList<Fragment>> fragmentMap = new HashMap<>();
 
 	public static void main(String[] args) {
-        readFirstFile("/Users/Chaiyong/IdeasProjects/StackAnalyzer/fragments-" + tool1 + "_" + settings1 + "_new.xml"
-                , "/Users/Chaiyong/IdeasProjects/StackAnalyzer/" + tool1 + "_" + settings1 + "_fragment_list.txt"
+        readFirstFile("/Users/Chaiyong/IdeasProjects/StackAnalyzer/fragments_" + tool1 + "_" + settings1 + "_160813.xml"
+                , "/Users/Chaiyong/IdeasProjects/StackAnalyzer/fragment_list_" + tool1 + "_" + settings1 + ".txt"
                 , tool1 + "_fragments_pairs_" + settings1 + ".csv");
 
-        readSecondFileAndCompare("/Users/Chaiyong/IdeasProjects/StackAnalyzer/fragments-"+tool2+"_"+settings2+"_new.xml"
-                , "/Users/Chaiyong/IdeasProjects/StackAnalyzer/" + tool2 + "_" + settings2 + "_fragment_list.txt"
+        readSecondFileAndCompare("/Users/Chaiyong/IdeasProjects/StackAnalyzer/fragments_" + tool2 + "_" + settings2 + "_160813.xml"
+                , "/Users/Chaiyong/IdeasProjects/StackAnalyzer/fragment_list_" + tool2 + "_" + settings2 + ".txt"
                 , "common_pairs_" + tool1 + settings1 + "-" + tool2 + settings2 + "-" + mode + "-" + p + ".csv");
 	}
 
