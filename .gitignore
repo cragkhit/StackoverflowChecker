@@ -1,0 +1,10 @@
+# Created by .ignore support plugin (hsz.mobi)
+.gitignore
+.idea/
+StackoverflowChecker.iml
+etc/
+results/
+simian_fragments_pairs_default.csv
+simian_fragments_pairs_fse13.csv
+src/main/resources/
+target/
