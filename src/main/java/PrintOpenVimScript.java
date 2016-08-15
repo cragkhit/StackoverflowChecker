@@ -10,7 +10,7 @@ import java.util.HashMap;
 public class PrintOpenVimScript {
 
     public static void main(String[] args) {
-        printVimScript("/Users/Chaiyong/IdeasProjects/StackoverflowChecker/good_160814+results_160717+manual.csv");
+        printVimScript("/Users/Chaiyong/Desktop/a.csv");
     }
 
     public static void printVimScript(String file1) {
