@@ -13,8 +13,8 @@ import java.util.Map;
 public class FindContainment {
 
     public static void main(String args[]) {
-        checkPairContainmentWithSpecificLength("/Users/Chaiyong/IdeasProjects/StackoverflowChecker/good_160814+results_160717+manual.csv"
-                , "/Users/Chaiyong/IdeasProjects/StackoverflowChecker/ok_160814.csv", 2, 13, true);
+        checkPairContainmentWithSpecificLength("/Users/Chaiyong/IdeasProjects/StackoverflowChecker/ok+good_160814_merged.csv"
+                , "/Users/Chaiyong/IdeasProjects/StackoverflowChecker/ok+good_160814.csv", 2, 13, false);
 //        checkPairContainment("/Users/Chaiyong/IdeasProjects/StackoverflowChecker/ok_160814.csv"
 //                , "/Users/Chaiyong/IdeasProjects/StackoverflowChecker/good_160814.csv");
     }
@@ -107,9 +107,12 @@ public class FindContainment {
                 }
 
                 if (isCombined) {
-                    if (cloneMap.containsKey(key)) {
+                    if (clone[0].contains("good_")) {
+                        resultMap.put(key, line);
+                    }
+                    else if (cloneMap.containsKey(key)) {
                         String c = cloneMap.get(key);
-                        resultMap.put(key, "good_" + c);
+                        resultMap.put(key, "ok_" + c);
                     } else {
                         resultMap.put(key, line);
                     }
