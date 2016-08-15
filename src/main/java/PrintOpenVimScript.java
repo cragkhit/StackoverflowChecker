@@ -10,10 +10,10 @@ import java.util.HashMap;
 public class PrintOpenVimScript {
 
     public static void main(String[] args) {
-        checkPairContainment("/Users/Chaiyong/IdeasProjects/StackAnalyzer/good_160814+results_160717.csv");
+        printVimScript("/Users/Chaiyong/IdeasProjects/StackoverflowChecker/good_160814+results_160717+manual.csv");
     }
 
-    public static void checkPairContainment(String file1) {
+    public static void printVimScript(String file1) {
         String okFile = file1;
         HashMap<String, String> cloneMap = new HashMap<>();
         BufferedReader br = null;
@@ -27,9 +27,9 @@ public class PrintOpenVimScript {
             while ((line = br.readLine()) != null) {
 
                 // use comma as separator
-                if (count >= 32) {
+                if (count >= 672) {
                     String[] clone = line.split(cvsSplitBy);
-                    System.out.println("vim -c \":e qualitas_projects/" + clone[5] + "|:" + clone[6] + "|:vsplit " + clone[2] + "|:" + clone[3] + "\"");
+                    System.out.println("vim -c \":e QualitasCorpus-20130901r/projects/" + clone[5] + "|:" + clone[6] + "|:vsplit " + clone[2] + "|:" + clone[3] + "\"");
                     // System.out.println("vim " + clone[2] + " +" + clone[3]);
                 }
                 count++;
