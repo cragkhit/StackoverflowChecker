@@ -15,7 +15,6 @@ public class PrintOpenVimScript {
 
     public static void printVimScript(String file1) {
         String okFile = file1;
-        HashMap<String, String> cloneMap = new HashMap<>();
         BufferedReader br = null;
         String line = "";
         String cvsSplitBy = ",";
@@ -27,7 +26,7 @@ public class PrintOpenVimScript {
             while ((line = br.readLine()) != null) {
 
                 // use comma as separator
-                if (count >= 672) {
+                if (count >= 1) {
                     String[] clone = line.split(cvsSplitBy);
                     System.out.println("vim -c \":e QualitasCorpus-20130901r/projects/" + clone[5] + "|:" + clone[6] + "|:vsplit " + clone[2] + "|:" + clone[3] + "\"");
                     // System.out.println("vim " + clone[2] + " +" + clone[3]);
