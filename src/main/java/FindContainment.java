@@ -13,10 +13,10 @@ import java.util.Map;
 public class FindContainment {
 
     public static void main(String args[]) {
-        checkPairContainmentWithSpecificLength("/Users/Chaiyong/IdeasProjects/StackoverflowChecker/ok+good_160814_merged.csv"
-                , "/Users/Chaiyong/IdeasProjects/StackoverflowChecker/ok+good_160814.csv", 2, 13, false);
-//        checkPairContainment("/Users/Chaiyong/IdeasProjects/StackoverflowChecker/ok_160814.csv"
-//                , "/Users/Chaiyong/IdeasProjects/StackoverflowChecker/good_160814.csv");
+//        checkAndMergePairsWithSpecificLength("/Users/Chaiyong/IdeasProjects/StackoverflowChecker/ok+good_160814_merged.csv"
+//                , "/Users/Chaiyong/IdeasProjects/StackoverflowChecker/ok+good_160814.csv", 2, 13, false);
+        checkPairContainment("/Users/Chaiyong/Desktop/ok_pairs_new.csv"
+                , "/Users/Chaiyong/Desktop/good_pairs_old.csv", 2, 13);
     }
 
     public static void checkPairContainment(String file1, String file2) {
@@ -53,7 +53,9 @@ public class FindContainment {
                 }
 
                 if (!cloneMap.containsKey(key)) {
-                    System.out.println("Can't find: " + line);
+                    System.out.println("missing," + line);
+                } else {
+                    System.out.println("found," + line);
                 }
             }
             br.close();
@@ -73,7 +75,63 @@ public class FindContainment {
         }
     }
 
-    public static void checkPairContainmentWithSpecificLength(String file1, String file2, int start, int end, boolean isCombined) {
+    public static void checkPairContainment(String file1, String file2, int start, int end) {
+        String baseFile = file1;
+        String searchFile = file2;
+        HashMap<String, String> cloneMap = new HashMap<>();
+        BufferedReader br = null;
+        String line = "";
+        String cvsSplitBy = ",";
+
+        try {
+
+            br = new BufferedReader(new FileReader(baseFile));
+            while ((line = br.readLine()) != null) {
+
+                // use comma as separator
+                String[] clone = line.split(cvsSplitBy);
+                String key = "";
+                for (int i = start; i <= end; i++) {
+                    key += clone[i].trim();
+                }
+
+                cloneMap.put(key, line);
+            }
+            br.close();
+
+            br = new BufferedReader(new FileReader(searchFile));
+            while ((line = br.readLine()) != null) {
+                // use comma as separator
+                String[] clone = line.split(cvsSplitBy);
+                String key = "";
+                for (int i = start; i <= end; i++) {
+                    key += clone[i].trim();
+                }
+
+                if (!cloneMap.containsKey(key)) {
+                    System.out.println("missing," + line);
+                } else {
+                    System.out.println("found," + line);
+                }
+            }
+            br.close();
+
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        } finally {
+            if (br != null) {
+                try {
+                    br.close();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
+        }
+    }
+
+    public static void checkAndMergePairsWithSpecificLength(String file1, String file2, int start, int end, boolean isCombined) {
         String baseFile = file1;
         String searchFile = file2;
         HashMap<String, String> cloneMap = new HashMap<>();
