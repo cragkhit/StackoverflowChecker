@@ -8,6 +8,7 @@ public class Fragment {
     private int fEnd;
     private int sStart;
     private int sEnd;
+    private String other;
 
     public Fragment() {
 
@@ -191,7 +192,37 @@ public class Fragment {
         this.sEnd = sEnd;
     }
 
+    public String getOther() {
+        return other;
+    }
+
+    public void setOther(String other) {
+        this.other = other;
+    }
+
     public String toString() {
         return this.firstFile + ", " + this.fStart + ", " + this.fEnd + "," + this.secondFile + "," + this.sStart + "," + this.sEnd;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj == null) {
+            return false;
+        }
+        if (!Fragment.class.isAssignableFrom(obj.getClass())) {
+            return false;
+        }
+        final Fragment other = (Fragment) obj;
+
+        if ((this.firstFile == null) ? (other.firstFile != null) : !this.firstFile.equals(other.firstFile)) {
+            return false;
+        }
+
+        if (this.fStart != other.fStart) return false;
+        if (this.fEnd != other.fEnd) return false;
+        if (this.sStart != other.sStart) return false;
+        if (this.sEnd != other.sEnd) return false;
+
+        return true;
     }
 }

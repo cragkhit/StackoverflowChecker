@@ -72,4 +72,15 @@ public class FragmentTest {
         assertEquals(cf5.getContained(cf6)[0], contained[0], 0);
         assertEquals(cf5.getContained(cf6)[1], contained[1], 0);
     }
+
+    @org.junit.Test
+    public void checkEquals() throws Exception {
+        Fragment cf1 = new Fragment("A.java", 1, 10, "B.java", 5, 20);
+        Fragment cf2 = new Fragment("A.java", 1, 10, "B.java", 5, 20);
+        assertTrue(cf1.equals(cf2));
+
+        Fragment cf3 = new Fragment("A.java", 1, 10, "B.java", 6, 20);
+        Fragment cf4 = new Fragment("A.java", 1, 10, "B.java", 5, 20);
+        assertFalse(cf3.equals(cf4));
+    }
 }
