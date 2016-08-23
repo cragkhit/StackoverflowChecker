@@ -28,7 +28,7 @@ public class PrintOpenVimScript {
                 // use comma as separator
                 if (count >= 1) {
                     String[] clone = line.split(cvsSplitBy);
-                    System.out.println("vim -c \":e QualitasCorpus-20130901r/projects/" + clone[5] + "|:" + clone[6] + "|:vsplit " + clone[2] + "|:" + clone[3] + "\"");
+                    System.out.println("vim -c \":e QualitasCorpus-20130901r/projects_java_only_160816/" + clone[5] + "|:" + clone[6] + "|:vsplit " + clone[2] + "|:" + clone[3] + "\"");
                     // System.out.println("vim " + clone[2] + " +" + clone[3]);
                 }
                 count++;
