@@ -24,7 +24,6 @@ public class Fragment {
     }
 
     public boolean isMatch(Fragment f) {
-//        System.out.println("Checking: " + f.toString() + "," + this.toString());
         if (this.firstFile.equals(f.getFirstFile()) && this.secondFile.equals(f.getSecondFile()))
                 // 1st subsumes 2nd
                 if ((isInRange(this.fStart, this.fEnd, f.fStart, f.fEnd) && isInRange(this.sStart, this.sEnd, f.sStart, f.sEnd))
@@ -80,12 +79,6 @@ public class Fragment {
         }
 
         double[] overlap = new double[2];
-
-//        System.out.println("minfstart=" + minFStart + ", minfend=" + minFEnd);
-//        System.out.println("maxfstart=" + maxFStart + ", maxfend=" + maxFEnd);
-//        System.out.println("minsstart=" + minSStart + ", minsend=" + minSEnd);
-//        System.out.println("maxsstart=" + maxSStart + ", maxsend=" + maxSEnd);
-//        System.out.println();
         // first fragment
         overlap[0] = (double) (minFEnd - maxFStart + 1) / (maxFEnd - minFStart + 1);
         // second fragment
@@ -130,11 +123,6 @@ public class Fragment {
         }
 
         double[] contained = new double[2];
-
-//        System.out.println("minfstart=" + minFStart + ", minfend=" + minFEnd);
-//        System.out.println("maxfstart=" + maxFStart + ", maxfend=" + maxFEnd);
-//        System.out.println("minsstart=" + minSStart + ", minsend=" + minSEnd);
-//        System.out.println("maxsstart=" + maxSStart + ", maxsend=" + maxSEnd);
         // first fragment
         contained[0] = (double) (minFEnd - maxFStart + 1) / (this.getfEnd() - this.getfStart() + 1);
         // second fragment
@@ -224,5 +212,9 @@ public class Fragment {
         if (this.sEnd != other.sEnd) return false;
 
         return true;
+    }
+
+    public int getMinCloneLine() {
+        return Math.min((this.fEnd - this.fStart + 1), (this.sEnd-this.sStart+1));
     }
 }
