@@ -22,7 +22,7 @@ public class FindContainment {
 //                ,"/Users/Chaiyong/IdeasProjects/StackAnalyzer/indv_nicad_df_combined.csv"
 //                , 0, 5);
         checkExistAndCopyDetails(
-                "/Users/Chaiyong/IdeasProjects/StackoverflowChecker/ok_pairs_old.csv"
+                "/Users/Chaiyong/IdeasProjects/StackoverflowChecker/b.csv"
                 ,"/Users/Chaiyong/IdeasProjects/StackoverflowChecker/a.csv"
                 , 0, 5);
     }
@@ -302,8 +302,8 @@ public class FindContainment {
     public static void checkExistAndCopyDetails(String file1, String file2, int start, int end) {
         String baseFile = file1;
         String searchFile = file2;
-        HashMap<String, String> soMap = new HashMap<>();
-        HashMap<String, String> qMap = new HashMap<>();
+        HashMap<String, Fragment> soMap = new HashMap<>();
+        HashMap<String, Fragment> qMap = new HashMap<>();
         ArrayList<Fragment> searchFileArr = new ArrayList<>();
         BufferedReader br = null;
         String line = "";
@@ -320,8 +320,10 @@ public class FindContainment {
                 for (int i = start; i <= end; i++) {
                     key += clone[i].trim();
                 }
-                soMap.put(clone[0], line);
-                qMap.put(clone[3], line);
+                Fragment f = new Fragment(clone[0], Integer.parseInt(clone[1]), Integer.parseInt(clone[2]),
+                        clone[3], Integer.parseInt(clone[4]), Integer.parseInt(clone[5]));
+                soMap.put(clone[0], f);
+                qMap.put(clone[3], f);
             }
             br.close();
 
@@ -347,8 +349,20 @@ public class FindContainment {
 
             // start searching
             for (Fragment f : searchFileArr) {
-                if (soMap.containsKey(f.getFirstFile()) || qMap.containsKey(f.getSecondFile())) {
-                    System.out.println(f.getOther() + ",duplicate with ok pair");
+                if (soMap.containsKey(f.getFirstFile())) {
+                    Fragment soF = soMap.get(f.getFirstFile());
+                    if (f.getMinCloneLine() > soF.getMinCloneLine())
+                        System.out.println(f.getOther() + ",duplicate with SO but bigger,keep");
+                    else
+                        System.out.println(f.getOther() + ",duplicate with SO but smaller,delete");
+                }
+                else if (qMap.containsKey(f.getSecondFile())) {
+//                    System.out.println(f.getOther() + ",duplicate with ok pair");
+                    Fragment qF = qMap.get(f.getSecondFile());
+                    if (f.getMinCloneLine() > qF.getMinCloneLine())
+                        System.out.println(f.getOther() + ",duplicate with Q but bigger,keep");
+                    else
+                        System.out.println(f.getOther() + ",duplicate with Q but smaller,delete");
                 } else {
                     System.out.println(f.getOther());
                 }
