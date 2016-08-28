@@ -10,7 +10,7 @@ import java.util.HashMap;
 public class PrintOpenVimScript {
 
     public static void main(String[] args) {
-        printVimScript("/Users/Chaiyong/IdeasProjects/StackoverflowChecker/GOLD_indv_nicad_df_090301.csv");
+        printVimScript("/Users/Chaiyong/Desktop/a.csv");
     }
 
     public static void printVimScript(String file1) {
@@ -26,9 +26,9 @@ public class PrintOpenVimScript {
             while ((line = br.readLine()) != null) {
 
                 // use comma as separator
-                if (count >= 1) {
+                if (count >= 1 && count <= 100) {
                     String[] clone = line.split(cvsSplitBy);
-                    System.out.println("vim -c \":e QualitasCorpus-20130901r/projects_java_only_160816/" + clone[5] + "|:" + clone[6] + "|:vsplit " + clone[2] + "|:" + clone[3] + "\"");
+                    System.out.println("vim -c \":e QualitasCorpus-20130901r/projects_java_only_160816/" + clone[3] + "|:" + clone[4] + "|:vsplit " + clone[0] + "|:" + clone[1] + "\"");
                     // System.out.println("vim " + clone[2] + " +" + clone[3]);
                 }
                 count++;

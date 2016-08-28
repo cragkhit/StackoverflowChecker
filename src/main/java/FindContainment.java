@@ -15,16 +15,16 @@ public class FindContainment {
     public static void main(String args[]) {
 //        checkAndMergePairsWithSpecificLength("/Users/Chaiyong/IdeasProjects/StackoverflowChecker/ok+good_160814_merged.csv"
 //                , "/Users/Chaiyong/IdeasProjects/StackoverflowChecker/ok+good_160814.csv", 2, 13, false);
-//        checkPairContainment("/Users/Chaiyong/Desktop/ok_pairs_new.csv"
-//                , "/Users/Chaiyong/Desktop/good_pairs_old.csv", 2, 13);
+        checkPairContainment("/Users/Chaiyong/IdeasProjects/StackoverflowChecker/160816_common_pairs_simianfse13-nicaddf-ok-0.7.csv"
+                , "/Users/Chaiyong/IdeasProjects/StackoverflowChecker/160816_common_pairs_simianfse13-nicadfse13-ok-0.7.csv");
 //        checkPairAndCopyDetails(
 //                "/Users/Chaiyong/IdeasProjects/StackAnalyzer/manual/indv_previous_investigation.csv"
 //                ,"/Users/Chaiyong/IdeasProjects/StackAnalyzer/indv_nicad_df_combined.csv"
 //                , 0, 5);
-        checkExistAndCopyDetails(
-                "/Users/Chaiyong/IdeasProjects/StackoverflowChecker/b.csv"
-                ,"/Users/Chaiyong/IdeasProjects/StackoverflowChecker/a.csv"
-                , 0, 5);
+//        checkExistAndCopyDetails(
+//                "/Users/Chaiyong/IdeasProjects/StackoverflowChecker/b.csv"
+//                ,"/Users/Chaiyong/IdeasProjects/StackoverflowChecker/a.csv"
+//                , 0, 5);
     }
 
     public static void checkPairContainment(String file1, String file2) {
