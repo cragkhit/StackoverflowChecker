@@ -30,25 +30,30 @@ public class Main {
 	// private static String pathQualitas = "QualitasCorpus-20130901r/compressed_src";
 
     private static String tool1 = "simian";
-    private static String settings1 = "fse13";
+    private static String settings1 = "df";
 
     // choose mode between old, good, ok
-    private static String mode = "ok";
+    // private static String mode = "ok";
     private static double p = 0.7;
 
     private static String tool2 = "nicad";
-    private static String settings2 = "df";
+    private static String settings2 = "fse13";
 
     private static HashMap<String, ArrayList<Fragment>> fragmentMap = new HashMap<>();
 
 	public static void main(String[] args) {
-        readFirstFile("/Users/Chaiyong/IdeasProjects/StackAnalyzer/fragments_" + tool1 + "_" + settings1 + "_160813.xml"
+        readFirstFile("/Users/Chaiyong/IdeasProjects/StackAnalyzer/fragments_" + tool1 + "_" + settings1 + "_latest_v_new_only_160825.xml"
                 , "/Users/Chaiyong/IdeasProjects/StackAnalyzer/fragment_list_" + tool1 + "_" + settings1 + ".txt"
                 , tool1 + "_fragments_pairs_" + settings1 + ".csv");
 
-        readSecondFileAndCompare("/Users/Chaiyong/IdeasProjects/StackAnalyzer/fragments_" + tool2 + "_" + settings2 + "_160813.xml"
+        readSecondFileAndCompare("/Users/Chaiyong/IdeasProjects/StackAnalyzer/fragments_" + tool2 + "_" + settings2 + "_latest_v_new_only_160816.xml"
                 , "/Users/Chaiyong/IdeasProjects/StackAnalyzer/fragment_list_" + tool2 + "_" + settings2 + ".txt"
-                , "common_pairs_" + tool1 + settings1 + "-" + tool2 + settings2 + "-" + mode + "-" + p + ".csv");
+                , "common_pairs_" + tool1 + settings1 + "-" + tool2 + settings2 + "-" + "good" + "-" + p + "_latest_v_new_only.csv",
+                "good");
+//        readSecondFileAndCompare("/Users/Chaiyong/IdeasProjects/StackAnalyzer/fragments_" + tool2 + "_" + settings2 + "_latest_v_new_only_160816.xml"
+//                , "/Users/Chaiyong/IdeasProjects/StackAnalyzer/fragment_list_" + tool2 + "_" + settings2 + ".txt"
+//                , "common_pairs_" + tool1 + settings1 + "-" + tool2 + settings2 + "-" + "ok" + "-" + p + "_latest_v_new_only.csv",
+//                "ok");
 	}
 
     public static void readFirstFile(String file, String fragListFile, String outFile) {
@@ -126,7 +131,7 @@ public class Main {
         }
     }
 
-    private static void readSecondFileAndCompare(String file, String fragListFile, String outFile) {
+    private static void readSecondFileAndCompare(String file, String fragListFile, String outFile, String mode) {
         System.out.println("\nReading the second file: " + file);
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
         DocumentBuilder builder;
