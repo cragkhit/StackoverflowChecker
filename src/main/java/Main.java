@@ -30,7 +30,7 @@ public class Main {
 	// private static String pathQualitas = "QualitasCorpus-20130901r/compressed_src";
 
     private static String tool1 = "simian";
-    private static String settings1 = "df";
+    private static String settings1 = "fse13";
 
     // choose mode between old, good, ok
     // private static String mode = "ok";
@@ -48,12 +48,7 @@ public class Main {
 
         readSecondFileAndCompare("/Users/Chaiyong/IdeasProjects/StackAnalyzer/fragments_" + tool2 + "_" + settings2 + "_latest_v_new_only_160816.xml"
                 , "/Users/Chaiyong/IdeasProjects/StackAnalyzer/fragment_list_" + tool2 + "_" + settings2 + ".txt"
-                , "common_pairs_" + tool1 + settings1 + "-" + tool2 + settings2 + "-" + "good" + "-" + p + "_latest_v_new_only.csv",
-                "good");
-//        readSecondFileAndCompare("/Users/Chaiyong/IdeasProjects/StackAnalyzer/fragments_" + tool2 + "_" + settings2 + "_latest_v_new_only_160816.xml"
-//                , "/Users/Chaiyong/IdeasProjects/StackAnalyzer/fragment_list_" + tool2 + "_" + settings2 + ".txt"
-//                , "common_pairs_" + tool1 + settings1 + "-" + tool2 + settings2 + "-" + "ok" + "-" + p + "_latest_v_new_only.csv",
-//                "ok");
+                , "common_pairs_" + tool1 + settings1 + "-" + tool2 + settings2 + "-" + p + "_latest_v_new_only.csv");
 	}
 
     public static void readFirstFile(String file, String fragListFile, String outFile) {
@@ -131,7 +126,7 @@ public class Main {
         }
     }
 
-    private static void readSecondFileAndCompare(String file, String fragListFile, String outFile, String mode) {
+    private static void readSecondFileAndCompare(String file, String fragListFile, String outFile) {
         System.out.println("\nReading the second file: " + file);
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
         DocumentBuilder builder;
@@ -151,9 +146,13 @@ public class Main {
                     System.out.print(lineCount + ", ");
                     lineCount++;
 
-                    FileWriter fwriter = new FileWriter(outFile, true);
+                    FileWriter fwriter = new FileWriter("good_" + outFile, true);
                     BufferedWriter bw = new BufferedWriter(fwriter);
                     PrintWriter writer = new PrintWriter(bw);
+
+                    FileWriter fwriterOk = new FileWriter("ok_" + outFile, true);
+                    BufferedWriter bwOk = new BufferedWriter(fwriterOk);
+                    PrintWriter writerOk = new PrintWriter(bwOk);
 
                     ArrayList<String> pair = new ArrayList<String>();
                     XPathExpression expr = xpath.compile(
@@ -181,14 +180,14 @@ public class Main {
                                             , Integer.valueOf(x.getAttributes().item(0).getNodeValue()));
 
                                     // add to the map
-                                    if (mode.equals("old"))
-                                        writer.print(matchWithFragmentMap(f));
-                                    else if (mode.equals("good"))
+                                    // if (mode.equals("old"))
+                                    //    writer.print(matchWithFragmentMap(f));
+                                    // else if (mode.equals("good"))
                                         writer.print(goodOverlapWithFragmentMap(f));
-                                    else if (mode.equals("ok"))
-                                        writer.print(okOverlapWithFragmentMap(f));
-                                    else
-                                        System.out.println("Wrong mode!");
+                                    // else if (mode.equals("ok"))
+                                        writerOk.print(okOverlapWithFragmentMap(f));
+                                    // else
+                                    //    System.out.println("Wrong mode!");
                                 }
                             }
                             // System.out.println(x.getAttributes().getNamedItem("filePath"));
@@ -196,6 +195,7 @@ public class Main {
                     }
 
                     writer.close();
+                    writerOk.close();
                 }
             } catch (IOException e) {
                 System.out.println("Error: " + e.getMessage());
