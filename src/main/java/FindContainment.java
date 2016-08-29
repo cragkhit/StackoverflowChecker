@@ -15,16 +15,16 @@ public class FindContainment {
     public static void main(String args[]) {
 //        checkAndMergePairsWithSpecificLength("/Users/Chaiyong/IdeasProjects/StackoverflowChecker/ok+good_160814_merged.csv"
 //                , "/Users/Chaiyong/IdeasProjects/StackoverflowChecker/ok+good_160814.csv", 2, 13, false);
-        checkPairContainment("/Users/Chaiyong/IdeasProjects/StackoverflowChecker/160816_common_pairs_simianfse13-nicaddf-ok-0.7.csv"
-                , "/Users/Chaiyong/IdeasProjects/StackoverflowChecker/160816_common_pairs_simianfse13-nicadfse13-ok-0.7.csv");
+//        checkPairContainment("/Users/Chaiyong/Desktop/GOLD_ok+good_160816_merged_no_dup.csv"
+//                , "/Users/Chaiyong/IdeasProjects/StackoverflowChecker/indv_simian_df_combined_latest_v_new_only_160825.csv");
 //        checkPairAndCopyDetails(
-//                "/Users/Chaiyong/IdeasProjects/StackAnalyzer/manual/indv_previous_investigation.csv"
-//                ,"/Users/Chaiyong/IdeasProjects/StackAnalyzer/indv_nicad_df_combined.csv"
+//                "/Users/Chaiyong/Desktop/GOLD_ok+good_160816_merged_no_dup.csv"
+//                ,"/Users/Chaiyong/IdeasProjects/StackoverflowChecker/indv_nicad_df_combined_latest_v_new_only_160816_checked_equals.csv"
 //                , 0, 5);
-//        checkExistAndCopyDetails(
-//                "/Users/Chaiyong/IdeasProjects/StackoverflowChecker/b.csv"
-//                ,"/Users/Chaiyong/IdeasProjects/StackoverflowChecker/a.csv"
-//                , 0, 5);
+        checkExistAndCopyDetails(
+                "/Users/Chaiyong/IdeasProjects/StackoverflowChecker/indv_simian_df_combined_latest_v_new_only_160825.csv"
+                ,"/Users/Chaiyong/IdeasProjects/StackoverflowChecker/indv_nicad_df_combined_latest_v_new_only_160816_checked_equals.csv"
+                , 0, 5);
     }
 
     public static void checkPairContainment(String file1, String file2) {
@@ -271,7 +271,7 @@ public class FindContainment {
             for (Fragment f : searchFileArr) {
                 if (baseFileMap.containsKey(f.toString())) {
                     String fline = baseFileMap.get(f.toString());
-                    System.out.println(fline);
+                    System.out.println(f.getOther() + ",duplicate with ok pair");
                 } else {
                     System.out.println(f.getOther());
                 }
@@ -352,19 +352,19 @@ public class FindContainment {
                 if (soMap.containsKey(f.getFirstFile())) {
                     Fragment soF = soMap.get(f.getFirstFile());
                     if (f.getMinCloneLine() > soF.getMinCloneLine())
-                        System.out.println(f.getOther() + ",duplicate with SO but bigger,keep");
+                        System.out.println("duplicate with SO but bigger,keep," + f.getOther());
                     else
-                        System.out.println(f.getOther() + ",duplicate with SO but smaller,delete");
+                        System.out.println("duplicate with SO but smaller,delete," + f.getOther());
                 }
                 else if (qMap.containsKey(f.getSecondFile())) {
 //                    System.out.println(f.getOther() + ",duplicate with ok pair");
                     Fragment qF = qMap.get(f.getSecondFile());
                     if (f.getMinCloneLine() > qF.getMinCloneLine())
-                        System.out.println(f.getOther() + ",duplicate with Q but bigger,keep");
+                        System.out.println("duplicate with Q but bigger,keep," + f.getOther());
                     else
-                        System.out.println(f.getOther() + ",duplicate with Q but smaller,delete");
+                        System.out.println("duplicate with Q but smaller,delete," + f.getOther());
                 } else {
-                    System.out.println(f.getOther());
+                    System.out.println("x,x," + f.getOther());
                 }
             }
 

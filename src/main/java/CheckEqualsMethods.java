@@ -9,7 +9,7 @@ import java.io.IOException;
 public class CheckEqualsMethods {
 
     public static void main(String[] args) {
-        checkEqualsMethods("/Users/Chaiyong/IdeasProjects/StackoverflowChecker/160816_common_pairs_simianfse13-nicadfse13-good-0.7.csv", 1, -1, "/Users/Chaiyong/Downloads/stackoverflow/");
+        checkEqualsMethods("/Users/Chaiyong/IdeasProjects/StackAnalyzer/indv_nicad_df_combined_latest_v_new_only_160816.csv", 1, -1, "/Users/Chaiyong/Downloads/stackoverflow/");
     }
 
     public static void checkEqualsMethods(String file1, int start, int end, String path) {
