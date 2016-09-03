@@ -17,14 +17,14 @@ public class FindContainment {
 //                , "/Users/Chaiyong/IdeasProjects/StackoverflowChecker/ok+good_160814.csv", 2, 13, false);
 //        checkPairContainment("/Users/Chaiyong/Desktop/GOLD_ok+good_160816_merged_no_dup.csv"
 //                , "/Users/Chaiyong/IdeasProjects/StackoverflowChecker/indv_simian_df_combined_latest_v_new_only_160825.csv");
-//        checkPairAndCopyDetails(
-//                "/Users/Chaiyong/Desktop/GOLD_ok+good_160816_merged_no_dup.csv"
+        checkPairAndCopyDetails(
+                "/Users/Chaiyong/Desktop/ok+good_160814_merged.csv"
+                ,"/Users/Chaiyong/Desktop/indv_simian_df_130901_checked.csv"
+                , 6);
+//        checkExistAndCopyDetails(
+//                "/Users/Chaiyong/IdeasProjects/StackoverflowChecker/indv_simian_df_combined_latest_v_new_only_160825.csv"
 //                ,"/Users/Chaiyong/IdeasProjects/StackoverflowChecker/indv_nicad_df_combined_latest_v_new_only_160816_checked_equals.csv"
 //                , 0, 5);
-        checkExistAndCopyDetails(
-                "/Users/Chaiyong/IdeasProjects/StackoverflowChecker/indv_simian_df_combined_latest_v_new_only_160825.csv"
-                ,"/Users/Chaiyong/IdeasProjects/StackoverflowChecker/indv_nicad_df_combined_latest_v_new_only_160816_checked_equals.csv"
-                , 0, 5);
     }
 
     public static void checkPairContainment(String file1, String file2) {
@@ -217,9 +217,7 @@ public class FindContainment {
         }
     }
 
-    public static void checkPairAndCopyDetails(String file1, String file2, int start, int end) {
-        String baseFile = file1;
-        String searchFile = file2;
+    public static void checkPairAndCopyDetails(String baseFile, String searchFile, int offset) {
         HashMap<String, String> baseFileMap = new HashMap<>();
         ArrayList<Fragment> searchFileArr = new ArrayList<>();
         BufferedReader br = null;
@@ -233,17 +231,19 @@ public class FindContainment {
 
                 // use comma as separator
                 String[] clone = line.split(cvsSplitBy);
-                String key = "";
-                for (int i = start; i <= end; i++) {
-                    key += clone[i].trim();
-                }
-                Fragment f = new Fragment(clone[0],
-                        Integer.parseInt(clone[1]),
-                        Integer.parseInt(clone[2]),
-                        clone[3],
-                        Integer.parseInt(clone[4]),
-                        Integer.parseInt(clone[5]));
+//                String key = "";
+//                for (int i = start; i <= end; i++) {
+//                    key += clone[i].trim();
+//                }
+                Fragment f = new Fragment(
+                        clone[offset].trim(),
+                        Integer.parseInt(clone[1 + offset]),
+                        Integer.parseInt(clone[2 + offset]),
+                        clone[3 + offset].trim(),
+                        Integer.parseInt(clone[4 + offset]),
+                        Integer.parseInt(clone[5 + offset]));
                 baseFileMap.put(f.toString(), line);
+                // System.out.println("key:" + f.toString());
             }
             br.close();
 
@@ -252,26 +252,30 @@ public class FindContainment {
 
                 // use comma as separator
                 String[] clone = line.split(cvsSplitBy);
-                String key = "";
-                for (int i = start; i <= end; i++) {
-                    key += clone[i].trim();
-                }
-                Fragment f = new Fragment(clone[0],
+//                String key = "";
+//                for (int i = start; i <= end; i++) {
+//                    key += clone[i].trim();
+//                }
+                Fragment f = new Fragment(
+                        clone[0].trim(),
                         Integer.parseInt(clone[1]),
                         Integer.parseInt(clone[2]),
-                        clone[3],
+                        clone[3].trim(),
                         Integer.parseInt(clone[4]),
                         Integer.parseInt(clone[5]));
                 f.setOther(line);
                 searchFileArr.add(f);
+                // System.out.println("search:" + f.toString());
             }
             br.close();
+            // System.out.println(baseFileMap.size());
 
             // start searching
             for (Fragment f : searchFileArr) {
                 if (baseFileMap.containsKey(f.toString())) {
-                    String fline = baseFileMap.get(f.toString());
-                    System.out.println(f.getOther() + ",duplicate with ok pair");
+//                    String fline = baseFileMap.get(f.toString());
+                    System.out.println(f.getOther() + ",found in ok pairs");
+//                    System.out.println(fline);
                 } else {
                     System.out.println(f.getOther());
                 }

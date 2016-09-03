@@ -10,10 +10,11 @@ import java.util.HashMap;
 public class PrintOpenVimScript {
 
     public static void main(String[] args) {
-        printVimScript("/Users/Chaiyong/IdeasProjects/StackoverflowChecker/GOLD_indv_simian_df_combined_latest_v_new_only_160825.csv");
+        String QPath = "QualitasCorpus-20130901r/projects/";
+        printVimScript("/Users/Chaiyong/Desktop/a.csv", QPath, 8439);
     }
 
-    public static void printVimScript(String file1) {
+    public static void printVimScript(String file1, String QPath, int startingLine) {
         String okFile = file1;
         BufferedReader br = null;
         String line = "";
@@ -26,9 +27,9 @@ public class PrintOpenVimScript {
             while ((line = br.readLine()) != null) {
 
                 // use comma as separator
-                if (count >= 1 && count <= 100) {
+                if (count >= startingLine) {
                     String[] clone = line.split(cvsSplitBy);
-                    System.out.println("vim -c \":e QualitasCorpus-20130901r/projects_java_only_160816/" + clone[3] + "|:" + clone[4] + "|:vsplit " + clone[0] + "|:" + clone[1] + "\"");
+                    System.out.println("vim -c \":e " QPath + "/" + clone[3] + "|:" + clone[4] + "|:vsplit " + clone[0] + "|:" + clone[1] + "\"");
                     // System.out.println("vim " + clone[2] + " +" + clone[3]);
                 }
                 count++;
