@@ -10,7 +10,7 @@ import java.util.HashMap;
 public class PrintOpenVimScript {
 
     public static void main(String[] args) {
-        String QPath = "QualitasCorpus-20130901r/projects/";
+        String QPath = "QualitasCorpus-20130901r/projects";
         printVimScript("/Users/Chaiyong/Desktop/a.csv", QPath, 8439);
     }
 
@@ -29,7 +29,7 @@ public class PrintOpenVimScript {
                 // use comma as separator
                 if (count >= startingLine) {
                     String[] clone = line.split(cvsSplitBy);
-                    System.out.println("vim -c \":e " QPath + "/" + clone[3] + "|:" + clone[4] + "|:vsplit " + clone[0] + "|:" + clone[1] + "\"");
+                    System.out.println("vim -c \":e " + QPath + "/" + clone[3] + "|:" + clone[4] + "|:vsplit " + clone[0] + "|:" + clone[1] + "\"");
                     // System.out.println("vim " + clone[2] + " +" + clone[3]);
                 }
                 count++;
