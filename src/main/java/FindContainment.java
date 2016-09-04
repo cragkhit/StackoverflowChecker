@@ -217,13 +217,8 @@ public class FindContainment {
         }
     }
 
-<<<<<<< HEAD
+
     public static void checkPairAndCopyDetails(String baseFile, String searchFile, int offset) {
-=======
-    public static void checkPairAndCopyDetails(String file1, String file2, int start, int end) {
-        String baseFile = file1;
-        String searchFile = file2;
->>>>>>> 9caab380b8d98cdf2fac34448d1abd7c14813257
         HashMap<String, String> baseFileMap = new HashMap<>();
         ArrayList<Fragment> searchFileArr = new ArrayList<>();
         BufferedReader br = null;
@@ -237,7 +232,6 @@ public class FindContainment {
 
                 // use comma as separator
                 String[] clone = line.split(cvsSplitBy);
-<<<<<<< HEAD
 //                String key = "";
 //                for (int i = start; i <= end; i++) {
 //                    key += clone[i].trim();
@@ -251,19 +245,6 @@ public class FindContainment {
                         Integer.parseInt(clone[5 + offset]));
                 baseFileMap.put(f.toString(), line);
                 // System.out.println("key:" + f.toString());
-=======
-                String key = "";
-                for (int i = start; i <= end; i++) {
-                    key += clone[i].trim();
-                }
-                Fragment f = new Fragment(clone[0],
-                        Integer.parseInt(clone[1]),
-                        Integer.parseInt(clone[2]),
-                        clone[3],
-                        Integer.parseInt(clone[4]),
-                        Integer.parseInt(clone[5]));
-                baseFileMap.put(f.toString(), line);
->>>>>>> 9caab380b8d98cdf2fac34448d1abd7c14813257
             }
             br.close();
 
@@ -272,7 +253,6 @@ public class FindContainment {
 
                 // use comma as separator
                 String[] clone = line.split(cvsSplitBy);
-<<<<<<< HEAD
 //                String key = "";
 //                for (int i = start; i <= end; i++) {
 //                    key += clone[i].trim();
@@ -282,41 +262,21 @@ public class FindContainment {
                         Integer.parseInt(clone[1]),
                         Integer.parseInt(clone[2]),
                         clone[3].trim(),
-=======
-                String key = "";
-                for (int i = start; i <= end; i++) {
-                    key += clone[i].trim();
-                }
-                Fragment f = new Fragment(clone[0],
-                        Integer.parseInt(clone[1]),
-                        Integer.parseInt(clone[2]),
-                        clone[3],
->>>>>>> 9caab380b8d98cdf2fac34448d1abd7c14813257
                         Integer.parseInt(clone[4]),
                         Integer.parseInt(clone[5]));
                 f.setOther(line);
                 searchFileArr.add(f);
-<<<<<<< HEAD
                 // System.out.println("search:" + f.toString());
             }
             br.close();
             // System.out.println(baseFileMap.size());
-=======
-            }
-            br.close();
->>>>>>> 9caab380b8d98cdf2fac34448d1abd7c14813257
 
             // start searching
             for (Fragment f : searchFileArr) {
                 if (baseFileMap.containsKey(f.toString())) {
-<<<<<<< HEAD
 //                    String fline = baseFileMap.get(f.toString());
                     System.out.println(f.getOther() + ",found in ok pairs");
 //                    System.out.println(fline);
-=======
-                    String fline = baseFileMap.get(f.toString());
-                    System.out.println(fline);
->>>>>>> 9caab380b8d98cdf2fac34448d1abd7c14813257
                 } else {
                     System.out.println(f.getOther());
                 }
@@ -397,33 +357,19 @@ public class FindContainment {
                 if (soMap.containsKey(f.getFirstFile())) {
                     Fragment soF = soMap.get(f.getFirstFile());
                     if (f.getMinCloneLine() > soF.getMinCloneLine())
-<<<<<<< HEAD
                         System.out.println("duplicate with SO but bigger,keep," + f.getOther());
                     else
                         System.out.println("duplicate with SO but smaller,delete," + f.getOther());
-=======
-                        System.out.println(f.getOther() + ",duplicate with SO but bigger,keep");
-                    else
-                        System.out.println(f.getOther() + ",duplicate with SO but smaller,delete");
->>>>>>> 9caab380b8d98cdf2fac34448d1abd7c14813257
                 }
                 else if (qMap.containsKey(f.getSecondFile())) {
 //                    System.out.println(f.getOther() + ",duplicate with ok pair");
                     Fragment qF = qMap.get(f.getSecondFile());
                     if (f.getMinCloneLine() > qF.getMinCloneLine())
-<<<<<<< HEAD
                         System.out.println("duplicate with Q but bigger,keep," + f.getOther());
                     else
                         System.out.println("duplicate with Q but smaller,delete," + f.getOther());
                 } else {
                     System.out.println("x,x," + f.getOther());
-=======
-                        System.out.println(f.getOther() + ",duplicate with Q but bigger,keep");
-                    else
-                        System.out.println(f.getOther() + ",duplicate with Q but smaller,delete");
-                } else {
-                    System.out.println(f.getOther());
->>>>>>> 9caab380b8d98cdf2fac34448d1abd7c14813257
                 }
             }
 
