@@ -218,30 +218,4 @@ public class Fragment {
     public int getMinCloneLine() {
         return Math.min((this.fEnd - this.fStart + 1), (this.sEnd-this.sStart+1));
     }
-
-    @Override
-    public boolean equals(Object obj) {
-        if (obj == null) {
-            return false;
-        }
-        if (!Fragment.class.isAssignableFrom(obj.getClass())) {
-            return false;
-        }
-        final Fragment other = (Fragment) obj;
-
-        if ((this.firstFile == null) ? (other.firstFile != null) : !this.firstFile.equals(other.firstFile)) {
-            return false;
-        }
-
-        if (this.fStart != other.fStart) return false;
-        if (this.fEnd != other.fEnd) return false;
-        if (this.sStart != other.sStart) return false;
-        if (this.sEnd != other.sEnd) return false;
-
-        return true;
-    }
-
-    public int getMinCloneLine() {
-        return Math.min((this.fEnd - this.fStart + 1), (this.sEnd-this.sStart+1));
-    }
 }
