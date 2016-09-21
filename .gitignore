@@ -5,7 +5,7 @@
 .idea/
 StackoverflowChecker.iml
 etc/
-results/
+#results/
 simian_fragments_pairs_default.csv
 simian_fragments_pairs_fse13.csv
 src/main/resources/
