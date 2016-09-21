@@ -37,18 +37,18 @@ public class Main {
     private static double p = 0.7;
 
     private static String tool2 = "nicad";
-    private static String settings2 = "fse13";
+    private static String settings2 = "df";
 
     private static HashMap<String, ArrayList<Fragment>> fragmentMap = new HashMap<>();
 
 	public static void main(String[] args) {
-        readFirstFile("/Users/Chaiyong/IdeasProjects/StackAnalyzer/fragments_" + tool1 + "_" + settings1 + "_latest_v_new_only_160825.xml"
+        readFirstFile("/Users/Chaiyong/IdeasProjects/StackAnalyzer/fragments_" + tool1 + "_" + settings1 + "_160813.xml"
                 , "/Users/Chaiyong/IdeasProjects/StackAnalyzer/fragment_list_" + tool1 + "_" + settings1 + ".txt"
                 , tool1 + "_fragments_pairs_" + settings1 + ".csv");
 
-        readSecondFileAndCompare("/Users/Chaiyong/IdeasProjects/StackAnalyzer/fragments_" + tool2 + "_" + settings2 + "_latest_v_new_only_160816.xml"
-                , "/Users/Chaiyong/IdeasProjects/StackAnalyzer/fragment_list_" + tool2 + "_" + settings2 + ".txt"
-                , "common_pairs_" + tool1 + settings1 + "-" + tool2 + settings2 + "-" + p + "_latest_v_new_only.csv");
+        readSecondFileAndCompare("/Users/Chaiyong/IdeasProjects/StackAnalyzer/fragments_" + tool2 + "_" + settings2 + "_130901_0.1.xml"
+                , "/Users/Chaiyong/IdeasProjects/StackAnalyzer/fragment_list_" + tool2 + "_" + settings2 + "_130901_0.1.txt"
+                , "common_pairs_" + tool1 + settings1 + "-" + tool2 + settings2 + "-" + p + "_130901_0.1.csv");
 	}
 
     public static void readFirstFile(String file, String fragListFile, String outFile) {
