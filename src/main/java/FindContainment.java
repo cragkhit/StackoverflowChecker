@@ -19,7 +19,7 @@ public class FindContainment {
 //                , "/Users/Chaiyong/IdeasProjects/StackoverflowChecker/indv_simian_df_combined_latest_v_new_only_160825.csv");
         checkPairAndCopyDetails(
                 "/Users/Chaiyong/IdeasProjects/StackoverflowChecker/GOLD_indv_nicad_df_130901_checked_okpairs_equals_getters.csv"
-                ,"/Users/Chaiyong/IdeasProjects/StackoverflowChecker/indv_nicad_df_combined_130901_0.25.csv"
+                ,"/Users/Chaiyong/IdeasProjects/StackoverflowChecker/results/indv_nicad_df_combined_130901_0.1.csv"
                 , 0, true);
 //        checkExistAndCopyDetails(
 //                "/Users/Chaiyong/IdeasProjects/StackoverflowChecker/indv_simian_df_combined_latest_v_new_only_160825.csv"
