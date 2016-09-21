@@ -11,7 +11,8 @@ public class PrintOpenVimScript {
 
     public static void main(String[] args) {
         String QPath = "QualitasCorpus-20130901r/projects";
-        printVimScript("/Users/Chaiyong/IdeasProjects/StackoverflowChecker/GOLD_indv_nicad_df_combined_130901_0.25_checked+copied.csv", QPath, 329);
+        printVimScript("/Users/Chaiyong/IdeasProjects/StackoverflowChecker/GOLD_indv_nicad_df_combined_130901_0.2_checked+copied.csv"
+                , QPath, 86);
     }
 
     public static void printVimScript(String file1, String QPath, int startingLine) {
