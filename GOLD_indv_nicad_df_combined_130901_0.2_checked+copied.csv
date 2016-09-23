@@ -1,3 +1,12 @@
+stackoverflow_formatted/6722760_1.java,39,56,jgraph-latest-bsd-src/examples/org/jgraph/example/GroupingRemoving.java,53,70,18,A,"SO answer says ""I think the code must be a modified sample from the site."". The createVertex() methods are similar.",
+stackoverflow_formatted/6722760_1.java,39,56,jgraph-latest-bsd-src/examples/org/jgraph/example/HelloWorld.java,39,56,18,A,"SO answer says ""I think the code must be a modified sample from the site."". The createVertex() methods are similar.",
+stackoverflow_formatted/22315734_0.java,11,21,hadoop-1/hadoop-1.0.0/src/core/org/apache/hadoop/io/serializer/DeserializerComparator.java,16,26,11,A,SO answer says that the code is modified from WritableComparator in Hadoop.,
+stackoverflow_formatted/16928749_0.java,69,97,hadoop-1/hadoop-1.0.0/src/mapred/org/apache/hadoop/mapreduce/lib/output/TextOutputFormat.java,75,99,25,A,SO code extends Hadoop's TextOutputFormat,
+stackoverflow_formatted/15185345_0.java,21,33,Compiere_330_Source/release_330/ad/src/org/compiere/util/CachedRowSetImpl.java,512,525,13,B,SO answer is copied from http://tech.groups.yahoo.com/group/Firebird-Java/message/10715 but the CachedRowSetImpl is in Compiere (it is actually from com.sun.rowset.CachedRowSetImpl).,
+stackoverflow_formatted/21912294_0.java,109,118,iReport-3/iReport-3.7.5-src/jasperserver-plugin/src/com/jaspersoft/ireport/jasperserver/ws/IReportTrustManager.java,113,122,10,B,"SO answer says that ""I got it working over the internetz ƒ"". The HEXDIGITS constant and toHexString() method are exactly similar.",
+stackoverflow_formatted/18764836_0.java,104,113,iReport-3/iReport-3.7.5-src/jasperserver-plugin/src/com/jaspersoft/ireport/jasperserver/ws/IReportTrustManager.java,113,122,10,B,"SO answer says that the code is copied from Sun's example. However, iReport code does not say anything. The HEXDIGITS constant and toHexString() method are exactly similar.",
+stackoverflow_formatted/20513679_0.java,103,112,iReport-3/iReport-3.7.5-src/jasperserver-plugin/src/com/jaspersoft/ireport/jasperserver/ws/IReportTrustManager.java,113,122,10,B,The HEXDIGITS constant and toHexString() method are exactly similar.,
+stackoverflow_formatted/15373186_0.java,104,113,iReport-3/iReport-3.7.5-src/jasperserver-plugin/src/com/jaspersoft/ireport/jasperserver/ws/IReportTrustManager.java,113,122,10,B,The HEXDIGITS constant and toHexString() method are exactly similar.,
 stackoverflow_formatted/23197177_1.java,14,29,jboss-5/jboss-5.1.0.GA-src/testsuite/src/main/org/jboss/test/bootstrapdependencies/jbas5349/ejb3/SimpleEntity.java,24,39,16,D,similar equals() methods,found in ok pairs
 stackoverflow_formatted/24772546_0.java,15,33,cobertura-1/cobertura-1.9.4.1/src/net/sourceforge/cobertura/coveragedata/TouchCollector.java,52,70,19,D,similar equals() methods,found in ok pairs
 stackoverflow_formatted/24772546_0.java,15,33,hadoop-1/hadoop-1.0.0/src/core/org/apache/hadoop/io/file/tfile/TFile.java,371,389,19,D,similar equals() methods,found in ok pairs
@@ -28,42 +37,6 @@ stackoverflow_formatted/24040300_3.java,24,42,hadoop-1/hadoop-1.0.0/src/core/org
 stackoverflow_formatted/15095000_0.java,21,36,jboss-5/jboss-5.1.0.GA-src/testsuite/src/main/org/jboss/test/bootstrapdependencies/jbas5349/ejb3/SimpleEntity.java,24,39,16,D,similar equals() methods,found in ok pairs
 stackoverflow_formatted/22264084_0.java,43,61,cobertura-1/cobertura-1.9.4.1/src/net/sourceforge/cobertura/coveragedata/TouchCollector.java,52,70,19,D,similar equals() methods,found in ok pairs
 stackoverflow_formatted/22264084_0.java,43,61,hadoop-1/hadoop-1.0.0/src/core/org/apache/hadoop/io/file/tfile/TFile.java,371,389,19,D,similar equals() methods,found in ok pairs
-stackoverflow_formatted/11851968_0.java,13,24,columba-1/columba-1.0-src/src/mail/core/org/columba/mail/spam/spamassassin/IPCHelper.java,58,70,12,,,found in ok pairs
-stackoverflow_formatted/11851968_0.java,13,24,columba-1/columba-1.0-src/src/columba/core/org/columba/core/base/StreamThread.java,17,29,12,,,found in ok pairs
-stackoverflow_formatted/11851968_0.java,13,24,columba-1/columba-1.0-src/src/columba/core/org/columba/core/base/IPCHelper.java,58,70,12,,,found in ok pairs
-stackoverflow_formatted/3911987_0.java,38,53,Compiere_330_Source/release_330/ad/src/org/compiere/translate/AmtInWords_EN.java,49,64,16,,,found in ok pairs
-stackoverflow_formatted/5338272_0.java,33,49,drjava-stable-20100913-r5387-src/drjava-stable-20100913-r5387/src/src/edu/rice/cs/drjava/model/repl/InteractionsEditorKit.java,8,24,17,,,found in ok pairs
-stackoverflow_formatted/6722760_1.java,13,37,jgraph-latest-bsd-src/examples/org/jgraph/example/HelloWorld.java,14,37,24,,,found in ok pairs
-stackoverflow_formatted/12427981_1.java,17,33,c-jdbc-2/c-jdbc-2.0.2-src/src/org/objectweb/cjdbc/common/util/LoggingOutputStream.java,36,52,17,,,found in ok pairs
-stackoverflow_formatted/6236324_0.java,64,80,aoisrc281/AoIsrc281/ArtOfIllusion/src/artofillusion/image/MovieEncoder.java,71,88,17,,,found in ok pairs
-stackoverflow_formatted/6236324_0.java,64,80,aoisrc281/ArtOfIllusion/src/artofillusion/image/MovieEncoder.java,71,88,17,,,found in ok pairs
-stackoverflow_formatted/6236324_0.java,83,92,aoisrc281/ArtOfIllusion/src/artofillusion/image/MovieEncoder.java,91,100,10,,,found in ok pairs
-stackoverflow_formatted/6236324_0.java,83,92,aoisrc281/AoIsrc281/ArtOfIllusion/src/artofillusion/image/MovieEncoder.java,91,100,10,,,found in ok pairs
-stackoverflow_formatted/6236324_0.java,93,110,aoisrc281/AoIsrc281/ArtOfIllusion/src/artofillusion/image/MovieEncoder.java,101,118,18,,,found in ok pairs
-stackoverflow_formatted/6236324_0.java,93,110,aoisrc281/ArtOfIllusion/src/artofillusion/image/MovieEncoder.java,101,118,18,,,found in ok pairs
-stackoverflow_formatted/6236324_0.java,114,123,aoisrc281/AoIsrc281/ArtOfIllusion/src/artofillusion/image/MovieEncoder.java,122,131,10,,,found in ok pairs
-stackoverflow_formatted/6236324_0.java,114,123,aoisrc281/ArtOfIllusion/src/artofillusion/image/MovieEncoder.java,122,131,10,,,found in ok pairs
-stackoverflow_formatted/6236324_0.java,124,137,aoisrc281/AoIsrc281/ArtOfIllusion/src/artofillusion/image/MovieEncoder.java,132,145,14,,,found in ok pairs
-stackoverflow_formatted/6236324_0.java,124,137,aoisrc281/ArtOfIllusion/src/artofillusion/image/MovieEncoder.java,132,145,14,,,found in ok pairs
-stackoverflow_formatted/22315734_0.java,11,21,hadoop-1/hadoop-1.0.0/src/core/org/apache/hadoop/io/WritableComparator.java,44,54,11,,,found in ok pairs
-stackoverflow_formatted/8416340_0.java,5,23,findbugs-1/findbugs-1.3.9/src/antTask/edu/umd/cs/findbugs/anttask/UnionBugs.java,65,81,17,,,found in ok pairs
-stackoverflow_formatted/14165567_1.java,9,20,columba-1/columba-1.0-src/src/mail/core/org/columba/mail/spam/spamassassin/IPCHelper.java,58,70,12,,,found in ok pairs
-stackoverflow_formatted/14165567_1.java,9,20,columba-1/columba-1.0-src/src/columba/core/org/columba/core/base/StreamThread.java,17,29,12,,,found in ok pairs
-stackoverflow_formatted/14165567_1.java,9,20,columba-1/columba-1.0-src/src/columba/core/org/columba/core/base/IPCHelper.java,58,70,12,,,found in ok pairs
-stackoverflow_formatted/16928749_0.java,50,66,hadoop-1/hadoop-1.0.0/src/mapred/org/apache/hadoop/mapreduce/lib/output/TextOutputFormat.java,51,67,17,,,found in ok pairs
-stackoverflow_formatted/16928749_0.java,50,66,hadoop-1/hadoop-1.0.0/src/mapred/org/apache/hadoop/mapred/TextOutputFormat.java,47,63,17,,,found in ok pairs
-stackoverflow_formatted/13219118_0.java,12,27,Compiere_330_Source/release_330/ad/src/org/compiere/translate/AmtInWords_EN.java,49,64,16,,,found in ok pairs
-stackoverflow_formatted/92962_0.java,22,61,jgraphpad-5/jgraphpad-5.10.0.2-src/src/org/jgraph/pad/graphcellsbase/JGraphSwimlaneView.java,93,132,40,,,found in ok pairs
-stackoverflow_formatted/11187462_0.java,45,61,c-jdbc-2/c-jdbc-2.0.2-src/src/org/objectweb/cjdbc/common/util/LoggingOutputStream.java,36,52,17,,,found in ok pairs
-stackoverflow_formatted/6722760_1.java,39,56,jgraph-latest-bsd-src/examples/org/jgraph/example/GroupingRemoving.java,53,70,18,A,"SO answer says ""I think the code must be a modified sample from the site."". The createVertex() methods are similar.",
-stackoverflow_formatted/6722760_1.java,39,56,jgraph-latest-bsd-src/examples/org/jgraph/example/HelloWorld.java,39,56,18,A,"SO answer says ""I think the code must be a modified sample from the site."". The createVertex() methods are similar.",
-stackoverflow_formatted/22315734_0.java,11,21,hadoop-1/hadoop-1.0.0/src/core/org/apache/hadoop/io/serializer/DeserializerComparator.java,16,26,11,A,SO answer says that the code is modified from WritableComparator in Hadoop.,
-stackoverflow_formatted/16928749_0.java,69,97,hadoop-1/hadoop-1.0.0/src/mapred/org/apache/hadoop/mapreduce/lib/output/TextOutputFormat.java,75,99,25,A,SO code extends Hadoop's TextOutputFormat,
-stackoverflow_formatted/15185345_0.java,21,33,Compiere_330_Source/release_330/ad/src/org/compiere/util/CachedRowSetImpl.java,512,525,13,B,SO answer is copied from http://tech.groups.yahoo.com/group/Firebird-Java/message/10715 but the CachedRowSetImpl is in Compiere (it is actually from com.sun.rowset.CachedRowSetImpl).,
-stackoverflow_formatted/21912294_0.java,109,118,iReport-3/iReport-3.7.5-src/jasperserver-plugin/src/com/jaspersoft/ireport/jasperserver/ws/IReportTrustManager.java,113,122,10,B,"SO answer says that ""I got it working over the internetz É"". The HEXDIGITS constant and toHexString() method are exactly similar.",
-stackoverflow_formatted/18764836_0.java,104,113,iReport-3/iReport-3.7.5-src/jasperserver-plugin/src/com/jaspersoft/ireport/jasperserver/ws/IReportTrustManager.java,113,122,10,B,"SO answer says that the code is copied from Sun's example. However, iReport code does not say anything. The HEXDIGITS constant and toHexString() method are exactly similar.",
-stackoverflow_formatted/20513679_0.java,103,112,iReport-3/iReport-3.7.5-src/jasperserver-plugin/src/com/jaspersoft/ireport/jasperserver/ws/IReportTrustManager.java,113,122,10,B,The HEXDIGITS constant and toHexString() method are exactly similar.,
-stackoverflow_formatted/15373186_0.java,104,113,iReport-3/iReport-3.7.5-src/jasperserver-plugin/src/com/jaspersoft/ireport/jasperserver/ws/IReportTrustManager.java,113,122,10,B,The HEXDIGITS constant and toHexString() method are exactly similar.,
 stackoverflow_formatted/12040310_0.java,65,78,cobertura-1/cobertura-1.9.4.1/src/net/sourceforge/cobertura/reporting/html/files/CopyFiles.java,46,59,14,D,identical finally clause to handle input stream,
 stackoverflow_formatted/12040310_0.java,65,78,columba-1/columba-1.0-src/src/mail/core/org/columba/mail/gui/message/command/ViewMessageSourceCommand.java,46,59,14,D,identical finally clause to handle input stream,
 stackoverflow_formatted/24682528_2.java,143,158,jboss-5/jboss-5.1.0.GA-src/testsuite/src/main/org/jboss/test/jacc/test/portal/PortalObjectPermission.java,35,50,16,D,similar equals() method,
@@ -169,3 +142,30 @@ stackoverflow_formatted/13462440_1.java,32,45,iReport-3/iReport-3.7.5-src/irepor
 stackoverflow_formatted/13389700_2.java,49,61,cayenne-3/cayenne-3.0.1-src/framework/cayenne-modeler/src/main/java/org/apache/cayenne/modeler/editor/CallbackType.java,33,45,13,F,similar equals() method,
 stackoverflow_formatted/11574637_0.java,78,89,jboss-5/jboss-5.1.0.GA-src/testsuite/src/main/org/jboss/test/entity/beans/TestEntityBean.java,66,77,12,F,similar finally clause after normalisation,
 stackoverflow_formatted/22818246_0.java,3,12,hadoop-1/hadoop-1.0.0/src/contrib/eclipse-plugin/src/java/org/apache/hadoop/eclipse/ImageLibrary.java,25,34,10,F,similar getInstance() method after normalisation,
+stackoverflow_formatted/11851968_0.java,13,24,columba-1/columba-1.0-src/src/mail/core/org/columba/mail/spam/spamassassin/IPCHelper.java,58,70,12,,,found in ok pairs
+stackoverflow_formatted/11851968_0.java,13,24,columba-1/columba-1.0-src/src/columba/core/org/columba/core/base/StreamThread.java,17,29,12,,,found in ok pairs
+stackoverflow_formatted/11851968_0.java,13,24,columba-1/columba-1.0-src/src/columba/core/org/columba/core/base/IPCHelper.java,58,70,12,,,found in ok pairs
+stackoverflow_formatted/3911987_0.java,38,53,Compiere_330_Source/release_330/ad/src/org/compiere/translate/AmtInWords_EN.java,49,64,16,,,found in ok pairs
+stackoverflow_formatted/5338272_0.java,33,49,drjava-stable-20100913-r5387-src/drjava-stable-20100913-r5387/src/src/edu/rice/cs/drjava/model/repl/InteractionsEditorKit.java,8,24,17,,,found in ok pairs
+stackoverflow_formatted/6722760_1.java,13,37,jgraph-latest-bsd-src/examples/org/jgraph/example/HelloWorld.java,14,37,24,,,found in ok pairs
+stackoverflow_formatted/12427981_1.java,17,33,c-jdbc-2/c-jdbc-2.0.2-src/src/org/objectweb/cjdbc/common/util/LoggingOutputStream.java,36,52,17,,,found in ok pairs
+stackoverflow_formatted/6236324_0.java,64,80,aoisrc281/AoIsrc281/ArtOfIllusion/src/artofillusion/image/MovieEncoder.java,71,88,17,,,found in ok pairs
+stackoverflow_formatted/6236324_0.java,64,80,aoisrc281/ArtOfIllusion/src/artofillusion/image/MovieEncoder.java,71,88,17,,,found in ok pairs
+stackoverflow_formatted/6236324_0.java,83,92,aoisrc281/ArtOfIllusion/src/artofillusion/image/MovieEncoder.java,91,100,10,,,found in ok pairs
+stackoverflow_formatted/6236324_0.java,83,92,aoisrc281/AoIsrc281/ArtOfIllusion/src/artofillusion/image/MovieEncoder.java,91,100,10,,,found in ok pairs
+stackoverflow_formatted/6236324_0.java,93,110,aoisrc281/AoIsrc281/ArtOfIllusion/src/artofillusion/image/MovieEncoder.java,101,118,18,,,found in ok pairs
+stackoverflow_formatted/6236324_0.java,93,110,aoisrc281/ArtOfIllusion/src/artofillusion/image/MovieEncoder.java,101,118,18,,,found in ok pairs
+stackoverflow_formatted/6236324_0.java,114,123,aoisrc281/AoIsrc281/ArtOfIllusion/src/artofillusion/image/MovieEncoder.java,122,131,10,,,found in ok pairs
+stackoverflow_formatted/6236324_0.java,114,123,aoisrc281/ArtOfIllusion/src/artofillusion/image/MovieEncoder.java,122,131,10,,,found in ok pairs
+stackoverflow_formatted/6236324_0.java,124,137,aoisrc281/AoIsrc281/ArtOfIllusion/src/artofillusion/image/MovieEncoder.java,132,145,14,,,found in ok pairs
+stackoverflow_formatted/6236324_0.java,124,137,aoisrc281/ArtOfIllusion/src/artofillusion/image/MovieEncoder.java,132,145,14,,,found in ok pairs
+stackoverflow_formatted/22315734_0.java,11,21,hadoop-1/hadoop-1.0.0/src/core/org/apache/hadoop/io/WritableComparator.java,44,54,11,,,found in ok pairs
+stackoverflow_formatted/8416340_0.java,5,23,findbugs-1/findbugs-1.3.9/src/antTask/edu/umd/cs/findbugs/anttask/UnionBugs.java,65,81,17,,,found in ok pairs
+stackoverflow_formatted/14165567_1.java,9,20,columba-1/columba-1.0-src/src/mail/core/org/columba/mail/spam/spamassassin/IPCHelper.java,58,70,12,,,found in ok pairs
+stackoverflow_formatted/14165567_1.java,9,20,columba-1/columba-1.0-src/src/columba/core/org/columba/core/base/StreamThread.java,17,29,12,,,found in ok pairs
+stackoverflow_formatted/14165567_1.java,9,20,columba-1/columba-1.0-src/src/columba/core/org/columba/core/base/IPCHelper.java,58,70,12,,,found in ok pairs
+stackoverflow_formatted/16928749_0.java,50,66,hadoop-1/hadoop-1.0.0/src/mapred/org/apache/hadoop/mapreduce/lib/output/TextOutputFormat.java,51,67,17,,,found in ok pairs
+stackoverflow_formatted/16928749_0.java,50,66,hadoop-1/hadoop-1.0.0/src/mapred/org/apache/hadoop/mapred/TextOutputFormat.java,47,63,17,,,found in ok pairs
+stackoverflow_formatted/13219118_0.java,12,27,Compiere_330_Source/release_330/ad/src/org/compiere/translate/AmtInWords_EN.java,49,64,16,,,found in ok pairs
+stackoverflow_formatted/92962_0.java,22,61,jgraphpad-5/jgraphpad-5.10.0.2-src/src/org/jgraph/pad/graphcellsbase/JGraphSwimlaneView.java,93,132,40,,,found in ok pairs
+stackoverflow_formatted/11187462_0.java,45,61,c-jdbc-2/c-jdbc-2.0.2-src/src/org/objectweb/cjdbc/common/util/LoggingOutputStream.java,36,52,17,,,found in ok pairs

@@ -18,9 +18,9 @@ public class FindContainment {
 //        checkPairContainment("/Users/Chaiyong/Desktop/GOLD_ok+good_160816_merged_no_dup.csv"
 //                , "/Users/Chaiyong/IdeasProjects/StackoverflowChecker/indv_simian_df_combined_latest_v_new_only_160825.csv");
         checkPairAndCopyDetails(
-                "/Users/Chaiyong/IdeasProjects/StackoverflowChecker/GOLD_indv_nicad_df_130901_checked_okpairs_equals_getters.csv"
-                ,"/Users/Chaiyong/IdeasProjects/StackoverflowChecker/results/indv_nicad_df_combined_130901_0.2.csv"
-                , 0, true);
+                "/Users/Chaiyong/Documents/StackoverflowChecker/GOLD_indv_simian_df_130901_checked_okpairs_equals_getters_setters.csv"
+                ,"/Users/Chaiyong/Documents/StackoverflowChecker/GOLD_indv_nicad_df_combined_130901_0.2_checked+copied.csv"
+                , 0, false);
 //        checkExistAndCopyDetails(
 //                "/Users/Chaiyong/IdeasProjects/StackoverflowChecker/indv_simian_df_combined_latest_v_new_only_160825.csv"
 //                ,"/Users/Chaiyong/IdeasProjects/StackoverflowChecker/indv_nicad_df_combined_latest_v_new_only_160816_checked_equals.csv"
@@ -229,7 +229,6 @@ public class FindContainment {
 
             br = new BufferedReader(new FileReader(baseFile));
             while ((line = br.readLine()) != null) {
-
                 // use comma as separator
                 String[] clone = line.split(cvsSplitBy);
 //                String key = "";
@@ -251,6 +250,7 @@ public class FindContainment {
             br = new BufferedReader(new FileReader(searchFile));
             while ((line = br.readLine()) != null) {
 
+                System.out.println("line: " + line);
                 // use comma as separator
                 String[] clone = line.split(cvsSplitBy);
 //                String key = "";
