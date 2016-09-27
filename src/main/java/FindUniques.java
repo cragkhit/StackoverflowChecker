@@ -19,17 +19,17 @@ import java.util.Map;
 public class FindUniques {
 
     public static void main(String args[]) {
-        String csvFile = "/Users/Chaiyong/IdeasProjects/StackoverflowChecker/ok+good_160816_merged.csv";
+        String csvFile = "/Users/Chaiyong/Desktop/ok_pairs.csv";
         HashMap<String, String> cloneMap = new HashMap<>();
         BufferedReader br = null;
         String line = "";
         String cvsSplitBy = ",";
 
         try {
-
+            int count = 0;
             br = new BufferedReader(new FileReader(csvFile));
             while ((line = br.readLine()) != null) {
-
+                count++;
                 // use comma as separator
                 String[] clone = line.split(cvsSplitBy);
                 String key = "";
@@ -40,10 +40,13 @@ public class FindUniques {
                 // System.out.println(key);
 
                 if (!cloneMap.containsKey(key)) {
-                    ArrayList<String> dupClones = new ArrayList<>();
                     cloneMap.put(key, line);
+                } else {
+                    System.out.println("dup," + line);
                 }
             }
+
+            System.out.println("line: " + count + ", size: " + cloneMap.size());
 
             Iterator it = cloneMap.entrySet().iterator();
             String[] setting = new String[2];

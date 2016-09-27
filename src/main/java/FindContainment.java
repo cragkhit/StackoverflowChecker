@@ -17,10 +17,10 @@ public class FindContainment {
 //                , "/Users/Chaiyong/IdeasProjects/StackoverflowChecker/ok+good_160814.csv", 2, 13, false);
 //        checkPairContainment("/Users/Chaiyong/Desktop/GOLD_ok+good_160816_merged_no_dup.csv"
 //                , "/Users/Chaiyong/IdeasProjects/StackoverflowChecker/indv_simian_df_combined_latest_v_new_only_160825.csv");
-        checkPairAndCopyDetails(
-                "/Users/Chaiyong/Documents/StackoverflowChecker/GOLD_indv_simian_df_130901_checked_okpairs_equals_getters_setters.csv"
-                ,"/Users/Chaiyong/Documents/StackoverflowChecker/GOLD_indv_nicad_df_combined_130901_0.2_checked+copied.csv"
-                , 0, false);
+        checkTwoPairAndCopyDetails(
+                "/Users/Chaiyong/Documents/StackoverflowChecker/GOLD_FINAL_ok+good_130901_no_aoi.csv"
+                ,"/Users/Chaiyong/Documents/StackoverflowChecker/results/common_pairs_simianfse13-nicaddf-ok-0.7.csv"
+                , 2, 2, true);
 //        checkExistAndCopyDetails(
 //                "/Users/Chaiyong/IdeasProjects/StackoverflowChecker/indv_simian_df_combined_latest_v_new_only_160825.csv"
 //                ,"/Users/Chaiyong/IdeasProjects/StackoverflowChecker/indv_nicad_df_combined_latest_v_new_only_160816_checked_equals.csv"
@@ -218,7 +218,7 @@ public class FindContainment {
     }
 
 
-    public static void checkPairAndCopyDetails(String baseFile, String searchFile, int offset, boolean copyComments) {
+    public static void checkPairAndCopyDetails(String baseFile, String searchFile, int offset, int offset2, boolean copyComments) {
         HashMap<String, String> baseFileMap = new HashMap<>();
         ArrayList<Fragment> searchFileArr = new ArrayList<>();
         BufferedReader br = null;
@@ -249,8 +249,7 @@ public class FindContainment {
 
             br = new BufferedReader(new FileReader(searchFile));
             while ((line = br.readLine()) != null) {
-
-                System.out.println("line: " + line);
+                // System.out.println("line: " + line);
                 // use comma as separator
                 String[] clone = line.split(cvsSplitBy);
 //                String key = "";
@@ -258,12 +257,12 @@ public class FindContainment {
 //                    key += clone[i].trim();
 //                }
                 Fragment f = new Fragment(
-                        clone[0].trim(),
-                        Integer.parseInt(clone[1]),
-                        Integer.parseInt(clone[2]),
-                        clone[3].trim(),
-                        Integer.parseInt(clone[4]),
-                        Integer.parseInt(clone[5]));
+                        clone[offset2].trim(),
+                        Integer.parseInt(clone[1+offset2]),
+                        Integer.parseInt(clone[2+offset2]),
+                        clone[3+offset2].trim(),
+                        Integer.parseInt(clone[4+offset2]),
+                        Integer.parseInt(clone[5+offset2]));
                 f.setOther(line);
                 searchFileArr.add(f);
                 // System.out.println("search:" + f.toString());
@@ -278,7 +277,110 @@ public class FindContainment {
                         String fline = baseFileMap.get(f.toString());
                         System.out.println(fline);
                     } else {
-                        System.out.println(f.getOther() + ",found");
+                        System.out.println(f.getOther() + ",good_pairs");
+                    }
+                } else {
+                    System.out.println(f.getOther());
+                }
+            }
+
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        } finally {
+            if (br != null) {
+                try {
+                    br.close();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
+        }
+    }
+
+    public static void checkTwoPairAndCopyDetails(String baseFile, String searchFile, int offset, int offset2, boolean copyComments) {
+        HashMap<String, String> baseFileMap = new HashMap<>();
+        ArrayList<Fragment> searchFileArr = new ArrayList<>();
+        ArrayList<Fragment> searchFileArr2 = new ArrayList<>();
+        BufferedReader br = null;
+        String line = "";
+        String cvsSplitBy = ",";
+
+        try {
+
+            br = new BufferedReader(new FileReader(baseFile));
+            while ((line = br.readLine()) != null) {
+                // use comma as separator
+                String[] clone = line.split(cvsSplitBy);
+//                String key = "";
+//                for (int i = start; i <= end; i++) {
+//                    key += clone[i].trim();
+//                }
+                Fragment f = new Fragment(
+                        clone[offset].trim(),
+                        Integer.parseInt(clone[1 + offset]),
+                        Integer.parseInt(clone[2 + offset]),
+                        clone[3 + offset].trim(),
+                        Integer.parseInt(clone[4 + offset]),
+                        Integer.parseInt(clone[5 + offset]));
+                Fragment f2 = new Fragment(
+                        clone[6+offset].trim(),
+                        Integer.parseInt(clone[7 + offset]),
+                        Integer.parseInt(clone[8 + offset]),
+                        clone[9 + offset].trim(),
+                        Integer.parseInt(clone[10 + offset]),
+                        Integer.parseInt(clone[11 + offset]));
+                baseFileMap.put(f.toString() + "," + f2.toString(), line);
+
+                // System.out.println("key:" + f.toString());
+            }
+            br.close();
+
+            br = new BufferedReader(new FileReader(searchFile));
+            while ((line = br.readLine()) != null) {
+                // System.out.println("line: " + line);
+                // use comma as separator
+                String[] clone = line.split(cvsSplitBy);
+//                String key = "";
+//                for (int i = start; i <= end; i++) {
+//                    key += clone[i].trim();
+//                }
+                Fragment f = new Fragment(
+                        clone[offset2].trim(),
+                        Integer.parseInt(clone[1+offset2].trim()),
+                        Integer.parseInt(clone[2+offset2].trim()),
+                        clone[3+offset2].trim(),
+                        Integer.parseInt(clone[4+offset2].trim()),
+                        Integer.parseInt(clone[5+offset2].trim()));
+                f.setOther(line);
+
+                Fragment f2 = new Fragment(
+                        clone[6+offset2].trim(),
+                        Integer.parseInt(clone[7 + offset2].trim()),
+                        Integer.parseInt(clone[8 + offset2].trim()),
+                        clone[9 + offset2].trim(),
+                        Integer.parseInt(clone[10 + offset2].trim()),
+                        Integer.parseInt(clone[11 + offset2].trim()));
+                f2.setOther(line);
+
+                searchFileArr.add(f);
+                searchFileArr2.add(f2);
+                // System.out.println("search:" + f.toString());
+            }
+            br.close();
+            // System.out.println(baseFileMap.size());
+
+            // start searching
+            for (int i=0; i<searchFileArr.size(); i++) {
+                Fragment f = searchFileArr.get(i);
+                Fragment f2 = searchFileArr2.get(i);
+                if (baseFileMap.containsKey(f.toString() + "," + f2.toString())) {
+                    if (copyComments) {
+                        String fline = baseFileMap.get(f.toString() + "," + f2.toString());
+                        System.out.println(fline);
+                    } else {
+                        System.out.println(f.getOther() + ",good_pairs");
                     }
                 } else {
                     System.out.println(f.getOther());
