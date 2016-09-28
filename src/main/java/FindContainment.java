@@ -17,10 +17,10 @@ public class FindContainment {
 //                , "/Users/Chaiyong/IdeasProjects/StackoverflowChecker/ok+good_160814.csv", 2, 13, false);
 //        checkPairContainment("/Users/Chaiyong/Desktop/GOLD_ok+good_160816_merged_no_dup.csv"
 //                , "/Users/Chaiyong/IdeasProjects/StackoverflowChecker/indv_simian_df_combined_latest_v_new_only_160825.csv");
-        checkTwoPairAndCopyDetails(
-                "/Users/Chaiyong/Documents/StackoverflowChecker/GOLD_FINAL_ok+good_130901_no_aoi.csv"
-                ,"/Users/Chaiyong/Documents/StackoverflowChecker/results/common_pairs_simianfse13-nicaddf-ok-0.7.csv"
-                , 2, 2, true);
+        checkPairAndCopyDetails(
+                "/Users/Chaiyong/Documents/StackoverflowChecker/GOLD_FINAL_ok_130901_no_aoi.csv"
+                ,"/Users/Chaiyong/Desktop/b.csv"
+                , 2, 0, false, ",ok_pairs");
 //        checkExistAndCopyDetails(
 //                "/Users/Chaiyong/IdeasProjects/StackoverflowChecker/indv_simian_df_combined_latest_v_new_only_160825.csv"
 //                ,"/Users/Chaiyong/IdeasProjects/StackoverflowChecker/indv_nicad_df_combined_latest_v_new_only_160816_checked_equals.csv"
@@ -218,7 +218,7 @@ public class FindContainment {
     }
 
 
-    public static void checkPairAndCopyDetails(String baseFile, String searchFile, int offset, int offset2, boolean copyComments) {
+    public static void checkPairAndCopyDetails(String baseFile, String searchFile, int offset, int offset2, boolean copyComments, String text) {
         HashMap<String, String> baseFileMap = new HashMap<>();
         ArrayList<Fragment> searchFileArr = new ArrayList<>();
         BufferedReader br = null;
@@ -277,7 +277,7 @@ public class FindContainment {
                         String fline = baseFileMap.get(f.toString());
                         System.out.println(fline);
                     } else {
-                        System.out.println(f.getOther() + ",good_pairs");
+                        System.out.println(f.getOther() + text);
                     }
                 } else {
                     System.out.println(f.getOther());
