@@ -11,8 +11,8 @@ public class CheckEqualsMethodsAndGettersSetters {
     // public static String QPath = "QualitasCorpus-20130901r/projects_java_only_160816/";
     public static String QPath = "QualitasCorpus-20130901r/projects_130901r_pt2_java_only";
     public static void main(String[] args) {
-        checkEqualsMethodsAndGettersSetters("/Users/Chaiyong/IdeasProjects/StackoverflowChecker/ok_common_pairs_130901_pt2_1_with_dup.csv"
-                , 1, 4019, 2
+        checkEqualsMethodsAndGettersSetters("/Users/Chaiyong/IdeasProjects/StackoverflowChecker/indv_simian_df_130901_pt2.csv"
+                , 1, 9042, 0
                 , "/Users/Chaiyong/Downloads/stackoverflow/");
     }
 

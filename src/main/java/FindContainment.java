@@ -17,10 +17,14 @@ public class FindContainment {
 //                , "/Users/Chaiyong/IdeasProjects/StackoverflowChecker/ok+good_160814.csv", 2, 13, false);
 //        checkPairContainment("/Users/Chaiyong/Desktop/GOLD_ok+good_160816_merged_no_dup.csv"
 //                , "/Users/Chaiyong/IdeasProjects/StackoverflowChecker/indv_simian_df_combined_latest_v_new_only_160825.csv");
-        checkPairAndCopyDetails(
-                "/Users/Chaiyong/IdeasProjects/StackoverflowChecker/ok_common_pairs_simianfse13-nicaddf-0.7_130901_pt2.csv"
-                ,"/Users/Chaiyong/IdeasProjects/StackoverflowChecker/ok_common_pairs_simianfse13-nicadfse13-0.7_130901_pt2.csv"
-                , 1, 1, false, ",duplicate");
+//        checkPairAndCopyDetails(
+//                "/Users/Chaiyong/IdeasProjects/StackoverflowChecker/GOLD_ok_common_pairs_130901_pt2_2_with_checks.csv"
+//                ,"/Users/Chaiyong/IdeasProjects/StackoverflowChecker/indv_simian_df_130901_pt2.csv"
+//                , 2, 2, false, ",duplicate");
+        checkIndvInGoodOkPairs(
+                "/Users/Chaiyong/IdeasProjects/StackoverflowChecker/GOLD_ok_common_pairs_130901_pt2_2_with_checks.csv"
+                ,"/Users/Chaiyong/IdeasProjects/StackoverflowChecker/indv_simian_df_130901_pt2.csv"
+                , 2, 0, false, ",duplicate");
 //        checkExistAndCopyDetails(
 //                "/Users/Chaiyong/IdeasProjects/StackoverflowChecker/indv_simian_df_combined_latest_v_new_only_160825.csv"
 //                ,"/Users/Chaiyong/IdeasProjects/StackoverflowChecker/indv_nicad_df_combined_latest_v_new_only_160816_checked_equals.csv"
@@ -202,6 +206,87 @@ public class FindContainment {
                     it.remove(); // avoids a ConcurrentModificationException
                 }
             }
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        } finally {
+            if (br != null) {
+                try {
+                    br.close();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
+        }
+    }
+
+    public static void checkIndvInGoodOkPairs(String baseFile, String searchFile, int offset, int offset2, boolean copyComments, String text) {
+        HashMap<String, String> baseFileMap = new HashMap<>();
+        ArrayList<Fragment> searchFileArr = new ArrayList<>();
+        BufferedReader br = null;
+        String line = "";
+        String cvsSplitBy = ",";
+
+        try {
+
+            br = new BufferedReader(new FileReader(baseFile));
+            while ((line = br.readLine()) != null) {
+                // use comma as separator
+                String[] clone = line.split(cvsSplitBy);
+//                String key = "";
+//                for (int i = start; i <= end; i++) {
+//                    key += clone[i].trim();
+//                }
+                Fragment f = new Fragment(
+                        clone[offset].trim(),
+                        Integer.parseInt(clone[1 + offset]),
+                        Integer.parseInt(clone[2 + offset]),
+                        clone[3 + offset].trim(),
+                        Integer.parseInt(clone[4 + offset]),
+                        Integer.parseInt(clone[5 + offset]));
+                baseFileMap.put(f.toString(), line);
+                // System.out.println("key:" + f.toString());
+            }
+            br.close();
+
+            br = new BufferedReader(new FileReader(searchFile));
+            while ((line = br.readLine()) != null) {
+                // System.out.println("line: " + line);
+                // use comma as separator
+                String[] clone = line.split(cvsSplitBy);
+//                String key = "";
+//                for (int i = start; i <= end; i++) {
+//                    key += clone[i].trim();
+//                }
+                Fragment f = new Fragment(
+                        clone[offset2].trim(),
+                        Integer.parseInt(clone[1+offset2]),
+                        Integer.parseInt(clone[2+offset2]),
+                        clone[3+offset2].trim(),
+                        Integer.parseInt(clone[4+offset2]),
+                        Integer.parseInt(clone[5+offset2]));
+                f.setOther(line);
+                searchFileArr.add(f);
+                // System.out.println("search:" + f.toString());
+            }
+            br.close();
+            // System.out.println(baseFileMap.size());
+
+            // start searching
+            for (Fragment f : searchFileArr) {
+                if (baseFileMap.containsKey(f.toString())) {
+                    if (copyComments) {
+                        String fline = baseFileMap.get(f.toString());
+                        System.out.println(fline);
+                    } else {
+                        System.out.println(f.getOther() + text);
+                    }
+                } else {
+                    System.out.println(f.getOther());
+                }
+            }
+
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         } catch (IOException e) {
