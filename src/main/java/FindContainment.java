@@ -18,9 +18,9 @@ public class FindContainment {
 //        checkPairContainment("/Users/Chaiyong/Desktop/GOLD_ok+good_160816_merged_no_dup.csv"
 //                , "/Users/Chaiyong/IdeasProjects/StackoverflowChecker/indv_simian_df_combined_latest_v_new_only_160825.csv");
         checkPairAndCopyDetails(
-                "/Users/Chaiyong/Documents/StackoverflowChecker/GOLD_FINAL_ok_130901_no_aoi.csv"
-                ,"/Users/Chaiyong/Desktop/b.csv"
-                , 2, 0, false, ",ok_pairs");
+                "/Users/Chaiyong/IdeasProjects/StackoverflowChecker/ok_common_pairs_simianfse13-nicaddf-0.7_130901_pt2.csv"
+                ,"/Users/Chaiyong/IdeasProjects/StackoverflowChecker/ok_common_pairs_simianfse13-nicadfse13-0.7_130901_pt2.csv"
+                , 1, 1, false, ",duplicate");
 //        checkExistAndCopyDetails(
 //                "/Users/Chaiyong/IdeasProjects/StackoverflowChecker/indv_simian_df_combined_latest_v_new_only_160825.csv"
 //                ,"/Users/Chaiyong/IdeasProjects/StackoverflowChecker/indv_nicad_df_combined_latest_v_new_only_160816_checked_equals.csv"

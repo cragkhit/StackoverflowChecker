@@ -9,12 +9,14 @@ import java.io.IOException;
 public class CheckEqualsMethodsAndGettersSetters {
 
     // public static String QPath = "QualitasCorpus-20130901r/projects_java_only_160816/";
-    public static String QPath = "QualitasCorpus-20130901r/projects";
+    public static String QPath = "QualitasCorpus-20130901r/projects_130901r_pt2_java_only";
     public static void main(String[] args) {
-        checkEqualsMethodsAndGettersSetters("/Users/chaiyong/Documents/StackoverflowChecker/GOLD_indv_simian_df_130901_checked_okpairs_equals_getters_setters.csv", 9106, 9393, "/Volumes/SATA/Users/Chaiyong/Downloads/");
+        checkEqualsMethodsAndGettersSetters("/Users/Chaiyong/IdeasProjects/StackoverflowChecker/ok_common_pairs_130901_pt2_1_with_dup.csv"
+                , 1, 4019, 2
+                , "/Users/Chaiyong/Downloads/stackoverflow/");
     }
 
-    public static void checkEqualsMethodsAndGettersSetters(String file1, int start, int end, String path) {
+    public static void checkEqualsMethodsAndGettersSetters(String file1, int start, int end, int so_index, String path) {
         String cloneFile = file1;
         BufferedReader br = null;
         BufferedReader sF = null;
@@ -34,14 +36,14 @@ public class CheckEqualsMethodsAndGettersSetters {
                     boolean foundFirstGetter = false, foundSecondGetter = false, foundFirstHashCode = false, foundSecondHashCode = false;
                     String getterText = "";
 
-                    sF = new BufferedReader(new FileReader(path + clone[0]));
+                    sF = new BufferedReader(new FileReader(path + clone[so_index]));
                     int lineCount = 0;
                     while ((sLine = sF.readLine()) != null) {
                         lineCount++;
                         // start line of SO fragment
 
                         /*** CHECK EQUALS ***/
-                        if (lineCount == Integer.parseInt(clone[1].trim())) {
+                        if (lineCount == Integer.parseInt(clone[so_index+1].trim())) {
                             if (sLine.contains("boolean equals ("))
                                 foundFirst = true;
                             else if (sLine.contains("@Override")) {
@@ -149,12 +151,12 @@ public class CheckEqualsMethodsAndGettersSetters {
                     }
                     sF.close();
 
-                    qF = new BufferedReader(new FileReader(path + "/" + QPath + "/" + clone[3]));
+                    qF = new BufferedReader(new FileReader(path + "/" + QPath + "/" + clone[so_index+3]));
                     lineCount = 0;
                     while ((qLine = qF.readLine()) != null) {
                         lineCount++;
                         // start line of SO fragment
-                        if (lineCount == Integer.parseInt(clone[4].trim())) {
+                        if (lineCount == Integer.parseInt(clone[so_index+4].trim())) {
                             if (qLine.contains("boolean equals ("))
                                 foundSecond = true;
                             else if (qLine.contains("@Override")) {
