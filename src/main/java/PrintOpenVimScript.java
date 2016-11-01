@@ -12,8 +12,8 @@ public class PrintOpenVimScript {
     public static void main(String[] args) {
         String QPath = "QualitasCorpus-20130901r/projects_130901r_pt2_java_only";
 
-        printVimScript("/Users/Chaiyong/IdeasProjects/StackoverflowChecker/ok_common_pairs_130901_pt2_2_with_checks.csv"
-                , QPath, 3965, 2);
+        printVimScript("/Users/Chaiyong/Documents/StackoverflowChecker/indv_simian_df_130901_pt2_with_checks.csv"
+                , QPath, 8535, 0);
     }
 
     public static void printVimScript(String file1, String QPath, int startingLine, int startingIndex) {
@@ -31,7 +31,8 @@ public class PrintOpenVimScript {
                 // use comma as separator
                 if (count >= startingLine) {
                     String[] clone = line.split(cvsSplitBy);
-                    System.out.println("vim -c \":e " + QPath + "/" + clone[startingIndex+3] + "|:" + clone[startingIndex+4] + "|:vsplit " + clone[startingIndex] + "|:" + clone[startingIndex+1] + "\"");
+                    System.out.println("vim -c \":e " + QPath + "/" + clone[startingIndex + 3] + "|:" + clone[startingIndex + 4]
+                            + "|:vsplit " + clone[startingIndex] + "|:" + clone[startingIndex + 1] + "\"");
                     // System.out.println("vim " + clone[2] + " +" + clone[3]);
                 }
                 count++;
