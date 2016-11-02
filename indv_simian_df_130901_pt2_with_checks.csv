@@ -8738,32 +8738,32 @@ stackoverflow_formatted/13225961_0.java,12,24,netbeans-6.9.1-201007282301/cnd.ut
 stackoverflow_formatted/8794109_0.java,32,43,apache-jmeter-2.9/apache-jmeter-2.9/src/core/org/apache/jmeter/gui/MainFrame.java,380,391,12,D,"similar blank dragEnter(), dragExit(), and dragOver() method"
 stackoverflow_formatted/25373489_0.java,47,58,weka-3-7-9/main/java/weka/gui/beans/KnowledgeFlowApp.java,2037,2048,12,B/C,SO answer says the code is from http://docs.oracle.com/javase/tutorial/uiswing/components/tabbedpane.html.
 stackoverflow_formatted/12023209_0.java,55,66,netbeans-6.9.1-201007282301/cnd.utils/src/org/netbeans/modules/cnd/utils/cache/WeakSharedSet.java,40,51,12,E,both classes extend AbstractSet and have similar methods
-stackoverflow_formatted/24330611_0.java,166,177,jung2-2_0_1/jung-samples-2.0.1/edu/uci/ics/jung/samples/GraphZoomScrollPaneDemo.java,119,130,12,,
-stackoverflow_formatted/24330611_0.java,166,177,jung2-2_0_1/jung-samples-2.0.1/edu/uci/ics/jung/samples/WorldMapGraphDemo.java,134,145,12,,
-stackoverflow_formatted/24330611_0.java,166,177,jung2-2_0_1/jung-samples-2.0.1/edu/uci/ics/jung/samples/AnnotationsDemo.java,90,101,12,,
-stackoverflow_formatted/24330611_0.java,166,177,jung2-2_0_1/jung-samples-2.0.1/edu/uci/ics/jung/samples/VertexLabelPositionDemo.java,63,74,12,,
-stackoverflow_formatted/24330611_0.java,166,177,jung2-2_0_1/jung-samples-2.0.1/edu/uci/ics/jung/samples/InternalFrameSatelliteViewDemo.java,93,104,12,,
-stackoverflow_formatted/24330611_0.java,166,177,jung2-2_0_1/jung-samples-2.0.1/edu/uci/ics/jung/samples/GraphEditorDemo.java,116,127,12,,
-stackoverflow_formatted/24330611_0.java,166,177,jung2-2_0_1/jung-samples-2.0.1/edu/uci/ics/jung/samples/PluggableRendererDemo.java,371,382,12,,
-stackoverflow_formatted/24330611_0.java,166,177,jung2-2_0_1/jung-samples-2.0.1/edu/uci/ics/jung/samples/LensDemo.java,126,137,12,,
-stackoverflow_formatted/24330611_0.java,166,177,jung2-2_0_1/jung-samples-2.0.1/edu/uci/ics/jung/samples/RadialTreeLensDemo.java,120,131,12,,
-stackoverflow_formatted/24330611_0.java,166,177,jung2-2_0_1/jung-samples-2.0.1/edu/uci/ics/jung/samples/EdgeLabelDemo.java,78,89,12,,
-stackoverflow_formatted/24330611_0.java,166,177,jung2-2_0_1/jung-samples-2.0.1/edu/uci/ics/jung/samples/BalloonLayoutDemo.java,115,126,12,,
-stackoverflow_formatted/24330611_0.java,166,177,jung2-2_0_1/jung-samples-2.0.1/edu/uci/ics/jung/samples/LensVertexImageShaperDemo.java,150,161,12,,
-stackoverflow_formatted/24330611_0.java,166,177,jung2-2_0_1/jung-samples-2.0.1/edu/uci/ics/jung/samples/ShowLayouts.java,128,139,12,,
-stackoverflow_formatted/24330611_0.java,166,177,jung2-2_0_1/jung-jai-samples-2.0.1/edu/uci/ics/jung/samples/HyperbolicVertexImageShaperDemo.java,150,161,12,,
-stackoverflow_formatted/24330611_0.java,166,177,jung2-2_0_1/jung-samples-2.0.1/edu/uci/ics/jung/samples/L2RTreeLayoutDemo.java,106,117,12,,
-stackoverflow_formatted/24330611_0.java,166,177,jung2-2_0_1/jung-samples-2.0.1/edu/uci/ics/jung/samples/ImageEdgeLabelDemo.java,60,71,12,,
-stackoverflow_formatted/24330611_0.java,166,177,jung2-2_0_1/jung-samples-2.0.1/edu/uci/ics/jung/samples/VertexImageShaperDemo.java,155,166,12,,
-stackoverflow_formatted/24330611_0.java,166,177,jung2-2_0_1/jung-samples-2.0.1/edu/uci/ics/jung/samples/VertexCollapseDemoWithLayouts.java,117,128,12,,
-stackoverflow_formatted/24330611_0.java,166,177,jung2-2_0_1/jung-samples-2.0.1/edu/uci/ics/jung/samples/VertexCollapseDemo.java,102,113,12,,
-stackoverflow_formatted/24330611_0.java,166,177,jung2-2_0_1/jung-samples-2.0.1/edu/uci/ics/jung/samples/UnicodeLabelDemo.java,67,78,12,,
-stackoverflow_formatted/24330611_0.java,166,177,jung2-2_0_1/jung-samples-2.0.1/edu/uci/ics/jung/samples/DrawnIconVertexDemo.java,83,94,12,,
-stackoverflow_formatted/24330611_0.java,166,177,jung2-2_0_1/jung-samples-2.0.1/edu/uci/ics/jung/samples/TreeLayoutDemo.java,104,115,12,,
-stackoverflow_formatted/24330611_0.java,166,177,jung2-2_0_1/jung-samples-2.0.1/edu/uci/ics/jung/samples/TreeCollapseDemo.java,113,124,12,,
-stackoverflow_formatted/24330611_0.java,166,177,jung2-2_0_1/jung-samples-2.0.1/edu/uci/ics/jung/samples/VertexLabelAsShapeDemo.java,76,87,12,,
-stackoverflow_formatted/24330611_0.java,166,177,jung2-2_0_1/jung-samples-2.0.1/edu/uci/ics/jung/samples/SubLayoutDemo.java,98,109,12,,
-stackoverflow_formatted/24330611_0.java,166,177,jung2-2_0_1/jung-samples-2.0.1/edu/uci/ics/jung/samples/GraphFromGraphMLDemo.java,82,93,12,,
+stackoverflow_formatted/24330611_0.java,166,177,jung2-2_0_1/jung-samples-2.0.1/edu/uci/ics/jung/samples/GraphZoomScrollPaneDemo.java,119,130,12,B,SO question is about jung2 however the code in the answer doesn't anything about copying. 
+stackoverflow_formatted/24330611_0.java,166,177,jung2-2_0_1/jung-samples-2.0.1/edu/uci/ics/jung/samples/WorldMapGraphDemo.java,134,145,12,B,SO question is about jung2 however the code in the answer doesn't anything about copying. 
+stackoverflow_formatted/24330611_0.java,166,177,jung2-2_0_1/jung-samples-2.0.1/edu/uci/ics/jung/samples/AnnotationsDemo.java,90,101,12,B,SO question is about jung2 however the code in the answer doesn't anything about copying. 
+stackoverflow_formatted/24330611_0.java,166,177,jung2-2_0_1/jung-samples-2.0.1/edu/uci/ics/jung/samples/VertexLabelPositionDemo.java,63,74,12,B,SO question is about jung2 however the code in the answer doesn't anything about copying. 
+stackoverflow_formatted/24330611_0.java,166,177,jung2-2_0_1/jung-samples-2.0.1/edu/uci/ics/jung/samples/InternalFrameSatelliteViewDemo.java,93,104,12,B,SO question is about jung2 however the code in the answer doesn't anything about copying. 
+stackoverflow_formatted/24330611_0.java,166,177,jung2-2_0_1/jung-samples-2.0.1/edu/uci/ics/jung/samples/GraphEditorDemo.java,116,127,12,B,SO question is about jung2 however the code in the answer doesn't anything about copying. 
+stackoverflow_formatted/24330611_0.java,166,177,jung2-2_0_1/jung-samples-2.0.1/edu/uci/ics/jung/samples/PluggableRendererDemo.java,371,382,12,B,SO question is about jung2 however the code in the answer doesn't anything about copying. 
+stackoverflow_formatted/24330611_0.java,166,177,jung2-2_0_1/jung-samples-2.0.1/edu/uci/ics/jung/samples/LensDemo.java,126,137,12,B,SO question is about jung2 however the code in the answer doesn't anything about copying. 
+stackoverflow_formatted/24330611_0.java,166,177,jung2-2_0_1/jung-samples-2.0.1/edu/uci/ics/jung/samples/RadialTreeLensDemo.java,120,131,12,B,SO question is about jung2 however the code in the answer doesn't anything about copying. 
+stackoverflow_formatted/24330611_0.java,166,177,jung2-2_0_1/jung-samples-2.0.1/edu/uci/ics/jung/samples/EdgeLabelDemo.java,78,89,12,B,SO question is about jung2 however the code in the answer doesn't anything about copying. 
+stackoverflow_formatted/24330611_0.java,166,177,jung2-2_0_1/jung-samples-2.0.1/edu/uci/ics/jung/samples/BalloonLayoutDemo.java,115,126,12,B,SO question is about jung2 however the code in the answer doesn't anything about copying. 
+stackoverflow_formatted/24330611_0.java,166,177,jung2-2_0_1/jung-samples-2.0.1/edu/uci/ics/jung/samples/LensVertexImageShaperDemo.java,150,161,12,B,SO question is about jung2 however the code in the answer doesn't anything about copying. 
+stackoverflow_formatted/24330611_0.java,166,177,jung2-2_0_1/jung-samples-2.0.1/edu/uci/ics/jung/samples/ShowLayouts.java,128,139,12,B,SO question is about jung2 however the code in the answer doesn't anything about copying. 
+stackoverflow_formatted/24330611_0.java,166,177,jung2-2_0_1/jung-jai-samples-2.0.1/edu/uci/ics/jung/samples/HyperbolicVertexImageShaperDemo.java,150,161,12,B,SO question is about jung2 however the code in the answer doesn't anything about copying. 
+stackoverflow_formatted/24330611_0.java,166,177,jung2-2_0_1/jung-samples-2.0.1/edu/uci/ics/jung/samples/L2RTreeLayoutDemo.java,106,117,12,B,SO question is about jung2 however the code in the answer doesn't anything about copying. 
+stackoverflow_formatted/24330611_0.java,166,177,jung2-2_0_1/jung-samples-2.0.1/edu/uci/ics/jung/samples/ImageEdgeLabelDemo.java,60,71,12,B,SO question is about jung2 however the code in the answer doesn't anything about copying. 
+stackoverflow_formatted/24330611_0.java,166,177,jung2-2_0_1/jung-samples-2.0.1/edu/uci/ics/jung/samples/VertexImageShaperDemo.java,155,166,12,B,SO question is about jung2 however the code in the answer doesn't anything about copying. 
+stackoverflow_formatted/24330611_0.java,166,177,jung2-2_0_1/jung-samples-2.0.1/edu/uci/ics/jung/samples/VertexCollapseDemoWithLayouts.java,117,128,12,B,SO question is about jung2 however the code in the answer doesn't anything about copying. 
+stackoverflow_formatted/24330611_0.java,166,177,jung2-2_0_1/jung-samples-2.0.1/edu/uci/ics/jung/samples/VertexCollapseDemo.java,102,113,12,B,SO question is about jung2 however the code in the answer doesn't anything about copying. 
+stackoverflow_formatted/24330611_0.java,166,177,jung2-2_0_1/jung-samples-2.0.1/edu/uci/ics/jung/samples/UnicodeLabelDemo.java,67,78,12,B,SO question is about jung2 however the code in the answer doesn't anything about copying. 
+stackoverflow_formatted/24330611_0.java,166,177,jung2-2_0_1/jung-samples-2.0.1/edu/uci/ics/jung/samples/DrawnIconVertexDemo.java,83,94,12,B,SO question is about jung2 however the code in the answer doesn't anything about copying. 
+stackoverflow_formatted/24330611_0.java,166,177,jung2-2_0_1/jung-samples-2.0.1/edu/uci/ics/jung/samples/TreeLayoutDemo.java,104,115,12,B,SO question is about jung2 however the code in the answer doesn't anything about copying. 
+stackoverflow_formatted/24330611_0.java,166,177,jung2-2_0_1/jung-samples-2.0.1/edu/uci/ics/jung/samples/TreeCollapseDemo.java,113,124,12,B,SO question is about jung2 however the code in the answer doesn't anything about copying. 
+stackoverflow_formatted/24330611_0.java,166,177,jung2-2_0_1/jung-samples-2.0.1/edu/uci/ics/jung/samples/VertexLabelAsShapeDemo.java,76,87,12,B,SO question is about jung2 however the code in the answer doesn't anything about copying. 
+stackoverflow_formatted/24330611_0.java,166,177,jung2-2_0_1/jung-samples-2.0.1/edu/uci/ics/jung/samples/SubLayoutDemo.java,98,109,12,B,SO question is about jung2 however the code in the answer doesn't anything about copying. 
+stackoverflow_formatted/24330611_0.java,166,177,jung2-2_0_1/jung-samples-2.0.1/edu/uci/ics/jung/samples/GraphFromGraphMLDemo.java,82,93,12,B,SO question is about jung2 however the code in the answer doesn't anything about copying. 
 stackoverflow_formatted/20615360_0.java,1,12,spring-framework-3.0.5/spring-framework-3.0.5.RELEASE/projects/org.springframework.aop/src/main/java/org/springframework/aop/interceptor/ExposeBeanNameAdvisors.java,32,43,12,,
 stackoverflow_formatted/25150803_0.java,37,48,jhotdraw-7.5.1/jhotdraw_7.5.1/Source/jhotdraw7/src/main/java/org/jhotdraw/gui/plaf/palette/PaletteListCellRenderer.java,21,32,12,,
 stackoverflow_formatted/23300658_2.java,16,27,netbeans-6.9.1-201007282301/db.dataview/src/org/netbeans/modules/db/dataview/output/ShowSQLDialog.java,46,57,12,,
