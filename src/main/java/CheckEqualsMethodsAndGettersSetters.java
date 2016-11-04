@@ -11,11 +11,11 @@ public class CheckEqualsMethodsAndGettersSetters {
     // public static String QPath = "QualitasCorpus-20130901r/projects_java_only_160816/";
     public static String QPath = "QualitasCorpus-20130901r/projects_130901r_pt2_java_only";
     public static void main(String[] args) {
-        checkEqualsMethodsAndGettersSetters("/Users/Chaiyong/Documents/StackoverflowChecker/indv_simian_df_130901_pt2_with_checks.csv"
+        checkEqualsMethodsAndGettersSetters("/Users/Chaiyong/IdeasProjects/StackoverflowChecker/indv_nicad_df_130901_pt2_0.20_with_dup.csv"
         // checkEqualsMethodsAndGettersSetters("/Users/Chaiyong/Desktop/a.csv"
 
-                , 1, 9042, 0
-                , "/Users/Chaiyong/Downloads/");
+                , 1, 212, 0
+                , "/Users/Chaiyong/Downloads/stackoverflow/");
     }
 
     public static void checkEqualsMethodsAndGettersSetters(String file1, int start, int end, int so_index, String path) {
