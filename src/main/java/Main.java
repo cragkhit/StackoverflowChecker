@@ -37,13 +37,13 @@ public class Main {
     private static double p = 0.7;
 
     private static String tool2 = "nicad";
-    private static String settings2 = "fse13";
-    private static String ending = "_130901_pt2";
+    private static String settings2 = "df";
+    private static String ending = "_130901_pt3";
 
     private static HashMap<String, ArrayList<Fragment>> fragmentMap = new HashMap<>();
 
 	public static void main(String[] args) {
-        readFirstFile("/Users/Chaiyong/IdeasProjects/StackAnalyzer/fragments_" + tool1 + "_" + settings1 + ending + "-3.xml"
+        readFirstFile("/Users/Chaiyong/IdeasProjects/StackAnalyzer/fragments_" + tool1 + "_" + settings1 + ending + ".xml"
                 , "/Users/Chaiyong/IdeasProjects/StackAnalyzer/fragment_list_" + tool1 + "_" + settings1 + ".txt"
                 , tool1 + "_fragments_pairs_" + settings1 + ".csv");
 

@@ -9,13 +9,17 @@ import java.io.IOException;
 public class CheckEqualsMethodsAndGettersSetters {
 
     // public static String QPath = "QualitasCorpus-20130901r/projects_java_only_160816/";
-    public static String QPath = "QualitasCorpus-20130901r/projects_130901r_pt2_java_only";
+    public static String QPath = "QualitasCorpus-20130901r/projects_130901r_pt3";
+    public static String HOMEDIR = "/Users/Chaiyong";
+    public static String projectLocation = HOMEDIR + "/IdeasProjects/";
+    public static String SO_DIR = HOMEDIR + "/Downloads/stackoverflow/";
+
     public static void main(String[] args) {
-        checkEqualsMethodsAndGettersSetters("/Users/chaiyong/Documents/StackoverflowChecker/indv_simian_df_130901_pt2.csv"
+        checkEqualsMethodsAndGettersSetters(projectLocation + "StackoverflowChecker/ok_common_pairs_simiandf-nicaddf-0.7_130901_pt3.csv"
         // checkEqualsMethodsAndGettersSetters("/Users/Chaiyong/Desktop/a.csv"
 
-                , 1, 9042, 0
-                , "/Users/chaiyong/Downloads/");
+                , 1, 5262, 1
+                , SO_DIR);
     }
 
     public static void checkEqualsMethodsAndGettersSetters(String file1, int start, int end, int so_index, String path) {
