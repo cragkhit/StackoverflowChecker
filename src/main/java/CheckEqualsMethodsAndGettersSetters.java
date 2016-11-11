@@ -15,14 +15,14 @@ public class CheckEqualsMethodsAndGettersSetters {
     public static String SO_DIR = HOMEDIR + "/Downloads/stackoverflow/";
 
     public static void main(String[] args) {
-        checkEqualsMethodsAndGettersSetters(projectLocation + "StackoverflowChecker/ok_common_pairs_simiandf-nicaddf-0.7_130901_pt3.csv"
+        checkEqualsMethodsAndGettersSetters(projectLocation + "StackoverflowChecker/indv_nicad_df_130901_pt3_0.20_with_dup.csv"
         // checkEqualsMethodsAndGettersSetters("/Users/Chaiyong/Desktop/a.csv"
 
-                , 1, 5262, 1
+                , 1, 285, 0
                 , SO_DIR);
     }
 
-    public static void checkEqualsMethodsAndGettersSetters(String file1, int start, int end, int so_index, String path) {
+    public static void checkEqualsMethodsAndGettersSetters(String file1, int start, int end, int so_starting_index, String path) {
         String cloneFile = file1;
         BufferedReader br = null;
         BufferedReader sF = null;
@@ -42,14 +42,14 @@ public class CheckEqualsMethodsAndGettersSetters {
                     boolean foundFirstGetter = false, foundSecondGetter = false, foundFirstHashCode = false, foundSecondHashCode = false;
                     String getterText = "";
 
-                    sF = new BufferedReader(new FileReader(path + clone[so_index]));
+                    sF = new BufferedReader(new FileReader(path + clone[so_starting_index]));
                     int lineCount = 0;
                     while ((sLine = sF.readLine()) != null) {
                         lineCount++;
                         // start line of SO fragment
 
 
-                        if (lineCount == Integer.parseInt(clone[so_index+1].trim())) {
+                        if (lineCount == Integer.parseInt(clone[so_starting_index + 1].trim())) {
                             /*** CHECK EQUALS ***/
                             if (sLine.contains("boolean equals ("))
                                 foundFirst = true;
@@ -112,8 +112,7 @@ public class CheckEqualsMethodsAndGettersSetters {
                                 if (sLine.contains("return result;")) {
                                     foundFirstHashCode = true;
                                 }
-                            }
-                            else if (sLine.contains("result = prime * result + ( ( name == null ) ? 0 : name.hashCode() );")) {
+                            } else if (sLine.contains("result = prime * result + ( ( name == null ) ? 0 : name.hashCode() );")) {
                                 // read another line
                                 sLine = sF.readLine();
                                 if (sLine.contains("return result;")) {
@@ -162,12 +161,12 @@ public class CheckEqualsMethodsAndGettersSetters {
                     }
                     sF.close();
 
-                    qF = new BufferedReader(new FileReader(path + "/" + QPath + "/" + clone[so_index+3]));
+                    qF = new BufferedReader(new FileReader(path + "/" + QPath + "/" + clone[so_starting_index+3]));
                     lineCount = 0;
                     while ((qLine = qF.readLine()) != null) {
                         lineCount++;
                         // start line of SO fragment
-                        if (lineCount == Integer.parseInt(clone[so_index+4].trim())) {
+                        if (lineCount == Integer.parseInt(clone[so_starting_index+4].trim())) {
                             if (qLine.contains("boolean equals ("))
                                 foundSecond = true;
                             else if (qLine.contains("@Override")) {

@@ -22,9 +22,9 @@ public class FindContainment {
 //                ,"/Users/Chaiyong/IdeasProjects/StackoverflowChecker/indv_simian_df_130901_pt2.csv"
 //                , 2, 2, false, ",duplicate");
         checkIndvInGoodOkPairs(
-                "/Users/chaiyong/Documents/StackoverflowChecker/GOLD_ok_common_pairs_130901_pt2_2_with_checks.csv"
-                ,"/Users/chaiyong/Documents/StackoverflowChecker/indv_simian_df_130901_pt2.csv"
-                , 2, 0, false, ",duplicate_with_ok_pair");
+                "/Users/Chaiyong/IdeasProjects/StackoverflowChecker/ok_common_pairs_simiandf-nicaddf-0.7_130901_pt3.csv"
+                ,"/Users/Chaiyong/IdeasProjects/StackoverflowChecker/indv_nicad_df_130901_pt3_0.20.csv"
+                , 1, 0, false, ",duplicate_with_ok_pair");
 //        checkExistAndCopyDetails(
 //                "/Users/Chaiyong/IdeasProjects/StackoverflowChecker/indv_simian_df_combined_latest_v_new_only_160825.csv"
 //                ,"/Users/Chaiyong/IdeasProjects/StackoverflowChecker/indv_nicad_df_combined_latest_v_new_only_160816_checked_equals.csv"
