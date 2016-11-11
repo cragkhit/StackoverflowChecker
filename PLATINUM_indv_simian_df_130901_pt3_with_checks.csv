@@ -1860,59 +1860,59 @@ stackoverflow_formatted/14073238_0.java,34,44,squirrel_sql/squirrel_sql-3.1.2/sr
 stackoverflow_formatted/14073238_0.java,34,44,squirrel_sql/squirrel_sql-3.1.2/src/src/net/sourceforge/squirrel_sql/plugins/graph/xmlbeans/FoldingPointXmlBean.java,5,15,11,,F,accidentally similar getter
 stackoverflow_formatted/19957163_1.java,7,17,squirrel_sql/squirrel_sql-3.1.2/src/src/net/sourceforge/squirrel_sql/plugins/graph/xmlbeans/TableFrameXmlBean.java,7,17,11,,F,accidentally similar getter
 stackoverflow_formatted/19957163_1.java,7,17,squirrel_sql/squirrel_sql-3.1.2/src/src/net/sourceforge/squirrel_sql/plugins/graph/xmlbeans/FoldingPointXmlBean.java,5,15,11,,F,accidentally similar getter
-stackoverflow_formatted/16860613_0.java,9,281,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jface/viewers/StyledString.java,9,281,273,,,
-stackoverflow_formatted/19856538_0.java,21,50,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/pde/internal/ui/nls/StringHelper.java,90,119,30,,,
-stackoverflow_formatted/19856538_0.java,21,50,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/pde/internal/core/util/PropertiesUtil.java,64,93,30,,,
-stackoverflow_formatted/2513183_0.java,41,67,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jdt/ui/actions/GenerateToStringAction.java,41,67,27,,,
-stackoverflow_formatted/2513183_0.java,136,158,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jdt/ui/actions/GenerateToStringAction.java,143,165,23,,,
-stackoverflow_formatted/7071060_1.java,19,39,eclipse_SDK/eclipse_SDK-4.3/src/src/org/apache/http/entity/FileEntity.java,15,35,21,,,
-stackoverflow_formatted/10289462_0.java,4,23,eclipse_SDK/eclipse_SDK-4.3/src/src/org/apache/jasper/runtime/JspRuntimeLibrary.java,260,279,20,,,
-stackoverflow_formatted/23586872_1.java,1,20,eclipse_SDK/eclipse_SDK-4.3/src/src/junitsrc/org/junit/Assert.java,33,52,20,,,
-stackoverflow_formatted/8802082_2.java,1,19,eclipse_SDK/eclipse_SDK-4.3/src/src/junitsrc/org/junit/internal/runners/statements/ExpectException.java,11,29,19,,,
-stackoverflow_formatted/11861598_0.java,1,18,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jface/wizard/WizardDialog.java,377,394,18,,,
-stackoverflow_formatted/6097643_0.java,2,19,eclipse_SDK/eclipse_SDK-4.3/src/src/org/apache/http/impl/client/AbstractHttpClient.java,110,127,18,,,
-stackoverflow_formatted/22230019_0.java,1,17,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/swt/widgets/Widget.java,424,440,17,,,
-stackoverflow_formatted/25719073_1.java,1,17,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/swt/widgets/Widget.java,309,325,17,,,
-stackoverflow_formatted/6926848_0.java,1,16,eclipse_SDK/eclipse_SDK-4.3/src/src/org/apache/http/client/utils/URLEncodedUtils.java,73,88,16,,,
-stackoverflow_formatted/23008293_0.java,1,14,eclipse_SDK/eclipse_SDK-4.3/src/src/jdimodelsrc/org/eclipse/jdt/internal/debug/core/model/JDIThread.java,1680,1693,14,,,
-stackoverflow_formatted/23008293_0.java,1,14,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/debug/internal/ui/viewers/AsynchronousSchedulingRuleFactory.java,15,28,14,,,
-stackoverflow_formatted/23008293_0.java,1,14,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/debug/core/commands/AbstractDebugCommand.java,106,119,14,,,
-stackoverflow_formatted/5266856_0.java,2,15,eclipse_SDK/eclipse_SDK-4.3/src/src/javax/servlet/http/HttpServlet.java,109,122,14,,,
-stackoverflow_formatted/7324159_1.java,63,75,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jface/viewers/TableLayout.java,109,121,13,,,
-stackoverflow_formatted/6082389_0.java,14,26,eclipse_SDK/eclipse_SDK-4.3/src/src/libsrc/org/apache/tools/ant/taskdefs/XSLTProcess.java,488,500,13,,,
-stackoverflow_formatted/6082389_0.java,14,26,eclipse_SDK/eclipse_SDK-4.3/src/src/libsrc/org/apache/tools/ant/taskdefs/optional/XMLValidateTask.java,380,392,13,,,
-stackoverflow_formatted/10289462_0.java,33,45,eclipse_SDK/eclipse_SDK-4.3/src/src/org/apache/jasper/runtime/JspRuntimeLibrary.java,290,302,13,,,
-stackoverflow_formatted/5883717_1.java,2,14,eclipse_SDK/eclipse_SDK-4.3/src/src/libsrc/org/apache/tools/ant/taskdefs/XSLTProcess.java,488,500,13,,,
-stackoverflow_formatted/5883717_1.java,2,14,eclipse_SDK/eclipse_SDK-4.3/src/src/libsrc/org/apache/tools/ant/taskdefs/optional/XMLValidateTask.java,380,392,13,,,
-stackoverflow_formatted/20681509_0.java,2,14,squirrel_sql/squirrel_sql-3.1.2/src/src/net/sourceforge/squirrel_sql/plugins/graph/xmlbeans/FoldingPointXmlBean.java,3,15,13,,,
-stackoverflow_formatted/17698380_0.java,47,59,eclipse_SDK/eclipse_SDK-4.3/src/src/libsrc/org/apache/tools/ant/taskdefs/XSLTProcess.java,488,500,13,,,
-stackoverflow_formatted/17698380_0.java,47,59,eclipse_SDK/eclipse_SDK-4.3/src/src/libsrc/org/apache/tools/ant/taskdefs/optional/XMLValidateTask.java,380,392,13,,,
-stackoverflow_formatted/7324159_1.java,30,41,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jdt/internal/ui/util/TableLayoutComposite.java,74,85,12,,,
-stackoverflow_formatted/8836350_0.java,7,18,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/ui/internal/ide/misc/FileInfoAttributesMatcher.java,167,178,12,,,
-stackoverflow_formatted/3671309_0.java,11,22,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/help/internal/base/remote/HttpsUtility.java,64,75,12,,,
-stackoverflow_formatted/3671309_0.java,11,22,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/help/internal/base/remote/HttpsUtility.java,84,95,12,,,
-stackoverflow_formatted/3671309_0.java,11,22,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/help/internal/base/remote/HttpsUtility.java,104,115,12,,,
-stackoverflow_formatted/3671309_0.java,11,22,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/help/internal/base/remote/HttpsUtility.java,20,31,12,,,
-stackoverflow_formatted/3671309_0.java,11,22,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/help/internal/base/remote/HttpsUtility.java,42,53,12,,,
-stackoverflow_formatted/3671309_0.java,11,22,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/help/internal/base/remote/HttpsUtility.java,124,135,12,,,
-stackoverflow_formatted/9291241_1.java,1,11,eclipse_SDK/eclipse_SDK-4.3/src/src/libsrc/org/apache/tools/ant/taskdefs/Mkdir.java,19,29,11,,,
-stackoverflow_formatted/598007_0.java,1,11,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jface/dialogs/ProgressMonitorDialog.java,252,262,11,,,
-stackoverflow_formatted/19856538_0.java,22,31,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jetty/util/ajax/JSON.java,751,760,10,,,
-stackoverflow_formatted/19856538_0.java,22,31,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jetty/util/ajax/JSON.java,709,718,10,,,
-stackoverflow_formatted/19856538_0.java,22,31,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/pde/internal/ui/nls/StringHelper.java,91,100,10,,,
-stackoverflow_formatted/19856538_0.java,22,31,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/pde/internal/core/util/PropertiesUtil.java,65,74,10,,,
-stackoverflow_formatted/19856538_0.java,22,31,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jdt/internal/ui/compare/PropertiesStructureCreator.java,218,227,10,,,
-stackoverflow_formatted/19856538_0.java,22,31,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jdt/internal/ui/propertiesfileeditor/PropertiesFileEscapes.java,13,22,10,,,
-stackoverflow_formatted/19856538_0.java,22,31,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jdt/internal/core/search/indexing/BinaryIndexer.java,180,189,10,,,
-stackoverflow_formatted/19856538_0.java,22,31,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jdt/internal/compiler/util/FloatUtil.java,135,144,10,,,
-stackoverflow_formatted/19856538_0.java,22,31,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jdt/internal/compiler/util/FloatUtil.java,65,74,10,,,
-stackoverflow_formatted/19856538_0.java,22,31,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/pde/api/tools/internal/util/Util.java,755,764,10,,,
-stackoverflow_formatted/19856538_0.java,22,31,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/pde/api/tools/internal/util/SinceTagVersion.java,24,33,10,,,
-stackoverflow_formatted/19856538_0.java,22,31,eclipse_SDK/eclipse_SDK-4.3/src/src/com/ibm/icu/impl/PatternTokenizer.java,223,232,10,,,
-stackoverflow_formatted/9642475_0.java,7,16,eclipse_SDK/eclipse_SDK-4.3/src/src/org/apache/lucene/search/MultiTermQuery.java,49,58,10,,,
-stackoverflow_formatted/9642475_0.java,7,16,eclipse_SDK/eclipse_SDK-4.3/src/src/org/apache/lucene/search/MultiTermQuery.java,30,39,10,,,
-stackoverflow_formatted/2513183_0.java,110,119,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jdt/ui/actions/GenerateToStringAction.java,117,126,10,,,
-stackoverflow_formatted/2513183_0.java,171,180,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jdt/ui/actions/GenerateToStringAction.java,178,187,10,,,
+stackoverflow_formatted/16860613_0.java,9,281,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jface/viewers/StyledString.java,9,281,273,,?,couldn't find the SO post anymore.
+stackoverflow_formatted/19856538_0.java,21,50,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/pde/internal/ui/nls/StringHelper.java,90,119,30,,B,similar code to convert characters (might come from Java's Properties class)
+stackoverflow_formatted/19856538_0.java,21,50,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/pde/internal/core/util/PropertiesUtil.java,64,93,30,,B,similar code to convert characters (might come from Java's Properties class). Eclipse's code says it's copied from org.eclipse.jdt.internal.ui.refactoring.nls.ExternalizeWizardPage.windEscapeChars(String s)
+stackoverflow_formatted/2513183_0.java,41,67,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jdt/ui/actions/GenerateToStringAction.java,41,67,27,,A,"the whole class is copied from eclipse (with license) ""I cannot find the source of that class on the internet, so I will copy it here for you to examine its content:"""
+stackoverflow_formatted/2513183_0.java,136,158,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jdt/ui/actions/GenerateToStringAction.java,143,165,23,,A,"the whole class is copied from eclipse (with license) ""I cannot find the source of that class on the internet, so I will copy it here for you to examine its content:"""
+stackoverflow_formatted/7071060_1.java,19,39,eclipse_SDK/eclipse_SDK-4.3/src/src/org/apache/http/entity/FileEntity.java,15,35,21,,E,both classes implement Cloneable and have similar methods (the SO answer says it's auto-generated by Netbeans)
+stackoverflow_formatted/10289462_0.java,4,23,eclipse_SDK/eclipse_SDK-4.3/src/src/org/apache/jasper/runtime/JspRuntimeLibrary.java,260,279,20,,C*,the code is copied from Tomcat's JspRuntimeLibrary#introspecthelper()
+stackoverflow_formatted/23586872_1.java,1,20,eclipse_SDK/eclipse_SDK-4.3/src/src/junitsrc/org/junit/Assert.java,33,52,20,,C*,the code is copied from Junit Assert class
+stackoverflow_formatted/8802082_2.java,1,19,eclipse_SDK/eclipse_SDK-4.3/src/src/junitsrc/org/junit/internal/runners/statements/ExpectException.java,11,29,19,,C*,the code is copied from Junit ExpectException class
+stackoverflow_formatted/11861598_0.java,1,18,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jface/wizard/WizardDialog.java,377,394,18,,A,the createPreviousAndNextButtons() is copied from eclipse (implicitly say in SO answer)
+stackoverflow_formatted/6097643_0.java,2,19,eclipse_SDK/eclipse_SDK-4.3/src/src/org/apache/http/impl/client/AbstractHttpClient.java,110,127,18,,B,SO answer says that the code is copied from DefaultHttpClient.createHttpContext()
+stackoverflow_formatted/22230019_0.java,1,17,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/swt/widgets/Widget.java,424,440,17,,A,"SO answer says the code is copied from Widget#sendEvent(int, Event, boolean) (http://grepcode.com/file/repository.grepcode.com/java/eclipse.org/3.6/org.eclipse.swt.gtk.linux/x86_64/3.6.0/org/eclipse/swt/widgets/Widget.java#Widget.sendEvent%28int%2Corg.eclipse.swt.widgets.Event%2Cboolean%29)"
+stackoverflow_formatted/25719073_1.java,1,17,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/swt/widgets/Widget.java,309,325,17,,A,SO answer says the code is copied from Widget.release()
+stackoverflow_formatted/6926848_0.java,1,16,eclipse_SDK/eclipse_SDK-4.3/src/src/org/apache/http/client/utils/URLEncodedUtils.java,73,88,16,,A,"SO answer doesn't obviously say that it is copied from URLEncodeUtils. However if you look at the question, you can infer from that."
+stackoverflow_formatted/23008293_0.java,1,14,eclipse_SDK/eclipse_SDK-4.3/src/src/jdimodelsrc/org/eclipse/jdt/internal/debug/core/model/JDIThread.java,1680,1693,14,,B,identical code of SerialPerObjectRule(). SO answer says it is copied from Java Debug but eclipse code does not say anything.
+stackoverflow_formatted/23008293_0.java,1,14,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/debug/internal/ui/viewers/AsynchronousSchedulingRuleFactory.java,15,28,14,,B,identical code of SerialPerObjectRule(). SO answer says it is copied from Java Debug but eclipse code does not say anything.
+stackoverflow_formatted/23008293_0.java,1,14,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/debug/core/commands/AbstractDebugCommand.java,106,119,14,,B,identical code of SerialPerObjectRule(). SO answer says it is copied from Java Debug but eclipse code does not say anything.
+stackoverflow_formatted/5266856_0.java,2,15,eclipse_SDK/eclipse_SDK-4.3/src/src/javax/servlet/http/HttpServlet.java,109,122,14,,C*,SO answer says that the code is copied from HttpServlet class
+stackoverflow_formatted/7324159_1.java,63,75,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jface/viewers/TableLayout.java,109,121,13,,B,similar code but that might be because the SO answer extends TableLayout
+stackoverflow_formatted/6082389_0.java,14,26,eclipse_SDK/eclipse_SDK-4.3/src/src/libsrc/org/apache/tools/ant/taskdefs/XSLTProcess.java,488,500,13,,F,similar getters & setters methods
+stackoverflow_formatted/6082389_0.java,14,26,eclipse_SDK/eclipse_SDK-4.3/src/src/libsrc/org/apache/tools/ant/taskdefs/optional/XMLValidateTask.java,380,392,13,,F,similar getters & setters methods
+stackoverflow_formatted/10289462_0.java,33,45,eclipse_SDK/eclipse_SDK-4.3/src/src/org/apache/jasper/runtime/JspRuntimeLibrary.java,290,302,13,,C*,SO answer says the code is copied from JspRuntimeLibrary#introspecthelper().
+stackoverflow_formatted/5883717_1.java,2,14,eclipse_SDK/eclipse_SDK-4.3/src/src/libsrc/org/apache/tools/ant/taskdefs/XSLTProcess.java,488,500,13,,F,similar getters & setters methods
+stackoverflow_formatted/5883717_1.java,2,14,eclipse_SDK/eclipse_SDK-4.3/src/src/libsrc/org/apache/tools/ant/taskdefs/optional/XMLValidateTask.java,380,392,13,,F,similar getters & setters methods
+stackoverflow_formatted/20681509_0.java,2,14,squirrel_sql/squirrel_sql-3.1.2/src/src/net/sourceforge/squirrel_sql/plugins/graph/xmlbeans/FoldingPointXmlBean.java,3,15,13,,F,similar getters & setters methods
+stackoverflow_formatted/17698380_0.java,47,59,eclipse_SDK/eclipse_SDK-4.3/src/src/libsrc/org/apache/tools/ant/taskdefs/XSLTProcess.java,488,500,13,,F,similar getters & setters methods
+stackoverflow_formatted/17698380_0.java,47,59,eclipse_SDK/eclipse_SDK-4.3/src/src/libsrc/org/apache/tools/ant/taskdefs/optional/XMLValidateTask.java,380,392,13,,F,similar getters & setters methods
+stackoverflow_formatted/7324159_1.java,30,41,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jdt/internal/ui/util/TableLayoutComposite.java,74,85,12,,B,similar code but that might be because the SO answer extends TableLayout
+stackoverflow_formatted/8836350_0.java,7,18,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/ui/internal/ide/misc/FileInfoAttributesMatcher.java,167,178,12,,F,similar try-catch statements
+stackoverflow_formatted/3671309_0.java,11,22,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/help/internal/base/remote/HttpsUtility.java,64,75,12,,B,SO answer says the code is copied from com/example/HttpsNoVerify.java but eclipse code doesn't say anything
+stackoverflow_formatted/3671309_0.java,11,22,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/help/internal/base/remote/HttpsUtility.java,84,95,12,,B,SO answer says the code is copied from com/example/HttpsNoVerify.java but eclipse code doesn't say anything
+stackoverflow_formatted/3671309_0.java,11,22,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/help/internal/base/remote/HttpsUtility.java,104,115,12,,B,SO answer says the code is copied from com/example/HttpsNoVerify.java but eclipse code doesn't say anything
+stackoverflow_formatted/3671309_0.java,11,22,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/help/internal/base/remote/HttpsUtility.java,20,31,12,,B,SO answer says the code is copied from com/example/HttpsNoVerify.java but eclipse code doesn't say anything
+stackoverflow_formatted/3671309_0.java,11,22,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/help/internal/base/remote/HttpsUtility.java,42,53,12,,B,SO answer says the code is copied from com/example/HttpsNoVerify.java but eclipse code doesn't say anything
+stackoverflow_formatted/3671309_0.java,11,22,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/help/internal/base/remote/HttpsUtility.java,124,135,12,,B,SO answer says the code is copied from com/example/HttpsNoVerify.java but eclipse code doesn't say anything
+stackoverflow_formatted/9291241_1.java,1,11,eclipse_SDK/eclipse_SDK-4.3/src/src/libsrc/org/apache/tools/ant/taskdefs/Mkdir.java,19,29,11,,C*,SO answer says the code is copied from http://javasourcecode.org/html/open-source/ant/ant-1.8.2/org/apache/tools/ant/taskdefs/Mkdir.java.html
+stackoverflow_formatted/598007_0.java,1,11,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jface/dialogs/ProgressMonitorDialog.java,252,262,11,,A,"SO answer says the code is copied from org.eclipse.jface.dialogs.ProgressMonitorDialog with a note ""(with a comment added by me)"""
+stackoverflow_formatted/19856538_0.java,22,31,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jetty/util/ajax/JSON.java,751,760,10,,F,SO answer says the code is copied from Properties class of Java. But the code match only the first 10 lines after that they're not the same.
+stackoverflow_formatted/19856538_0.java,22,31,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jetty/util/ajax/JSON.java,709,718,10,,F,SO answer says the code is copied from Properties class of Java. But the code match only the first 10 lines after that they're not the same.
+stackoverflow_formatted/19856538_0.java,22,31,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/pde/internal/ui/nls/StringHelper.java,91,100,10,,B,similar code to convert characters (SO answer says it comes from Java's Properties class)
+stackoverflow_formatted/19856538_0.java,22,31,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/pde/internal/core/util/PropertiesUtil.java,65,74,10,,B,similar code to convert characters (SO answer says it comes from Java's Properties class). Eclipse code says it comes from org.eclipse.jdt.internal.ui.refactoring.nls.ExternalizeWizardPage.windEscapeChars(String s)
+stackoverflow_formatted/19856538_0.java,22,31,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jdt/internal/ui/compare/PropertiesStructureCreator.java,218,227,10,,B,similar code to convert characters (SO answer says it comes from Java's Properties class)
+stackoverflow_formatted/19856538_0.java,22,31,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jdt/internal/ui/propertiesfileeditor/PropertiesFileEscapes.java,13,22,10,,F,"similar only switch-case of 0-9, different after that."
+stackoverflow_formatted/19856538_0.java,22,31,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jdt/internal/core/search/indexing/BinaryIndexer.java,180,189,10,,F,"similar only switch-case of 0-9, different after that."
+stackoverflow_formatted/19856538_0.java,22,31,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jdt/internal/compiler/util/FloatUtil.java,135,144,10,,F,"similar only switch-case of 0-9, different after that."
+stackoverflow_formatted/19856538_0.java,22,31,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jdt/internal/compiler/util/FloatUtil.java,65,74,10,,F,"similar only switch-case of 0-9, different after that."
+stackoverflow_formatted/19856538_0.java,22,31,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/pde/api/tools/internal/util/Util.java,755,764,10,,F,"similar only switch-case of 0-9, different after that."
+stackoverflow_formatted/19856538_0.java,22,31,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/pde/api/tools/internal/util/SinceTagVersion.java,24,33,10,,F,"similar only switch-case of 0-9, different after that."
+stackoverflow_formatted/19856538_0.java,22,31,eclipse_SDK/eclipse_SDK-4.3/src/src/com/ibm/icu/impl/PatternTokenizer.java,223,232,10,,F,"similar only switch-case of 0-9, different after that."
+stackoverflow_formatted/9642475_0.java,7,16,eclipse_SDK/eclipse_SDK-4.3/src/src/org/apache/lucene/search/MultiTermQuery.java,49,58,10,,E,both classes extend TopTermsRewrite<BooleanQuery> and have similar methods
+stackoverflow_formatted/9642475_0.java,7,16,eclipse_SDK/eclipse_SDK-4.3/src/src/org/apache/lucene/search/MultiTermQuery.java,30,39,10,,E,both classes extend TopTermsRewrite<BooleanQuery> and have similar methods
+stackoverflow_formatted/2513183_0.java,110,119,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jdt/ui/actions/GenerateToStringAction.java,117,126,10,,A,"the whole class is copied from eclipse (with license) ""I cannot find the source of that class on the internet, so I will copy it here for you to examine its content:"""
+stackoverflow_formatted/2513183_0.java,171,180,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jdt/ui/actions/GenerateToStringAction.java,178,187,10,,A,"the whole class is copied from eclipse (with license) ""I cannot find the source of that class on the internet, so I will copy it here for you to examine its content:"""
 stackoverflow_formatted/4533682_1.java,34,43,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/ui/internal/views/markers/MarkerCategory.java,115,124,10,,,
 stackoverflow_formatted/23423905_0.java,26,35,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/core/resources/FileInfoMatcherDescription.java,39,48,10,,,
 stackoverflow_formatted/5817648_0.java,8,17,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/help/internal/webapp/utils/Utils.java,29,38,10,,,
