@@ -1,0 +1,619 @@
+pt1,stackoverflow_formatted/13836362_1.java,15,27,castor-1/castor-1.3.1/cpactf/src/test/java/org/castor/cpa/test/test2527/LogEntry.java,58,71,13,,X,duplicated_with_good_pair
+pt1,stackoverflow_formatted/13836362_1.java,15,27,castor-1/castor-1.3.1/cpactf/src/test/java/org/castor/cpa/test/test2527/ReferingLogEntry.java,25,38,13,,X,duplicated_with_good_pair
+pt1,stackoverflow_formatted/13836362_1.java,15,27,castor-1/castor-1.3.1/ddlgen/src/main/java/org/castor/ddlgen/schemaobject/Index.java,34,48,13,,X,duplicated_with_good_pair
+pt1,stackoverflow_formatted/13836362_1.java,15,27,castor-1/castor-1.3.1/ddlgen/src/main/java/org/castor/ddlgen/schemaobject/KeyGenerator.java,37,51,13,,X,duplicated_with_good_pair
+pt1,stackoverflow_formatted/13836362_1.java,15,27,castor-1/castor-1.3.1/ddlgen/src/main/java/org/castor/ddlgen/schemaobject/PrimaryKey.java,35,49,13,,X,duplicated_with_good_pair
+pt2,stackoverflow_formatted/698283_1.java,47,67,jstock-1.0.7c/jstock/src/org/yccheok/jstock/gui/POIUtils.java,55,75,21,,X,duplicated_with_good_pair
+pt2,stackoverflow_formatted/12844115_0.java,128,138,jhotdraw-7.5.1/jhotdraw_7.5.1/Source/jhotdraw7/src/main/java/org/jhotdraw/draw/AbstractConstrainer.java,17,27,11,,X,duplicated_with_good_pair
+pt2,stackoverflow_formatted/12844115_0.java,139,149,jhotdraw-7.5.1/jhotdraw_7.5.1/Source/jhotdraw7/src/main/java/org/jhotdraw/draw/AbstractConstrainer.java,17,27,11,,X,duplicated_with_good_pair
+pt2,stackoverflow_formatted/18921519_0.java,72,85,apache-tomcat-7.0.2/apache-tomcat-7.0.2-src/test/org/apache/catalina/tribes/demos/MapDemo.java,339,352,14,,X,duplicated_with_good_pair
+pt1,stackoverflow_formatted/12427981_1.java,17,33,c-jdbc-2/c-jdbc-2.0.2-src/src/org/objectweb/cjdbc/common/util/LoggingOutputStream.java,36,52,17,,X,duplicated_with_good_pair
+pt1,stackoverflow_formatted/3911987_0.java,38,53,Compiere_330_Source/release_330/ad/src/org/compiere/translate/AmtInWords_EN.java,49,64,16,,X,duplicated_with_good_pair
+pt1,stackoverflow_formatted/13219118_0.java,12,27,Compiere_330_Source/release_330/ad/src/org/compiere/translate/AmtInWords_EN.java,49,64,16,,X,duplicated_with_good_pair
+pt1,stackoverflow_formatted/13836362_1.java,15,27,castor-1/castor-1.3.1/ddlgen/src/main/java/org/castor/ddlgen/schemaobject/Field.java,78,95,13,,X,duplicated_with_ok_pair
+pt1,stackoverflow_formatted/13836362_1.java,15,27,castor-1/castor-1.3.1/ddlgen/src/main/java/org/castor/ddlgen/schemaobject/ForeignKey.java,126,143,13,,X,duplicated_with_ok_pair
+pt1,stackoverflow_formatted/24772546_0.java,15,33,cobertura-1/cobertura-1.9.4.1/src/net/sourceforge/cobertura/coveragedata/TouchCollector.java,52,70,19,,X,duplicated_with_ok_pair
+pt1,stackoverflow_formatted/14455624_1.java,13,31,cobertura-1/cobertura-1.9.4.1/src/net/sourceforge/cobertura/coveragedata/TouchCollector.java,52,70,19,,X,duplicated_with_ok_pair
+pt1,stackoverflow_formatted/3851674_0.java,23,41,cobertura-1/cobertura-1.9.4.1/src/net/sourceforge/cobertura/coveragedata/TouchCollector.java,52,70,19,,X,duplicated_with_ok_pair
+pt1,stackoverflow_formatted/24040300_3.java,24,42,cobertura-1/cobertura-1.9.4.1/src/net/sourceforge/cobertura/coveragedata/TouchCollector.java,52,70,19,,X,duplicated_with_ok_pair
+pt1,stackoverflow_formatted/22264084_0.java,43,61,cobertura-1/cobertura-1.9.4.1/src/net/sourceforge/cobertura/coveragedata/TouchCollector.java,52,70,19,,X,duplicated_with_ok_pair
+pt1,stackoverflow_formatted/24772546_0.java,15,33,hadoop-1/hadoop-1.0.0/src/core/org/apache/hadoop/io/file/tfile/TFile.java,371,389,19,,X,duplicated_with_ok_pair
+pt1,stackoverflow_formatted/14455624_1.java,13,31,hadoop-1/hadoop-1.0.0/src/core/org/apache/hadoop/io/file/tfile/TFile.java,371,389,19,,X,duplicated_with_ok_pair
+pt1,stackoverflow_formatted/3851674_0.java,23,41,hadoop-1/hadoop-1.0.0/src/core/org/apache/hadoop/io/file/tfile/TFile.java,371,389,19,,X,duplicated_with_ok_pair
+pt1,stackoverflow_formatted/24040300_3.java,24,42,hadoop-1/hadoop-1.0.0/src/core/org/apache/hadoop/io/file/tfile/TFile.java,371,389,19,,X,duplicated_with_ok_pair
+pt1,stackoverflow_formatted/22264084_0.java,43,61,hadoop-1/hadoop-1.0.0/src/core/org/apache/hadoop/io/file/tfile/TFile.java,371,389,19,,X,duplicated_with_ok_pair
+pt1,stackoverflow_formatted/7383847_1.java,39,62,hadoop-1/hadoop-1.0.0/src/mapred/org/apache/hadoop/mapred/StatisticsCollector.java,116,141,24,,X,duplicated_with_ok_pair
+pt1,stackoverflow_formatted/2372954_0.java,29,41,heritrix-1/heritrix-1.14.4/src/java/org/archive/crawler/datamodel/CrawlHost.java,59,73,13,,X,duplicated_with_ok_pair
+pt1,stackoverflow_formatted/25465723_0.java,26,38,heritrix-1/heritrix-1.14.4/src/java/org/archive/crawler/datamodel/CrawlHost.java,59,73,13,,X,duplicated_with_ok_pair
+pt1,stackoverflow_formatted/6931385_0.java,10,22,heritrix-1/heritrix-1.14.4/src/java/org/archive/crawler/datamodel/CrawlHost.java,59,73,13,,X,duplicated_with_ok_pair
+pt1,stackoverflow_formatted/2372954_0.java,29,41,heritrix-1/heritrix-1.14.4/src/java/org/archive/crawler/datamodel/CrawlServer.java,58,72,13,,X,duplicated_with_ok_pair
+pt1,stackoverflow_formatted/25465723_0.java,26,38,heritrix-1/heritrix-1.14.4/src/java/org/archive/crawler/datamodel/CrawlServer.java,58,72,13,,X,duplicated_with_ok_pair
+pt1,stackoverflow_formatted/6931385_0.java,10,22,heritrix-1/heritrix-1.14.4/src/java/org/archive/crawler/datamodel/CrawlServer.java,58,72,13,,X,duplicated_with_ok_pair
+pt1,stackoverflow_formatted/23197177_1.java,14,29,jboss-5/jboss-5.1.0.GA-src/testsuite/src/main/org/jboss/test/bootstrapdependencies/jbas5349/ejb3/SimpleEntity.java,24,39,16,,X,duplicated_with_ok_pair
+pt1,stackoverflow_formatted/17920930_0.java,20,35,jboss-5/jboss-5.1.0.GA-src/testsuite/src/main/org/jboss/test/bootstrapdependencies/jbas5349/ejb3/SimpleEntity.java,24,39,16,,X,duplicated_with_ok_pair
+pt1,stackoverflow_formatted/16462678_0.java,23,38,jboss-5/jboss-5.1.0.GA-src/testsuite/src/main/org/jboss/test/bootstrapdependencies/jbas5349/ejb3/SimpleEntity.java,24,39,16,,X,duplicated_with_ok_pair
+pt1,stackoverflow_formatted/21581988_0.java,125,140,jboss-5/jboss-5.1.0.GA-src/testsuite/src/main/org/jboss/test/bootstrapdependencies/jbas5349/ejb3/SimpleEntity.java,24,39,16,,X,duplicated_with_ok_pair
+pt1,stackoverflow_formatted/19614645_1.java,16,31,jboss-5/jboss-5.1.0.GA-src/testsuite/src/main/org/jboss/test/bootstrapdependencies/jbas5349/ejb3/SimpleEntity.java,24,39,16,,X,duplicated_with_ok_pair
+pt1,stackoverflow_formatted/15095000_0.java,21,36,jboss-5/jboss-5.1.0.GA-src/testsuite/src/main/org/jboss/test/bootstrapdependencies/jbas5349/ejb3/SimpleEntity.java,24,39,16,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/3357300_0.java,8,20,apache-maven-3.0/apache-maven-3.0/maven-core/src/main/java/org/apache/maven/repository/DelegatingLocalArtifactRepository.java,99,113,13,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/3357300_0.java,8,20,apache-maven-3.0/apache-maven-3.0/maven-core/src/main/java/org/apache/maven/artifact/repository/MavenArtifactRepository.java,163,175,13,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/3357300_0.java,8,20,lucene-4.3.0/lucene-4.3.0/core/src/java/org/apache/lucene/search/spans/SpanMultiTermQueryWrapper.java,137,149,13,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/3357300_0.java,8,20,lucene-4.3.0/lucene-4.3.0/core/src/java/org/apache/lucene/search/DocTermOrdsRewriteMethod.java,114,125,12,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/3357300_0.java,8,20,lucene-4.3.0/lucene-4.3.0/core/src/java/org/apache/lucene/search/spans/SpanMultiTermQueryWrapper.java,67,79,13,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/3357300_0.java,8,20,lucene-4.3.0/lucene-4.3.0/sandbox/src/java/org/apache/lucene/sandbox/queries/regex/JavaUtilRegexCapabilities.java,35,47,13,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/3357300_0.java,8,20,lucene-4.3.0/lucene-4.3.0/core/src/java/org/apache/lucene/search/payloads/MinPayloadFunction.java,23,34,12,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/3357300_0.java,8,20,lucene-4.3.0/lucene-4.3.0/sandbox/src/java/org/apache/lucene/sandbox/queries/regex/JakartaRegexpCapabilities.java,45,57,13,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/3357300_0.java,8,20,lucene-4.3.0/lucene-4.3.0/core/src/java/org/apache/lucene/search/FieldCacheRewriteMethod.java,114,125,12,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/3357300_0.java,8,20,lucene-4.3.0/lucene-4.3.0/core/src/java/org/apache/lucene/search/payloads/MaxPayloadFunction.java,23,34,12,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/3357300_0.java,8,20,lucene-4.3.0/lucene-4.3.0/core/src/java/org/apache/lucene/search/payloads/AveragePayloadFunction.java,19,30,12,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/3357300_0.java,8,20,rssowl-2.0.5/org.rssowl.ui/src/org/rssowl/ui/internal/services/DownloadService.java,80,92,13,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/3357300_0.java,8,20,rssowl-2.0.5/org.rssowl.ui/src/org/rssowl/ui/internal/Controller.java,187,199,13,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/3357300_0.java,8,20,rssowl-2.0.5/org.rssowl.core/src/org/rssowl/core/internal/persist/service/EntityIdsByEventType.java,113,125,13,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/3357300_0.java,8,20,tapestry-src-5.1.0.5/tapestry-core/src/main/java/org/apache/tapestry5/internal/services/ContextResource.java,42,54,13,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/3357300_0.java,8,20,tapestry-src-5.1.0.5/tapestry-core/src/main/java/org/apache/tapestry5/internal/util/MultiKey.java,16,28,13,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/16688737_0.java,21,40,lucene-4.3.0/lucene-4.3.0/suggest/src/java/org/apache/lucene/search/spell/DirectSpellChecker.java,249,268,20,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/16688737_0.java,21,40,rssowl-2.0.5/org.rssowl.ui/src/org/rssowl/ui/internal/dialogs/properties/EntityPropertyPageWrapper.java,82,101,20,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/16688737_0.java,21,40,rssowl-2.0.5/org.rssowl.ui/src/org/rssowl/ui/internal/ShareProvider.java,94,113,20,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/16688737_0.java,21,40,rssowl-2.0.5/org.rssowl.ui/src/org/rssowl/ui/internal/notifier/SearchNotificationItem.java,83,102,20,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/16688737_0.java,21,40,rssowl-2.0.5/org.rssowl.ui/src/org/rssowl/ui/internal/notifier/NewsNotificationItem.java,173,192,20,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/23197177_1.java,14,29,lucene-4.3.0/lucene-4.3.0/core/src/java/org/apache/lucene/search/TopTermsRewrite.java,115,130,16,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/23197177_1.java,14,29,lucene-4.3.0/lucene-4.3.0/core/src/java/org/apache/lucene/search/Query.java,44,59,16,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/23197177_1.java,14,29,tapestry-src-5.1.0.5/tapestry-core/src/main/java/org/apache/tapestry5/internal/util/IntegerRange.java,54,69,16,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/24772546_0.java,15,33,lucene-4.3.0/lucene-4.3.0/highlighter/src/test/org/apache/lucene/search/postingshighlight/TestPostingsHighlighterRanking.java,160,178,19,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/24772546_0.java,15,33,lucene-4.3.0/lucene-4.3.0/analysis/smartcn/src/java/org/apache/lucene/analysis/cn/smart/hhmm/PathNode.java,26,45,19,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/24772546_0.java,15,33,lucene-4.3.0/lucene-4.3.0/core/src/java/org/apache/lucene/store/FlushInfo.java,19,37,19,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/24772546_0.java,15,33,lucene-4.3.0/lucene-4.3.0/core/src/java/org/apache/lucene/search/ConstantScoreAutoRewrite.java,103,121,19,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/25423980_0.java,52,61,tapestry-src-5.1.0.5/tapestry-core/src/main/java/org/apache/tapestry5/internal/pageload/PageLoaderImpl.java,36,45,10,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/24430415_0.java,85,94,tapestry-src-5.1.0.5/tapestry-core/src/main/java/org/apache/tapestry5/internal/pageload/PageLoaderImpl.java,36,45,10,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/8180925_0.java,25,40,jhotdraw-7.5.1/jhotdraw_7.5.1/Source/jhotdraw7/src/main/java/org/jhotdraw/draw/locator/RelativeLocator.java,122,137,16,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/23415361_1.java,11,23,apache-maven-3.0/apache-maven-3.0/maven-core/src/main/java/org/apache/maven/repository/DelegatingLocalArtifactRepository.java,99,113,13,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/23415361_1.java,11,23,apache-maven-3.0/apache-maven-3.0/maven-core/src/main/java/org/apache/maven/artifact/repository/MavenArtifactRepository.java,163,175,13,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/23415361_1.java,11,23,lucene-4.3.0/lucene-4.3.0/core/src/java/org/apache/lucene/search/spans/SpanMultiTermQueryWrapper.java,137,149,13,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/23415361_1.java,11,23,lucene-4.3.0/lucene-4.3.0/core/src/java/org/apache/lucene/search/DocTermOrdsRewriteMethod.java,114,125,12,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/23415361_1.java,11,23,lucene-4.3.0/lucene-4.3.0/core/src/java/org/apache/lucene/search/spans/SpanMultiTermQueryWrapper.java,67,79,13,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/23415361_1.java,11,23,lucene-4.3.0/lucene-4.3.0/sandbox/src/java/org/apache/lucene/sandbox/queries/regex/JavaUtilRegexCapabilities.java,35,47,13,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/23415361_1.java,11,23,lucene-4.3.0/lucene-4.3.0/core/src/java/org/apache/lucene/search/payloads/MinPayloadFunction.java,23,34,12,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/23415361_1.java,11,23,lucene-4.3.0/lucene-4.3.0/sandbox/src/java/org/apache/lucene/sandbox/queries/regex/JakartaRegexpCapabilities.java,45,57,13,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/23415361_1.java,11,23,lucene-4.3.0/lucene-4.3.0/core/src/java/org/apache/lucene/search/FieldCacheRewriteMethod.java,114,125,12,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/23415361_1.java,11,23,lucene-4.3.0/lucene-4.3.0/core/src/java/org/apache/lucene/search/payloads/MaxPayloadFunction.java,23,34,12,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/23415361_1.java,11,23,lucene-4.3.0/lucene-4.3.0/core/src/java/org/apache/lucene/search/payloads/AveragePayloadFunction.java,19,30,12,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/23415361_1.java,11,23,rssowl-2.0.5/org.rssowl.ui/src/org/rssowl/ui/internal/services/DownloadService.java,80,92,13,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/23415361_1.java,11,23,rssowl-2.0.5/org.rssowl.ui/src/org/rssowl/ui/internal/Controller.java,187,199,13,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/23415361_1.java,11,23,rssowl-2.0.5/org.rssowl.core/src/org/rssowl/core/internal/persist/service/EntityIdsByEventType.java,113,125,13,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/23415361_1.java,11,23,tapestry-src-5.1.0.5/tapestry-core/src/main/java/org/apache/tapestry5/internal/services/ContextResource.java,42,54,13,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/23415361_1.java,11,23,tapestry-src-5.1.0.5/tapestry-core/src/main/java/org/apache/tapestry5/internal/util/MultiKey.java,16,28,13,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/11917735_0.java,23,47,lucene-4.3.0/lucene-4.3.0/analysis/smartcn/src/java/org/apache/lucene/analysis/cn/smart/hhmm/SegTokenPair.java,29,54,25,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/11917735_0.java,23,47,lucene-4.3.0/lucene-4.3.0/core/src/java/org/apache/lucene/store/MergeInfo.java,25,49,25,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/14455624_1.java,13,31,lucene-4.3.0/lucene-4.3.0/highlighter/src/test/org/apache/lucene/search/postingshighlight/TestPostingsHighlighterRanking.java,160,178,19,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/14455624_1.java,13,31,lucene-4.3.0/lucene-4.3.0/analysis/smartcn/src/java/org/apache/lucene/analysis/cn/smart/hhmm/PathNode.java,26,45,19,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/14455624_1.java,13,31,lucene-4.3.0/lucene-4.3.0/core/src/java/org/apache/lucene/store/FlushInfo.java,19,37,19,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/14455624_1.java,13,31,lucene-4.3.0/lucene-4.3.0/core/src/java/org/apache/lucene/search/ConstantScoreAutoRewrite.java,103,121,19,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/2265637_0.java,23,42,lucene-4.3.0/lucene-4.3.0/suggest/src/java/org/apache/lucene/search/spell/DirectSpellChecker.java,249,268,20,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/2265637_0.java,23,42,rssowl-2.0.5/org.rssowl.ui/src/org/rssowl/ui/internal/dialogs/properties/EntityPropertyPageWrapper.java,82,101,20,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/2265637_0.java,23,42,rssowl-2.0.5/org.rssowl.ui/src/org/rssowl/ui/internal/ShareProvider.java,94,113,20,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/2265637_0.java,23,42,rssowl-2.0.5/org.rssowl.ui/src/org/rssowl/ui/internal/notifier/SearchNotificationItem.java,83,102,20,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/2265637_0.java,23,42,rssowl-2.0.5/org.rssowl.ui/src/org/rssowl/ui/internal/notifier/NewsNotificationItem.java,173,192,20,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/17920930_0.java,20,35,lucene-4.3.0/lucene-4.3.0/core/src/java/org/apache/lucene/search/TopTermsRewrite.java,115,130,16,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/17920930_0.java,20,35,lucene-4.3.0/lucene-4.3.0/core/src/java/org/apache/lucene/search/Query.java,44,59,16,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/17920930_0.java,20,35,tapestry-src-5.1.0.5/tapestry-core/src/main/java/org/apache/tapestry5/internal/util/IntegerRange.java,54,69,16,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/3851674_0.java,23,41,lucene-4.3.0/lucene-4.3.0/highlighter/src/test/org/apache/lucene/search/postingshighlight/TestPostingsHighlighterRanking.java,160,178,19,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/3851674_0.java,23,41,lucene-4.3.0/lucene-4.3.0/analysis/smartcn/src/java/org/apache/lucene/analysis/cn/smart/hhmm/PathNode.java,26,45,19,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/3851674_0.java,23,41,lucene-4.3.0/lucene-4.3.0/core/src/java/org/apache/lucene/store/FlushInfo.java,19,37,19,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/3851674_0.java,23,41,lucene-4.3.0/lucene-4.3.0/core/src/java/org/apache/lucene/search/ConstantScoreAutoRewrite.java,103,121,19,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/4207100_3.java,27,46,lucene-4.3.0/lucene-4.3.0/suggest/src/java/org/apache/lucene/search/spell/DirectSpellChecker.java,249,268,20,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/4207100_3.java,27,46,rssowl-2.0.5/org.rssowl.ui/src/org/rssowl/ui/internal/dialogs/properties/EntityPropertyPageWrapper.java,82,101,20,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/4207100_3.java,27,46,rssowl-2.0.5/org.rssowl.ui/src/org/rssowl/ui/internal/ShareProvider.java,94,113,20,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/4207100_3.java,27,46,rssowl-2.0.5/org.rssowl.ui/src/org/rssowl/ui/internal/notifier/SearchNotificationItem.java,83,102,20,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/4207100_3.java,27,46,rssowl-2.0.5/org.rssowl.ui/src/org/rssowl/ui/internal/notifier/NewsNotificationItem.java,173,192,20,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/16462678_0.java,23,38,lucene-4.3.0/lucene-4.3.0/core/src/java/org/apache/lucene/search/TopTermsRewrite.java,115,130,16,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/16462678_0.java,23,38,lucene-4.3.0/lucene-4.3.0/core/src/java/org/apache/lucene/search/Query.java,44,59,16,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/16462678_0.java,23,38,tapestry-src-5.1.0.5/tapestry-core/src/main/java/org/apache/tapestry5/internal/util/IntegerRange.java,54,69,16,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/12008316_0.java,12,31,lucene-4.3.0/lucene-4.3.0/suggest/src/java/org/apache/lucene/search/spell/DirectSpellChecker.java,249,268,20,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/12008316_0.java,12,31,rssowl-2.0.5/org.rssowl.ui/src/org/rssowl/ui/internal/dialogs/properties/EntityPropertyPageWrapper.java,82,101,20,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/12008316_0.java,12,31,rssowl-2.0.5/org.rssowl.ui/src/org/rssowl/ui/internal/ShareProvider.java,94,113,20,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/12008316_0.java,12,31,rssowl-2.0.5/org.rssowl.ui/src/org/rssowl/ui/internal/notifier/SearchNotificationItem.java,83,102,20,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/12008316_0.java,12,31,rssowl-2.0.5/org.rssowl.ui/src/org/rssowl/ui/internal/notifier/NewsNotificationItem.java,173,192,20,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/24682528_2.java,143,158,lucene-4.3.0/lucene-4.3.0/grouping/src/java/org/apache/lucene/search/grouping/AbstractGroupFacetCollector.java,145,160,16,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/24682528_2.java,143,158,lucene-4.3.0/lucene-4.3.0/spatial/src/java/org/apache/lucene/spatial/vector/DistanceValueSource.java,53,68,16,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/24682528_2.java,143,158,lucene-4.3.0/lucene-4.3.0/spatial/src/java/org/apache/lucene/spatial/DisjointSpatialFilter.java,23,38,16,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/23634030_0.java,29,38,tapestry-src-5.1.0.5/tapestry-core/src/main/java/org/apache/tapestry5/internal/pageload/PageLoaderImpl.java,36,45,10,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/21581988_0.java,125,140,lucene-4.3.0/lucene-4.3.0/core/src/java/org/apache/lucene/search/TopTermsRewrite.java,115,130,16,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/21581988_0.java,125,140,lucene-4.3.0/lucene-4.3.0/core/src/java/org/apache/lucene/search/Query.java,44,59,16,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/21581988_0.java,125,140,tapestry-src-5.1.0.5/tapestry-core/src/main/java/org/apache/tapestry5/internal/util/IntegerRange.java,54,69,16,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/18013191_1.java,24,39,jhotdraw-7.5.1/jhotdraw_7.5.1/Source/jhotdraw7/src/main/java/org/jhotdraw/draw/locator/RelativeLocator.java,122,137,16,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/2372954_0.java,29,41,jruby-1.5.2/jruby-1.5.2/src/org/jruby/RubyThread.java,731,743,13,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/13435398_0.java,95,114,lucene-4.3.0/lucene-4.3.0/suggest/src/java/org/apache/lucene/search/spell/DirectSpellChecker.java,249,268,20,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/13435398_0.java,95,114,rssowl-2.0.5/org.rssowl.ui/src/org/rssowl/ui/internal/dialogs/properties/EntityPropertyPageWrapper.java,82,101,20,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/13435398_0.java,95,114,rssowl-2.0.5/org.rssowl.ui/src/org/rssowl/ui/internal/ShareProvider.java,94,113,20,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/13435398_0.java,95,114,rssowl-2.0.5/org.rssowl.ui/src/org/rssowl/ui/internal/notifier/SearchNotificationItem.java,83,102,20,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/13435398_0.java,95,114,rssowl-2.0.5/org.rssowl.ui/src/org/rssowl/ui/internal/notifier/NewsNotificationItem.java,173,192,20,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/25465723_0.java,26,38,jruby-1.5.2/jruby-1.5.2/src/org/jruby/RubyThread.java,731,743,13,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/22009796_0.java,25,40,lucene-4.3.0/lucene-4.3.0/grouping/src/java/org/apache/lucene/search/grouping/AbstractGroupFacetCollector.java,145,160,16,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/22009796_0.java,25,40,lucene-4.3.0/lucene-4.3.0/spatial/src/java/org/apache/lucene/spatial/vector/DistanceValueSource.java,53,68,16,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/22009796_0.java,25,40,lucene-4.3.0/lucene-4.3.0/spatial/src/java/org/apache/lucene/spatial/DisjointSpatialFilter.java,23,38,16,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/13434746_0.java,20,35,lucene-4.3.0/lucene-4.3.0/grouping/src/java/org/apache/lucene/search/grouping/AbstractGroupFacetCollector.java,145,160,16,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/13434746_0.java,20,35,lucene-4.3.0/lucene-4.3.0/spatial/src/java/org/apache/lucene/spatial/vector/DistanceValueSource.java,53,68,16,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/13434746_0.java,20,35,lucene-4.3.0/lucene-4.3.0/spatial/src/java/org/apache/lucene/spatial/DisjointSpatialFilter.java,23,38,16,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/19614645_1.java,16,31,lucene-4.3.0/lucene-4.3.0/core/src/java/org/apache/lucene/search/TopTermsRewrite.java,115,130,16,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/19614645_1.java,16,31,lucene-4.3.0/lucene-4.3.0/core/src/java/org/apache/lucene/search/Query.java,44,59,16,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/25044969_0.java,32,51,lucene-4.3.0/lucene-4.3.0/suggest/src/java/org/apache/lucene/search/spell/DirectSpellChecker.java,249,268,20,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/25044969_0.java,32,51,rssowl-2.0.5/org.rssowl.ui/src/org/rssowl/ui/internal/dialogs/properties/EntityPropertyPageWrapper.java,82,101,20,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/25044969_0.java,32,51,rssowl-2.0.5/org.rssowl.ui/src/org/rssowl/ui/internal/ShareProvider.java,94,113,20,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/25044969_0.java,32,51,rssowl-2.0.5/org.rssowl.ui/src/org/rssowl/ui/internal/notifier/SearchNotificationItem.java,83,102,20,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/25044969_0.java,32,51,rssowl-2.0.5/org.rssowl.ui/src/org/rssowl/ui/internal/notifier/NewsNotificationItem.java,173,192,20,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/9993817_0.java,5,20,lucene-4.3.0/lucene-4.3.0/grouping/src/java/org/apache/lucene/search/grouping/AbstractGroupFacetCollector.java,145,160,16,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/9993817_0.java,5,20,lucene-4.3.0/lucene-4.3.0/spatial/src/java/org/apache/lucene/spatial/vector/DistanceValueSource.java,53,68,16,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/9993817_0.java,5,20,lucene-4.3.0/lucene-4.3.0/spatial/src/java/org/apache/lucene/spatial/DisjointSpatialFilter.java,23,38,16,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/6931385_0.java,10,22,jruby-1.5.2/jruby-1.5.2/src/org/jruby/RubyThread.java,731,743,13,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/1204658_0.java,109,124,jhotdraw-7.5.1/jhotdraw_7.5.1/Source/jhotdraw7/src/main/java/org/jhotdraw/draw/locator/RelativeLocator.java,122,137,16,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/21749977_1.java,34,49,jhotdraw-7.5.1/jhotdraw_7.5.1/Source/jhotdraw7/src/main/java/org/jhotdraw/draw/locator/RelativeLocator.java,122,137,16,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/24040300_3.java,24,42,lucene-4.3.0/lucene-4.3.0/highlighter/src/test/org/apache/lucene/search/postingshighlight/TestPostingsHighlighterRanking.java,160,178,19,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/24040300_3.java,24,42,lucene-4.3.0/lucene-4.3.0/analysis/smartcn/src/java/org/apache/lucene/analysis/cn/smart/hhmm/PathNode.java,26,45,19,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/24040300_3.java,24,42,lucene-4.3.0/lucene-4.3.0/core/src/java/org/apache/lucene/store/FlushInfo.java,19,37,19,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/24040300_3.java,24,42,lucene-4.3.0/lucene-4.3.0/core/src/java/org/apache/lucene/search/ConstantScoreAutoRewrite.java,103,121,19,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/22030522_0.java,7,22,apache-maven-3.0/apache-maven-3.0/maven-core/src/main/java/org/apache/maven/repository/DelegatingLocalArtifactRepository.java,99,113,15,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/22030522_0.java,7,22,apache-maven-3.0/apache-maven-3.0/maven-core/src/main/java/org/apache/maven/artifact/repository/MavenArtifactRepository.java,163,175,13,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/22030522_0.java,7,22,lucene-4.3.0/lucene-4.3.0/core/src/java/org/apache/lucene/search/spans/SpanMultiTermQueryWrapper.java,137,149,13,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/22030522_0.java,7,22,lucene-4.3.0/lucene-4.3.0/core/src/java/org/apache/lucene/search/DocTermOrdsRewriteMethod.java,114,125,12,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/22030522_0.java,7,22,lucene-4.3.0/lucene-4.3.0/core/src/java/org/apache/lucene/search/spans/SpanMultiTermQueryWrapper.java,67,79,13,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/22030522_0.java,7,22,lucene-4.3.0/lucene-4.3.0/sandbox/src/java/org/apache/lucene/sandbox/queries/regex/JavaUtilRegexCapabilities.java,35,47,13,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/22030522_0.java,7,22,lucene-4.3.0/lucene-4.3.0/core/src/java/org/apache/lucene/search/payloads/MinPayloadFunction.java,23,34,12,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/22030522_0.java,7,22,lucene-4.3.0/lucene-4.3.0/sandbox/src/java/org/apache/lucene/sandbox/queries/regex/JakartaRegexpCapabilities.java,45,57,13,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/22030522_0.java,7,22,lucene-4.3.0/lucene-4.3.0/core/src/java/org/apache/lucene/search/FieldCacheRewriteMethod.java,114,125,12,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/22030522_0.java,7,22,lucene-4.3.0/lucene-4.3.0/core/src/java/org/apache/lucene/search/payloads/MaxPayloadFunction.java,23,34,12,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/22030522_0.java,7,22,lucene-4.3.0/lucene-4.3.0/core/src/java/org/apache/lucene/search/payloads/AveragePayloadFunction.java,19,30,12,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/22030522_0.java,7,22,rssowl-2.0.5/org.rssowl.ui/src/org/rssowl/ui/internal/services/DownloadService.java,80,92,13,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/22030522_0.java,7,22,rssowl-2.0.5/org.rssowl.ui/src/org/rssowl/ui/internal/Controller.java,187,199,13,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/22030522_0.java,7,22,rssowl-2.0.5/org.rssowl.core/src/org/rssowl/core/internal/persist/service/EntityIdsByEventType.java,113,125,13,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/22030522_0.java,7,22,tapestry-src-5.1.0.5/tapestry-core/src/main/java/org/apache/tapestry5/internal/services/ContextResource.java,42,54,13,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/22030522_0.java,7,22,tapestry-src-5.1.0.5/tapestry-core/src/main/java/org/apache/tapestry5/internal/util/MultiKey.java,16,28,13,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/13389700_2.java,49,61,lucene-4.3.0/lucene-4.3.0/spatial/src/java/org/apache/lucene/spatial/util/CachingDoubleValueSource.java,45,57,13,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/13389700_2.java,49,61,struts2-2.2.1-all/struts-2.2.1/src/xwork-core/src/main/java/com/opensymphony/xwork2/config/entities/InterceptorMapping.java,18,30,13,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/5961624_0.java,14,33,lucene-4.3.0/lucene-4.3.0/suggest/src/java/org/apache/lucene/search/spell/DirectSpellChecker.java,249,268,20,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/5961624_0.java,14,33,rssowl-2.0.5/org.rssowl.ui/src/org/rssowl/ui/internal/dialogs/properties/EntityPropertyPageWrapper.java,82,101,20,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/5961624_0.java,14,33,rssowl-2.0.5/org.rssowl.ui/src/org/rssowl/ui/internal/ShareProvider.java,94,113,20,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/5961624_0.java,14,33,rssowl-2.0.5/org.rssowl.ui/src/org/rssowl/ui/internal/notifier/SearchNotificationItem.java,83,102,20,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/5961624_0.java,14,33,rssowl-2.0.5/org.rssowl.ui/src/org/rssowl/ui/internal/notifier/NewsNotificationItem.java,173,192,20,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/15095000_0.java,21,36,lucene-4.3.0/lucene-4.3.0/core/src/java/org/apache/lucene/search/TopTermsRewrite.java,115,130,16,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/15095000_0.java,21,36,lucene-4.3.0/lucene-4.3.0/core/src/java/org/apache/lucene/search/Query.java,44,59,16,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/15095000_0.java,21,36,tapestry-src-5.1.0.5/tapestry-core/src/main/java/org/apache/tapestry5/internal/util/IntegerRange.java,54,69,16,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/22264084_0.java,43,61,lucene-4.3.0/lucene-4.3.0/highlighter/src/test/org/apache/lucene/search/postingshighlight/TestPostingsHighlighterRanking.java,160,178,19,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/22264084_0.java,43,61,lucene-4.3.0/lucene-4.3.0/analysis/smartcn/src/java/org/apache/lucene/analysis/cn/smart/hhmm/PathNode.java,26,45,19,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/22264084_0.java,43,61,lucene-4.3.0/lucene-4.3.0/core/src/java/org/apache/lucene/store/FlushInfo.java,19,37,19,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/22264084_0.java,43,61,lucene-4.3.0/lucene-4.3.0/core/src/java/org/apache/lucene/search/ConstantScoreAutoRewrite.java,103,121,19,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/10055548_0.java,53,79,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/ui/internal/views/markers/MarkerCategory.java,99,125,27,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/21581988_0.java,125,140,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jdt/internal/compiler/apt/dispatch/ProcessorInfo.java,67,82,16,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/21581988_0.java,125,140,eclipse_SDK/eclipse_SDK-4.3/src/src/org/apache/lucene/search/TopTermsRewrite.java,44,59,16,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/21581988_0.java,125,140,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/core/internal/databinding/BindingStatus.java,41,56,16,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/21581988_0.java,125,140,eclipse_SDK/eclipse_SDK-4.3/src/src/org/apache/lucene/search/Query.java,99,114,16,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/21581988_0.java,125,140,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jdt/internal/compiler/env/EnumConstantSignature.java,31,46,16,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/21581988_0.java,125,140,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/e4/core/internal/contexts/EclipseContext.java,33,48,16,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/21581988_0.java,125,140,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/core/internal/resources/FilterDescription.java,61,76,16,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/9684751_0.java,11,37,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/core/internal/resources/BuildConfiguration.java,25,51,27,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/13435398_0.java,95,114,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/ui/internal/quickaccess/ViewElement.java,83,102,20,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/13435398_0.java,95,114,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/ui/internal/DefaultSaveable.java,49,68,20,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/13435398_0.java,95,114,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jdt/core/refactoring/descriptors/ExtractClassDescriptor.java,52,71,20,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/13435398_0.java,95,114,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/ui/internal/tweaklets/Tweaklets.java,24,43,20,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/13435398_0.java,95,114,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jface/databinding/swt/SWTObservables.java,143,162,20,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/13435398_0.java,95,114,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/ui/internal/quickaccess/WizardElement.java,41,60,20,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/13435398_0.java,95,114,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/ui/internal/quickaccess/PropertiesElement.java,46,65,20,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/13435398_0.java,95,114,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jdt/internal/compiler/apt/model/ElementImpl.java,84,103,20,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/13435398_0.java,95,114,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/ui/texteditor/rulers/RulerColumnDescriptor.java,150,169,20,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/13435398_0.java,95,114,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jface/viewers/ViewerRow.java,65,84,20,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/13435398_0.java,95,114,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jdt/internal/compiler/apt/dispatch/HookedJavaFileObject.java,73,92,20,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/13435398_0.java,95,114,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jdt/internal/compiler/apt/dispatch/HookedJavaFileObject.java,133,152,20,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/13435398_0.java,95,114,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/ui/internal/quickaccess/PreferenceElement.java,51,70,20,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/13435398_0.java,95,114,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/ui/internal/views/markers/MarkersViewColumnsDialog.java,163,182,20,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/13435398_0.java,95,114,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/ui/internal/quickaccess/CommandElement.java,96,115,20,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/13435398_0.java,95,114,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/ui/internal/quickaccess/ActionElement.java,37,56,20,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/13435398_0.java,95,114,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/ui/internal/quickaccess/PerspectiveElement.java,57,76,20,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/13435398_0.java,95,114,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/pde/internal/runtime/registry/model/ExtensionPoint.java,52,71,20,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/13435398_0.java,95,114,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/ui/internal/quickaccess/EditorElement.java,45,64,20,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/3357300_0.java,8,20,eclipse_SDK/eclipse_SDK-4.3/src/src/org/apache/lucene/search/payloads/AveragePayloadFunction.java,28,39,12,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/3357300_0.java,8,20,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jdt/internal/compiler/impl/BooleanConstant.java,27,38,12,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/3357300_0.java,8,20,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jdt/internal/compiler/impl/FloatConstant.java,43,55,13,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/3357300_0.java,8,20,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jdt/internal/compiler/impl/IntConstant.java,93,105,13,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/3357300_0.java,8,20,eclipse_SDK/eclipse_SDK-4.3/src/src/org/apache/lucene/search/payloads/MaxPayloadFunction.java,32,43,12,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/3357300_0.java,8,20,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jdt/internal/compiler/impl/LongConstant.java,50,62,13,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/3357300_0.java,8,20,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jdt/internal/compiler/impl/ShortConstant.java,43,55,13,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/3357300_0.java,8,20,eclipse_SDK/eclipse_SDK-4.3/src/src/org/apache/lucene/search/spans/SpanMultiTermQueryWrapper.java,86,98,13,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/3357300_0.java,8,20,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jdt/internal/compiler/apt/model/NameImpl.java,40,52,13,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/3357300_0.java,8,20,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jdt/internal/compiler/env/ClassSignature.java,24,36,13,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/3357300_0.java,8,20,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jdt/internal/compiler/impl/ByteConstant.java,43,55,13,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/3357300_0.java,8,20,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jdt/internal/corext/dom/fragments/AssociativeInfixExpressionFragment.java,331,343,13,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/3357300_0.java,8,20,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jdt/internal/compiler/impl/DoubleConstant.java,47,59,13,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/3357300_0.java,8,20,eclipse_SDK/eclipse_SDK-4.3/src/src/org/apache/lucene/search/spans/SpanMultiTermQueryWrapper.java,156,168,13,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/3357300_0.java,8,20,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jdt/internal/compiler/impl/CharConstant.java,43,55,13,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/3357300_0.java,8,20,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jdt/internal/corext/dom/fragments/SimpleFragment.java,51,63,13,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/3357300_0.java,8,20,eclipse_SDK/eclipse_SDK-4.3/src/src/org/apache/lucene/search/payloads/MinPayloadFunction.java,32,43,12,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/16688737_0.java,21,40,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/ui/internal/quickaccess/ViewElement.java,83,102,20,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/16688737_0.java,21,40,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/ui/internal/DefaultSaveable.java,49,68,20,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/16688737_0.java,21,40,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jdt/core/refactoring/descriptors/ExtractClassDescriptor.java,52,71,20,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/16688737_0.java,21,40,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/ui/internal/tweaklets/Tweaklets.java,24,43,20,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/16688737_0.java,21,40,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jface/databinding/swt/SWTObservables.java,143,162,20,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/16688737_0.java,21,40,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/ui/internal/quickaccess/WizardElement.java,41,60,20,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/16688737_0.java,21,40,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/ui/internal/quickaccess/PropertiesElement.java,46,65,20,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/16688737_0.java,21,40,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jdt/internal/compiler/apt/model/ElementImpl.java,84,103,20,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/16688737_0.java,21,40,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/ui/texteditor/rulers/RulerColumnDescriptor.java,150,169,20,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/16688737_0.java,21,40,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jface/viewers/ViewerRow.java,65,84,20,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/16688737_0.java,21,40,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jdt/internal/compiler/apt/dispatch/HookedJavaFileObject.java,73,92,20,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/16688737_0.java,21,40,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jdt/internal/compiler/apt/dispatch/HookedJavaFileObject.java,133,152,20,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/16688737_0.java,21,40,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/ui/internal/quickaccess/PreferenceElement.java,51,70,20,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/16688737_0.java,21,40,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/ui/internal/views/markers/MarkersViewColumnsDialog.java,163,182,20,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/16688737_0.java,21,40,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/ui/internal/quickaccess/CommandElement.java,96,115,20,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/16688737_0.java,21,40,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/ui/internal/quickaccess/ActionElement.java,37,56,20,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/16688737_0.java,21,40,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/ui/internal/quickaccess/PerspectiveElement.java,57,76,20,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/16688737_0.java,21,40,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/pde/internal/runtime/registry/model/ExtensionPoint.java,52,71,20,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/16688737_0.java,21,40,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/ui/internal/quickaccess/EditorElement.java,45,64,20,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/23197177_1.java,14,29,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jdt/internal/compiler/apt/dispatch/ProcessorInfo.java,67,82,16,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/23197177_1.java,14,29,eclipse_SDK/eclipse_SDK-4.3/src/src/org/apache/lucene/search/TopTermsRewrite.java,44,59,16,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/23197177_1.java,14,29,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/core/internal/databinding/BindingStatus.java,41,56,16,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/23197177_1.java,14,29,eclipse_SDK/eclipse_SDK-4.3/src/src/org/apache/lucene/search/Query.java,99,114,16,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/23197177_1.java,14,29,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jdt/internal/compiler/env/EnumConstantSignature.java,31,46,16,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/23197177_1.java,14,29,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/e4/core/internal/contexts/EclipseContext.java,33,48,16,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/23197177_1.java,14,29,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/core/internal/resources/FilterDescription.java,61,76,16,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/24772546_0.java,15,33,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jdt/internal/compiler/classfmt/AnnotationInfo.java,352,370,19,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/24772546_0.java,15,33,eclipse_SDK/eclipse_SDK-4.3/src/src/org/apache/lucene/search/MultiTermQuery.java,114,132,19,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/24772546_0.java,15,33,eclipse_SDK/eclipse_SDK-4.3/src/src/org/apache/lucene/search/ConstantScoreAutoRewrite.java,82,100,19,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/23415361_1.java,11,23,eclipse_SDK/eclipse_SDK-4.3/src/src/org/apache/lucene/search/payloads/AveragePayloadFunction.java,28,39,12,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/23415361_1.java,11,23,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jdt/internal/compiler/impl/BooleanConstant.java,27,38,12,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/23415361_1.java,11,23,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jdt/internal/compiler/impl/FloatConstant.java,43,55,13,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/23415361_1.java,11,23,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jdt/internal/compiler/impl/IntConstant.java,93,105,13,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/23415361_1.java,11,23,eclipse_SDK/eclipse_SDK-4.3/src/src/org/apache/lucene/search/payloads/MaxPayloadFunction.java,32,43,12,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/23415361_1.java,11,23,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jdt/internal/compiler/impl/LongConstant.java,50,62,13,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/23415361_1.java,11,23,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jdt/internal/compiler/impl/ShortConstant.java,43,55,13,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/23415361_1.java,11,23,eclipse_SDK/eclipse_SDK-4.3/src/src/org/apache/lucene/search/spans/SpanMultiTermQueryWrapper.java,86,98,13,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/23415361_1.java,11,23,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jdt/internal/compiler/apt/model/NameImpl.java,40,52,13,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/23415361_1.java,11,23,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jdt/internal/compiler/env/ClassSignature.java,24,36,13,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/23415361_1.java,11,23,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jdt/internal/compiler/impl/ByteConstant.java,43,55,13,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/23415361_1.java,11,23,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jdt/internal/corext/dom/fragments/AssociativeInfixExpressionFragment.java,331,343,13,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/23415361_1.java,11,23,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jdt/internal/compiler/impl/DoubleConstant.java,47,59,13,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/23415361_1.java,11,23,eclipse_SDK/eclipse_SDK-4.3/src/src/org/apache/lucene/search/spans/SpanMultiTermQueryWrapper.java,156,168,13,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/23415361_1.java,11,23,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jdt/internal/compiler/impl/CharConstant.java,43,55,13,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/23415361_1.java,11,23,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jdt/internal/corext/dom/fragments/SimpleFragment.java,51,63,13,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/23415361_1.java,11,23,eclipse_SDK/eclipse_SDK-4.3/src/src/org/apache/lucene/search/payloads/MinPayloadFunction.java,32,43,12,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/14455624_1.java,13,31,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jdt/internal/compiler/classfmt/AnnotationInfo.java,352,370,19,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/14455624_1.java,13,31,eclipse_SDK/eclipse_SDK-4.3/src/src/org/apache/lucene/search/MultiTermQuery.java,114,132,19,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/14455624_1.java,13,31,eclipse_SDK/eclipse_SDK-4.3/src/src/org/apache/lucene/search/ConstantScoreAutoRewrite.java,82,100,19,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/2265637_0.java,23,42,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/ui/internal/quickaccess/ViewElement.java,83,102,20,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/2265637_0.java,23,42,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/ui/internal/DefaultSaveable.java,49,68,20,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/2265637_0.java,23,42,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jdt/core/refactoring/descriptors/ExtractClassDescriptor.java,52,71,20,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/2265637_0.java,23,42,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/ui/internal/tweaklets/Tweaklets.java,24,43,20,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/2265637_0.java,23,42,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jface/databinding/swt/SWTObservables.java,143,162,20,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/2265637_0.java,23,42,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/ui/internal/quickaccess/WizardElement.java,41,60,20,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/2265637_0.java,23,42,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/ui/internal/quickaccess/PropertiesElement.java,46,65,20,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/2265637_0.java,23,42,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jdt/internal/compiler/apt/model/ElementImpl.java,84,103,20,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/2265637_0.java,23,42,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/ui/texteditor/rulers/RulerColumnDescriptor.java,150,169,20,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/2265637_0.java,23,42,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jface/viewers/ViewerRow.java,65,84,20,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/2265637_0.java,23,42,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jdt/internal/compiler/apt/dispatch/HookedJavaFileObject.java,73,92,20,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/2265637_0.java,23,42,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jdt/internal/compiler/apt/dispatch/HookedJavaFileObject.java,133,152,20,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/2265637_0.java,23,42,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/ui/internal/quickaccess/PreferenceElement.java,51,70,20,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/2265637_0.java,23,42,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/ui/internal/views/markers/MarkersViewColumnsDialog.java,163,182,20,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/2265637_0.java,23,42,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/ui/internal/quickaccess/CommandElement.java,96,115,20,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/2265637_0.java,23,42,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/ui/internal/quickaccess/ActionElement.java,37,56,20,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/2265637_0.java,23,42,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/ui/internal/quickaccess/PerspectiveElement.java,57,76,20,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/2265637_0.java,23,42,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/pde/internal/runtime/registry/model/ExtensionPoint.java,52,71,20,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/2265637_0.java,23,42,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/ui/internal/quickaccess/EditorElement.java,45,64,20,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/19614645_1.java,16,31,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jdt/internal/compiler/apt/dispatch/ProcessorInfo.java,67,82,16,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/19614645_1.java,16,31,eclipse_SDK/eclipse_SDK-4.3/src/src/org/apache/lucene/search/TopTermsRewrite.java,44,59,16,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/19614645_1.java,16,31,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/core/internal/databinding/BindingStatus.java,41,56,16,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/19614645_1.java,16,31,eclipse_SDK/eclipse_SDK-4.3/src/src/org/apache/lucene/search/Query.java,99,114,16,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/19614645_1.java,16,31,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jdt/internal/compiler/env/EnumConstantSignature.java,31,46,16,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/19614645_1.java,16,31,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/e4/core/internal/contexts/EclipseContext.java,33,48,16,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/19614645_1.java,16,31,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/core/internal/resources/FilterDescription.java,61,76,16,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/25044969_0.java,32,51,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/ui/internal/quickaccess/ViewElement.java,83,102,20,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/25044969_0.java,32,51,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/ui/internal/DefaultSaveable.java,49,68,20,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/25044969_0.java,32,51,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jdt/core/refactoring/descriptors/ExtractClassDescriptor.java,52,71,20,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/25044969_0.java,32,51,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/ui/internal/tweaklets/Tweaklets.java,24,43,20,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/25044969_0.java,32,51,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jface/databinding/swt/SWTObservables.java,143,162,20,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/25044969_0.java,32,51,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/ui/internal/quickaccess/WizardElement.java,41,60,20,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/25044969_0.java,32,51,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/ui/internal/quickaccess/PropertiesElement.java,46,65,20,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/25044969_0.java,32,51,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jdt/internal/compiler/apt/model/ElementImpl.java,84,103,20,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/25044969_0.java,32,51,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/ui/texteditor/rulers/RulerColumnDescriptor.java,150,169,20,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/25044969_0.java,32,51,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jface/viewers/ViewerRow.java,65,84,20,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/25044969_0.java,32,51,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jdt/internal/compiler/apt/dispatch/HookedJavaFileObject.java,73,92,20,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/25044969_0.java,32,51,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jdt/internal/compiler/apt/dispatch/HookedJavaFileObject.java,133,152,20,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/25044969_0.java,32,51,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/ui/internal/quickaccess/PreferenceElement.java,51,70,20,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/25044969_0.java,32,51,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/ui/internal/views/markers/MarkersViewColumnsDialog.java,163,182,20,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/25044969_0.java,32,51,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/ui/internal/quickaccess/CommandElement.java,96,115,20,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/25044969_0.java,32,51,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/ui/internal/quickaccess/ActionElement.java,37,56,20,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/25044969_0.java,32,51,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/ui/internal/quickaccess/PerspectiveElement.java,57,76,20,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/25044969_0.java,32,51,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/pde/internal/runtime/registry/model/ExtensionPoint.java,52,71,20,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/25044969_0.java,32,51,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/ui/internal/quickaccess/EditorElement.java,45,64,20,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/17920930_0.java,20,35,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jdt/internal/compiler/apt/dispatch/ProcessorInfo.java,67,82,16,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/17920930_0.java,20,35,eclipse_SDK/eclipse_SDK-4.3/src/src/org/apache/lucene/search/TopTermsRewrite.java,44,59,16,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/17920930_0.java,20,35,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/core/internal/databinding/BindingStatus.java,41,56,16,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/17920930_0.java,20,35,eclipse_SDK/eclipse_SDK-4.3/src/src/org/apache/lucene/search/Query.java,99,114,16,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/17920930_0.java,20,35,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jdt/internal/compiler/env/EnumConstantSignature.java,31,46,16,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/17920930_0.java,20,35,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/e4/core/internal/contexts/EclipseContext.java,33,48,16,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/17920930_0.java,20,35,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/core/internal/resources/FilterDescription.java,61,76,16,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/3851674_0.java,23,41,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jdt/internal/compiler/classfmt/AnnotationInfo.java,352,370,19,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/3851674_0.java,23,41,eclipse_SDK/eclipse_SDK-4.3/src/src/org/apache/lucene/search/MultiTermQuery.java,114,132,19,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/3851674_0.java,23,41,eclipse_SDK/eclipse_SDK-4.3/src/src/org/apache/lucene/search/ConstantScoreAutoRewrite.java,82,100,19,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/4207100_3.java,27,46,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/ui/internal/quickaccess/ViewElement.java,83,102,20,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/4207100_3.java,27,46,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/ui/internal/DefaultSaveable.java,49,68,20,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/4207100_3.java,27,46,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jdt/core/refactoring/descriptors/ExtractClassDescriptor.java,52,71,20,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/4207100_3.java,27,46,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/ui/internal/tweaklets/Tweaklets.java,24,43,20,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/4207100_3.java,27,46,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jface/databinding/swt/SWTObservables.java,143,162,20,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/4207100_3.java,27,46,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/ui/internal/quickaccess/WizardElement.java,41,60,20,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/4207100_3.java,27,46,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/ui/internal/quickaccess/PropertiesElement.java,46,65,20,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/4207100_3.java,27,46,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jdt/internal/compiler/apt/model/ElementImpl.java,84,103,20,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/4207100_3.java,27,46,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/ui/texteditor/rulers/RulerColumnDescriptor.java,150,169,20,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/4207100_3.java,27,46,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jface/viewers/ViewerRow.java,65,84,20,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/4207100_3.java,27,46,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jdt/internal/compiler/apt/dispatch/HookedJavaFileObject.java,73,92,20,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/4207100_3.java,27,46,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jdt/internal/compiler/apt/dispatch/HookedJavaFileObject.java,133,152,20,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/4207100_3.java,27,46,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/ui/internal/quickaccess/PreferenceElement.java,51,70,20,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/4207100_3.java,27,46,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/ui/internal/views/markers/MarkersViewColumnsDialog.java,163,182,20,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/4207100_3.java,27,46,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/ui/internal/quickaccess/CommandElement.java,96,115,20,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/4207100_3.java,27,46,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/ui/internal/quickaccess/ActionElement.java,37,56,20,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/4207100_3.java,27,46,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/ui/internal/quickaccess/PerspectiveElement.java,57,76,20,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/4207100_3.java,27,46,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/pde/internal/runtime/registry/model/ExtensionPoint.java,52,71,20,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/4207100_3.java,27,46,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/ui/internal/quickaccess/EditorElement.java,45,64,20,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/24040300_3.java,24,42,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jdt/internal/compiler/classfmt/AnnotationInfo.java,352,370,19,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/24040300_3.java,24,42,eclipse_SDK/eclipse_SDK-4.3/src/src/org/apache/lucene/search/MultiTermQuery.java,114,132,19,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/24040300_3.java,24,42,eclipse_SDK/eclipse_SDK-4.3/src/src/org/apache/lucene/search/ConstantScoreAutoRewrite.java,82,100,19,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/16462678_0.java,23,38,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jdt/internal/compiler/apt/dispatch/ProcessorInfo.java,67,82,16,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/16462678_0.java,23,38,eclipse_SDK/eclipse_SDK-4.3/src/src/org/apache/lucene/search/TopTermsRewrite.java,44,59,16,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/16462678_0.java,23,38,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/core/internal/databinding/BindingStatus.java,41,56,16,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/16462678_0.java,23,38,eclipse_SDK/eclipse_SDK-4.3/src/src/org/apache/lucene/search/Query.java,99,114,16,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/16462678_0.java,23,38,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jdt/internal/compiler/env/EnumConstantSignature.java,31,46,16,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/16462678_0.java,23,38,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/e4/core/internal/contexts/EclipseContext.java,33,48,16,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/16462678_0.java,23,38,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/core/internal/resources/FilterDescription.java,61,76,16,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/22030522_0.java,7,22,eclipse_SDK/eclipse_SDK-4.3/src/src/org/apache/lucene/search/payloads/AveragePayloadFunction.java,28,39,12,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/22030522_0.java,7,22,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jdt/internal/compiler/impl/BooleanConstant.java,27,38,12,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/22030522_0.java,7,22,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jdt/internal/compiler/impl/FloatConstant.java,43,55,13,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/22030522_0.java,7,22,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jdt/internal/compiler/impl/IntConstant.java,93,105,13,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/22030522_0.java,7,22,eclipse_SDK/eclipse_SDK-4.3/src/src/org/apache/lucene/search/payloads/MaxPayloadFunction.java,32,43,12,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/22030522_0.java,7,22,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jdt/internal/compiler/impl/LongConstant.java,50,62,13,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/22030522_0.java,7,22,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jdt/internal/compiler/impl/ShortConstant.java,43,55,13,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/22030522_0.java,7,22,eclipse_SDK/eclipse_SDK-4.3/src/src/org/apache/lucene/search/spans/SpanMultiTermQueryWrapper.java,86,98,13,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/22030522_0.java,7,22,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jdt/internal/compiler/apt/model/NameImpl.java,40,52,13,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/22030522_0.java,7,22,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jdt/internal/compiler/env/ClassSignature.java,24,36,13,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/22030522_0.java,7,22,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jdt/internal/compiler/impl/ByteConstant.java,43,55,13,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/22030522_0.java,7,22,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jdt/internal/corext/dom/fragments/AssociativeInfixExpressionFragment.java,331,343,13,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/22030522_0.java,7,22,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jdt/internal/compiler/impl/DoubleConstant.java,47,59,13,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/22030522_0.java,7,22,eclipse_SDK/eclipse_SDK-4.3/src/src/org/apache/lucene/search/spans/SpanMultiTermQueryWrapper.java,156,168,13,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/22030522_0.java,7,22,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jdt/internal/compiler/impl/CharConstant.java,43,55,13,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/22030522_0.java,7,22,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jdt/internal/corext/dom/fragments/SimpleFragment.java,51,63,13,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/22030522_0.java,7,22,eclipse_SDK/eclipse_SDK-4.3/src/src/org/apache/lucene/search/payloads/MinPayloadFunction.java,32,43,12,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/13389700_2.java,49,61,eclipse_SDK/eclipse_SDK-4.3/src/src/org/apache/lucene/index/TermVectorEntry.java,42,54,13,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/12008316_0.java,12,31,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/ui/internal/quickaccess/ViewElement.java,83,102,20,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/12008316_0.java,12,31,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/ui/internal/DefaultSaveable.java,49,68,20,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/12008316_0.java,12,31,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jdt/core/refactoring/descriptors/ExtractClassDescriptor.java,52,71,20,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/12008316_0.java,12,31,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/ui/internal/tweaklets/Tweaklets.java,24,43,20,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/12008316_0.java,12,31,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jface/databinding/swt/SWTObservables.java,143,162,20,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/12008316_0.java,12,31,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/ui/internal/quickaccess/WizardElement.java,41,60,20,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/12008316_0.java,12,31,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/ui/internal/quickaccess/PropertiesElement.java,46,65,20,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/12008316_0.java,12,31,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jdt/internal/compiler/apt/model/ElementImpl.java,84,103,20,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/12008316_0.java,12,31,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/ui/texteditor/rulers/RulerColumnDescriptor.java,150,169,20,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/12008316_0.java,12,31,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jface/viewers/ViewerRow.java,65,84,20,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/12008316_0.java,12,31,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jdt/internal/compiler/apt/dispatch/HookedJavaFileObject.java,73,92,20,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/12008316_0.java,12,31,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jdt/internal/compiler/apt/dispatch/HookedJavaFileObject.java,133,152,20,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/12008316_0.java,12,31,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/ui/internal/quickaccess/PreferenceElement.java,51,70,20,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/12008316_0.java,12,31,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/ui/internal/views/markers/MarkersViewColumnsDialog.java,163,182,20,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/12008316_0.java,12,31,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/ui/internal/quickaccess/CommandElement.java,96,115,20,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/12008316_0.java,12,31,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/ui/internal/quickaccess/ActionElement.java,37,56,20,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/12008316_0.java,12,31,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/ui/internal/quickaccess/PerspectiveElement.java,57,76,20,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/12008316_0.java,12,31,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/pde/internal/runtime/registry/model/ExtensionPoint.java,52,71,20,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/12008316_0.java,12,31,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/ui/internal/quickaccess/EditorElement.java,45,64,20,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/5961624_0.java,14,33,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/ui/internal/quickaccess/ViewElement.java,83,102,20,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/5961624_0.java,14,33,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/ui/internal/DefaultSaveable.java,49,68,20,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/5961624_0.java,14,33,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jdt/core/refactoring/descriptors/ExtractClassDescriptor.java,52,71,20,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/5961624_0.java,14,33,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/ui/internal/tweaklets/Tweaklets.java,24,43,20,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/5961624_0.java,14,33,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jface/databinding/swt/SWTObservables.java,143,162,20,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/5961624_0.java,14,33,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/ui/internal/quickaccess/WizardElement.java,41,60,20,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/5961624_0.java,14,33,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/ui/internal/quickaccess/PropertiesElement.java,46,65,20,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/5961624_0.java,14,33,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jdt/internal/compiler/apt/model/ElementImpl.java,84,103,20,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/5961624_0.java,14,33,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/ui/texteditor/rulers/RulerColumnDescriptor.java,150,169,20,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/5961624_0.java,14,33,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jface/viewers/ViewerRow.java,65,84,20,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/5961624_0.java,14,33,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jdt/internal/compiler/apt/dispatch/HookedJavaFileObject.java,73,92,20,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/5961624_0.java,14,33,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jdt/internal/compiler/apt/dispatch/HookedJavaFileObject.java,133,152,20,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/5961624_0.java,14,33,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/ui/internal/quickaccess/PreferenceElement.java,51,70,20,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/5961624_0.java,14,33,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/ui/internal/views/markers/MarkersViewColumnsDialog.java,163,182,20,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/5961624_0.java,14,33,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/ui/internal/quickaccess/CommandElement.java,96,115,20,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/5961624_0.java,14,33,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/ui/internal/quickaccess/ActionElement.java,37,56,20,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/5961624_0.java,14,33,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/ui/internal/quickaccess/PerspectiveElement.java,57,76,20,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/5961624_0.java,14,33,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/pde/internal/runtime/registry/model/ExtensionPoint.java,52,71,20,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/5961624_0.java,14,33,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/ui/internal/quickaccess/EditorElement.java,45,64,20,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/15095000_0.java,21,36,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jdt/internal/compiler/apt/dispatch/ProcessorInfo.java,67,82,16,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/15095000_0.java,21,36,eclipse_SDK/eclipse_SDK-4.3/src/src/org/apache/lucene/search/TopTermsRewrite.java,44,59,16,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/15095000_0.java,21,36,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/core/internal/databinding/BindingStatus.java,41,56,16,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/15095000_0.java,21,36,eclipse_SDK/eclipse_SDK-4.3/src/src/org/apache/lucene/search/Query.java,99,114,16,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/15095000_0.java,21,36,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jdt/internal/compiler/env/EnumConstantSignature.java,31,46,16,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/15095000_0.java,21,36,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/e4/core/internal/contexts/EclipseContext.java,33,48,16,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/15095000_0.java,21,36,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/core/internal/resources/FilterDescription.java,61,76,16,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/22264084_0.java,43,61,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jdt/internal/compiler/classfmt/AnnotationInfo.java,352,370,19,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/22264084_0.java,43,61,eclipse_SDK/eclipse_SDK-4.3/src/src/org/apache/lucene/search/MultiTermQuery.java,114,132,19,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/22264084_0.java,43,61,eclipse_SDK/eclipse_SDK-4.3/src/src/org/apache/lucene/search/ConstantScoreAutoRewrite.java,82,100,19,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/698283_1.java,11,25,jstock-1.0.7c/jstock/src/org/yccheok/jstock/gui/POIUtils.java,97,112,15,,X,duplicated_with_ok_pair
+pt2,stackoverflow_formatted/8416340_0.java,5,23,wct-package-v1.5.2/WCTSubmitToRosetta/src/main/java/nz/govt/natlib/ndha/common/FileUtils.java,23,38,16,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/7504040_0.java,5,17,eclipse_SDK/eclipse_SDK-4.3/src/src/junitsrc/org/junit/rules/ExternalResource.java,8,20,13,,X,duplicated_with_ok_pair
+pt3,stackoverflow_formatted/4705410_0.java,3,19,eclipse_SDK/eclipse_SDK-4.3/src/src/junitsrc/org/junit/runners/ParentRunner.java,151,164,14,,X,duplicated_with_ok_pair
+pt1,stackoverflow_formatted/6236324_0.java,64,80,aoisrc281/ArtOfIllusion/src/artofillusion/image/MovieEncoder.java,71,88,17,,X,duplicated_with_ok_pair
+pt1,stackoverflow_formatted/6236324_0.java,83,92,aoisrc281/ArtOfIllusion/src/artofillusion/image/MovieEncoder.java,91,100,10,,X,duplicated_with_ok_pair
+pt1,stackoverflow_formatted/6236324_0.java,93,110,aoisrc281/ArtOfIllusion/src/artofillusion/image/MovieEncoder.java,101,118,18,,X,duplicated_with_ok_pair
+pt1,stackoverflow_formatted/6236324_0.java,114,123,aoisrc281/ArtOfIllusion/src/artofillusion/image/MovieEncoder.java,122,131,10,,X,duplicated_with_ok_pair
+pt1,stackoverflow_formatted/6236324_0.java,124,137,aoisrc281/ArtOfIllusion/src/artofillusion/image/MovieEncoder.java,132,145,14,,X,duplicated_with_ok_pair
+pt1,stackoverflow_formatted/11851968_0.java,13,24,columba-1/columba-1.0-src/src/columba/core/org/columba/core/base/IPCHelper.java,58,70,12,,X,duplicated_with_ok_pair
+pt1,stackoverflow_formatted/14165567_1.java,9,20,columba-1/columba-1.0-src/src/columba/core/org/columba/core/base/IPCHelper.java,58,70,12,,X,duplicated_with_ok_pair
+pt1,stackoverflow_formatted/11851968_0.java,13,24,columba-1/columba-1.0-src/src/columba/core/org/columba/core/base/StreamThread.java,17,29,12,,X,duplicated_with_ok_pair
+pt1,stackoverflow_formatted/14165567_1.java,9,20,columba-1/columba-1.0-src/src/columba/core/org/columba/core/base/StreamThread.java,17,29,12,,X,duplicated_with_ok_pair
+pt1,stackoverflow_formatted/11851968_0.java,13,24,columba-1/columba-1.0-src/src/mail/core/org/columba/mail/spam/spamassassin/IPCHelper.java,58,70,12,,X,duplicated_with_ok_pair
+pt1,stackoverflow_formatted/14165567_1.java,9,20,columba-1/columba-1.0-src/src/mail/core/org/columba/mail/spam/spamassassin/IPCHelper.java,58,70,12,,X,duplicated_with_ok_pair
+pt1,stackoverflow_formatted/5338272_0.java,33,49,drjava-stable-20100913-r5387-src/drjava-stable-20100913-r5387/src/src/edu/rice/cs/drjava/model/repl/InteractionsEditorKit.java,8,24,17,,X,duplicated_with_ok_pair
+pt1,stackoverflow_formatted/8416340_0.java,5,23,findbugs-1/findbugs-1.3.9/src/antTask/edu/umd/cs/findbugs/anttask/UnionBugs.java,65,81,17,,X,duplicated_with_ok_pair
+pt1,stackoverflow_formatted/6722760_1.java,13,37,jgraph-latest-bsd-src/examples/org/jgraph/example/HelloWorld.java,14,37,24,,X,duplicated_with_ok_pair
+pt1,stackoverflow_formatted/11187462_0.java,45,61,c-jdbc-2/c-jdbc-2.0.2-src/src/org/objectweb/cjdbc/common/util/LoggingOutputStream.java,36,52,17,,X,duplicated_with_good_pair
+pt1,stackoverflow_formatted/22315734_0.java,11,21,hadoop-1/hadoop-1.0.0/src/core/org/apache/hadoop/io/WritableComparator.java,44,54,11,,X,duplicated_with_good_pair
+pt1,stackoverflow_formatted/16928749_0.java,50,66,hadoop-1/hadoop-1.0.0/src/mapred/org/apache/hadoop/mapred/TextOutputFormat.java,47,63,17,,X,duplicated_with_good_pair
+pt1,stackoverflow_formatted/16928749_0.java,50,66,hadoop-1/hadoop-1.0.0/src/mapred/org/apache/hadoop/mapreduce/lib/output/TextOutputFormat.java,51,67,17,,X,duplicated_with_good_pair
+pt1,stackoverflow_formatted/92962_0.java,22,61,jgraphpad-5/jgraphpad-5.10.0.2-src/src/org/jgraph/pad/graphcellsbase/JGraphSwimlaneView.java,93,132,40,,X,duplicated_with_good_pair
+,,,,,,,,,,
+pt1,stackoverflow_formatted/6722760_1.java,39,56,jgraph-latest-bsd-src/examples/org/jgraph/example/GroupingRemoving.java,53,70,18,,A,"SO answer says ""I think the code must be a modified sample from the site."". The createVertex() methods are similar."
+pt1,stackoverflow_formatted/6722760_1.java,39,56,jgraph-latest-bsd-src/examples/org/jgraph/example/HelloWorld.java,39,56,18,,A,"SO answer says ""I think the code must be a modified sample from the site."". The createVertex() methods are similar."
+pt1,stackoverflow_formatted/22315734_0.java,11,21,hadoop-1/hadoop-1.0.0/src/core/org/apache/hadoop/io/serializer/DeserializerComparator.java,16,26,11,,A,SO answer says that the code is modified from WritableComparator in Hadoop.
+pt1,stackoverflow_formatted/16928749_0.java,69,97,hadoop-1/hadoop-1.0.0/src/mapred/org/apache/hadoop/mapreduce/lib/output/TextOutputFormat.java,75,99,25,,A,SO code extends Hadoop's TextOutputFormat
+pt3,stackoverflow_formatted/2513183_0.java,45,55,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jdt/ui/actions/GenerateToStringAction.java,45,55,11,,A,"the whole class is copied from eclipse (with license) ""I cannot find the source of that class on the internet, so I will copy it here for you to examine its content:"""
+pt3,stackoverflow_formatted/2513183_0.java,96,105,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jdt/ui/actions/GenerateToStringAction.java,102,111,10,,A,"the whole class is copied from eclipse (with license) ""I cannot find the source of that class on the internet, so I will copy it here for you to examine its content:"""
+pt3,stackoverflow_formatted/2513183_0.java,106,159,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jdt/ui/actions/GenerateToStringAction.java,113,166,54,,A,"the whole class is copied from eclipse (with license) ""I cannot find the source of that class on the internet, so I will copy it here for you to examine its content:"""
+pt3,stackoverflow_formatted/2513183_0.java,168,181,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jdt/ui/actions/GenerateToStringAction.java,175,188,14,,A,"the whole class is copied from eclipse (with license) ""I cannot find the source of that class on the internet, so I will copy it here for you to examine its content:"""
+pt1,stackoverflow_formatted/15185345_0.java,21,33,Compiere_330_Source/release_330/ad/src/org/compiere/util/CachedRowSetImpl.java,512,525,13,,B,SO answer is copied from http://tech.groups.yahoo.com/group/Firebird-Java/message/10715 but the CachedRowSetImpl is in Compiere (it is actually from com.sun.rowset.CachedRowSetImpl).
+pt1,stackoverflow_formatted/21912294_0.java,109,118,iReport-3/iReport-3.7.5-src/jasperserver-plugin/src/com/jaspersoft/ireport/jasperserver/ws/IReportTrustManager.java,113,122,10,,B,"SO answer says that ""I got it working over the internetz ニ_ニ__ニ_ニ___"". The HEXDIGITS constant and toHexString() method are exactly similar."
+pt1,stackoverflow_formatted/18764836_0.java,104,113,iReport-3/iReport-3.7.5-src/jasperserver-plugin/src/com/jaspersoft/ireport/jasperserver/ws/IReportTrustManager.java,113,122,10,,B,"SO answer says that the code is copied from Sun's example. However, iReport code does not say anything. The HEXDIGITS constant and toHexString() method are exactly similar."
+pt1,stackoverflow_formatted/20513679_0.java,103,112,iReport-3/iReport-3.7.5-src/jasperserver-plugin/src/com/jaspersoft/ireport/jasperserver/ws/IReportTrustManager.java,113,122,10,,B,The HEXDIGITS constant and toHexString() method are exactly similar.
+pt1,stackoverflow_formatted/15373186_0.java,104,113,iReport-3/iReport-3.7.5-src/jasperserver-plugin/src/com/jaspersoft/ireport/jasperserver/ws/IReportTrustManager.java,113,122,10,,B,The HEXDIGITS constant and toHexString() method are exactly similar.
+pt3,stackoverflow_formatted/7324159_1.java,28,92,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jdt/internal/ui/util/TableLayoutComposite.java,73,139,65,,B,very similar code
+pt3,stackoverflow_formatted/7324159_1.java,55,86,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jface/viewers/TableLayout.java,101,132,32,,B,SO code extends TableLayout. However the method's names are different but the code inside are very similar
+pt3,stackoverflow_formatted/10165127_0.java,38,56,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/help/internal/base/remote/HttpsUtility.java,19,33,15,,B,similar code to do https connection
+pt3,stackoverflow_formatted/10165127_0.java,38,56,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/help/internal/base/remote/HttpsUtility.java,63,77,15,,B,similar code to do https connection
+pt3,stackoverflow_formatted/10165127_0.java,38,56,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/help/internal/base/remote/HttpsUtility.java,83,97,15,,B,similar code to do https connection
+pt3,stackoverflow_formatted/10165127_0.java,38,56,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/help/internal/base/remote/HttpsUtility.java,103,117,15,,B,similar code to do https connection
+pt3,stackoverflow_formatted/10165127_0.java,38,56,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/help/internal/base/remote/HttpsUtility.java,41,57,17,,B,similar code to do https connection
+pt3,stackoverflow_formatted/10165127_0.java,38,56,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/help/internal/base/remote/HttpsUtility.java,123,139,17,,B,similar code to do https connection
+pt3,stackoverflow_formatted/16860613_0.java,55,74,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jface/viewers/StyledString.java,55,74,20,,B,identical code
+pt3,stackoverflow_formatted/16860613_0.java,96,117,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jface/viewers/StyledString.java,96,117,22,,B,identical code
+pt3,stackoverflow_formatted/16860613_0.java,118,165,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jface/viewers/StyledString.java,118,165,48,,B,identical code
+pt3,stackoverflow_formatted/16860613_0.java,189,204,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jface/viewers/StyledString.java,189,204,16,,B,identical code
+pt3,stackoverflow_formatted/16860613_0.java,215,225,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jface/viewers/StyledString.java,215,225,11,,B,identical code
+pt3,stackoverflow_formatted/1390900_0.java,69,85,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jdt/internal/ui/wizards/NewElementWizard.java,38,54,17,,B,openResource() methods are the same
+pt3,stackoverflow_formatted/1390900_0.java,71,84,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jdt/internal/junit/wizards/JUnitWizard.java,51,64,14,,B,openResource() methods are the same
+pt3,stackoverflow_formatted/3671309_0.java,9,24,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/help/internal/base/remote/HttpsUtility.java,19,33,15,,B,similar code to do https connection. SO answer says the code is from com/example/HttpsNoVerify.java.
+pt3,stackoverflow_formatted/3671309_0.java,9,24,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/help/internal/base/remote/HttpsUtility.java,63,77,15,,B,similar code to do https connection. SO answer says the code is from com/example/HttpsNoVerify.java.
+pt3,stackoverflow_formatted/3671309_0.java,9,24,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/help/internal/base/remote/HttpsUtility.java,83,97,15,,B,similar code to do https connection. SO answer says the code is from com/example/HttpsNoVerify.java.
+pt3,stackoverflow_formatted/3671309_0.java,9,24,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/help/internal/base/remote/HttpsUtility.java,103,117,15,,B,similar code to do https connection. SO answer says the code is from com/example/HttpsNoVerify.java.
+pt3,stackoverflow_formatted/3671309_0.java,9,24,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/help/internal/base/remote/HttpsUtility.java,41,57,16,,B,similar code to do https connection. SO answer says the code is from com/example/HttpsNoVerify.java.
+pt3,stackoverflow_formatted/3671309_0.java,9,24,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/help/internal/base/remote/HttpsUtility.java,123,139,16,,B,similar code to do https connection. SO answer says the code is from com/example/HttpsNoVerify.java.
+pt3,stackoverflow_formatted/4154530_0.java,10,28,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/help/internal/webapp/utils/Utils.java,22,40,19,,B,similar code of convertStreamToString() method. SO answer says the code is from http://java.sun.com/j2ee/sdk_1.3/techdocs/api/javax/mail/internet/MimeUtility.html
+pt3,stackoverflow_formatted/7071060_1.java,30,47,eclipse_SDK/eclipse_SDK-4.3/src/src/org/apache/http/entity/FileEntity.java,26,41,16,,C,SO answer says the code is modified from org.apache.http.entity.FileEntity
+pt1,stackoverflow_formatted/12040310_0.java,65,78,cobertura-1/cobertura-1.9.4.1/src/net/sourceforge/cobertura/reporting/html/files/CopyFiles.java,46,59,14,,D,identical finally clause to handle input stream
+pt1,stackoverflow_formatted/12040310_0.java,65,78,columba-1/columba-1.0-src/src/mail/core/org/columba/mail/gui/message/command/ViewMessageSourceCommand.java,46,59,14,,D,identical finally clause to handle input stream
+pt1,stackoverflow_formatted/22009796_0.java,25,40,jboss-5/jboss-5.1.0.GA-src/testsuite/src/main/org/jboss/test/jacc/test/portal/ComponentPermission.java,35,50,16,,D,similar equals() method
+pt1,stackoverflow_formatted/24682528_2.java,143,158,jboss-5/jboss-5.1.0.GA-src/testsuite/src/main/org/jboss/test/jacc/test/portal/PortalObjectPermission.java,35,50,16,,D,similar equals() method
+pt1,stackoverflow_formatted/2372954_0.java,29,41,heritrix-1/heritrix-1.14.4/src/java/org/archive/util/CachedBdbMap.java,831,845,13,,D,similar equals() methods
+pt1,stackoverflow_formatted/25465723_0.java,26,38,heritrix-1/heritrix-1.14.4/src/java/org/archive/util/CachedBdbMap.java,831,845,13,,D,similar equals() methods
+pt1,stackoverflow_formatted/6931385_0.java,10,22,heritrix-1/heritrix-1.14.4/src/java/org/archive/util/CachedBdbMap.java,831,845,13,,D,similar equals() methods
+pt1,stackoverflow_formatted/24682528_2.java,143,158,jboss-5/jboss-5.1.0.GA-src/testsuite/src/main/org/jboss/test/jacc/test/portal/ComponentPermission.java,35,50,16,,D,similar equals() methods
+pt1,stackoverflow_formatted/2953040_0.java,20,35,jboss-5/jboss-5.1.0.GA-src/testsuite/src/main/org/jboss/test/jacc/test/portal/ComponentPermission.java,35,50,16,,D,similar equals() methods
+pt1,stackoverflow_formatted/13434746_0.java,20,35,jboss-5/jboss-5.1.0.GA-src/testsuite/src/main/org/jboss/test/jacc/test/portal/ComponentPermission.java,35,50,16,,D,similar equals() methods
+pt1,stackoverflow_formatted/9993817_0.java,5,20,jboss-5/jboss-5.1.0.GA-src/testsuite/src/main/org/jboss/test/jacc/test/portal/ComponentPermission.java,35,50,16,,D,similar equals() methods
+pt1,stackoverflow_formatted/24682528_2.java,143,158,jboss-5/jboss-5.1.0.GA-src/testsuite/src/main/org/jboss/test/jacc/test/portal/InstancePermission.java,35,50,16,,D,similar equals() methods
+pt1,stackoverflow_formatted/2953040_0.java,20,35,jboss-5/jboss-5.1.0.GA-src/testsuite/src/main/org/jboss/test/jacc/test/portal/InstancePermission.java,35,50,16,,D,similar equals() methods
+pt1,stackoverflow_formatted/22009796_0.java,25,40,jboss-5/jboss-5.1.0.GA-src/testsuite/src/main/org/jboss/test/jacc/test/portal/InstancePermission.java,35,50,16,,D,similar equals() methods
+pt1,stackoverflow_formatted/13434746_0.java,20,35,jboss-5/jboss-5.1.0.GA-src/testsuite/src/main/org/jboss/test/jacc/test/portal/InstancePermission.java,35,50,16,,D,similar equals() methods
+pt1,stackoverflow_formatted/9993817_0.java,5,20,jboss-5/jboss-5.1.0.GA-src/testsuite/src/main/org/jboss/test/jacc/test/portal/InstancePermission.java,35,50,16,,D,similar equals() methods
+pt1,stackoverflow_formatted/2953040_0.java,20,35,jboss-5/jboss-5.1.0.GA-src/testsuite/src/main/org/jboss/test/jacc/test/portal/PortalObjectPermission.java,35,50,16,,D,similar equals() methods
+pt1,stackoverflow_formatted/22009796_0.java,25,40,jboss-5/jboss-5.1.0.GA-src/testsuite/src/main/org/jboss/test/jacc/test/portal/PortalObjectPermission.java,35,50,16,,D,similar equals() methods
+pt1,stackoverflow_formatted/13434746_0.java,20,35,jboss-5/jboss-5.1.0.GA-src/testsuite/src/main/org/jboss/test/jacc/test/portal/PortalObjectPermission.java,35,50,16,,D,similar equals() methods
+pt1,stackoverflow_formatted/9993817_0.java,5,20,jboss-5/jboss-5.1.0.GA-src/testsuite/src/main/org/jboss/test/jacc/test/portal/PortalObjectPermission.java,35,50,16,,D,similar equals() methods
+pt1,stackoverflow_formatted/12040310_0.java,65,78,JGroups-2/JGroups-2.10.0.GA.src/src/org/jgroups/util/Proxy.java,415,428,14,,D,similar finally clause after normalisation
+pt1,stackoverflow_formatted/17164751_0.java,34,45,cayenne-3/cayenne-3.0.1-src/framework/cayenne-modeler/src/main/java/org/apache/cayenne/modeler/editor/SelectQueryOrderingTab.java,220,230,11,,D,similar getColumnClass() method
+pt1,stackoverflow_formatted/18429219_0.java,164,173,apache-ant-1.8.4/src/main/org/apache/tools/ant/types/resources/comparators/Date.java,4,13,10,,D,similar implementation of compare() method
+pt1,stackoverflow_formatted/21099738_0.java,3,29,jboss-5/jboss-5.1.0.GA-src/console/src/main/org/jboss/console/plugins/helpers/servlet/ServletHelper.java,6,30,25,,D,similar way of checking for special characters in Servlet
+pt2,stackoverflow_formatted/23197177_1.java,14,29,lucene-4.3.0/lucene-4.3.0/join/src/java/org/apache/lucene/search/join/TermsQuery.java,34,49,16,,D,similar equals() methods
+pt2,stackoverflow_formatted/13447403_0.java,10,25,tapestry-src-5.1.0.5/tapestry-ioc/src/main/java/org/apache/tapestry5/ioc/internal/util/ClasspathResource.java,29,41,13,,D,similar equals() methods
+pt2,stackoverflow_formatted/17920930_0.java,20,35,lucene-4.3.0/lucene-4.3.0/join/src/java/org/apache/lucene/search/join/TermsQuery.java,34,49,16,,D,similar equals() methods
+pt2,stackoverflow_formatted/713926_0.java,14,23,apache-maven-3.0/apache-maven-3.0/maven-core/src/main/java/org/apache/maven/artifact/resolver/filter/IncludesArtifactFilter.java,34,43,10,,D,similar equals() methods
+pt2,stackoverflow_formatted/713926_0.java,14,23,tapestry-src-5.1.0.5/tapestry-core/src/main/java/org/apache/tapestry5/services/PageRenderRequestParameters.java,21,31,10,,D,similar equals() methods
+pt2,stackoverflow_formatted/16462678_0.java,23,38,lucene-4.3.0/lucene-4.3.0/join/src/java/org/apache/lucene/search/join/TermsQuery.java,34,49,16,,D,similar equals() methods
+pt2,stackoverflow_formatted/21581988_0.java,125,140,lucene-4.3.0/lucene-4.3.0/join/src/java/org/apache/lucene/search/join/TermsQuery.java,34,49,16,,D,similar equals() methods
+pt2,stackoverflow_formatted/2953040_0.java,20,35,lucene-4.3.0/lucene-4.3.0/grouping/src/java/org/apache/lucene/search/grouping/AbstractGroupFacetCollector.java,145,160,16,,D,similar equals() methods
+pt2,stackoverflow_formatted/2953040_0.java,20,35,lucene-4.3.0/lucene-4.3.0/spatial/src/java/org/apache/lucene/spatial/vector/DistanceValueSource.java,53,68,16,,D,similar equals() methods
+pt2,stackoverflow_formatted/2953040_0.java,20,35,lucene-4.3.0/lucene-4.3.0/spatial/src/java/org/apache/lucene/spatial/DisjointSpatialFilter.java,23,38,16,,D,similar equals() methods
+pt2,stackoverflow_formatted/19614645_1.java,16,31,lucene-4.3.0/lucene-4.3.0/join/src/java/org/apache/lucene/search/join/TermsQuery.java,34,49,16,,D,similar equals() methods
+pt2,stackoverflow_formatted/13505078_2.java,30,45,struts2-2.2.1-all/struts-2.2.1/src/plugins/sitegraph/src/main/java/org/apache/struts2/sitegraph/entities/Target.java,15,30,16,,D,similar equals() methods
+pt2,stackoverflow_formatted/13389700_2.java,49,61,struts2-2.2.1-all/struts-2.2.1/src/apps/showcase/src/main/java/org/apache/struts2/showcase/person/Person.java,31,43,13,,D,similar equals() methods
+pt2,stackoverflow_formatted/15095000_0.java,21,36,lucene-4.3.0/lucene-4.3.0/join/src/java/org/apache/lucene/search/join/TermsQuery.java,34,49,16,,D,similar equals() methods
+pt2,stackoverflow_formatted/14678042_0.java,9,18,tapestry-src-5.1.0.5/tapestry-core/src/main/java/org/apache/tapestry5/internal/pageload/PageLoaderImpl.java,36,45,10,,D,similar equals() methods
+pt3,stackoverflow_formatted/21581988_0.java,125,140,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jdt/internal/ui/text/spelling/engine/AbstractSpellDictionary.java,55,70,16,,D,similar equals() methods
+pt3,stackoverflow_formatted/23197177_1.java,14,29,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jdt/internal/ui/text/spelling/engine/AbstractSpellDictionary.java,55,70,16,,D,similar equals() methods
+pt3,stackoverflow_formatted/19614645_1.java,16,31,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jdt/internal/ui/text/spelling/engine/AbstractSpellDictionary.java,55,70,16,,D,similar equals() methods
+pt3,stackoverflow_formatted/17920930_0.java,20,35,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jdt/internal/ui/text/spelling/engine/AbstractSpellDictionary.java,55,70,16,,D,similar equals() methods
+pt3,stackoverflow_formatted/713926_0.java,14,23,eclipse_SDK/eclipse_SDK-4.3/src/src/com/ibm/icu/text/SelectFormat.java,112,121,10,,D,similar equals() methods
+pt3,stackoverflow_formatted/713926_0.java,14,23,eclipse_SDK/eclipse_SDK-4.3/src/src/com/ibm/icu/text/DateFormat.java,247,257,10,,D,similar equals() methods
+pt3,stackoverflow_formatted/16462678_0.java,23,38,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jdt/internal/ui/text/spelling/engine/AbstractSpellDictionary.java,55,70,16,,D,similar equals() methods
+pt3,stackoverflow_formatted/15095000_0.java,21,36,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jdt/internal/ui/text/spelling/engine/AbstractSpellDictionary.java,55,70,16,,D,similar equals() methods
+pt1,stackoverflow_formatted/8326566_1.java,8,17,columba-1/columba-1.0-src/src/mail/core/org/columba/mail/gui/composer/html/util/ExtendedHTMLEditorKit.java,15,24,10,,E,both classes extend from HTMLEditorKit and have similar createDefaultDocument() method
+pt1,stackoverflow_formatted/9709633_0.java,156,167,cayenne-3/cayenne-3.0.1-src/framework/cayenne-modeler/src/main/java/org/apache/cayenne/modeler/util/CellEditorForAttributeTable.java,63,74,12,,E,both classses implement TableCellEditor and have several similar methods
+pt1,stackoverflow_formatted/17966859_0.java,8,18,iReport-3/iReport-3.7.5-src/ireport-designer/src/com/jaspersoft/ireport/designer/subreport/TableComboBoxRenderer.java,12,22,11,,E,both classses implement TableCellRenderer and have similar getTableCellRendererComponent()
+pt1,stackoverflow_formatted/9240450_1.java,80,91,findbugs-1/findbugs-1.3.9/src/java5/edu/umd/cs/findbugs/gui2/MainFrame.java,1430,1442,12,,F,accidental similarity
+pt1,stackoverflow_formatted/15652360_0.java,33,45,iReport-3/iReport-3.7.5-src/ireport-designer/src/com/jaspersoft/ireport/designer/crosstab/actions/CellSelectionAction.java,19,31,13,,F,accidental similarity
+pt1,stackoverflow_formatted/11867360_0.java,120,129,JGroups-2/JGroups-2.10.0.GA.src/src/org/jgroups/persistence/DBPersistenceManager.java,325,334,10,,F,accidental similarity
+pt1,stackoverflow_formatted/15425359_0.java,4,13,hadoop-1/hadoop-1.0.0/src/contrib/eclipse-plugin/src/java/org/apache/hadoop/eclipse/ImageLibrary.java,25,34,10,,F,accidentally similar getter:     public static SingletonDemo getInstance() {
+pt1,stackoverflow_formatted/20381450_0.java,2,12,cayenne-3/cayenne-3.0.1-src/framework/cayenne-jdk1.5-unpublished/src/main/java/org/apache/cayenne/dba/openbase/OpenBasePkGenerator.java,82,93,11,,F,similar code after normalisation
+pt1,stackoverflow_formatted/61982_0.java,103,112,columba-1/columba-1.0-src/src/mail/core/org/columba/mail/spam/spamassassin/ExternalToolsHelper.java,14,23,10,,F,similar code after normalisation
+pt1,stackoverflow_formatted/19198757_3.java,345,354,findbugs-1/findbugs-1.3.9/src/java/edu/umd/cs/findbugs/workflow/Filter.java,344,353,10,,F,similar code after normalisation
+pt1,stackoverflow_formatted/12120288_1.java,76,85,FitLibrary20100806/fitnesse/lib/src/fitlibrarySrc/fitlibrary/traverse/function/RuleTable.java,106,115,10,,F,similar code after normalisation
+pt1,stackoverflow_formatted/14617650_1.java,68,77,FitLibrary20100806/fitnesse/lib/src/fitlibrarySrc/fitlibrary/traverse/function/RuleTable.java,106,115,10,,F,similar code after normalisation
+pt1,stackoverflow_formatted/14617650_1.java,32,41,FitLibrary20100806/fitnesse/lib/src/fitlibrarySrc/fitlibrary/traverse/function/RuleTable.java,106,115,10,,F,similar code after normalisation
+pt1,stackoverflow_formatted/14617650_0.java,67,76,FitLibrary20100806/fitnesse/lib/src/fitlibrarySrc/fitlibrary/traverse/function/RuleTable.java,106,115,10,,F,similar code after normalisation
+pt1,stackoverflow_formatted/14617650_0.java,31,40,FitLibrary20100806/fitnesse/lib/src/fitlibrarySrc/fitlibrary/traverse/function/RuleTable.java,106,115,10,,F,similar code after normalisation
+pt1,stackoverflow_formatted/12702036_0.java,5,14,hadoop-1/hadoop-1.0.0/src/test/org/apache/hadoop/mapred/TestJvmManager.java,126,135,10,,F,similar code after normalisation
+pt1,stackoverflow_formatted/14617650_1.java,32,41,hadoop-1/hadoop-1.0.0/src/test/org/apache/hadoop/security/authentication/client/AuthenticatorTestCase.java,75,84,10,,F,similar code after normalisation
+pt1,stackoverflow_formatted/14617650_1.java,68,77,hadoop-1/hadoop-1.0.0/src/test/org/apache/hadoop/security/authentication/client/AuthenticatorTestCase.java,75,84,10,,F,similar code after normalisation
+pt1,stackoverflow_formatted/12120288_1.java,76,85,hadoop-1/hadoop-1.0.0/src/test/org/apache/hadoop/security/authentication/client/AuthenticatorTestCase.java,75,84,10,,F,similar code after normalisation
+pt1,stackoverflow_formatted/14617650_0.java,31,40,hadoop-1/hadoop-1.0.0/src/test/org/apache/hadoop/security/authentication/client/AuthenticatorTestCase.java,75,84,10,,F,similar code after normalisation
+pt1,stackoverflow_formatted/14617650_0.java,67,76,hadoop-1/hadoop-1.0.0/src/test/org/apache/hadoop/security/authentication/client/AuthenticatorTestCase.java,75,84,10,,F,similar code after normalisation
+pt1,stackoverflow_formatted/14617650_1.java,32,41,hadoop-1/hadoop-1.0.0/src/test/system/java/org/apache/hadoop/hdfs/TestBalancer.java,275,284,10,,F,similar code after normalisation
+pt1,stackoverflow_formatted/14617650_1.java,68,77,hadoop-1/hadoop-1.0.0/src/test/system/java/org/apache/hadoop/hdfs/TestBalancer.java,275,284,10,,F,similar code after normalisation
+pt1,stackoverflow_formatted/12120288_1.java,76,85,hadoop-1/hadoop-1.0.0/src/test/system/java/org/apache/hadoop/hdfs/TestBalancer.java,275,284,10,,F,similar code after normalisation
+pt1,stackoverflow_formatted/14617650_0.java,31,40,hadoop-1/hadoop-1.0.0/src/test/system/java/org/apache/hadoop/hdfs/TestBalancer.java,275,284,10,,F,similar code after normalisation
+pt1,stackoverflow_formatted/14617650_0.java,67,76,hadoop-1/hadoop-1.0.0/src/test/system/java/org/apache/hadoop/hdfs/TestBalancer.java,275,284,10,,F,similar code after normalisation
+pt1,stackoverflow_formatted/14617650_1.java,68,77,heritrix-1/heritrix-1.14.4/src/java/org/apache/commons/pool/impl/GenericObjectPool.java,443,452,10,,F,similar code after normalisation
+pt1,stackoverflow_formatted/14617650_1.java,32,41,heritrix-1/heritrix-1.14.4/src/java/org/apache/commons/pool/impl/GenericObjectPool.java,443,452,10,,F,similar code after normalisation
+pt1,stackoverflow_formatted/12120288_1.java,76,85,heritrix-1/heritrix-1.14.4/src/java/org/apache/commons/pool/impl/GenericObjectPool.java,443,452,10,,F,similar code after normalisation
+pt1,stackoverflow_formatted/14617650_0.java,31,40,heritrix-1/heritrix-1.14.4/src/java/org/apache/commons/pool/impl/GenericObjectPool.java,443,452,10,,F,similar code after normalisation
+pt1,stackoverflow_formatted/14617650_0.java,67,76,heritrix-1/heritrix-1.14.4/src/java/org/apache/commons/pool/impl/GenericObjectPool.java,443,452,10,,F,similar code after normalisation
+pt1,stackoverflow_formatted/15141427_0.java,44,53,heritrix-1/heritrix-1.14.4/src/java/org/archive/crawler/admin/StatisticsSummary.java,277,286,10,,F,similar code after normalisation
+pt1,stackoverflow_formatted/15141427_0.java,44,53,heritrix-1/heritrix-1.14.4/src/java/org/archive/crawler/admin/StatisticsSummary.java,457,466,10,,F,similar code after normalisation
+pt1,stackoverflow_formatted/15141427_0.java,44,53,heritrix-1/heritrix-1.14.4/src/java/org/archive/crawler/admin/StatisticsSummary.java,332,341,10,,F,similar code after normalisation
+pt1,stackoverflow_formatted/15141427_0.java,44,53,heritrix-1/heritrix-1.14.4/src/java/org/archive/crawler/admin/StatisticsSummary.java,228,237,10,,F,similar code after normalisation
+pt1,stackoverflow_formatted/15141427_0.java,44,53,heritrix-1/heritrix-1.14.4/src/java/org/archive/crawler/admin/StatisticsSummary.java,392,401,10,,F,similar code after normalisation
+pt1,stackoverflow_formatted/12996718_0.java,19,30,iReport-3/iReport-3.7.5-src/ireport-designer/src/com/jaspersoft/ireport/designer/crosstab/actions/CellSelectionAction.java,19,31,12,,F,similar code after normalisation
+pt1,stackoverflow_formatted/12921020_0.java,24,35,iReport-3/iReport-3.7.5-src/ireport-designer/src/com/jaspersoft/ireport/designer/crosstab/actions/CellSelectionAction.java,19,31,12,,F,similar code after normalisation
+pt1,stackoverflow_formatted/12982345_0.java,15,26,iReport-3/iReport-3.7.5-src/ireport-designer/src/com/jaspersoft/ireport/designer/crosstab/actions/CellSelectionAction.java,19,31,12,,F,similar code after normalisation
+pt1,stackoverflow_formatted/17383922_0.java,13,24,iReport-3/iReport-3.7.5-src/ireport-designer/src/com/jaspersoft/ireport/designer/crosstab/actions/CellSelectionAction.java,19,31,12,,F,similar code after normalisation
+pt1,stackoverflow_formatted/13220415_0.java,21,32,iReport-3/iReport-3.7.5-src/ireport-designer/src/com/jaspersoft/ireport/designer/crosstab/actions/CellSelectionAction.java,19,31,12,,F,similar code after normalisation
+pt1,stackoverflow_formatted/13462440_1.java,32,45,iReport-3/iReport-3.7.5-src/ireport-designer/src/com/jaspersoft/ireport/designer/fonts/FontLoaderDialog.java,60,73,14,,F,similar code after normalisation
+pt1,stackoverflow_formatted/13462440_1.java,32,45,iReport-3/iReport-3.7.5-src/ireport-designer/src/com/jaspersoft/ireport/designer/fonts/FontLoaderDialog.java,46,59,14,,F,similar code after normalisation
+pt1,stackoverflow_formatted/13462440_1.java,32,45,iReport-3/iReport-3.7.5-src/ireport-designer/src/com/jaspersoft/ireport/designer/fonts/FontLoaderDialog.java,31,45,14,,F,similar code after normalisation
+pt1,stackoverflow_formatted/14617650_1.java,68,77,jasperreports-3/jasperreports-3.7.4/src/net/sf/jasperreports/engine/export/JRPdfExporter.java,403,412,10,,F,similar code after normalisation
+pt1,stackoverflow_formatted/14617650_1.java,32,41,jasperreports-3/jasperreports-3.7.4/src/net/sf/jasperreports/engine/export/JRPdfExporter.java,403,412,10,,F,similar code after normalisation
+pt1,stackoverflow_formatted/12120288_1.java,76,85,jasperreports-3/jasperreports-3.7.4/src/net/sf/jasperreports/engine/export/JRPdfExporter.java,403,412,10,,F,similar code after normalisation
+pt1,stackoverflow_formatted/14617650_0.java,67,76,jasperreports-3/jasperreports-3.7.4/src/net/sf/jasperreports/engine/export/JRPdfExporter.java,403,412,10,,F,similar code after normalisation
+pt1,stackoverflow_formatted/14617650_0.java,31,40,jasperreports-3/jasperreports-3.7.4/src/net/sf/jasperreports/engine/export/JRPdfExporter.java,403,412,10,,F,similar code after normalisation
+pt1,stackoverflow_formatted/19198757_3.java,345,354,jboss-5/jboss-5.1.0.GA-src/mbeans/src/main/org/jboss/mx/mxbean/MXBeanUtils.java,442,451,10,,F,similar code after normalisation
+pt1,stackoverflow_formatted/25270740_0.java,15,24,jboss-5/jboss-5.1.0.GA-src/server/src/main/org/jboss/ejb/plugins/cmp/jdbc/bridge/JDBCEntityBridge.java,830,839,10,,F,similar code after normalisation
+pt1,stackoverflow_formatted/14617650_1.java,68,77,jboss-5/jboss-5.1.0.GA-src/testsuite/src/main/org/jboss/test/cmp2/lob/LOBUnitTestCase.java,345,354,10,,F,similar code after normalisation
+pt1,stackoverflow_formatted/14617650_1.java,68,77,jboss-5/jboss-5.1.0.GA-src/testsuite/src/main/org/jboss/test/cmp2/lob/LOBUnitTestCase.java,368,377,10,,F,similar code after normalisation
+pt1,stackoverflow_formatted/14617650_1.java,32,41,jboss-5/jboss-5.1.0.GA-src/testsuite/src/main/org/jboss/test/cmp2/lob/LOBUnitTestCase.java,345,354,10,,F,similar code after normalisation
+pt1,stackoverflow_formatted/14617650_1.java,32,41,jboss-5/jboss-5.1.0.GA-src/testsuite/src/main/org/jboss/test/cmp2/lob/LOBUnitTestCase.java,368,377,10,,F,similar code after normalisation
+pt1,stackoverflow_formatted/12120288_1.java,76,85,jboss-5/jboss-5.1.0.GA-src/testsuite/src/main/org/jboss/test/cmp2/lob/LOBUnitTestCase.java,345,354,10,,F,similar code after normalisation
+pt1,stackoverflow_formatted/12120288_1.java,76,85,jboss-5/jboss-5.1.0.GA-src/testsuite/src/main/org/jboss/test/cmp2/lob/LOBUnitTestCase.java,368,377,10,,F,similar code after normalisation
+pt1,stackoverflow_formatted/14617650_0.java,31,40,jboss-5/jboss-5.1.0.GA-src/testsuite/src/main/org/jboss/test/cmp2/lob/LOBUnitTestCase.java,345,354,10,,F,similar code after normalisation
+pt1,stackoverflow_formatted/14617650_0.java,31,40,jboss-5/jboss-5.1.0.GA-src/testsuite/src/main/org/jboss/test/cmp2/lob/LOBUnitTestCase.java,368,377,10,,F,similar code after normalisation
+pt1,stackoverflow_formatted/14617650_0.java,67,76,jboss-5/jboss-5.1.0.GA-src/testsuite/src/main/org/jboss/test/cmp2/lob/LOBUnitTestCase.java,345,354,10,,F,similar code after normalisation
+pt1,stackoverflow_formatted/14617650_0.java,67,76,jboss-5/jboss-5.1.0.GA-src/testsuite/src/main/org/jboss/test/cmp2/lob/LOBUnitTestCase.java,368,377,10,,F,similar code after normalisation
+pt1,stackoverflow_formatted/11574637_0.java,78,89,jboss-5/jboss-5.1.0.GA-src/testsuite/src/main/org/jboss/test/entity/beans/TestEntityBean.java,39,50,12,,F,similar code after normalisation
+pt1,stackoverflow_formatted/14617650_1.java,68,77,jboss-5/jboss-5.1.0.GA-src/testsuite/src/main/org/jboss/test/jmx/test/DeployServiceUnitTestCase.java,275,284,10,,F,similar code after normalisation
+pt1,stackoverflow_formatted/14617650_1.java,32,41,jboss-5/jboss-5.1.0.GA-src/testsuite/src/main/org/jboss/test/jmx/test/DeployServiceUnitTestCase.java,275,284,10,,F,similar code after normalisation
+pt1,stackoverflow_formatted/12120288_1.java,76,85,jboss-5/jboss-5.1.0.GA-src/testsuite/src/main/org/jboss/test/jmx/test/DeployServiceUnitTestCase.java,275,284,10,,F,similar code after normalisation
+pt1,stackoverflow_formatted/14617650_0.java,31,40,jboss-5/jboss-5.1.0.GA-src/testsuite/src/main/org/jboss/test/jmx/test/DeployServiceUnitTestCase.java,275,284,10,,F,similar code after normalisation
+pt1,stackoverflow_formatted/14617650_0.java,67,76,jboss-5/jboss-5.1.0.GA-src/testsuite/src/main/org/jboss/test/jmx/test/DeployServiceUnitTestCase.java,275,284,10,,F,similar code after normalisation
+pt1,stackoverflow_formatted/14617650_1.java,68,77,jboss-5/jboss-5.1.0.GA-src/testsuite/src/main/org/jboss/test/perf/test/Setup.java,39,48,10,,F,similar code after normalisation
+pt1,stackoverflow_formatted/14617650_1.java,32,41,jboss-5/jboss-5.1.0.GA-src/testsuite/src/main/org/jboss/test/perf/test/Setup.java,39,48,10,,F,similar code after normalisation
+pt1,stackoverflow_formatted/12120288_1.java,76,85,jboss-5/jboss-5.1.0.GA-src/testsuite/src/main/org/jboss/test/perf/test/Setup.java,39,48,10,,F,similar code after normalisation
+pt1,stackoverflow_formatted/14617650_0.java,31,40,jboss-5/jboss-5.1.0.GA-src/testsuite/src/main/org/jboss/test/perf/test/Setup.java,39,48,10,,F,similar code after normalisation
+pt1,stackoverflow_formatted/14617650_0.java,67,76,jboss-5/jboss-5.1.0.GA-src/testsuite/src/main/org/jboss/test/perf/test/Setup.java,39,48,10,,F,similar code after normalisation
+pt1,stackoverflow_formatted/11843165_0.java,25,34,JGroups-2/JGroups-2.10.0.GA.src/src/org/jgroups/demos/JmxDemo.java,83,92,10,,F,similar code after normalisation
+pt1,stackoverflow_formatted/1040821_0.java,5,14,JGroups-2/JGroups-2.10.0.GA.src/src/org/jgroups/protocols/FD_ALL.java,181,190,10,,F,similar code after normalisation
+pt1,stackoverflow_formatted/1040821_0.java,5,14,JGroups-2/JGroups-2.10.0.GA.src/src/org/jgroups/protocols/FD_ALL.java,160,169,10,,F,similar code after normalisation
+pt1,stackoverflow_formatted/1040821_0.java,15,24,JGroups-2/JGroups-2.10.0.GA.src/src/org/jgroups/protocols/FD_ALL.java,181,190,10,,F,similar code after normalisation
+pt1,stackoverflow_formatted/1040821_0.java,15,24,JGroups-2/JGroups-2.10.0.GA.src/src/org/jgroups/protocols/FD_ALL.java,160,169,10,,F,similar code after normalisation
+pt1,stackoverflow_formatted/18487023_0.java,41,53,JGroups-2/JGroups-2.10.0.GA.src/src/org/jgroups/protocols/pbcast/NAKACK.java,347,358,12,,F,similar code after normalisation
+pt1,stackoverflow_formatted/13389700_2.java,49,61,cayenne-3/cayenne-3.0.1-src/framework/cayenne-modeler/src/main/java/org/apache/cayenne/modeler/editor/CallbackType.java,33,45,13,,F,similar equals() method
+pt1,stackoverflow_formatted/11574637_0.java,78,89,jboss-5/jboss-5.1.0.GA-src/testsuite/src/main/org/jboss/test/entity/beans/TestEntityBean.java,66,77,12,,F,similar finally clause after normalisation
+pt1,stackoverflow_formatted/22818246_0.java,3,12,hadoop-1/hadoop-1.0.0/src/contrib/eclipse-plugin/src/java/org/apache/hadoop/eclipse/ImageLibrary.java,25,34,10,,F,similar getInstance() method after normalisation
+pt3,stackoverflow_formatted/16860613_0.java,166,188,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jface/viewers/StyledString.java,166,188,23,,F,accidentally similar getter
+pt3,stackoverflow_formatted/25541267_0.java,7,18,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/ui/internal/LegacyResourceSupport.java,116,127,12,,F,similar try-catch blocks
+pt3,stackoverflow_formatted/25270740_0.java,15,24,eclipse_SDK/eclipse_SDK-4.3/src/src/org/apache/commons/codec/language/DoubleMetaphone.java,630,639,10,,F,similar code after normalisation
+pt3,stackoverflow_formatted/18429219_0.java,164,173,eclipse_SDK/eclipse_SDK-4.3/src/src/libsrc/org/apache/tools/ant/types/resources/comparators/Date.java,4,13,10,,F,similar code after normalisation

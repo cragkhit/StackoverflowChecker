@@ -23,9 +23,9 @@ public class FindContainment {
 //                ,"/Users/Chaiyong/IdeasProjects/StackoverflowChecker/indv_simian_df_130901_pt2.csv"
 //                , 2, 2, false, ",duplicate");
         checkIndvInGoodOkPairs(
-                DIR + "/PLATINUM_FINAL_ok_130901_no_aoi_pt1+2+3.csv"
-                , DIR + "/b.csv"
-                , 8, 0, false, ",duplicated_with_ok_pair");
+                DIR + "/PLATINUM_FINAL_good_130901_pt1+2+3.csv"
+                , DIR + "/a.csv"
+                , 2, 1, false, ",duplicated_with_good_pair");
 //        checkTwoPairAndCopyDetails(
 //                DIR + "/PLATINUM_FINAL_good_130901_pt1+2+3.csv"
 //                , DIR + "/PLATINUM_FINAL_ok_130901_no_aoi_pt1+2+3.csv"
