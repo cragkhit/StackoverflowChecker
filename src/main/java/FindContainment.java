@@ -11,7 +11,7 @@ import java.util.Map;
  * Created by Chaiyong on 8/14/16.
  */
 public class FindContainment {
-    public static String DIR = "/Users/chaiyong/Documents/StackoverflowChecker/good-ok_pairs";
+    public static String DIR = "/Users/chaiyong/Documents/StackoverflowChecker";
 
     public static void main(String args[]) {
 //        checkAndMergePairsWithSpecificLength("/Users/Chaiyong/IdeasProjects/StackoverflowChecker/ok+good_160814_merged.csv"
@@ -22,14 +22,14 @@ public class FindContainment {
 //                "/Users/Chaiyong/IdeasProjects/StackoverflowChecker/GOLD_ok_common_pairs_130901_pt2_2_with_checks.csv"
 //                ,"/Users/Chaiyong/IdeasProjects/StackoverflowChecker/indv_simian_df_130901_pt2.csv"
 //                , 2, 2, false, ",duplicate");
-//        checkIndvInGoodOkPairs(
+        checkIndvInGoodOkPairs(
+                DIR + "/PLATINUM_FINAL_ok_130901_no_aoi_pt1+2+3.csv"
+                , DIR + "/b.csv"
+                , 8, 0, false, ",duplicated_with_ok_pair");
+//        checkTwoPairAndCopyDetails(
 //                DIR + "/PLATINUM_FINAL_good_130901_pt1+2+3.csv"
-//                , DIR + "/PLATINUM_indv_nicad_df_130901_pt1+2+3_0.20_with_checks2.csv"
-//                , 2, 1, false, ",duplicated_with_good_pair");
-        checkTwoPairAndCopyDetails(
-                DIR + "/ok_common_pairs_simianfse13-nicaddf-0.7_130901_pt1+2+3.csv"
-                , DIR + "/ok_common_pairs_simianfse13-nicadfse13-0.7_130901_pt1+2+3.csv"
-                , 2, 2, false, ",duplicated_with_sdnd");
+//                , DIR + "/PLATINUM_FINAL_ok_130901_no_aoi_pt1+2+3.csv"
+//                , 2, 2, false, ",found_in_checked_ok_pairs");
 //        checkExistAndCopyDetails(
 //                "/Users/Chaiyong/IdeasProjects/StackoverflowChecker/indv_simian_df_combined_latest_v_new_only_160825.csv"
 //                ,"/Users/Chaiyong/IdeasProjects/StackoverflowChecker/indv_nicad_df_combined_latest_v_new_only_160816_checked_equals.csv"
@@ -582,4 +582,5 @@ public class FindContainment {
             }
         }
     }
+
 }
