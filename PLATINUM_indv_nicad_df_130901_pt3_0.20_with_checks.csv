@@ -253,33 +253,33 @@ stackoverflow_formatted/713926_0.java,14,23,eclipse_SDK/eclipse_SDK-4.3/src/src/
 stackoverflow_formatted/713926_0.java,14,23,eclipse_SDK/eclipse_SDK-4.3/src/src/com/ibm/icu/text/DateFormat.java,247,257,10,,D,similar equals() methods
 stackoverflow_formatted/16462678_0.java,23,38,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jdt/internal/ui/text/spelling/engine/AbstractSpellDictionary.java,55,70,16,,D,similar equals() methods
 stackoverflow_formatted/15095000_0.java,21,36,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jdt/internal/ui/text/spelling/engine/AbstractSpellDictionary.java,55,70,16,,D,similar equals() methods
-stackoverflow_formatted/25541267_0.java,7,18,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/ui/internal/LegacyResourceSupport.java,116,127,12,,,
-stackoverflow_formatted/25270740_0.java,15,24,eclipse_SDK/eclipse_SDK-4.3/src/src/org/apache/commons/codec/language/DoubleMetaphone.java,630,639,10,,,
-stackoverflow_formatted/7071060_1.java,30,47,eclipse_SDK/eclipse_SDK-4.3/src/src/org/apache/http/entity/FileEntity.java,26,41,16,,,
-stackoverflow_formatted/7324159_1.java,28,92,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jdt/internal/ui/util/TableLayoutComposite.java,73,139,65,,,
-stackoverflow_formatted/7324159_1.java,55,86,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jface/viewers/TableLayout.java,101,132,32,,,
-stackoverflow_formatted/10165127_0.java,38,56,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/help/internal/base/remote/HttpsUtility.java,19,33,15,,,
-stackoverflow_formatted/10165127_0.java,38,56,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/help/internal/base/remote/HttpsUtility.java,63,77,15,,,
-stackoverflow_formatted/10165127_0.java,38,56,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/help/internal/base/remote/HttpsUtility.java,83,97,15,,,
-stackoverflow_formatted/10165127_0.java,38,56,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/help/internal/base/remote/HttpsUtility.java,103,117,15,,,
-stackoverflow_formatted/10165127_0.java,38,56,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/help/internal/base/remote/HttpsUtility.java,41,57,17,,,
-stackoverflow_formatted/10165127_0.java,38,56,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/help/internal/base/remote/HttpsUtility.java,123,139,17,,,
-stackoverflow_formatted/18429219_0.java,164,173,eclipse_SDK/eclipse_SDK-4.3/src/src/libsrc/org/apache/tools/ant/types/resources/comparators/Date.java,4,13,10,,,
-stackoverflow_formatted/16860613_0.java,55,74,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jface/viewers/StyledString.java,55,74,20,,,
-stackoverflow_formatted/16860613_0.java,96,117,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jface/viewers/StyledString.java,96,117,22,,,
-stackoverflow_formatted/16860613_0.java,118,165,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jface/viewers/StyledString.java,118,165,48,,,
-stackoverflow_formatted/16860613_0.java,189,204,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jface/viewers/StyledString.java,189,204,16,,,
-stackoverflow_formatted/16860613_0.java,215,225,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jface/viewers/StyledString.java,215,225,11,,,
-stackoverflow_formatted/2513183_0.java,45,55,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jdt/ui/actions/GenerateToStringAction.java,45,55,11,,,
-stackoverflow_formatted/2513183_0.java,96,105,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jdt/ui/actions/GenerateToStringAction.java,102,111,10,,,
-stackoverflow_formatted/2513183_0.java,106,159,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jdt/ui/actions/GenerateToStringAction.java,113,166,54,,,
-stackoverflow_formatted/2513183_0.java,168,181,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jdt/ui/actions/GenerateToStringAction.java,175,188,14,,,
-stackoverflow_formatted/1390900_0.java,69,85,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jdt/internal/ui/wizards/NewElementWizard.java,38,54,17,,,
-stackoverflow_formatted/1390900_0.java,71,84,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jdt/internal/junit/wizards/JUnitWizard.java,51,64,14,,,
-stackoverflow_formatted/3671309_0.java,9,24,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/help/internal/base/remote/HttpsUtility.java,19,33,15,,,
-stackoverflow_formatted/3671309_0.java,9,24,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/help/internal/base/remote/HttpsUtility.java,63,77,15,,,
-stackoverflow_formatted/3671309_0.java,9,24,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/help/internal/base/remote/HttpsUtility.java,83,97,15,,,
-stackoverflow_formatted/3671309_0.java,9,24,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/help/internal/base/remote/HttpsUtility.java,103,117,15,,,
-stackoverflow_formatted/3671309_0.java,9,24,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/help/internal/base/remote/HttpsUtility.java,41,57,16,,,
-stackoverflow_formatted/3671309_0.java,9,24,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/help/internal/base/remote/HttpsUtility.java,123,139,16,,,
-stackoverflow_formatted/4154530_0.java,10,28,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/help/internal/webapp/utils/Utils.java,22,40,19,,,
+stackoverflow_formatted/25541267_0.java,7,18,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/ui/internal/LegacyResourceSupport.java,116,127,12,,F,similar try-catch blocks
+stackoverflow_formatted/25270740_0.java,15,24,eclipse_SDK/eclipse_SDK-4.3/src/src/org/apache/commons/codec/language/DoubleMetaphone.java,630,639,10,,F,similar code after normalisation
+stackoverflow_formatted/7071060_1.java,30,47,eclipse_SDK/eclipse_SDK-4.3/src/src/org/apache/http/entity/FileEntity.java,26,41,16,,C,SO answer says the code is modified from org.apache.http.entity.FileEntity
+stackoverflow_formatted/7324159_1.java,28,92,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jdt/internal/ui/util/TableLayoutComposite.java,73,139,65,,B,very similar code
+stackoverflow_formatted/7324159_1.java,55,86,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jface/viewers/TableLayout.java,101,132,32,,B,SO code extends TableLayout. However the method's names are different but the code inside are very similar
+stackoverflow_formatted/10165127_0.java,38,56,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/help/internal/base/remote/HttpsUtility.java,19,33,15,,B,similar code to do https connection
+stackoverflow_formatted/10165127_0.java,38,56,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/help/internal/base/remote/HttpsUtility.java,63,77,15,,B,similar code to do https connection
+stackoverflow_formatted/10165127_0.java,38,56,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/help/internal/base/remote/HttpsUtility.java,83,97,15,,B,similar code to do https connection
+stackoverflow_formatted/10165127_0.java,38,56,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/help/internal/base/remote/HttpsUtility.java,103,117,15,,B,similar code to do https connection
+stackoverflow_formatted/10165127_0.java,38,56,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/help/internal/base/remote/HttpsUtility.java,41,57,17,,B,similar code to do https connection
+stackoverflow_formatted/10165127_0.java,38,56,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/help/internal/base/remote/HttpsUtility.java,123,139,17,,B,similar code to do https connection
+stackoverflow_formatted/18429219_0.java,164,173,eclipse_SDK/eclipse_SDK-4.3/src/src/libsrc/org/apache/tools/ant/types/resources/comparators/Date.java,4,13,10,,F,similar code after normalisation
+stackoverflow_formatted/16860613_0.java,55,74,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jface/viewers/StyledString.java,55,74,20,,B,identical code
+stackoverflow_formatted/16860613_0.java,96,117,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jface/viewers/StyledString.java,96,117,22,,B,identical code
+stackoverflow_formatted/16860613_0.java,118,165,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jface/viewers/StyledString.java,118,165,48,,B,identical code
+stackoverflow_formatted/16860613_0.java,189,204,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jface/viewers/StyledString.java,189,204,16,,B,identical code
+stackoverflow_formatted/16860613_0.java,215,225,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jface/viewers/StyledString.java,215,225,11,,B,identical code
+stackoverflow_formatted/2513183_0.java,45,55,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jdt/ui/actions/GenerateToStringAction.java,45,55,11,,A,"the whole class is copied from eclipse (with license) ""I cannot find the source of that class on the internet, so I will copy it here for you to examine its content:"""
+stackoverflow_formatted/2513183_0.java,96,105,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jdt/ui/actions/GenerateToStringAction.java,102,111,10,,A,"the whole class is copied from eclipse (with license) ""I cannot find the source of that class on the internet, so I will copy it here for you to examine its content:"""
+stackoverflow_formatted/2513183_0.java,106,159,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jdt/ui/actions/GenerateToStringAction.java,113,166,54,,A,"the whole class is copied from eclipse (with license) ""I cannot find the source of that class on the internet, so I will copy it here for you to examine its content:"""
+stackoverflow_formatted/2513183_0.java,168,181,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jdt/ui/actions/GenerateToStringAction.java,175,188,14,,A,"the whole class is copied from eclipse (with license) ""I cannot find the source of that class on the internet, so I will copy it here for you to examine its content:"""
+stackoverflow_formatted/1390900_0.java,69,85,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jdt/internal/ui/wizards/NewElementWizard.java,38,54,17,,B,openResource() methods are the same
+stackoverflow_formatted/1390900_0.java,71,84,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jdt/internal/junit/wizards/JUnitWizard.java,51,64,14,,B,openResource() methods are the same
+stackoverflow_formatted/3671309_0.java,9,24,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/help/internal/base/remote/HttpsUtility.java,19,33,15,,B,similar code to do https connection. SO answer says the code is from com/example/HttpsNoVerify.java.
+stackoverflow_formatted/3671309_0.java,9,24,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/help/internal/base/remote/HttpsUtility.java,63,77,15,,B,similar code to do https connection. SO answer says the code is from com/example/HttpsNoVerify.java.
+stackoverflow_formatted/3671309_0.java,9,24,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/help/internal/base/remote/HttpsUtility.java,83,97,15,,B,similar code to do https connection. SO answer says the code is from com/example/HttpsNoVerify.java.
+stackoverflow_formatted/3671309_0.java,9,24,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/help/internal/base/remote/HttpsUtility.java,103,117,15,,B,similar code to do https connection. SO answer says the code is from com/example/HttpsNoVerify.java.
+stackoverflow_formatted/3671309_0.java,9,24,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/help/internal/base/remote/HttpsUtility.java,41,57,16,,B,similar code to do https connection. SO answer says the code is from com/example/HttpsNoVerify.java.
+stackoverflow_formatted/3671309_0.java,9,24,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/help/internal/base/remote/HttpsUtility.java,123,139,16,,B,similar code to do https connection. SO answer says the code is from com/example/HttpsNoVerify.java.
+stackoverflow_formatted/4154530_0.java,10,28,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/help/internal/webapp/utils/Utils.java,22,40,19,,B,similar code of convertStreamToString() method. SO answer says the code is from http://java.sun.com/j2ee/sdk_1.3/techdocs/api/javax/mail/internet/MimeUtility.html

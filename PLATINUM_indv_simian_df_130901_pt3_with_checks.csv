@@ -1913,11 +1913,11 @@ stackoverflow_formatted/9642475_0.java,7,16,eclipse_SDK/eclipse_SDK-4.3/src/src/
 stackoverflow_formatted/9642475_0.java,7,16,eclipse_SDK/eclipse_SDK-4.3/src/src/org/apache/lucene/search/MultiTermQuery.java,30,39,10,,E,both classes extend TopTermsRewrite<BooleanQuery> and have similar methods
 stackoverflow_formatted/2513183_0.java,110,119,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jdt/ui/actions/GenerateToStringAction.java,117,126,10,,A,"the whole class is copied from eclipse (with license) ""I cannot find the source of that class on the internet, so I will copy it here for you to examine its content:"""
 stackoverflow_formatted/2513183_0.java,171,180,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jdt/ui/actions/GenerateToStringAction.java,178,187,10,,A,"the whole class is copied from eclipse (with license) ""I cannot find the source of that class on the internet, so I will copy it here for you to examine its content:"""
-stackoverflow_formatted/4533682_1.java,34,43,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/ui/internal/views/markers/MarkerCategory.java,115,124,10,,,
-stackoverflow_formatted/23423905_0.java,26,35,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/core/resources/FileInfoMatcherDescription.java,39,48,10,,,
-stackoverflow_formatted/5817648_0.java,8,17,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/help/internal/webapp/utils/Utils.java,29,38,10,,,
-stackoverflow_formatted/4154530_0.java,17,26,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/help/internal/webapp/utils/Utils.java,29,38,10,,,
-stackoverflow_formatted/6121298_0.java,8,17,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/osgi/framework/eventmgr/CopyOnWriteIdentityMap.java,192,201,10,,,
-stackoverflow_formatted/626322_0.java,5,14,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jetty/server/handler/ErrorHandler.java,124,133,10,,,
-stackoverflow_formatted/7078060_0.java,47,56,eclipse_SDK/eclipse_SDK-4.3/src/src/javax/servlet/http/HttpUtils.java,31,40,10,,,
-stackoverflow_formatted/8631226_0.java,58,67,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/ui/internal/about/AboutUtils.java,166,175,10,,,
+stackoverflow_formatted/4533682_1.java,34,43,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/ui/internal/views/markers/MarkerCategory.java,115,124,10,,F,accidental similarity
+stackoverflow_formatted/23423905_0.java,26,35,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/core/resources/FileInfoMatcherDescription.java,39,48,10,,F,accidental similarity
+stackoverflow_formatted/5817648_0.java,8,17,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/help/internal/webapp/utils/Utils.java,29,38,10,,D,boilter-plate code for BufferReader
+stackoverflow_formatted/4154530_0.java,17,26,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/help/internal/webapp/utils/Utils.java,29,38,10,,D,boilter-plate code for BufferReader
+stackoverflow_formatted/6121298_0.java,8,17,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/osgi/framework/eventmgr/CopyOnWriteIdentityMap.java,192,201,10,,E,both classes extend implement Entry and have similar methods
+stackoverflow_formatted/626322_0.java,5,14,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jetty/server/handler/ErrorHandler.java,124,133,10,,D,similar code to escape special characters
+stackoverflow_formatted/7078060_0.java,47,56,eclipse_SDK/eclipse_SDK-4.3/src/src/javax/servlet/http/HttpUtils.java,31,40,10,,B,similar code to handle arrays
+stackoverflow_formatted/8631226_0.java,58,67,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/ui/internal/about/AboutUtils.java,166,175,10,,D,similar try-catch to close Input/OutputStream

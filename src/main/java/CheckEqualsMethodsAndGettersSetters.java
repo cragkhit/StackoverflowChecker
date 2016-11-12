@@ -9,16 +9,16 @@ import java.io.IOException;
 public class CheckEqualsMethodsAndGettersSetters {
 
     // public static String QPath = "QualitasCorpus-20130901r/projects_java_only_160816/";
-    public static String QPath = "QualitasCorpus-20130901r/projects_130901r_pt3";
-    public static String HOMEDIR = "/Users/Chaiyong";
-    public static String projectLocation = HOMEDIR + "/IdeasProjects/";
-    public static String SO_DIR = HOMEDIR + "/Downloads/stackoverflow/";
+    public static String QPath = "QualitasCorpus-20130901r/projects_130901r_pt1";
+    public static String HOMEDIR = "/Users/chaiyong";
+    public static String projectLocation = HOMEDIR + "/Documents/";
+    public static String SO_DIR = HOMEDIR + "/Downloads/";
 
     public static void main(String[] args) {
-        checkEqualsMethodsAndGettersSetters(projectLocation + "StackoverflowChecker/indv_nicad_df_130901_pt3_0.20_with_dup.csv"
+        checkEqualsMethodsAndGettersSetters(projectLocation + "StackoverflowChecker/PLATINUM_indv_simian_df_130901_pt1_with_dup.csv"
         // checkEqualsMethodsAndGettersSetters("/Users/Chaiyong/Desktop/a.csv"
 
-                , 1, 285, 0
+                , 1, 9393, 0
                 , SO_DIR);
     }
 
