@@ -19,7 +19,6 @@ public class CheckEqualsMethodsAndGettersSetters {
         // checkEqualsMethodsAndGettersSetters("/Users/Chaiyong/Desktop/a.csv"
                 , 1, 9393, 0
                 , SO_DIR);
-    }
 
     public static void checkEqualsMethodsAndGettersSetters(String file1, int start, int end, int so_starting_index, String path) {
         String cloneFile = file1;
