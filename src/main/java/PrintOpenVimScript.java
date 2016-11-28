@@ -12,7 +12,7 @@ public class PrintOpenVimScript {
     public static void main(String[] args) {
         String QPath = "qualitas";
 
-        printVimScript("/Users/chaiyong/Documents/StackoverflowChecker/selected.csv"
+        printVimScript("/Users/chaiyong/Documents/StackoverflowChecker/clones_validation/selected.csv"
                 , QPath, 1, 0);
     }
 

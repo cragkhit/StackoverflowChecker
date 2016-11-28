@@ -9,15 +9,19 @@ public class RandomClonePairGenerator {
     public static ArrayList<Integer> samplesArr;
     public static String HOMEDIR = "/Users/chaiyong/Documents/StackoverflowChecker";
     public static int[] SEED = {53, 37};
+    public static int[] POPULATION = {523, 2927};
+    public static int[] SAMPLE_SIZE = {52, 293};
+    public static String[] NAMES = {"tp", "fp"};
     public static int TP_MODE = 0;
     public static int FP_MODE = 1;
 
     public static int MODE = FP_MODE;
+
     public static void main(String[] args) {
         RandomNumbers randNum = new RandomNumbers();
-        Integer[] samples = randNum.generateRandomNumbers(SEED[MODE], 523, 146);
+        Integer[] samples = randNum.generateRandomNumbers(SEED[MODE], POPULATION[MODE], SAMPLE_SIZE[MODE]);
         samplesArr = new ArrayList<>(Arrays.asList(samples));
-        readAndGenerateFromCsv(HOMEDIR + "/samples_fp.csv", HOMEDIR + "/selected_fp.csv");
+        readAndGenerateFromCsv(HOMEDIR + "/clones_validation/samples_" + NAMES[MODE] + ".csv", HOMEDIR + "/clones_validation/selected_" + NAMES[MODE] + ".csv");
     }
 
     public static void readAndGenerateFromCsv(String csvFile, String outFile) {
