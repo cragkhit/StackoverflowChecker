@@ -26,4 +26,19 @@ public class RandomNumbers {
         }
 
     }
+
+    public Integer[] generateRandomNumbers(int seed, int populationSize, int sampleSize) {
+        Integer[] samples = new Integer[sampleSize];
+        Integer[] arr = new Integer[populationSize];
+        for (int i = 0; i < arr.length; i++) {
+            arr[i] = i;
+        }
+        Collections.shuffle(Arrays.asList(arr), new Random(seed));
+
+        for (int i = 0; i < sampleSize; i++) {
+            samples[i] = arr[i];
+        }
+
+        return samples;
+    }
 }

@@ -16,9 +16,10 @@ public class CheckEqualsMethodsAndGettersSetters {
 
     public static void main(String[] args) {
         checkEqualsMethodsAndGettersSetters(projectLocation + "StackoverflowChecker/PLATINUM_indv_simian_df_130901_pt1_with_dup.csv"
-        // checkEqualsMethodsAndGettersSetters("/Users/Chaiyong/Desktop/a.csv"
+                // checkEqualsMethodsAndGettersSetters("/Users/Chaiyong/Desktop/a.csv"
                 , 1, 9393, 0
                 , SO_DIR);
+    }
 
     public static void checkEqualsMethodsAndGettersSetters(String file1, int start, int end, int so_starting_index, String path) {
         String cloneFile = file1;
