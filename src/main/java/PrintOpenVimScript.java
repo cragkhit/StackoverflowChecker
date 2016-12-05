@@ -10,10 +10,10 @@ import java.util.HashMap;
 public class PrintOpenVimScript {
 
     public static void main(String[] args) {
-        String QPath = "QualitasCorpus-20130901r/projects_130901r_pt1";
+        String QPath = "qualitas";
 
-        printVimScript("/Users/chaiyong/Documents/StackoverflowChecker/PLATINUM_FINAL_ok_130901_no_aoi_pt1+2+3.csv"
-                , QPath, 9340, 2);
+        printVimScript("/Users/chaiyong/Documents/StackoverflowChecker/clones_validation/selected.csv"
+                , QPath, 1, 0);
     }
 
     public static void printVimScript(String file1, String QPath, int startingLine, int startingIndex) {
