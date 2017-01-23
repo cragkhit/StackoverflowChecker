@@ -11,7 +11,7 @@ import java.util.Map;
  * Created by Chaiyong on 8/14/16.
  */
 public class FindContainment {
-    public static String DIR = "/Users/chaiyong/Documents/StackoverflowChecker";
+    public static String DIR = "/Users/chaiyong/Documents/StackoverflowChecker/good-ok_pairs";
 
     public static void main(String args[]) {
 //        checkAndMergePairsWithSpecificLength("/Users/Chaiyong/IdeasProjects/StackoverflowChecker/ok+good_160814_merged.csv"
@@ -22,14 +22,14 @@ public class FindContainment {
 //                "/Users/Chaiyong/IdeasProjects/StackoverflowChecker/GOLD_ok_common_pairs_130901_pt2_2_with_checks.csv"
 //                ,"/Users/Chaiyong/IdeasProjects/StackoverflowChecker/indv_simian_df_130901_pt2.csv"
 //                , 2, 2, false, ",duplicate");
-        checkIndvInGoodOkPairs(
-                DIR + "/PLATINUM_FINAL_good_130901_pt1+2+3.csv"
-                , DIR + "/a.csv"
-                , 2, 1, false, ",duplicated_with_good_pair");
-//        checkTwoPairAndCopyDetails(
+//        checkIndvInGoodOkPairs(
 //                DIR + "/PLATINUM_FINAL_good_130901_pt1+2+3.csv"
-//                , DIR + "/PLATINUM_FINAL_ok_130901_no_aoi_pt1+2+3.csv"
-//                , 2, 2, false, ",found_in_checked_ok_pairs");
+//                , DIR + "/a.csv"
+//                , 2, 1, false, ",duplicated_with_good_pair");
+        checkTwoPairAndCopyDetails(
+                DIR + "/good_common_pairs_simianfse13-nicadfse13-0.7_130901_pt1+2+3.csv"
+                , DIR + "/ok_common_pairs_simianfse13-nicadfse13-0.7_130901_pt1+2+3.csv"
+                , 2, 2, false, ",found_in_good_pairs");
 //        checkExistAndCopyDetails(
 //                "/Users/Chaiyong/IdeasProjects/StackoverflowChecker/indv_simian_df_combined_latest_v_new_only_160825.csv"
 //                ,"/Users/Chaiyong/IdeasProjects/StackoverflowChecker/indv_nicad_df_combined_latest_v_new_only_160816_checked_equals.csv"

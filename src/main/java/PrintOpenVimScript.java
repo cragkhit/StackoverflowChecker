@@ -10,9 +10,9 @@ import java.util.HashMap;
 public class PrintOpenVimScript {
 
     public static void main(String[] args) {
-        String QPath = "qualitas";
+        String QPath = "QualitasCorpus-20130901r/projects";
 
-        printVimScript("/Users/chaiyong/Documents/StackoverflowChecker/clones_validation/selected_10_percent_random.csv"
+        printVimScript("/Users/chaiyong/Desktop/a.csv"
                 , QPath, 1, 0);
     }
 
