@@ -37,7 +37,7 @@ public class Main {
     private static double p = 0.7;
 
     private static String tool2 = "nicad";
-    private static String settings2 = "fse13";
+    private static String settings2 = "df";
     private static String ending = "_130901_pt1+2+3_fixed_clustering_failed";
 
     private static HashMap<String, ArrayList<Fragment>> fragmentMap = new HashMap<>();
