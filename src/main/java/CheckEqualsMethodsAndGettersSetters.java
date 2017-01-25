@@ -9,15 +9,15 @@ import java.io.IOException;
 public class CheckEqualsMethodsAndGettersSetters {
 
     // public static String QPath = "QualitasCorpus-20130901r/projects_java_only_160816/";
-    public static String QPath = "QualitasCorpus-20130901r/projects_130901r_pt1";
+    public static String QPath = "QualitasCorpus-20130901r/projects_130901r_pt1+2+3";
     public static String HOMEDIR = "/Users/chaiyong";
     public static String projectLocation = HOMEDIR + "/Documents/";
     public static String SO_DIR = HOMEDIR + "/Downloads/";
 
     public static void main(String[] args) {
-        checkEqualsMethodsAndGettersSetters(projectLocation + "StackoverflowChecker/PLATINUM_indv_simian_df_130901_pt1_with_dup.csv"
+        checkEqualsMethodsAndGettersSetters(projectLocation + "StackoverflowChecker/good_common_pairs_simiandf-nicaddf-0.7_130901_pt1+2+3_fixed_clustering_failed.csv"
                 // checkEqualsMethodsAndGettersSetters("/Users/Chaiyong/Desktop/a.csv"
-                , 1, 9393, 0
+                , 1, 2435, 1
                 , SO_DIR);
     }
 
