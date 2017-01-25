@@ -37,18 +37,18 @@ public class Main {
     private static double p = 0.7;
 
     private static String tool2 = "nicad";
-    private static String settings2 = "df";
-    private static String ending = "_130901_pt3";
+    private static String settings2 = "fse13";
+    private static String ending = "_130901_pt1+2+3_fixed_clustering_failed";
 
     private static HashMap<String, ArrayList<Fragment>> fragmentMap = new HashMap<>();
 
 	public static void main(String[] args) {
-        readFirstFile("/Users/Chaiyong/IdeasProjects/StackAnalyzer/fragments_" + tool1 + "_" + settings1 + ending + ".xml"
-                , "/Users/Chaiyong/IdeasProjects/StackAnalyzer/fragment_list_" + tool1 + "_" + settings1 + ".txt"
+        readFirstFile("/Users/Chaiyong/IdeasProjects/StackOverflowAnalyzer/fragments_" + tool1 + "_" + settings1 + ending + ".xml"
+                , "/Users/Chaiyong/IdeasProjects/StackOverflowAnalyzer/fragment_list_" + tool1 + "_" + settings1 + ending + ".txt"
                 , tool1 + "_fragments_pairs_" + settings1 + ".csv");
 
-        readSecondFileAndCompare("/Users/Chaiyong/IdeasProjects/StackAnalyzer/fragments_" + tool2 + "_" + settings2 + ending + ".xml"
-                , "/Users/Chaiyong/IdeasProjects/StackAnalyzer/fragment_list_" + tool2 + "_" + settings2 + ending + ".txt"
+        readSecondFileAndCompare("/Users/Chaiyong/IdeasProjects/StackOverflowAnalyzer/fragments_" + tool2 + "_" + settings2 + ending + ".xml"
+                , "/Users/Chaiyong/IdeasProjects/StackOverflowAnalyzer/fragment_list_" + tool2 + "_" + settings2 + ending + ".txt"
                 , "common_pairs_" + tool1 + settings1 + "-" + tool2 + settings2 + "-" + p + ending + ".csv");
 	}
 
