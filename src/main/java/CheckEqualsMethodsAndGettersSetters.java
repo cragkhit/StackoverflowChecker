@@ -15,7 +15,7 @@ public class CheckEqualsMethodsAndGettersSetters {
     public static String SO_DIR = HOMEDIR + "/Downloads/";
 
     public static void main(String[] args) {
-        checkEqualsMethodsAndGettersSetters(projectLocation + "StackoverflowChecker/good_common_pairs_simiandf-nicaddf-0.7_130901_pt1+2+3_fixed_clustering_failed.csv"
+        checkEqualsMethodsAndGettersSetters(projectLocation + "StackoverflowChecker/ok_common_pairs_simianfse13-nicadfse13-0.7_130901_pt1+2+3_fixed_clustering_failed.csv"
                 // checkEqualsMethodsAndGettersSetters("/Users/Chaiyong/Desktop/a.csv"
                 , 1, 2435, 1
                 , SO_DIR);
