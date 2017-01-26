@@ -30,7 +30,7 @@ public class IndvCloneFilter {
     public static String pathQualitas = "QualitasCorpus-20130901r";
     public static String tool = "nicad";
     public static String settings = "df";
-    public static String timestamp = "130901_pt1+2+3_fixed_clustering_failed";
+    public static String timestamp = "130901_pt1+2+3_fixed_clustering_failed_0.1";
 
     public static void main(String[] args) {
         String outfilePath = basePath + "/indv_" + tool + "_" + settings + "_" + timestamp + ".csv";
@@ -53,7 +53,7 @@ public class IndvCloneFilter {
                 // ReportedFragment f = (ReportedFragment) pair.getValue();
                 writer.println(f.getFirstFile() + "," + f.getfStart() + "," + f.getfEnd() + "," + f.getSecondFile() + ","
                         + f.getsStart() + "," + f.getsEnd() + "," + f.getMinCloneSize());
-                System.out.println(f.toString());
+                // System.out.println(f.toString());
                 // }
             }
             writer.close();

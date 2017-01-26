@@ -11,26 +11,25 @@ import java.util.Map;
  * Created by Chaiyong on 8/14/16.
  */
 public class FindContainment {
-    public static String DIR = "/Users/chaiyong/Documents/StackoverflowChecker/";
+    public static String DIR = "/Users/Chaiyong/IdeasProjects/StackoverflowChecker/";
 
     public static void main(String args[]) {
 //        checkAndMergePairsWithSpecificLength("/Users/Chaiyong/IdeasProjects/StackoverflowChecker/ok+good_160814_merged.csv"
 //                , "/Users/Chaiyong/IdeasProjects/StackoverflowChecker/ok+good_160814.csv", 2, 13, false);
 //        checkPairContainment("/Users/Chaiyong/Desktop/GOLD_ok+good_160816_merged_no_dup.csv"
 //                , "/Users/Chaiyong/IdeasProjects/StackoverflowChecker/indv_simian_df_combined_latest_v_new_only_160825.csv");
-//        checkPairAndCopyDetails(
-//                "/Users/chaiyong/Documents/StackoverflowChecker/PLATINUM_indv_nicad_df_130901_pt1+2+3_0.20.csv"
-//                ,"/Users/chaiyong/Documents/StackoverflowChecker/ok_common_pairs_simiandf-nicaddf-0.7_130901_pt1+2+3_fixed_clustering_failed_with_checks.csv"
-//                , 1, 1, false, ",found_in_Nd_pairs");
+        checkPairAndCopyDetails(
+                DIR + "/good-ok_pairs/GOLD_FINAL_indv_nicad_df_130901_pt1+2+3_0.20.csv"
+                ,DIR + "//indv_nicad_df_130901_pt1+2+3_fixed_clustering_failed_0.1.csv"
+                , 1, 0, true, ",found_in_Nd_pairs");
 //        checkIndvInGoodOkPairs(
 //                DIR + "/PLATINUM_FINAL_good_130901_pt1+2+3.csv"
 //                , DIR + "/a.csv"
 //                , 2, 1, false, ",duplicated_with_good_pair");
-        checkTwoPairAndCopyDetails(
-                DIR + "/PLATINUM_FINAL_ok_130901_no_aoi_pt1+2+3.csv"
-                // , DIR + "/ok_common_pairs_simianfse13-nicadfse13-0.7_130901_pt1+2+3.csv"
-                , "/Users/chaiyong/Desktop/ok_pairs.csv"
-                , 2, 2, true, ",found_in_previous_ok_pairs");
+//        checkTwoPairAndCopyDetails(
+//                DIR + "/good-ok_pairs/GOLD_FINAL_indv_nicad_df_130901_pt1+2+3_0.20.csv"
+//                , DIR + "/indv_nicad_df_130901_pt1+2+3_fixed_clustering_failed_0.15.csv"
+//                , 1, 0, true, ",found_in_previous_ok_pairs");
 //        checkExistAndCopyDetails(
 //                "/Users/Chaiyong/IdeasProjects/StackoverflowChecker/indv_simian_df_combined_latest_v_new_only_160825.csv"
 //                ,"/Users/Chaiyong/IdeasProjects/StackoverflowChecker/indv_nicad_df_combined_latest_v_new_only_160816_checked_equals.csv"
