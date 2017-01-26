@@ -2,13 +2,13 @@
  * Created by Chaiyong on 6/19/16.
  */
 public class Fragment {
-    private String firstFile;
-    private String secondFile;
-    private int fStart;
-    private int fEnd;
-    private int sStart;
-    private int sEnd;
-    private String other;
+    protected String firstFile;
+    protected String secondFile;
+    protected int fStart;
+    protected int fEnd;
+    protected int sStart;
+    protected int sEnd;
+    protected String other;
 
     public Fragment() {
 
