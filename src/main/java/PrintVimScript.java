@@ -12,8 +12,8 @@ public class PrintVimScript {
     public static void main(String[] args) {
         String QPath = "QualitasCorpus-20130901r/projects_130901r_pt1+2+3";
 
-        printVimScript("/Users/Chaiyong/IdeasProjects/StackoverflowChecker/PLATINUM_FINAL_ok_130901_no_aoi_pt1+2+3+4.csv"
-                , QPath, 11698, 2);
+        printVimScript("/Users/Chaiyong/IdeasProjects/StackoverflowChecker/PLATINUM_FINAL_indv_nicad_df_130901_pt1+2+3+4.csv"
+                , QPath, 131, 1);
     }
 
     public static void printVimScript(String file1, String QPath, int startingLine, int startingIndex) {
