@@ -66,6 +66,31 @@ pt2,stackoverflow_formatted/16462678_0.java,23,38,lucene-4.3.0/lucene-4.3.0/core
 pt2,stackoverflow_formatted/15095000_0.java,21,36,lucene-4.3.0/lucene-4.3.0/core/src/java/org/apache/lucene/search/TopTermsRewrite.java,115,130,16,,X,duplicated_with_ok_pair
 pt2,stackoverflow_formatted/3851674_0.java,23,41,lucene-4.3.0/lucene-4.3.0/highlighter/src/test/org/apache/lucene/search/postingshighlight/TestPostingsHighlighterRanking.java,160,178,19,,X,duplicated_with_ok_pair
 pt2,stackoverflow_formatted/8416340_0.java,5,23,wct-package-v1.5.2/WCTSubmitToRosetta/src/main/java/nz/govt/natlib/ndha/common/FileUtils.java,23,38,16,,X,duplicated_with_ok_pair
+pt4,stackoverflow_formatted/15095000_0.java,21,36,nakedobjects-4.0.0/nakedobjects-4.0.0/plugins/hibernate-persistor/src/main/java/org/nakedobjects/plugins/hibernate/objectstore/tools/internal/PersistentNakedClass.java,72,87,16,,X,duplicated_with_ok_pairs
+pt4,stackoverflow_formatted/16462678_0.java,23,38,nakedobjects-4.0.0/nakedobjects-4.0.0/plugins/hibernate-persistor/src/main/java/org/nakedobjects/plugins/hibernate/objectstore/tools/internal/PersistentNakedClass.java,72,87,16,,X,duplicated_with_ok_pairs
+pt4,stackoverflow_formatted/17920930_0.java,20,35,nakedobjects-4.0.0/nakedobjects-4.0.0/plugins/hibernate-persistor/src/main/java/org/nakedobjects/plugins/hibernate/objectstore/tools/internal/PersistentNakedClass.java,72,87,16,,X,duplicated_with_ok_pairs
+pt4,stackoverflow_formatted/21581988_0.java,125,140,nakedobjects-4.0.0/nakedobjects-4.0.0/plugins/hibernate-persistor/src/main/java/org/nakedobjects/plugins/hibernate/objectstore/tools/internal/PersistentNakedClass.java,72,87,16,,X,duplicated_with_ok_pairs
+pt4,stackoverflow_formatted/23197177_1.java,14,29,nakedobjects-4.0.0/nakedobjects-4.0.0/plugins/hibernate-persistor/src/main/java/org/nakedobjects/plugins/hibernate/objectstore/tools/internal/PersistentNakedClass.java,72,87,16,,X,duplicated_with_ok_pairs
+pt4,stackoverflow_formatted/1204658_0.java,109,124,netbeans-6.9.1-201007282301/bugtracking/src/org/netbeans/modules/bugtracking/issuetable/IssueTable.java,338,353,16,,X,duplicated_with_ok_pairs
+pt4,stackoverflow_formatted/23555435_0.java,11,31,netbeans-6.9.1-201007282301/css.visual/src/org/netbeans/modules/css/Utilities.java,33,51,19,,X,duplicated_with_ok_pairs
+pt4,stackoverflow_formatted/13311280_0.java,2,56,netbeans-6.9.1-201007282301/form/test/qa-functional/data/SampleDesktopApplication/src/sampledesktopapplication/SampleDesktopView.java,14,67,54,,X,duplicated_with_good_pairs
+pt4,stackoverflow_formatted/8180925_0.java,25,40,netbeans-6.9.1-201007282301/groovy.editor/src/org/netbeans/modules/groovy/editor/api/completion/CompletionHandler.java,1808,1823,16,,X,duplicated_with_ok_pairs
+pt4,stackoverflow_formatted/8180925_0.java,25,40,netbeans-6.9.1-201007282301/groovy.editor/src/org/netbeans/modules/groovy/editor/api/completion/MethodSignature.java,17,33,16,,X,duplicated_with_ok_pairs
+pt4,stackoverflow_formatted/8180925_0.java,25,40,netbeans-6.9.1-201007282301/j2ee.samples/samples_src/ScrumToys/src/java/jsf2/demo/scrum/model/entities/Sprint.java,118,133,16,,X,duplicated_with_ok_pairs
+pt4,stackoverflow_formatted/8180925_0.java,25,40,netbeans-6.9.1-201007282301/j2ee.samples/samples_src/ScrumToys/src/java/jsf2/demo/scrum/model/entities/Story.java,129,144,16,,X,duplicated_with_ok_pairs
+pt4,stackoverflow_formatted/8180925_0.java,25,40,netbeans-6.9.1-201007282301/j2ee.samples/samples_src/ScrumToys/src/java/jsf2/demo/scrum/model/entities/Task.java,85,100,16,,X,duplicated_with_ok_pairs
+pt4,stackoverflow_formatted/8869781_0.java,25,42,netbeans-6.9.1-201007282301/j2ee.sun.ddui/src/org/netbeans/modules/j2ee/sun/validation/util/Utils.java,72,87,16,,X,duplicated_with_ok_pairs
+pt4,stackoverflow_formatted/13311280_0.java,2,56,netbeans-6.9.1-201007282301/java.examples/MarsRoverViewer/src/marsroverviewer/MarsRoverViewerView.java,24,78,55,,X,duplicated_with_good_pairs
+pt4,stackoverflow_formatted/25150803_0.java,35,50,netbeans-6.9.1-201007282301/java.navigation/src/org/netbeans/modules/java/stackanalyzer/AnalyserCellRenderer.java,29,44,16,,X,duplicated_with_good_pairs
+pt4,stackoverflow_formatted/8180925_0.java,25,40,netbeans-6.9.1-201007282301/maven.samples/samples_src/MavenScrumToys/src/main/java/jsf2/demo/scrum/model/entities/Sprint.java,118,133,16,,X,duplicated_with_ok_pairs
+pt4,stackoverflow_formatted/8180925_0.java,25,40,netbeans-6.9.1-201007282301/maven.samples/samples_src/MavenScrumToys/src/main/java/jsf2/demo/scrum/model/entities/Story.java,129,144,16,,X,duplicated_with_ok_pairs
+pt4,stackoverflow_formatted/8180925_0.java,25,40,netbeans-6.9.1-201007282301/maven.samples/samples_src/MavenScrumToys/src/main/java/jsf2/demo/scrum/model/entities/Task.java,85,100,16,,X,duplicated_with_ok_pairs
+pt4,stackoverflow_formatted/25150803_0.java,35,50,netbeans-6.9.1-201007282301/spellchecker/src/org/netbeans/modules/spellchecker/options/CheckBoxRenderrer.java,22,37,16,,X,duplicated_with_good_pairs
+pt4,stackoverflow_formatted/13311280_0.java,2,56,netbeans-6.9.1-201007282301/swingapp/appshells/BasicShellApp/src/applicationpackage/ShellView.java,14,67,54,,X,duplicated_with_good_pairs
+pt4,stackoverflow_formatted/25049514_0.java,108,128,netbeans-6.9.1-201007282301/vmd.game/src/org/netbeans/modules/vmd/game/editor/sequece/SequenceDefaultTableEditor.java,54,74,21,,X,duplicated_with_ok_pairs
+pt4,stackoverflow_formatted/10901944_0.java,114,125,netbeans-6.9.1-201007282301/xml/src/org/netbeans/modules/xml/wizard/impl/SchemaPanel.java,501,511,11,,X,duplicated_with_ok_pairs
+pt4,stackoverflow_formatted/11553639_0.java,131,143,netbeans-6.9.1-201007282301/xml/src/org/netbeans/modules/xml/wizard/impl/SchemaPanel.java,501,511,11,,X,duplicated_with_ok_pairs
+pt4,stackoverflow_formatted/11578674_0.java,116,127,netbeans-6.9.1-201007282301/xml/src/org/netbeans/modules/xml/wizard/impl/SchemaPanel.java,501,511,11,,X,duplicated_with_ok_pairs
 pt3,stackoverflow_formatted/2513183_0.java,45,55,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jdt/ui/actions/GenerateToStringAction.java,45,55,11,,A,"the whole class is copied from eclipse (with license) ""I cannot find the source of that class on the internet, so I will copy it here for you to examine its content:"""
 pt3,stackoverflow_formatted/2513183_0.java,96,105,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jdt/ui/actions/GenerateToStringAction.java,102,111,10,,A,"the whole class is copied from eclipse (with license) ""I cannot find the source of that class on the internet, so I will copy it here for you to examine its content:"""
 pt3,stackoverflow_formatted/2513183_0.java,106,159,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jdt/ui/actions/GenerateToStringAction.java,113,166,54,,A,"the whole class is copied from eclipse (with license) ""I cannot find the source of that class on the internet, so I will copy it here for you to examine its content:"""
@@ -86,7 +111,7 @@ pt3,stackoverflow_formatted/16860613_0.java,96,117,eclipse_SDK/eclipse_SDK-4.3/s
 pt3,stackoverflow_formatted/16860613_0.java,118,165,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jface/viewers/StyledString.java,118,165,48,,B,identical code
 pt3,stackoverflow_formatted/16860613_0.java,189,204,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jface/viewers/StyledString.java,189,204,16,,B,identical code
 pt3,stackoverflow_formatted/16860613_0.java,215,225,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jface/viewers/StyledString.java,215,225,11,,B,identical code
-pt1,stackoverflow_formatted/21912294_0.java,109,118,iReport-3/iReport-3.7.5-src/jasperserver-plugin/src/com/jaspersoft/ireport/jasperserver/ws/IReportTrustManager.java,113,122,10,,B,"SO answer says that ""I got it working over the internetz ¥Ë_¥Ë__¥Ë_¥Ë___¥Ë_¥Ë__¥Ë_¥Ë____¥Ë_¥Ë__¥Ë_¥Ë___¥Ë_¥Ë__¥Ë_¥Ë_____"". The HEXDIGITS constant and toHexString() method are exactly similar."
+pt1,stackoverflow_formatted/21912294_0.java,109,118,iReport-3/iReport-3.7.5-src/jasperserver-plugin/src/com/jaspersoft/ireport/jasperserver/ws/IReportTrustManager.java,113,122,10,,B,"SO answer says that ""I got it working over the internetz •À_•À__•À_•À___•À_•À__•À_•À____•À_•À__•À_•À___•À_•À__•À_•À_____•À_•À__•À_•À___•À_•À__•À_•À____•À_•À__•À_•À___•À_•À__•À_•À______•À_•À__•À_•À___•À_•À__•À_•À____•À_•À__•À_•À___•À_•À__•À_•À_____•À_•À__•À_•À___•À_•À__•À_•À____•À_•À__•À_•À___•À_•À__•À_•À_______"". The HEXDIGITS constant and toHexString() method are exactly similar."
 pt1,stackoverflow_formatted/20513679_0.java,103,112,iReport-3/iReport-3.7.5-src/jasperserver-plugin/src/com/jaspersoft/ireport/jasperserver/ws/IReportTrustManager.java,113,122,10,,B,The HEXDIGITS constant and toHexString() method are exactly similar.
 pt1,stackoverflow_formatted/15373186_0.java,104,113,iReport-3/iReport-3.7.5-src/jasperserver-plugin/src/com/jaspersoft/ireport/jasperserver/ws/IReportTrustManager.java,113,122,10,,B,The HEXDIGITS constant and toHexString() method are exactly similar.
 pt1,stackoverflow_formatted/18764836_0.java,104,113,iReport-3/iReport-3.7.5-src/jasperserver-plugin/src/com/jaspersoft/ireport/jasperserver/ws/IReportTrustManager.java,113,122,10,,B,"SO answer says that the code is copied from Sun's example. However, iReport code does not say anything. The HEXDIGITS constant and toHexString() method are exactly similar."
@@ -135,13 +160,6 @@ pt4,stackoverflow_formatted/550172_0.java,39,68,jstock-1.0.7c/jstock/src/org/ycc
 pt4,stackoverflow_formatted/550172_0.java,69,81,jstock-1.0.7c/jstock/src/org/yccheok/jstock/gui/Utils.java,444,456,13,,,
 pt4,stackoverflow_formatted/20022515_0.java,41,52,mvnforum-1.2.2-mvnad-1.0.1/mvnforum-1.2.2-mvnad-1.0.1-src-20100817/myvietnam/src/net/myvietnam/mvncore/util/ImageUtil.java,76,87,12,,,
 pt4,stackoverflow_formatted/12040310_0.java,65,78,mvnforum-1.2.2-mvnad-1.0.1/mvnforum-1.2.2-mvnad-1.0.1-src-20100817/myvietnam/src/net/myvietnam/mvncore/web/fileupload/disk/DiskFileItem.java,152,165,14,,,
-pt4,stackoverflow_formatted/15095000_0.java,21,36,nakedobjects-4.0.0/nakedobjects-4.0.0/plugins/hibernate-persistor/src/main/java/org/nakedobjects/plugins/hibernate/objectstore/tools/internal/PersistentNakedClass.java,72,87,16,,,
-pt4,stackoverflow_formatted/16462678_0.java,23,38,nakedobjects-4.0.0/nakedobjects-4.0.0/plugins/hibernate-persistor/src/main/java/org/nakedobjects/plugins/hibernate/objectstore/tools/internal/PersistentNakedClass.java,72,87,16,,,
-pt4,stackoverflow_formatted/17920930_0.java,20,35,nakedobjects-4.0.0/nakedobjects-4.0.0/plugins/hibernate-persistor/src/main/java/org/nakedobjects/plugins/hibernate/objectstore/tools/internal/PersistentNakedClass.java,72,87,16,,,
-pt4,stackoverflow_formatted/21581988_0.java,125,140,nakedobjects-4.0.0/nakedobjects-4.0.0/plugins/hibernate-persistor/src/main/java/org/nakedobjects/plugins/hibernate/objectstore/tools/internal/PersistentNakedClass.java,72,87,16,,,
-pt4,stackoverflow_formatted/23197177_1.java,14,29,nakedobjects-4.0.0/nakedobjects-4.0.0/plugins/hibernate-persistor/src/main/java/org/nakedobjects/plugins/hibernate/objectstore/tools/internal/PersistentNakedClass.java,72,87,16,,,
-pt4,stackoverflow_formatted/1204658_0.java,109,124,netbeans-6.9.1-201007282301/bugtracking/src/org/netbeans/modules/bugtracking/issuetable/IssueTable.java,338,353,16,,,
-pt4,stackoverflow_formatted/23555435_0.java,11,31,netbeans-6.9.1-201007282301/css.visual/src/org/netbeans/modules/css/Utilities.java,33,51,19,,,
 pt4,stackoverflow_formatted/7262163_0.java,49,59,netbeans-6.9.1-201007282301/db.dataview/src/org/netbeans/modules/db/dataview/table/CellFocusCustomRenderer.java,11,22,11,,,
 pt4,stackoverflow_formatted/19382475_0.java,14,25,netbeans-6.9.1-201007282301/dlight.util/src/org/netbeans/modules/dlight/util/DLightExecutorService.java,75,84,10,,,
 pt4,stackoverflow_formatted/12921020_0.java,24,35,netbeans-6.9.1-201007282301/form/src/org/netbeans/modules/form/menu/MenuEditLayer.java,385,397,12,,,
@@ -149,33 +167,15 @@ pt4,stackoverflow_formatted/12982345_0.java,15,26,netbeans-6.9.1-201007282301/fo
 pt4,stackoverflow_formatted/12996718_0.java,19,30,netbeans-6.9.1-201007282301/form/src/org/netbeans/modules/form/menu/MenuEditLayer.java,385,397,12,,,
 pt4,stackoverflow_formatted/13220415_0.java,21,32,netbeans-6.9.1-201007282301/form/src/org/netbeans/modules/form/menu/MenuEditLayer.java,385,397,12,,,
 pt4,stackoverflow_formatted/17383922_0.java,13,24,netbeans-6.9.1-201007282301/form/src/org/netbeans/modules/form/menu/MenuEditLayer.java,385,397,12,,,
-pt4,stackoverflow_formatted/13311280_0.java,2,56,netbeans-6.9.1-201007282301/form/test/qa-functional/data/SampleDesktopApplication/src/sampledesktopapplication/SampleDesktopView.java,14,67,54,,,
-pt4,stackoverflow_formatted/8180925_0.java,25,40,netbeans-6.9.1-201007282301/groovy.editor/src/org/netbeans/modules/groovy/editor/api/completion/CompletionHandler.java,1808,1823,16,,,
-pt4,stackoverflow_formatted/8180925_0.java,25,40,netbeans-6.9.1-201007282301/groovy.editor/src/org/netbeans/modules/groovy/editor/api/completion/MethodSignature.java,17,33,16,,,
 pt4,stackoverflow_formatted/15052680_0.java,84,95,netbeans-6.9.1-201007282301/j2ee.ejbjarproject/test/unit/src/org/netbeans/modules/j2ee/ejbjarproject/test/TestUtil.java,121,134,12,,,
-pt4,stackoverflow_formatted/8180925_0.java,25,40,netbeans-6.9.1-201007282301/j2ee.samples/samples_src/ScrumToys/src/java/jsf2/demo/scrum/model/entities/Sprint.java,118,133,16,,,
-pt4,stackoverflow_formatted/8180925_0.java,25,40,netbeans-6.9.1-201007282301/j2ee.samples/samples_src/ScrumToys/src/java/jsf2/demo/scrum/model/entities/Story.java,129,144,16,,,
-pt4,stackoverflow_formatted/8180925_0.java,25,40,netbeans-6.9.1-201007282301/j2ee.samples/samples_src/ScrumToys/src/java/jsf2/demo/scrum/model/entities/Task.java,85,100,16,,,
-pt4,stackoverflow_formatted/8869781_0.java,25,42,netbeans-6.9.1-201007282301/j2ee.sun.ddui/src/org/netbeans/modules/j2ee/sun/validation/util/Utils.java,72,87,16,,,
 pt4,stackoverflow_formatted/19382475_0.java,14,25,netbeans-6.9.1-201007282301/j2eeserver/src/org/netbeans/modules/j2ee/deployment/impl/DeployOnSaveManager.java,48,57,10,,,
 pt4,stackoverflow_formatted/13311280_0.java,29,54,netbeans-6.9.1-201007282301/java.examples/DocumentEditor/src/documenteditor/DocumentEditorView.java,53,78,26,,,
-pt4,stackoverflow_formatted/13311280_0.java,2,56,netbeans-6.9.1-201007282301/java.examples/MarsRoverViewer/src/marsroverviewer/MarsRoverViewerView.java,24,78,55,,,
-pt4,stackoverflow_formatted/25150803_0.java,35,50,netbeans-6.9.1-201007282301/java.navigation/src/org/netbeans/modules/java/stackanalyzer/AnalyserCellRenderer.java,29,44,16,,,
 pt4,stackoverflow_formatted/12040310_0.java,65,78,netbeans-6.9.1-201007282301/lib.cvsclient/src/org/netbeans/lib/cvsclient/file/DefaultTransmitTextFilePreprocessor.java,50,63,14,,,
-pt4,stackoverflow_formatted/8180925_0.java,25,40,netbeans-6.9.1-201007282301/maven.samples/samples_src/MavenScrumToys/src/main/java/jsf2/demo/scrum/model/entities/Sprint.java,118,133,16,,,
-pt4,stackoverflow_formatted/8180925_0.java,25,40,netbeans-6.9.1-201007282301/maven.samples/samples_src/MavenScrumToys/src/main/java/jsf2/demo/scrum/model/entities/Story.java,129,144,16,,,
-pt4,stackoverflow_formatted/8180925_0.java,25,40,netbeans-6.9.1-201007282301/maven.samples/samples_src/MavenScrumToys/src/main/java/jsf2/demo/scrum/model/entities/Task.java,85,100,16,,,
 pt4,stackoverflow_formatted/10902184_0.java,40,49,netbeans-6.9.1-201007282301/projectui/src/org/netbeans/modules/project/ui/ProjectUtilities.java,78,89,10,,,
-pt4,stackoverflow_formatted/25150803_0.java,35,50,netbeans-6.9.1-201007282301/spellchecker/src/org/netbeans/modules/spellchecker/options/CheckBoxRenderrer.java,22,37,16,,,
-pt4,stackoverflow_formatted/13311280_0.java,2,56,netbeans-6.9.1-201007282301/swingapp/appshells/BasicShellApp/src/applicationpackage/ShellView.java,14,67,54,,,
 pt4,stackoverflow_formatted/13311280_0.java,29,54,netbeans-6.9.1-201007282301/swingapp/appshells/CRUDShellApp/src/applicationpackage/ShellView.java,52,77,26,,,
 pt4,stackoverflow_formatted/24752728_1.java,20,46,netbeans-6.9.1-201007282301/usersguide/tutorials/j2ee-tut/examples/jaxrpc/diiclient/src/diiclient/HelloDIIClient.java,17,38,22,,,
 pt4,stackoverflow_formatted/25049514_0.java,117,127,netbeans-6.9.1-201007282301/vmd.game/src/org/netbeans/modules/vmd/game/editor/scene/BooleanTableCellRenderer.java,65,75,11,,,
-pt4,stackoverflow_formatted/25049514_0.java,108,128,netbeans-6.9.1-201007282301/vmd.game/src/org/netbeans/modules/vmd/game/editor/sequece/SequenceDefaultTableEditor.java,54,74,21,,,
 pt4,stackoverflow_formatted/15052680_0.java,84,95,netbeans-6.9.1-201007282301/web.project/test/unit/src/org/netbeans/modules/web/project/test/TestUtil.java,218,231,12,,,
-pt4,stackoverflow_formatted/10901944_0.java,114,125,netbeans-6.9.1-201007282301/xml/src/org/netbeans/modules/xml/wizard/impl/SchemaPanel.java,501,511,11,,,
-pt4,stackoverflow_formatted/11553639_0.java,131,143,netbeans-6.9.1-201007282301/xml/src/org/netbeans/modules/xml/wizard/impl/SchemaPanel.java,501,511,11,,,
-pt4,stackoverflow_formatted/11578674_0.java,116,127,netbeans-6.9.1-201007282301/xml/src/org/netbeans/modules/xml/wizard/impl/SchemaPanel.java,501,511,11,,,
 pt4,stackoverflow_formatted/15131432_0.java,25,42,struts2-2.2.1-all/struts-2.2.1/src/core/src/main/java/org/apache/struts2/views/freemarker/FreemarkerManager.java,163,177,15,,,
 pt4,stackoverflow_formatted/14673198_1.java,4,13,struts2-2.2.1-all/struts-2.2.1/src/xwork-core/src/main/java/com/opensymphony/xwork2/util/classloader/JarResourceStore.java,34,43,10,,,
 pt4,stackoverflow_formatted/15110171_0.java,23,40,struts2-2.2.1-all/struts-2.2.1/src/xwork-core/src/main/java/com/opensymphony/xwork2/validator/validators/StringLengthFieldValidator.java,25,42,18,,,
