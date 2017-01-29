@@ -18,18 +18,18 @@ public class FindContainment {
 //                , "/Users/Chaiyong/IdeasProjects/StackoverflowChecker/ok+good_160814.csv", 2, 13, false);
 //        checkPairContainment("/Users/Chaiyong/Desktop/GOLD_ok+good_160816_merged_no_dup.csv"
 //                , "/Users/Chaiyong/IdeasProjects/StackoverflowChecker/indv_simian_df_combined_latest_v_new_only_160825.csv");
-        checkPairAndCopyDetails(
-                DIR + "/good-ok_pairs/GOLD_FINAL_indv_nicad_df_130901_pt1+2+3_0.20.csv"
-                ,DIR + "//indv_nicad_df_130901_pt1+2+3_fixed_clustering_failed_0.1.csv"
-                , 1, 0, true, ",found_in_Nd_pairs");
+//        checkPairAndCopyDetails(
+//                DIR + "/PLATINUM_FINAL_good_130901_pt1+2+3+4.csv"
+//                ,DIR + "/PLATINUM_FINAL_indv_nicad_df_130901_pt1+2+3+4+ok.csv"
+//                , 2, 1, false, ",found_in_good_pairs");
 //        checkIndvInGoodOkPairs(
 //                DIR + "/PLATINUM_FINAL_good_130901_pt1+2+3.csv"
 //                , DIR + "/a.csv"
 //                , 2, 1, false, ",duplicated_with_good_pair");
-//        checkTwoPairAndCopyDetails(
-//                DIR + "/good-ok_pairs/GOLD_FINAL_indv_nicad_df_130901_pt1+2+3_0.20.csv"
-//                , DIR + "/indv_nicad_df_130901_pt1+2+3_fixed_clustering_failed_0.15.csv"
-//                , 1, 0, true, ",found_in_previous_ok_pairs");
+        checkTwoPairAndCopyDetails(
+                DIR + "/PLATINUM_FINAL_good_130901_pt1+2+3+4.csv"
+                , DIR + "/PLATINUM_FINAL_ok_130901_no_aoi_pt1+2+3+4.csv"
+                , 2, 2, false, ",found_in_good_pairs");
 //        checkExistAndCopyDetails(
 //                "/Users/Chaiyong/IdeasProjects/StackoverflowChecker/indv_simian_df_combined_latest_v_new_only_160825.csv"
 //                ,"/Users/Chaiyong/IdeasProjects/StackoverflowChecker/indv_nicad_df_combined_latest_v_new_only_160816_checked_equals.csv"
