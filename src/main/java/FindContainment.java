@@ -19,17 +19,17 @@ public class FindContainment {
 //        checkPairContainment("/Users/Chaiyong/Desktop/GOLD_ok+good_160816_merged_no_dup.csv"
 //                , "/Users/Chaiyong/IdeasProjects/StackoverflowChecker/indv_simian_df_combined_latest_v_new_only_160825.csv");
         checkPairAndCopyDetails(
-                DIR + "/PLATINUM_FINAL_ok_130901_no_aoi_pt1+2+3+4.csv"
-                ,DIR + "/PLATINUM_FINAL_indv_nicad_df_130901_pt1+2+3+4+good.csv"
-                , 2, 1, false, ",found_in_ok_pairs");
+                "/Users/Chaiyong/Desktop/CM_conflicts.csv"
+                ,DIR + "/PLATINUM_FINAL_indv_simian_df_130901_pt1+2+3.csv"
+                , 1, 0, true, ",found_in_conflicts");
 //        checkIndvInGoodOkPairs(
 //                DIR + "/PLATINUM_FINAL_good_130901_pt1+2+3.csv"
 //                , DIR + "/a.csv"
 //                , 2, 1, false, ",duplicated_with_good_pair");
 //        checkTwoPairAndCopyDetails(
-//                DIR + "/PLATINUM_FINAL_good_130901_pt1+2+3+4.csv"
-//                , DIR + "/PLATINUM_FINAL_indv_nicad_df_130901_pt1+2+3+4.csv"
-//                , 2, 1, false, ",found_in_good_pairs");
+//                "/Users/Chaiyong/Desktop/CM_conflicts.csv"
+//                , DIR + "/PLATINUM_FINAL_ok_130901_no_aoi_pt1+2+3+4.csv"
+//                , 1, 2, true, ",found_in_good_pairs");
 //        checkExistAndCopyDetails(
 //                "/Users/Chaiyong/IdeasProjects/StackoverflowChecker/indv_simian_df_combined_latest_v_new_only_160825.csv"
 //                ,"/Users/Chaiyong/IdeasProjects/StackoverflowChecker/indv_nicad_df_combined_latest_v_new_only_160816_checked_equals.csv"
@@ -308,7 +308,9 @@ public class FindContainment {
         }
     }
 
-    public static void checkPairAndCopyDetails(String baseFile, String searchFile, int offset, int offset2, boolean copyComments, String text) {
+    public static void checkPairAndCopyDetails(String baseFile, String searchFile,
+                                               int offset, int offset2,
+                                               boolean copyComments, String text) {
         HashMap<String, String> baseFileMap = new HashMap<>();
         ArrayList<Fragment> searchFileArr = new ArrayList<>();
         BufferedReader br = null;
@@ -365,8 +367,7 @@ public class FindContainment {
             for (Fragment f : searchFileArr) {
                 if (baseFileMap.containsKey(f.toString())) {
                     if (copyComments) {
-                        String fline = baseFileMap.get(f.toString());
-                        System.out.println(fline);
+                        System.out.println(f.getOther() + "," + f.getOther());
                     } else {
                         System.out.println(f.getOther() + text);
                     }
@@ -390,7 +391,9 @@ public class FindContainment {
         }
     }
 
-    public static void checkTwoPairAndCopyDetails(String baseFile, String searchFile, int offset, int offset2, boolean copyComments, String text) {
+    public static void checkTwoPairAndCopyDetails(String baseFile, String searchFile,
+                                                  int offset, int offset2,
+                                                  boolean copyComments, String text) {
         HashMap<String, String> baseFileMap = new HashMap<>();
         ArrayList<Fragment> searchFileArr = new ArrayList<>();
         ArrayList<Fragment> searchFileArr2 = new ArrayList<>();
@@ -469,7 +472,7 @@ public class FindContainment {
                 if (baseFileMap.containsKey(f.toString() + "," + f2.toString())) {
                     if (copyComments) {
                         String fline = baseFileMap.get(f.toString() + "," + f2.toString());
-                        System.out.println(fline);
+                        System.out.println(f.getOther() + "," + fline);
                     } else {
                         System.out.println(f.getOther() + text);
                     }
