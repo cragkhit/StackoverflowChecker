@@ -15,9 +15,9 @@ public class CheckEqualsMethodsAndGettersSetters {
     public static String SO_DIR = HOMEDIR + "/Downloads/stackoverflow/";
 
     public static void main(String[] args) {
-        checkEqualsMethodsAndGettersSetters(projectLocation + "StackoverflowChecker/PLATINUM_FINAL_indv_nicad_df_130901_pt1+2+3+4.csv"
+        checkEqualsMethodsAndGettersSetters(projectLocation + "StackoverflowChecker/ok_common_pairs_simiandf-nicaddf-0.7_130901_pt1+2+3_fixed_clustering_failed.csv"
                 // checkEqualsMethodsAndGettersSetters("/Users/Chaiyong/Desktop/a.csv"
-                , 141, 181, 1
+                , 1, 593, 1
                 , SO_DIR);
     }
 
