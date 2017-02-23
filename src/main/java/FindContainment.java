@@ -18,18 +18,18 @@ public class FindContainment {
 //                , "/Users/Chaiyong/IdeasProjects/StackoverflowChecker/ok+good_160814.csv", 2, 13, false);
 //        checkPairContainment("/Users/Chaiyong/Desktop/GOLD_ok+good_160816_merged_no_dup.csv"
 //                , "/Users/Chaiyong/IdeasProjects/StackoverflowChecker/indv_simian_df_combined_latest_v_new_only_160825.csv");
-        checkPairAndCopyDetails(
-                "/Users/Chaiyong/Desktop/CM_conflicts.csv"
-                ,DIR + "/PLATINUM_FINAL_indv_simian_df_130901_pt1+2+3.csv"
-                , 1, 0, true, ",found_in_conflicts");
+//        checkPairAndCopyDetails(
+//                "/Users/Chaiyong/Desktop/CM_conflicts.csv"
+//                ,DIR + "/PLATINUM_FINAL_indv_simian_df_130901_pt1+2+3.csv"
+//                , 1, 0, true, ",found_in_conflicts");
 //        checkIndvInGoodOkPairs(
 //                DIR + "/PLATINUM_FINAL_good_130901_pt1+2+3.csv"
 //                , DIR + "/a.csv"
 //                , 2, 1, false, ",duplicated_with_good_pair");
-//        checkTwoPairAndCopyDetails(
-//                "/Users/Chaiyong/Desktop/CM_conflicts.csv"
-//                , DIR + "/PLATINUM_FINAL_ok_130901_no_aoi_pt1+2+3+4.csv"
-//                , 1, 2, true, ",found_in_good_pairs");
+        checkTwoPairAndCopyDetails(
+                "/Users/Chaiyong/Desktop/a.csv"
+                ,DIR + "GOLD_ok_common_pairs_simiandf-nicaddf-0.7_130901_pt1+2+3_fixed_missing_ND_pairs_checked.csv"
+                , 3, 1, false, ",duplicated_with_SEND");
 //        checkExistAndCopyDetails(
 //                "/Users/Chaiyong/IdeasProjects/StackoverflowChecker/indv_simian_df_combined_latest_v_new_only_160825.csv"
 //                ,"/Users/Chaiyong/IdeasProjects/StackoverflowChecker/indv_nicad_df_combined_latest_v_new_only_160816_checked_equals.csv"
