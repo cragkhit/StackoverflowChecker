@@ -7,27 +7,31 @@ import java.io.IOException;
  * Created by Chaiyong on 8/14/16.
  */
 public class CheckEqualsMethodsAndGettersSetters {
-
-    // public static String QPath = "QualitasCorpus-20130901r/projects_java_only_160816/";
-    public static String QPath = "QualitasCorpus-20130901r/projects_130901r_pt1+2+3";
-    public static String HOMEDIR = "/Users/Chaiyong";
-    public static String projectLocation = HOMEDIR + "/IdeasProjects/";
-    public static String SO_DIR = HOMEDIR + "/Downloads/stackoverflow/";
+    private static String QPath = "QualitasCorpus-20130901r/projects_130901r_pt1+2+3";
+    private static String HOMEDIR = "/Users/Chaiyong";
+    private static String projectLocation = HOMEDIR + "/IdeasProjects";
+    private static String projectName = "StackoverflowChecker";
+    private static String SO_DIR = HOMEDIR + "/Downloads/stackoverflow/";
+    private static String fileName = "indv_simian_df_130901_rerun.csv";
 
     public static void main(String[] args) {
-        checkEqualsMethodsAndGettersSetters(projectLocation + "StackoverflowChecker/ok_common_pairs_simiandf-nicaddf-0.7_130901_pt1+2+3_fixed_clustering_failed.csv"
-                // checkEqualsMethodsAndGettersSetters("/Users/Chaiyong/Desktop/a.csv"
-                , 1, 593, 1
+        checkEqualsMethodsAndGettersSetters(
+                projectLocation + "/" + projectName + "/" + fileName
+                , 1
+                , -1
+                , 0
                 , SO_DIR);
     }
 
-    public static void checkEqualsMethodsAndGettersSetters(String file1, int start, int end, int so_starting_index, String path) {
+    private static void checkEqualsMethodsAndGettersSetters(String file1, int start, int end, int so_starting_index, String path) {
         String cloneFile = file1;
         BufferedReader br = null;
         BufferedReader sF = null;
         BufferedReader qF = null;
         String line = "", sLine = "", qLine = "";
         String cvsSplitBy = ",";
+
+        StringBuilder results = new StringBuilder();
 
         try {
 
@@ -260,22 +264,30 @@ public class CheckEqualsMethodsAndGettersSetters {
 
                     // both are equals() methods
                     if (foundFirst && foundSecond) {
-                        System.out.println(line + ",D,similar equals() methods");
+                        results.append(line).append(",D,similar equals() methods\n");
                     } else if (foundFirstGetter && foundSecondGetter) {
-                        System.out.println(line + ",D,similar getters & setters methods");
+                        results.append(line).append(",D,similar getters & setters methods\n");
                     } else if (foundGetter) {
-                        System.out.println(line + ",F,accidentally similar getter");
+                        results.append(line).append(",D,accidentally similar getter\n");
                     } else if (foundSetter) {
-                        System.out.println(line + ",F,accidentally similar setter");
+                        results.append(line).append(",D,accidentally similar setter\n");
                     } else if (foundFirstHashCode && foundSecondHashCode) {
-                        System.out.println(line + ",F,accidentally similar hashCode() and equals()");
+                        results.append(line).append(",D,accidentally similar hashCode() and equals()\n");
                     } else {
-                        System.out.println(line);
+                        results.append(line).append("\n");
                     }
                 }
                 count++;
             }
+
             br.close();
+
+            // write the resulst to another file
+            MyFileWriter.writeToFile(".",
+                    fileName.replace(".csv","_filtered.csv"),
+                    results.toString(),
+                    false,
+                    true);
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         } catch (IOException e) {

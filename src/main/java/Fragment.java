@@ -189,7 +189,7 @@ public class Fragment {
     }
 
     public String toString() {
-        return this.firstFile + ", " + this.fStart + ", " + this.fEnd
+        return this.firstFile + "," + this.fStart + "," + this.fEnd
                 + "," + this.secondFile + "," + this.sStart + "," + this.sEnd;
     }
 

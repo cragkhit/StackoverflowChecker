@@ -28,11 +28,12 @@ public class IndvCloneFilter {
     public static String pathToRemove = "";
     public static String pathSo = "stackoverflow_formatted";
     public static String pathQualitas = "QualitasCorpus-20130901r";
-    public static String tool = "nicad";
+    public static String tool = "simian";
     public static String settings = "df";
-    public static String timestamp = "130901_pt1+2+3_fixed_clustering_failed_0.1";
+    public static String timestamp = "130901_rerun";
 
     public static void main(String[] args) {
+
         String outfilePath = basePath + "/indv_" + tool + "_" + settings + "_" + timestamp + ".csv";
         File outfile = new File(outfilePath);
         // delete if the output file exists
@@ -42,19 +43,16 @@ public class IndvCloneFilter {
             BufferedWriter bw = new BufferedWriter(fwriter);
             PrintWriter writer = new PrintWriter(bw);
 
+            // extract clone pairs
             ArrayList<ReportedFragment> extractedPairs = extractClonePairs(10);
             for (ReportedFragment f: extractedPairs) {
-                // HashMap<String, ReportedFragment> selectedPairs = checkDuplicates(true);
-                // Iterator it = selectedPairs.entrySet().iterator();
-
-                // while (it.hasNext()) {
-                // Map.Entry pair = (Map.Entry) it.next();
-
-                // ReportedFragment f = (ReportedFragment) pair.getValue();
-                writer.println(f.getFirstFile() + "," + f.getfStart() + "," + f.getfEnd() + "," + f.getSecondFile() + ","
-                        + f.getsStart() + "," + f.getsEnd() + "," + f.getMinCloneSize());
-                // System.out.println(f.toString());
-                // }
+                writer.println(f.getFirstFile()
+                        + "," + f.getfStart()
+                        + "," + f.getfEnd()
+                        + "," + f.getSecondFile()
+                        + "," + f.getsStart()
+                        + "," + f.getsEnd()
+                        + "," + f.getMinCloneSize());
             }
             writer.close();
         } catch (IOException e) {
@@ -62,10 +60,15 @@ public class IndvCloneFilter {
         }
     }
 
+    /***
+     * Extract clone pairs with a specified minimum clone lines
+     * @param minSizeT number of lines to be considered as clones
+     * @return list of clone pairs
+     */
     public static ArrayList<ReportedFragment> extractClonePairs(int minSizeT) {
-        // a map to store selected pairs
-        ArrayList<ReportedFragment> selectedPairs = new ArrayList<ReportedFragment>();
+
         // array lists to store so fragments and Q files that have been seen already
+        ArrayList<ReportedFragment> selectedPairs = new ArrayList<ReportedFragment>();
 
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
         DocumentBuilder builder;
@@ -95,6 +98,7 @@ public class IndvCloneFilter {
                     for (int i = 0; i < nl.getLength(); i++) {
                         Node n = nl.item(i);
                         Node parent = n.getParentNode();
+
                         // get all the child nodes
                         NodeList children = parent.getChildNodes();
 
@@ -117,8 +121,14 @@ public class IndvCloneFilter {
                                     if (minCloneSize >= minSizeT) {
                                         if (tool.equals("simian") || tool.equals("nicad")) {
                                             // only check different fragment or print again if we find higher minCloneSize cloned lines.
-                                            ReportedFragment f = new ReportedFragment(n.getAttributes().item(1).getNodeValue(), fStart,
-                                                    fEnd, x.getAttributes().item(1).getNodeValue(), sStart, sEnd, "");
+                                            ReportedFragment f = new ReportedFragment(
+                                                    n.getAttributes().item(1).getNodeValue(),
+                                                    fStart,
+                                                    fEnd,
+                                                    x.getAttributes().item(1).getNodeValue(),
+                                                    sStart,
+                                                    sEnd,
+                                                    "");
                                             selectedPairs.add(f);
                                         } else
                                             System.out.println("wrong tool");
@@ -131,15 +141,16 @@ public class IndvCloneFilter {
             } catch (IOException e) {
                 System.out.println("Error: " + e.getMessage());
             }
-        } catch (ParserConfigurationException e) {
-            e.printStackTrace();
         } catch (SAXException e) {
             e.printStackTrace();
         } catch (IOException e) {
             e.printStackTrace();
         } catch (XPathExpressionException e) {
             e.printStackTrace();
+        } catch (ParserConfigurationException e) {
+            e.printStackTrace();
         }
+
         return selectedPairs;
     }
 
