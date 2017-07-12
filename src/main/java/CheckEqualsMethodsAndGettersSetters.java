@@ -12,7 +12,7 @@ public class CheckEqualsMethodsAndGettersSetters {
     private static String projectLocation = HOMEDIR + "/IdeasProjects";
     private static String projectName = "StackoverflowChecker";
     private static String SO_DIR = HOMEDIR + "/Downloads/stackoverflow/";
-    private static String fileName = "indv_simian_df_130901_rerun.csv";
+    private static String fileName = "indv_nicad_df_130901_pt1+2+3+4.csv";
 
     public static void main(String[] args) {
         checkEqualsMethodsAndGettersSetters(

@@ -28,9 +28,9 @@ public class IndvCloneFilter {
     public static String pathToRemove = "";
     public static String pathSo = "stackoverflow_formatted";
     public static String pathQualitas = "QualitasCorpus-20130901r";
-    public static String tool = "simian";
+    public static String tool = "nicad";
     public static String settings = "df";
-    public static String timestamp = "130901_rerun";
+    public static String timestamp = "130901_pt1+2+3+4";
 
     public static void main(String[] args) {
 
@@ -44,7 +44,7 @@ public class IndvCloneFilter {
             PrintWriter writer = new PrintWriter(bw);
 
             // extract clone pairs
-            ArrayList<ReportedFragment> extractedPairs = extractClonePairs(10);
+            ArrayList<ReportedFragment> extractedPairs = extractClonePairs(5);
             for (ReportedFragment f: extractedPairs) {
                 writer.println(f.getFirstFile()
                         + "," + f.getfStart()
