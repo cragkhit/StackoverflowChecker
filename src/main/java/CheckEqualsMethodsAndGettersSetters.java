@@ -8,8 +8,8 @@ import java.io.IOException;
  */
 public class CheckEqualsMethodsAndGettersSetters {
     private static String QPath = "QualitasCorpus-20130901r/projects_130901r_pt1+2+3";
-    private static String HOMEDIR = "/Users/Chaiyong";
-    private static String projectLocation = HOMEDIR + "/IdeasProjects";
+    private static String HOMEDIR = "/Users/chaiyong";
+    private static String projectLocation = HOMEDIR + "/Documents/phd/2016";
     private static String projectName = "StackoverflowChecker";
     private static String SO_DIR = HOMEDIR + "/Downloads/stackoverflow/";
     private static String fileName = "indv_nicad_df_130901_pt1+2+3+4.csv";
