@@ -30,15 +30,15 @@ public class Main {
 	// private static String pathQualitas = "QualitasCorpus-20130901r/compressed_src";
 
     private static String tool1 = "simian";
-    private static String settings1 = "fse13";
+    private static String settings1 = "df";
 
     // choose mode between old, good, ok
     // private static String mode = "ok";
     private static double p = 0.7;
 
-    private static String tool2 = "nicad";
+    private static String tool2 = "scc";
     private static String settings2 = "df";
-    private static String ending = "_130901_pt1+2+3_fixed_clustering_failed";
+    private static String ending = "_130901_pt1+2+3+4";
 
     private static HashMap<String, ArrayList<Fragment>> fragmentMap = new HashMap<>();
 
