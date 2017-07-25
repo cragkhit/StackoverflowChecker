@@ -2,6 +2,7 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Scanner;
 
 import javax.xml.parsers.DocumentBuilder;
@@ -40,6 +41,8 @@ public class Main {
     private static String settings2 = "df";
     private static String ending = "_130901_pt1+2+3+4";
 
+    private static int minCloneSize = 10;
+
     private static HashMap<String, ArrayList<Fragment>> fragmentMap = new HashMap<>();
 
 	public static void main(String[] args) {
@@ -54,155 +57,39 @@ public class Main {
 
     public static void readFirstFile(String file, String fragListFile, String outFile) {
         System.out.println("Reading the first file: " + file);
-        DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
-        DocumentBuilder builder;
-        try {
-            builder = factory.newDocumentBuilder();
-            Document doc = builder.parse(file);
-            XPathFactory xPathfactory = XPathFactory.newInstance();
-            XPath xpath = xPathfactory.newXPath();
 
-            BufferedReader br = null;
-            try {
-                String sCurrentLine;
-                int lineCount = 1;
-                br = new BufferedReader(new FileReader(fragListFile));
-                while ((sCurrentLine = br.readLine()) != null) {
+        List<ReportedFragment> result =
+                IndvCloneFilter.getInstance().getClonePairs(file, minCloneSize);
 
-                    System.out.print(lineCount + ", ");
-                    lineCount++;
-
-                    FileWriter fwriter = new FileWriter(outFile, true);
-                    BufferedWriter bw = new BufferedWriter(fwriter);
-                    PrintWriter writer = new PrintWriter(bw);
-
-                    ArrayList<String> pair = new ArrayList<String>();
-                    XPathExpression expr = xpath.compile(
-                            "//FRAGMENT_LOG[@filePath=\"stackoverflow_formatted/" + sCurrentLine + "\"]");
-                    NodeList nl = (NodeList) expr.evaluate(doc, XPathConstants.NODESET);
-                    for (int i = 0; i < nl.getLength(); i++) {
-                        Node n = nl.item(i);
-
-                        Node parent = n.getParentNode();
-                        // get all the child nodes
-                        NodeList children = parent.getChildNodes();
-                        for (int j = 1; j < children.getLength(); j += 2) {
-                            // System.out.println(j);
-                            Node x = children.item(j);
-                            if (x.getNodeName() != null) {
-                                String soPath = pathSo;
-                                String fragPath = x.getAttributes().item(1).getNodeValue();
-                                if (!fragPath.startsWith(soPath)) {
-                                    writer.println(n.getAttributes().item(1).getNodeValue() + ","
-                                            + n.getAttributes().item(2).getNodeValue() + ","
-                                            + n.getAttributes().item(0).getNodeValue() + "," + x.getAttributes()
-                                            .item(1).getNodeValue() + ","
-                                            + x.getAttributes().item(2).getNodeValue() + ","
-                                            + x.getAttributes().item(0).getNodeValue() /* + "," + input */);
-
-                                    // create a new fragment
-                                    Fragment f = new Fragment(n.getAttributes().item(1).getNodeValue()
-                                            , Integer.valueOf(n.getAttributes().item(2).getNodeValue())
-                                            , Integer.valueOf(n.getAttributes().item(0).getNodeValue())
-                                            , x.getAttributes().item(1).getNodeValue()
-                                            , Integer.valueOf(x.getAttributes().item(2).getNodeValue())
-                                            , Integer.valueOf(x.getAttributes().item(0).getNodeValue()));
-
-                                    // add to the map
-                                    addToFragmentMap(f);
-                                }
-                            }
-                            // System.out.println(x.getAttributes().getNamedItem("filePath"));
-                        }
-                    }
-
-                    writer.close();
-                }
-            } catch (IOException e) {
-                System.out.println("Error: " + e.getMessage());
-            }
-            // System.out.println("Map size: " + fragmentMap.size());
-        } catch (ParserConfigurationException | SAXException | XPathExpressionException | IOException e) {
-            e.printStackTrace();
+        for (ReportedFragment rf: result) {
+            addToFragmentMap(rf);
         }
     }
 
     private static void readSecondFileAndCompare(String file, String fragListFile, String outFile) {
         System.out.println("\nReading the second file: " + file);
-        DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
-        DocumentBuilder builder;
+
         try {
-            builder = factory.newDocumentBuilder();
-            Document doc = builder.parse(file);
-            XPathFactory xPathfactory = XPathFactory.newInstance();
-            XPath xpath = xPathfactory.newXPath();
+            FileWriter fwriter = new FileWriter("good_" + outFile, true);
+            BufferedWriter bw = new BufferedWriter(fwriter);
+            PrintWriter writer = new PrintWriter(bw);
 
-            BufferedReader br = null;
-            try {
-                String sCurrentLine;
-                int lineCount = 1;
-                br = new BufferedReader(new FileReader(fragListFile));
-                while ((sCurrentLine = br.readLine()) != null) {
+            FileWriter fwriterOk = new FileWriter("ok_" + outFile, true);
+            BufferedWriter bwOk = new BufferedWriter(fwriterOk);
+            PrintWriter writerOk = new PrintWriter(bwOk);
 
-                    System.out.print(lineCount + ", ");
-                    lineCount++;
+            List<ReportedFragment> result =
+                    IndvCloneFilter.getInstance().getClonePairs(file, minCloneSize);
 
-                    FileWriter fwriter = new FileWriter("good_" + outFile, true);
-                    BufferedWriter bw = new BufferedWriter(fwriter);
-                    PrintWriter writer = new PrintWriter(bw);
-
-                    FileWriter fwriterOk = new FileWriter("ok_" + outFile, true);
-                    BufferedWriter bwOk = new BufferedWriter(fwriterOk);
-                    PrintWriter writerOk = new PrintWriter(bwOk);
-
-                    ArrayList<String> pair = new ArrayList<String>();
-                    XPathExpression expr = xpath.compile(
-                            "//FRAGMENT_LOG[@filePath=\"stackoverflow_formatted/" + sCurrentLine + "\"]");
-                    NodeList nl = (NodeList) expr.evaluate(doc, XPathConstants.NODESET);
-                    for (int i = 0; i < nl.getLength(); i++) {
-                        Node n = nl.item(i);
-
-                        Node parent = n.getParentNode();
-                        // get all the child nodes
-                        NodeList children = parent.getChildNodes();
-                        for (int j = 1; j < children.getLength(); j += 2) {
-                            // System.out.println(j);
-                            Node x = children.item(j);
-                            if (x.getNodeName() != null) {
-                                String soPath = pathSo;
-                                String fragPath = x.getAttributes().item(1).getNodeValue();
-                                if (!fragPath.startsWith(soPath)) {
-                                    // create a new fragment
-                                    Fragment f = new Fragment(n.getAttributes().item(1).getNodeValue()
-                                            , Integer.valueOf(n.getAttributes().item(2).getNodeValue())
-                                            , Integer.valueOf(n.getAttributes().item(0).getNodeValue())
-                                            , x.getAttributes().item(1).getNodeValue()
-                                            , Integer.valueOf(x.getAttributes().item(2).getNodeValue())
-                                            , Integer.valueOf(x.getAttributes().item(0).getNodeValue()));
-
-                                    // add to the map
-                                    // if (mode.equals("old"))
-                                    //    writer.print(matchWithFragmentMap(f));
-                                    // else if (mode.equals("good"))
-                                        writer.print(goodOverlapWithFragmentMap(f));
-                                    // else if (mode.equals("ok"))
-                                        writerOk.print(okOverlapWithFragmentMap(f));
-                                    // else
-                                    //    System.out.println("Wrong mode!");
-                                }
-                            }
-                            // System.out.println(x.getAttributes().getNamedItem("filePath"));
-                        }
-                    }
-
-                    writer.close();
-                    writerOk.close();
-                }
-            } catch (IOException e) {
-                System.out.println("Error: " + e.getMessage());
+            for (ReportedFragment rf : result) {
+                goodOverlapWithFragmentMap(rf, writer);
+                okOverlapWithFragmentMap(rf, writerOk);
             }
-            // System.out.println("Map size: " + fragmentMap.size());
-        } catch (ParserConfigurationException | SAXException | XPathExpressionException | IOException e) {
+
+            writer.close();
+            writerOk.close();
+
+        } catch (IOException e) {
             e.printStackTrace();
         }
     }
@@ -230,7 +117,8 @@ public class Main {
             for (Fragment frag: flist) {
                 if (frag.isMatch(f)) {
                     // print out if it's a match
-                    System.out.println(f.toString() + ", " + frag.toString());
+//                    System.out.println(f.toString() + ", " + frag.toString());
+                    System.out.print("Good ");
                     returnStr += f.toString() + ", " + frag.toString() + "\n";
                 }
             }
@@ -238,7 +126,7 @@ public class Main {
         return returnStr;
     }
 
-    private static String goodOverlapWithFragmentMap(Fragment f) {
+    private static String goodOverlapWithFragmentMap(Fragment f, PrintWriter writer) {
         String key = f.getFirstFile() + ":" + f.getSecondFile();
         String returnStr = "";
 
@@ -248,15 +136,17 @@ public class Main {
                 double val = FragmentComparator.getGood(frag, f);
                 if (val >= p) {
                     // print out if it's a match
-                    System.out.println(val + "," + f.toString() + ", " + frag.toString());
-                    returnStr += val + "," + f.toString() + ", " + frag.toString() + "\n";
+//                    System.out.print("good ");
+                    System.out.println(val + "," + f.toString() + "," + frag.toString());
+                    writer.print(val + "," + f.toString() + "," + frag.toString() + "\n");
+                    returnStr += val + "," + f.toString() + "," + frag.toString() + "\n";
                 }
             }
         }
         return returnStr;
     }
 
-    private static String okOverlapWithFragmentMap(Fragment f) {
+    private static String okOverlapWithFragmentMap(Fragment f, PrintWriter writer) {
         String key = f.getFirstFile() + ":" + f.getSecondFile();
         String returnStr = "";
 
@@ -266,8 +156,9 @@ public class Main {
                 double val = FragmentComparator.getOk(frag, f);
                 if (val >= p) {
                     // print out if it's a match
-                    System.out.println(val + "," + f.toString() + ", " + frag.toString());
-                    returnStr += val + "," + f.toString() + ", " + frag.toString() + "\n";
+                    System.out.println(val + "," + f.toString() + "," + frag.toString());
+                    writer.print(val + "," + f.toString() + "," + frag.toString() + "\n");
+                    returnStr += val + "," + f.toString() + "," + frag.toString() + "\n";
                 }
             }
         }
