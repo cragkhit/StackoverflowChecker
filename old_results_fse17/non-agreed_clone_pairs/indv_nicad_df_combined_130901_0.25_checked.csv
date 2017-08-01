@@ -446,8 +446,8 @@ stackoverflow_formatted/14617650_0.java,31,40,jboss-5/jboss-5.1.0.GA-src/testsui
 stackoverflow_formatted/14617650_0.java,31,40,jboss-5/jboss-5.1.0.GA-src/testsuite/src/main/org/jboss/test/cmp2/lob/LOBUnitTestCase.java,368,377,10,found
 stackoverflow_formatted/14617650_0.java,67,76,jboss-5/jboss-5.1.0.GA-src/testsuite/src/main/org/jboss/test/cmp2/lob/LOBUnitTestCase.java,345,354,10,found
 stackoverflow_formatted/14617650_0.java,67,76,jboss-5/jboss-5.1.0.GA-src/testsuite/src/main/org/jboss/test/cmp2/lob/LOBUnitTestCase.java,368,377,10,found
-stackoverflow_formatted/11574637_0.java,78,89,jboss-5/jboss-5.1.0.GA-src/testsuite/src/main/org/jboss/test/entity/beans/TestEntityBean.java,39,50,12,found
-stackoverflow_formatted/11574637_0.java,78,89,jboss-5/jboss-5.1.0.GA-src/testsuite/src/main/org/jboss/test/entity/beans/TestEntityBean.java,66,77,12,found
+stackoverflow_formatted/11574637_0.java,78,89,jboss-5/jboss-5.1.0.GA-src/testsuite/src/main/org/jboss/test/entity/data/TestEntityBean.java,39,50,12,found
+stackoverflow_formatted/11574637_0.java,78,89,jboss-5/jboss-5.1.0.GA-src/testsuite/src/main/org/jboss/test/entity/data/TestEntityBean.java,66,77,12,found
 stackoverflow_formatted/12812198_0.java,15,30,jboss-5/jboss-5.1.0.GA-src/testsuite/src/main/org/jboss/test/jacc/test/portal/ComponentPermission.java,35,50,16,found
 stackoverflow_formatted/8735304_0.java,5,20,jboss-5/jboss-5.1.0.GA-src/testsuite/src/main/org/jboss/test/jacc/test/portal/ComponentPermission.java,35,50,16,found
 stackoverflow_formatted/24682528_2.java,143,158,jboss-5/jboss-5.1.0.GA-src/testsuite/src/main/org/jboss/test/jacc/test/portal/ComponentPermission.java,35,50,16,found

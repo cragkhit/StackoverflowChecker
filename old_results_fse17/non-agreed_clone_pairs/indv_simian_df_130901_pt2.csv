@@ -7,7 +7,7 @@ stackoverflow_formatted/21734562_0.java,3,51,apache-tomcat-7.0.2/apache-tomcat-7
 stackoverflow_formatted/24330611_0.java,200,247,jung2-2_0_1/jung-samples-2.0.1/edu/uci/ics/jung/samples/TreeCollapseDemo.java,144,191,48
 stackoverflow_formatted/10289462_0.java,1,45,apache-tomcat-7.0.2/apache-tomcat-7.0.2-src/java/org/apache/jasper/runtime/JspRuntimeLibrary.java,252,296,45
 stackoverflow_formatted/11319346_0.java,143,181,apache-jmeter-2.9/apache-jmeter-2.9/src/jorphan/org/apache/jorphan/gui/layout/VerticalLayout.java,33,71,39
-stackoverflow_formatted/18623736_0.java,1,39,spring-framework-3.0.5/spring-framework-3.0.5.RELEASE/projects/org.springframework.beans/src/main/java/org/springframework/beans/propertyeditors/CustomCollectionEditor.java,33,71,39
+stackoverflow_formatted/18623736_0.java,1,39,spring-framework-3.0.5/spring-framework-3.0.5.RELEASE/projects/org.springframework.data/src/main/java/org/springframework/data/propertyeditors/CustomCollectionEditor.java,33,71,39
 stackoverflow_formatted/24330611_0.java,317,350,jung2-2_0_1/jung-samples-2.0.1/edu/uci/ics/jung/samples/TreeCollapseDemo.java,244,277,34
 stackoverflow_formatted/19856538_0.java,21,52,pooka_080505/net/suberic/util/FileVariableBundle.java,157,188,32
 stackoverflow_formatted/24680923_0.java,11,41,jstock-1.0.7c/jstock/src/org/yccheok/jstock/alert/GoogleMail.java,12,42,31
@@ -1052,7 +1052,7 @@ stackoverflow_formatted/14735904_0.java,9,20,wct-package-v1.5.2/WCTCore/src-app/
 stackoverflow_formatted/14735904_0.java,9,20,wct-package-v1.5.2/WCTCore/src-app/org/webcurator/domain/model/auth/User.java,178,189,12
 stackoverflow_formatted/13225961_0.java,12,24,netbeans-6.9.1-201007282301/cnd.utils/src/org/netbeans/modules/cnd/utils/cache/CharSequenceUtils.java,165,176,12
 stackoverflow_formatted/8794109_0.java,32,43,apache-jmeter-2.9/apache-jmeter-2.9/src/core/org/apache/jmeter/gui/MainFrame.java,380,391,12
-stackoverflow_formatted/25373489_0.java,47,58,weka-3-7-9/main/java/weka/gui/beans/KnowledgeFlowApp.java,2037,2048,12
+stackoverflow_formatted/25373489_0.java,47,58,weka-3-7-9/main/java/weka/gui/data/KnowledgeFlowApp.java,2037,2048,12
 stackoverflow_formatted/12023209_0.java,55,66,netbeans-6.9.1-201007282301/cnd.utils/src/org/netbeans/modules/cnd/utils/cache/WeakSharedSet.java,40,51,12
 stackoverflow_formatted/12776901_0.java,6,17,lucene-4.3.0/lucene-4.3.0/analysis/smartcn/src/java/org/apache/lucene/analysis/cn/smart/hhmm/SegTokenPair.java,26,37,12
 stackoverflow_formatted/12776901_0.java,6,17,lucene-4.3.0/lucene-4.3.0/analysis/smartcn/src/java/org/apache/lucene/analysis/cn/smart/hhmm/PathNode.java,23,34,12
@@ -3078,10 +3078,10 @@ stackoverflow_formatted/23419554_0.java,29,39,struts2-2.2.1-all/struts-2.2.1/src
 stackoverflow_formatted/23419554_0.java,29,39,tapestry-src-5.1.0.5/tapestry-core/src/test/java/org/apache/tapestry5/integration/app1/data/Person.java,9,19,11
 stackoverflow_formatted/3694885_0.java,52,62,jhotdraw-7.5.1/jhotdraw_7.5.1/Source/jhotdraw7/src/main/java/org/jhotdraw/gui/plaf/palette/PaletteFontChooserUI.java,352,362,11
 stackoverflow_formatted/3694885_0.java,52,62,netbeans-6.9.1-201007282301/options.keymap/src/org/netbeans/modules/options/keymap/KeymapPanel.java,361,371,11
-stackoverflow_formatted/15550182_0.java,39,49,spring-framework-3.0.5/spring-framework-3.0.5.RELEASE/projects/org.springframework.beans/src/test/java/org/springframework/beans/support/PagedListHolderTests.java,130,140,11
+stackoverflow_formatted/15550182_0.java,39,49,spring-framework-3.0.5/spring-framework-3.0.5.RELEASE/projects/org.springframework.data/src/test/java/org/springframework/data/support/PagedListHolderTests.java,130,140,11
 stackoverflow_formatted/11694204_0.java,7,17,netbeans-6.9.1-201007282301/j2ee.sun.appsrv81/test/qa-functional/data/customer-cmp-ear/customer-cmp-ear-ejb/src/java/enterprise/customer_cmp_ejb/persistence/Customer_new.java,28,38,11
 stackoverflow_formatted/11694204_0.java,7,17,netbeans-6.9.1-201007282301/usersguide/tutorials/j2ee-tut/examples/ejb/savingsaccount/SavingsAccount/src/java/bank/SavingsAccountBean.java,91,101,11
-stackoverflow_formatted/11694204_0.java,7,17,spring-framework-3.0.5/spring-framework-3.0.5.RELEASE/projects/org.springframework.beans/src/test/java/org/springframework/beans/support/PropertyComparatorTests.java,70,80,11
+stackoverflow_formatted/11694204_0.java,7,17,spring-framework-3.0.5/spring-framework-3.0.5.RELEASE/projects/org.springframework.data/src/test/java/org/springframework/data/support/PropertyComparatorTests.java,70,80,11
 stackoverflow_formatted/11694204_0.java,7,17,spring-framework-3.0.5/spring-framework-3.0.5.RELEASE/projects/org.springframework.core/src/test/java/org/springframework/util/comparator/ComparatorTests.java,73,83,11
 stackoverflow_formatted/11694204_0.java,7,17,struts2-2.2.1-all/struts-2.2.1/src/apps/portlet/src/main/java/org/apache/struts2/portlet/example/model/Name.java,5,15,11
 stackoverflow_formatted/11694204_0.java,7,17,struts2-2.2.1-all/struts-2.2.1/src/plugins/oval/src/test/java/org/apache/struts2/oval/interceptor/FieldsWithProfiles.java,18,28,11
@@ -3111,7 +3111,7 @@ stackoverflow_formatted/14636363_1.java,64,74,apache-roller-4.0.1/apache-roller-
 stackoverflow_formatted/14636363_1.java,64,74,apache-roller-4.0.1/apache-roller-src-4.0.1/apps/weblogger/src/java/org/apache/roller/weblogger/pojos/TaskLock.java,60,70,11
 stackoverflow_formatted/14636363_1.java,70,80,jrefactory-2.9.19/src/org/acm/seguin/pmd/RuleSet.java,40,50,11
 stackoverflow_formatted/14636363_1.java,70,80,netbeans-6.9.1-201007282301/j2ee.samples/samples_src/PetCatalog/src/java/model/Item.java,60,70,11
-stackoverflow_formatted/14636363_1.java,70,80,netbeans-6.9.1-201007282301/web.jsf.editor/test/unit/data/testWebProject/src/java/beans/Product.java,18,28,11
+stackoverflow_formatted/14636363_1.java,70,80,netbeans-6.9.1-201007282301/web.jsf.editor/test/unit/data/testWebProject/src/java/data/Product.java,18,28,11
 stackoverflow_formatted/14636363_1.java,64,74,netbeans-6.9.1-201007282301/websvc.saas.codegen/src/org/netbeans/modules/websvc/saas/codegen/model/SaasBean.java,665,675,11
 stackoverflow_formatted/14636363_1.java,70,80,pmd-4.2.5/pmd-4.2.5/src/net/sourceforge/pmd/RuleSet.java,136,146,11
 stackoverflow_formatted/14636363_1.java,70,80,struts2-2.2.1-all/struts-2.2.1/src/apps/showcase/src/main/java/org/apache/struts2/showcase/model/Skill.java,13,23,11
@@ -3124,7 +3124,7 @@ stackoverflow_formatted/3046986_1.java,10,20,struts2-2.2.1-all/struts-2.2.1/src/
 stackoverflow_formatted/12835370_0.java,1,11,jstock-1.0.7c/jstock/src/org/yccheok/jstock/gui/Utils.java,588,598,11
 stackoverflow_formatted/10713332_0.java,9,19,netbeans-6.9.1-201007282301/j2ee.sun.appsrv81/test/qa-functional/data/customer-cmp-ear/customer-cmp-ear-ejb/src/java/enterprise/customer_cmp_ejb/persistence/Customer_new.java,28,38,11
 stackoverflow_formatted/10713332_0.java,9,19,netbeans-6.9.1-201007282301/usersguide/tutorials/j2ee-tut/examples/ejb/savingsaccount/SavingsAccount/src/java/bank/SavingsAccountBean.java,91,101,11
-stackoverflow_formatted/10713332_0.java,9,19,spring-framework-3.0.5/spring-framework-3.0.5.RELEASE/projects/org.springframework.beans/src/test/java/org/springframework/beans/support/PropertyComparatorTests.java,70,80,11
+stackoverflow_formatted/10713332_0.java,9,19,spring-framework-3.0.5/spring-framework-3.0.5.RELEASE/projects/org.springframework.data/src/test/java/org/springframework/data/support/PropertyComparatorTests.java,70,80,11
 stackoverflow_formatted/10713332_0.java,9,19,spring-framework-3.0.5/spring-framework-3.0.5.RELEASE/projects/org.springframework.core/src/test/java/org/springframework/util/comparator/ComparatorTests.java,73,83,11
 stackoverflow_formatted/10713332_0.java,9,19,struts2-2.2.1-all/struts-2.2.1/src/apps/portlet/src/main/java/org/apache/struts2/portlet/example/model/Name.java,5,15,11
 stackoverflow_formatted/10713332_0.java,9,19,struts2-2.2.1-all/struts-2.2.1/src/plugins/oval/src/test/java/org/apache/struts2/oval/interceptor/FieldsWithProfiles.java,18,28,11
@@ -3141,7 +3141,7 @@ stackoverflow_formatted/10713332_0.java,9,19,wct-package-v1.5.2/WCTCore/src-app/
 stackoverflow_formatted/10713332_0.java,9,19,wct-package-v1.5.2/WCTCore/src-app/org/webcurator/ui/admin/command/CreateUserCommand.java,102,112,11
 stackoverflow_formatted/4329039_5.java,6,16,netbeans-6.9.1-201007282301/j2ee.sun.appsrv81/test/qa-functional/data/customer-cmp-ear/customer-cmp-ear-ejb/src/java/enterprise/customer_cmp_ejb/persistence/Customer_new.java,28,38,11
 stackoverflow_formatted/4329039_5.java,6,16,netbeans-6.9.1-201007282301/usersguide/tutorials/j2ee-tut/examples/ejb/savingsaccount/SavingsAccount/src/java/bank/SavingsAccountBean.java,91,101,11
-stackoverflow_formatted/4329039_5.java,6,16,spring-framework-3.0.5/spring-framework-3.0.5.RELEASE/projects/org.springframework.beans/src/test/java/org/springframework/beans/support/PropertyComparatorTests.java,70,80,11
+stackoverflow_formatted/4329039_5.java,6,16,spring-framework-3.0.5/spring-framework-3.0.5.RELEASE/projects/org.springframework.data/src/test/java/org/springframework/data/support/PropertyComparatorTests.java,70,80,11
 stackoverflow_formatted/4329039_5.java,6,16,spring-framework-3.0.5/spring-framework-3.0.5.RELEASE/projects/org.springframework.core/src/test/java/org/springframework/util/comparator/ComparatorTests.java,73,83,11
 stackoverflow_formatted/4329039_5.java,6,16,struts2-2.2.1-all/struts-2.2.1/src/apps/portlet/src/main/java/org/apache/struts2/portlet/example/model/Name.java,5,15,11
 stackoverflow_formatted/4329039_5.java,6,16,struts2-2.2.1-all/struts-2.2.1/src/plugins/oval/src/test/java/org/apache/struts2/oval/interceptor/FieldsWithProfiles.java,18,28,11
@@ -3156,7 +3156,7 @@ stackoverflow_formatted/4329039_5.java,6,16,wct-package-v1.5.2/WCTCore/src-app/o
 stackoverflow_formatted/4329039_5.java,6,16,wct-package-v1.5.2/WCTCore/src-app/org/webcurator/domain/model/audit/Audit.java,28,38,11
 stackoverflow_formatted/4329039_5.java,6,16,wct-package-v1.5.2/WCTCore/src-app/org/webcurator/domain/model/dto/UserDTO.java,65,75,11
 stackoverflow_formatted/4329039_5.java,6,16,wct-package-v1.5.2/WCTCore/src-app/org/webcurator/ui/admin/command/CreateUserCommand.java,102,112,11
-stackoverflow_formatted/9432435_0.java,16,26,netbeans-6.9.1-201007282301/web.examples/jstl/src/org/apache/taglibs/standard/examples/beans/Customer.java,44,54,11
+stackoverflow_formatted/9432435_0.java,16,26,netbeans-6.9.1-201007282301/web.examples/jstl/src/org/apache/taglibs/standard/examples/data/Customer.java,44,54,11
 stackoverflow_formatted/10105260_0.java,14,24,struts2-2.2.1-all/struts-2.2.1/src/xwork-core/src/test/java/com/opensymphony/xwork2/util/MyBean.java,6,16,11
 stackoverflow_formatted/10105260_0.java,14,24,struts2-2.2.1-all/struts-2.2.1/src/apps/showcase/src/main/java/org/apache/struts2/showcase/person/Person.java,13,23,11
 stackoverflow_formatted/10105260_0.java,14,24,struts2-2.2.1-all/struts-2.2.1/src/xwork-core/src/test/java/com/opensymphony/xwork2/ognl/OgnlValueStackTest.java,680,690,11
@@ -3183,7 +3183,7 @@ stackoverflow_formatted/15248123_2.java,10,20,tapestry-src-5.1.0.5/tapestry-core
 stackoverflow_formatted/17578815_0.java,33,43,jstock-1.0.7c/jstock/src/org/yccheok/jstock/gui/ChangeStockInfoJDialog.java,124,134,11
 stackoverflow_formatted/11903456_0.java,14,24,netbeans-6.9.1-201007282301/j2ee.sun.appsrv81/test/qa-functional/data/customer-cmp-ear/customer-cmp-ear-ejb/src/java/enterprise/customer_cmp_ejb/persistence/Customer_new.java,28,38,11
 stackoverflow_formatted/11903456_0.java,14,24,netbeans-6.9.1-201007282301/usersguide/tutorials/j2ee-tut/examples/ejb/savingsaccount/SavingsAccount/src/java/bank/SavingsAccountBean.java,91,101,11
-stackoverflow_formatted/11903456_0.java,14,24,spring-framework-3.0.5/spring-framework-3.0.5.RELEASE/projects/org.springframework.beans/src/test/java/org/springframework/beans/support/PropertyComparatorTests.java,70,80,11
+stackoverflow_formatted/11903456_0.java,14,24,spring-framework-3.0.5/spring-framework-3.0.5.RELEASE/projects/org.springframework.data/src/test/java/org/springframework/data/support/PropertyComparatorTests.java,70,80,11
 stackoverflow_formatted/11903456_0.java,14,24,spring-framework-3.0.5/spring-framework-3.0.5.RELEASE/projects/org.springframework.core/src/test/java/org/springframework/util/comparator/ComparatorTests.java,73,83,11
 stackoverflow_formatted/11903456_0.java,14,24,struts2-2.2.1-all/struts-2.2.1/src/apps/portlet/src/main/java/org/apache/struts2/portlet/example/model/Name.java,5,15,11
 stackoverflow_formatted/11903456_0.java,14,24,struts2-2.2.1-all/struts-2.2.1/src/plugins/oval/src/test/java/org/apache/struts2/oval/interceptor/FieldsWithProfiles.java,18,28,11
@@ -3200,7 +3200,7 @@ stackoverflow_formatted/11903456_0.java,14,24,wct-package-v1.5.2/WCTCore/src-app
 stackoverflow_formatted/11903456_0.java,14,24,wct-package-v1.5.2/WCTCore/src-app/org/webcurator/ui/admin/command/CreateUserCommand.java,102,112,11
 stackoverflow_formatted/3032205_0.java,4,14,netbeans-6.9.1-201007282301/j2ee.sun.appsrv81/test/qa-functional/data/customer-cmp-ear/customer-cmp-ear-ejb/src/java/enterprise/customer_cmp_ejb/persistence/Customer_new.java,28,38,11
 stackoverflow_formatted/3032205_0.java,4,14,netbeans-6.9.1-201007282301/usersguide/tutorials/j2ee-tut/examples/ejb/savingsaccount/SavingsAccount/src/java/bank/SavingsAccountBean.java,91,101,11
-stackoverflow_formatted/3032205_0.java,4,14,spring-framework-3.0.5/spring-framework-3.0.5.RELEASE/projects/org.springframework.beans/src/test/java/org/springframework/beans/support/PropertyComparatorTests.java,70,80,11
+stackoverflow_formatted/3032205_0.java,4,14,spring-framework-3.0.5/spring-framework-3.0.5.RELEASE/projects/org.springframework.data/src/test/java/org/springframework/data/support/PropertyComparatorTests.java,70,80,11
 stackoverflow_formatted/3032205_0.java,4,14,spring-framework-3.0.5/spring-framework-3.0.5.RELEASE/projects/org.springframework.core/src/test/java/org/springframework/util/comparator/ComparatorTests.java,73,83,11
 stackoverflow_formatted/3032205_0.java,4,14,struts2-2.2.1-all/struts-2.2.1/src/apps/portlet/src/main/java/org/apache/struts2/portlet/example/model/Name.java,5,15,11
 stackoverflow_formatted/3032205_0.java,4,14,struts2-2.2.1-all/struts-2.2.1/src/plugins/oval/src/test/java/org/apache/struts2/oval/interceptor/FieldsWithProfiles.java,18,28,11
@@ -3228,7 +3228,7 @@ stackoverflow_formatted/16206651_1.java,4,14,struts2-2.2.1-all/struts-2.2.1/src/
 stackoverflow_formatted/16206651_1.java,4,14,tapestry-src-5.1.0.5/tapestry-core/src/test/java/org/apache/tapestry5/integration/app1/data/Person.java,9,19,11
 stackoverflow_formatted/3865391_0.java,7,17,netbeans-6.9.1-201007282301/j2ee.sun.appsrv81/test/qa-functional/data/customer-cmp-ear/customer-cmp-ear-ejb/src/java/enterprise/customer_cmp_ejb/persistence/Customer_new.java,28,38,11
 stackoverflow_formatted/3865391_0.java,7,17,netbeans-6.9.1-201007282301/usersguide/tutorials/j2ee-tut/examples/ejb/savingsaccount/SavingsAccount/src/java/bank/SavingsAccountBean.java,91,101,11
-stackoverflow_formatted/3865391_0.java,7,17,spring-framework-3.0.5/spring-framework-3.0.5.RELEASE/projects/org.springframework.beans/src/test/java/org/springframework/beans/support/PropertyComparatorTests.java,70,80,11
+stackoverflow_formatted/3865391_0.java,7,17,spring-framework-3.0.5/spring-framework-3.0.5.RELEASE/projects/org.springframework.data/src/test/java/org/springframework/data/support/PropertyComparatorTests.java,70,80,11
 stackoverflow_formatted/3865391_0.java,7,17,spring-framework-3.0.5/spring-framework-3.0.5.RELEASE/projects/org.springframework.core/src/test/java/org/springframework/util/comparator/ComparatorTests.java,73,83,11
 stackoverflow_formatted/3865391_0.java,7,17,struts2-2.2.1-all/struts-2.2.1/src/apps/portlet/src/main/java/org/apache/struts2/portlet/example/model/Name.java,5,15,11
 stackoverflow_formatted/3865391_0.java,7,17,struts2-2.2.1-all/struts-2.2.1/src/plugins/oval/src/test/java/org/apache/struts2/oval/interceptor/FieldsWithProfiles.java,18,28,11
@@ -3281,7 +3281,7 @@ stackoverflow_formatted/11058682_0.java,23,33,spring-framework-3.0.5/spring-fram
 stackoverflow_formatted/11058682_0.java,23,33,spring-framework-3.0.5/spring-framework-3.0.5.RELEASE/projects/org.springframework.web.servlet/src/test/java/org/springframework/ui/jasperreports/ProductBean.java,7,17,11
 stackoverflow_formatted/10194435_0.java,5,15,netbeans-6.9.1-201007282301/j2ee.sun.appsrv81/test/qa-functional/data/customer-cmp-ear/customer-cmp-ear-ejb/src/java/enterprise/customer_cmp_ejb/persistence/Customer_new.java,28,38,11
 stackoverflow_formatted/10194435_0.java,5,15,netbeans-6.9.1-201007282301/usersguide/tutorials/j2ee-tut/examples/ejb/savingsaccount/SavingsAccount/src/java/bank/SavingsAccountBean.java,91,101,11
-stackoverflow_formatted/10194435_0.java,5,15,spring-framework-3.0.5/spring-framework-3.0.5.RELEASE/projects/org.springframework.beans/src/test/java/org/springframework/beans/support/PropertyComparatorTests.java,70,80,11
+stackoverflow_formatted/10194435_0.java,5,15,spring-framework-3.0.5/spring-framework-3.0.5.RELEASE/projects/org.springframework.data/src/test/java/org/springframework/data/support/PropertyComparatorTests.java,70,80,11
 stackoverflow_formatted/10194435_0.java,5,15,spring-framework-3.0.5/spring-framework-3.0.5.RELEASE/projects/org.springframework.core/src/test/java/org/springframework/util/comparator/ComparatorTests.java,73,83,11
 stackoverflow_formatted/10194435_0.java,5,15,struts2-2.2.1-all/struts-2.2.1/src/apps/portlet/src/main/java/org/apache/struts2/portlet/example/model/Name.java,5,15,11
 stackoverflow_formatted/10194435_0.java,5,15,struts2-2.2.1-all/struts-2.2.1/src/plugins/oval/src/test/java/org/apache/struts2/oval/interceptor/FieldsWithProfiles.java,18,28,11
@@ -3337,7 +3337,7 @@ stackoverflow_formatted/20593873_1.java,90,100,apache-roller-4.0.1/apache-roller
 stackoverflow_formatted/20593873_1.java,90,100,netbeans-6.9.1-201007282301/websvc.saas.codegen/src/org/netbeans/modules/websvc/saas/codegen/model/SaasBean.java,665,675,11
 stackoverflow_formatted/18013191_1.java,4,14,netbeans-6.9.1-201007282301/j2ee.sun.appsrv81/test/qa-functional/data/customer-cmp-ear/customer-cmp-ear-ejb/src/java/enterprise/customer_cmp_ejb/persistence/Customer_new.java,28,38,11
 stackoverflow_formatted/18013191_1.java,4,14,netbeans-6.9.1-201007282301/usersguide/tutorials/j2ee-tut/examples/ejb/savingsaccount/SavingsAccount/src/java/bank/SavingsAccountBean.java,91,101,11
-stackoverflow_formatted/18013191_1.java,4,14,spring-framework-3.0.5/spring-framework-3.0.5.RELEASE/projects/org.springframework.beans/src/test/java/org/springframework/beans/support/PropertyComparatorTests.java,70,80,11
+stackoverflow_formatted/18013191_1.java,4,14,spring-framework-3.0.5/spring-framework-3.0.5.RELEASE/projects/org.springframework.data/src/test/java/org/springframework/data/support/PropertyComparatorTests.java,70,80,11
 stackoverflow_formatted/18013191_1.java,4,14,spring-framework-3.0.5/spring-framework-3.0.5.RELEASE/projects/org.springframework.core/src/test/java/org/springframework/util/comparator/ComparatorTests.java,73,83,11
 stackoverflow_formatted/18013191_1.java,4,14,struts2-2.2.1-all/struts-2.2.1/src/apps/portlet/src/main/java/org/apache/struts2/portlet/example/model/Name.java,5,15,11
 stackoverflow_formatted/18013191_1.java,4,14,struts2-2.2.1-all/struts-2.2.1/src/plugins/oval/src/test/java/org/apache/struts2/oval/interceptor/FieldsWithProfiles.java,18,28,11
@@ -3370,7 +3370,7 @@ stackoverflow_formatted/13933424_0.java,12,22,spring-framework-3.0.5/spring-fram
 stackoverflow_formatted/13933424_0.java,12,22,spring-framework-3.0.5/spring-framework-3.0.5.RELEASE/projects/org.springframework.web.servlet/src/test/java/org/springframework/ui/jasperreports/PersonBean.java,13,23,11
 stackoverflow_formatted/13933424_0.java,12,22,spring-framework-3.0.5/spring-framework-3.0.5.RELEASE/projects/org.springframework.context.support/src/test/java/org/springframework/ui/jasperreports/ProductBean.java,7,17,11
 stackoverflow_formatted/13933424_0.java,12,22,spring-framework-3.0.5/spring-framework-3.0.5.RELEASE/projects/org.springframework.web.servlet/src/test/java/org/springframework/ui/jasperreports/ProductBean.java,7,17,11
-stackoverflow_formatted/20913543_1.java,4,14,spring-framework-3.0.5/spring-framework-3.0.5.RELEASE/projects/org.springframework.beans/src/main/java/org/springframework/beans/factory/support/AutowireUtils.java,32,42,11
+stackoverflow_formatted/20913543_1.java,4,14,spring-framework-3.0.5/spring-framework-3.0.5.RELEASE/projects/org.springframework.data/src/main/java/org/springframework/data/factory/support/AutowireUtils.java,32,42,11
 stackoverflow_formatted/17461205_0.java,121,131,jhotdraw-7.5.1/jhotdraw_7.5.1/Source/jhotdraw7/src/main/java/org/jhotdraw/gui/plaf/palette/PaletteFontChooserUI.java,352,362,11
 stackoverflow_formatted/17461205_0.java,118,128,netbeans-6.9.1-201007282301/welcome/src/org/netbeans/modules/welcome/content/LinkButton.java,66,76,11
 stackoverflow_formatted/17461205_0.java,121,131,netbeans-6.9.1-201007282301/options.keymap/src/org/netbeans/modules/options/keymap/KeymapPanel.java,361,371,11
@@ -3423,7 +3423,7 @@ stackoverflow_formatted/14908094_2.java,4,14,spring-framework-3.0.5/spring-frame
 stackoverflow_formatted/5325408_1.java,14,24,netbeans-6.9.1-201007282301/html/src/org/netbeans/modules/html/palette/items/INPUT.java,47,57,11
 stackoverflow_formatted/23605439_0.java,74,84,netbeans-6.9.1-201007282301/j2ee.sun.appsrv81/test/qa-functional/data/customer-cmp-ear/customer-cmp-ear-ejb/src/java/enterprise/customer_cmp_ejb/persistence/Customer_new.java,28,38,11
 stackoverflow_formatted/23605439_0.java,74,84,netbeans-6.9.1-201007282301/usersguide/tutorials/j2ee-tut/examples/ejb/savingsaccount/SavingsAccount/src/java/bank/SavingsAccountBean.java,91,101,11
-stackoverflow_formatted/23605439_0.java,74,84,spring-framework-3.0.5/spring-framework-3.0.5.RELEASE/projects/org.springframework.beans/src/test/java/org/springframework/beans/support/PropertyComparatorTests.java,70,80,11
+stackoverflow_formatted/23605439_0.java,74,84,spring-framework-3.0.5/spring-framework-3.0.5.RELEASE/projects/org.springframework.data/src/test/java/org/springframework/data/support/PropertyComparatorTests.java,70,80,11
 stackoverflow_formatted/23605439_0.java,74,84,spring-framework-3.0.5/spring-framework-3.0.5.RELEASE/projects/org.springframework.core/src/test/java/org/springframework/util/comparator/ComparatorTests.java,73,83,11
 stackoverflow_formatted/23605439_0.java,74,84,struts2-2.2.1-all/struts-2.2.1/src/apps/portlet/src/main/java/org/apache/struts2/portlet/example/model/Name.java,5,15,11
 stackoverflow_formatted/23605439_0.java,74,84,struts2-2.2.1-all/struts-2.2.1/src/plugins/oval/src/test/java/org/apache/struts2/oval/interceptor/FieldsWithProfiles.java,18,28,11
@@ -3448,7 +3448,7 @@ stackoverflow_formatted/13459971_0.java,16,26,apache-roller-4.0.1/apache-roller-
 stackoverflow_formatted/13459971_0.java,16,26,netbeans-6.9.1-201007282301/websvc.saas.codegen/src/org/netbeans/modules/websvc/saas/codegen/model/SaasBean.java,665,675,11
 stackoverflow_formatted/10814214_2.java,10,20,netbeans-6.9.1-201007282301/j2ee.sun.appsrv81/test/qa-functional/data/customer-cmp-ear/customer-cmp-ear-ejb/src/java/enterprise/customer_cmp_ejb/persistence/Customer_new.java,28,38,11
 stackoverflow_formatted/10814214_2.java,10,20,netbeans-6.9.1-201007282301/usersguide/tutorials/j2ee-tut/examples/ejb/savingsaccount/SavingsAccount/src/java/bank/SavingsAccountBean.java,91,101,11
-stackoverflow_formatted/10814214_2.java,10,20,spring-framework-3.0.5/spring-framework-3.0.5.RELEASE/projects/org.springframework.beans/src/test/java/org/springframework/beans/support/PropertyComparatorTests.java,70,80,11
+stackoverflow_formatted/10814214_2.java,10,20,spring-framework-3.0.5/spring-framework-3.0.5.RELEASE/projects/org.springframework.data/src/test/java/org/springframework/data/support/PropertyComparatorTests.java,70,80,11
 stackoverflow_formatted/10814214_2.java,10,20,spring-framework-3.0.5/spring-framework-3.0.5.RELEASE/projects/org.springframework.core/src/test/java/org/springframework/util/comparator/ComparatorTests.java,73,83,11
 stackoverflow_formatted/10814214_2.java,10,20,struts2-2.2.1-all/struts-2.2.1/src/apps/portlet/src/main/java/org/apache/struts2/portlet/example/model/Name.java,5,15,11
 stackoverflow_formatted/10814214_2.java,10,20,struts2-2.2.1-all/struts-2.2.1/src/plugins/oval/src/test/java/org/apache/struts2/oval/interceptor/FieldsWithProfiles.java,18,28,11
@@ -3494,7 +3494,7 @@ stackoverflow_formatted/19447834_0.java,8,18,apache-roller-4.0.1/apache-roller-s
 stackoverflow_formatted/24640067_0.java,33,43,spring-framework-3.0.5/spring-framework-3.0.5.RELEASE/projects/org.springframework.web.servlet/src/main/java/org/springframework/web/servlet/FrameworkServlet.java,201,211,11
 stackoverflow_formatted/6486206_0.java,5,15,netbeans-6.9.1-201007282301/j2ee.sun.appsrv81/test/qa-functional/data/customer-cmp-ear/customer-cmp-ear-ejb/src/java/enterprise/customer_cmp_ejb/persistence/Customer_new.java,28,38,11
 stackoverflow_formatted/6486206_0.java,5,15,netbeans-6.9.1-201007282301/usersguide/tutorials/j2ee-tut/examples/ejb/savingsaccount/SavingsAccount/src/java/bank/SavingsAccountBean.java,91,101,11
-stackoverflow_formatted/6486206_0.java,5,15,spring-framework-3.0.5/spring-framework-3.0.5.RELEASE/projects/org.springframework.beans/src/test/java/org/springframework/beans/support/PropertyComparatorTests.java,70,80,11
+stackoverflow_formatted/6486206_0.java,5,15,spring-framework-3.0.5/spring-framework-3.0.5.RELEASE/projects/org.springframework.data/src/test/java/org/springframework/data/support/PropertyComparatorTests.java,70,80,11
 stackoverflow_formatted/6486206_0.java,5,15,spring-framework-3.0.5/spring-framework-3.0.5.RELEASE/projects/org.springframework.core/src/test/java/org/springframework/util/comparator/ComparatorTests.java,73,83,11
 stackoverflow_formatted/6486206_0.java,5,15,struts2-2.2.1-all/struts-2.2.1/src/apps/portlet/src/main/java/org/apache/struts2/portlet/example/model/Name.java,5,15,11
 stackoverflow_formatted/6486206_0.java,5,15,struts2-2.2.1-all/struts-2.2.1/src/plugins/oval/src/test/java/org/apache/struts2/oval/interceptor/FieldsWithProfiles.java,18,28,11
@@ -3529,7 +3529,7 @@ stackoverflow_formatted/22143333_0.java,72,82,mvnforum-1.2.2-mvnad-1.0.1/mvnforu
 stackoverflow_formatted/22143333_0.java,109,119,mvnforum-1.2.2-mvnad-1.0.1/mvnforum-1.2.2-mvnad-1.0.1-src-20100817/myvietnam/src/net/myvietnam/mvncore/web/fileupload/disk/DiskFileItem.java,152,162,11
 stackoverflow_formatted/9945067_0.java,10,20,netbeans-6.9.1-201007282301/j2ee.sun.appsrv81/test/qa-functional/data/customer-cmp-ear/customer-cmp-ear-ejb/src/java/enterprise/customer_cmp_ejb/persistence/Customer_new.java,28,38,11
 stackoverflow_formatted/9945067_0.java,10,20,netbeans-6.9.1-201007282301/usersguide/tutorials/j2ee-tut/examples/ejb/savingsaccount/SavingsAccount/src/java/bank/SavingsAccountBean.java,91,101,11
-stackoverflow_formatted/9945067_0.java,10,20,spring-framework-3.0.5/spring-framework-3.0.5.RELEASE/projects/org.springframework.beans/src/test/java/org/springframework/beans/support/PropertyComparatorTests.java,70,80,11
+stackoverflow_formatted/9945067_0.java,10,20,spring-framework-3.0.5/spring-framework-3.0.5.RELEASE/projects/org.springframework.data/src/test/java/org/springframework/data/support/PropertyComparatorTests.java,70,80,11
 stackoverflow_formatted/9945067_0.java,10,20,spring-framework-3.0.5/spring-framework-3.0.5.RELEASE/projects/org.springframework.core/src/test/java/org/springframework/util/comparator/ComparatorTests.java,73,83,11
 stackoverflow_formatted/9945067_0.java,10,20,struts2-2.2.1-all/struts-2.2.1/src/apps/portlet/src/main/java/org/apache/struts2/portlet/example/model/Name.java,5,15,11
 stackoverflow_formatted/9945067_0.java,10,20,struts2-2.2.1-all/struts-2.2.1/src/plugins/oval/src/test/java/org/apache/struts2/oval/interceptor/FieldsWithProfiles.java,18,28,11
@@ -3546,10 +3546,10 @@ stackoverflow_formatted/9945067_0.java,10,20,wct-package-v1.5.2/WCTCore/src-app/
 stackoverflow_formatted/9945067_0.java,10,20,wct-package-v1.5.2/WCTCore/src-app/org/webcurator/ui/admin/command/CreateUserCommand.java,102,112,11
 stackoverflow_formatted/10488746_1.java,26,36,jstock-1.0.7c/jstock/src/org/yccheok/jstock/gui/ChangeStockInfoJDialog.java,124,134,11
 stackoverflow_formatted/25550345_0.java,191,201,netbeans-6.9.1-201007282301/utilities/src/org/netbeans/modules/search/ResultViewPanel.java,902,912,11
-stackoverflow_formatted/8180925_0.java,48,58,spring-framework-3.0.5/spring-framework-3.0.5.RELEASE/projects/org.springframework.web/src/test/java/org/springframework/beans/SerializablePerson.java,7,17,11
-stackoverflow_formatted/8180925_0.java,48,58,spring-framework-3.0.5/spring-framework-3.0.5.RELEASE/projects/org.springframework.aop/src/test/java/test/beans/SerializablePerson.java,8,18,11
-stackoverflow_formatted/8180925_0.java,48,58,spring-framework-3.0.5/spring-framework-3.0.5.RELEASE/projects/org.springframework.context/src/test/java/org/springframework/beans/SerializablePerson.java,7,17,11
-stackoverflow_formatted/8180925_0.java,48,58,spring-framework-3.0.5/spring-framework-3.0.5.RELEASE/projects/org.springframework.web.servlet/src/test/java/org/springframework/beans/SerializablePerson.java,7,17,11
+stackoverflow_formatted/8180925_0.java,48,58,spring-framework-3.0.5/spring-framework-3.0.5.RELEASE/projects/org.springframework.web/src/test/java/org/springframework/data/SerializablePerson.java,7,17,11
+stackoverflow_formatted/8180925_0.java,48,58,spring-framework-3.0.5/spring-framework-3.0.5.RELEASE/projects/org.springframework.aop/src/test/java/test/data/SerializablePerson.java,8,18,11
+stackoverflow_formatted/8180925_0.java,48,58,spring-framework-3.0.5/spring-framework-3.0.5.RELEASE/projects/org.springframework.context/src/test/java/org/springframework/data/SerializablePerson.java,7,17,11
+stackoverflow_formatted/8180925_0.java,48,58,spring-framework-3.0.5/spring-framework-3.0.5.RELEASE/projects/org.springframework.web.servlet/src/test/java/org/springframework/data/SerializablePerson.java,7,17,11
 stackoverflow_formatted/3939285_0.java,4,14,netbeans-6.9.1-201007282301/api.visual/src/org/netbeans/modules/visual/graph/layout/hierarchicalsupport/DirectedGraph.java,186,196,11
 stackoverflow_formatted/3939285_0.java,4,14,netbeans-6.9.1-201007282301/editor.lib/src/org/netbeans/modules/editor/lib/drawing/DrawGraphics.java,82,92,11
 stackoverflow_formatted/22010866_1.java,22,32,apache-roller-4.0.1/apache-roller-src-4.0.1/apps/weblogger/src/java/org/apache/roller/weblogger/pojos/StaticTemplate.java,23,33,11
@@ -3560,7 +3560,7 @@ stackoverflow_formatted/22010866_1.java,22,32,apache-roller-4.0.1/apache-roller-
 stackoverflow_formatted/22010866_1.java,22,32,apache-roller-4.0.1/apache-roller-src-4.0.1/apps/weblogger/src/java/org/apache/roller/weblogger/business/themes/ThemeMetadataTemplate.java,18,28,11
 stackoverflow_formatted/22010866_1.java,22,32,jrefactory-2.9.19/src/org/acm/seguin/pmd/RuleSet.java,40,50,11
 stackoverflow_formatted/22010866_1.java,22,32,netbeans-6.9.1-201007282301/j2ee.samples/samples_src/PetCatalog/src/java/model/Item.java,60,70,11
-stackoverflow_formatted/22010866_1.java,22,32,netbeans-6.9.1-201007282301/web.jsf.editor/test/unit/data/testWebProject/src/java/beans/Product.java,18,28,11
+stackoverflow_formatted/22010866_1.java,22,32,netbeans-6.9.1-201007282301/web.jsf.editor/test/unit/data/testWebProject/src/java/data/Product.java,18,28,11
 stackoverflow_formatted/22010866_1.java,22,32,pmd-4.2.5/pmd-4.2.5/src/net/sourceforge/pmd/RuleSet.java,136,146,11
 stackoverflow_formatted/22010866_1.java,22,32,struts2-2.2.1-all/struts-2.2.1/src/apps/showcase/src/main/java/org/apache/struts2/showcase/model/Skill.java,13,23,11
 stackoverflow_formatted/22010866_1.java,22,32,wct-package-v1.5.2/WCTCore/src-app/org/webcurator/core/report/Report.java,17,27,11
@@ -3617,7 +3617,7 @@ stackoverflow_formatted/4387534_1.java,8,18,struts2-2.2.1-all/struts-2.2.1/src/x
 stackoverflow_formatted/11937204_2.java,12,22,struts2-2.2.1-all/struts-2.2.1/src/xwork-core/src/test/java/com/opensymphony/xwork2/ognl/OgnlValueStackTest.java,686,696,11
 stackoverflow_formatted/24475366_0.java,8,18,netbeans-6.9.1-201007282301/j2ee.sun.appsrv81/test/qa-functional/data/customer-cmp-ear/customer-cmp-ear-ejb/src/java/enterprise/customer_cmp_ejb/persistence/Customer_new.java,28,38,11
 stackoverflow_formatted/24475366_0.java,8,18,netbeans-6.9.1-201007282301/usersguide/tutorials/j2ee-tut/examples/ejb/savingsaccount/SavingsAccount/src/java/bank/SavingsAccountBean.java,91,101,11
-stackoverflow_formatted/24475366_0.java,8,18,spring-framework-3.0.5/spring-framework-3.0.5.RELEASE/projects/org.springframework.beans/src/test/java/org/springframework/beans/support/PropertyComparatorTests.java,70,80,11
+stackoverflow_formatted/24475366_0.java,8,18,spring-framework-3.0.5/spring-framework-3.0.5.RELEASE/projects/org.springframework.data/src/test/java/org/springframework/data/support/PropertyComparatorTests.java,70,80,11
 stackoverflow_formatted/24475366_0.java,8,18,spring-framework-3.0.5/spring-framework-3.0.5.RELEASE/projects/org.springframework.core/src/test/java/org/springframework/util/comparator/ComparatorTests.java,73,83,11
 stackoverflow_formatted/24475366_0.java,8,18,struts2-2.2.1-all/struts-2.2.1/src/apps/portlet/src/main/java/org/apache/struts2/portlet/example/model/Name.java,5,15,11
 stackoverflow_formatted/24475366_0.java,8,18,struts2-2.2.1-all/struts-2.2.1/src/plugins/oval/src/test/java/org/apache/struts2/oval/interceptor/FieldsWithProfiles.java,18,28,11
@@ -3654,7 +3654,7 @@ stackoverflow_formatted/23540649_1.java,18,28,netbeans-6.9.1-201007282301/j2ee.s
 stackoverflow_formatted/23540649_1.java,18,28,openjms-0.7.7-beta-1/openjms-0.7.7-beta-1/modules/jms/src/main/java/org/exolab/jms/authentication/User.java,12,22,11
 stackoverflow_formatted/20791703_0.java,17,27,netbeans-6.9.1-201007282301/j2ee.sun.appsrv81/test/qa-functional/data/customer-cmp-ear/customer-cmp-ear-ejb/src/java/enterprise/customer_cmp_ejb/persistence/Customer_new.java,28,38,11
 stackoverflow_formatted/20791703_0.java,17,27,netbeans-6.9.1-201007282301/usersguide/tutorials/j2ee-tut/examples/ejb/savingsaccount/SavingsAccount/src/java/bank/SavingsAccountBean.java,91,101,11
-stackoverflow_formatted/20791703_0.java,17,27,spring-framework-3.0.5/spring-framework-3.0.5.RELEASE/projects/org.springframework.beans/src/test/java/org/springframework/beans/support/PropertyComparatorTests.java,70,80,11
+stackoverflow_formatted/20791703_0.java,17,27,spring-framework-3.0.5/spring-framework-3.0.5.RELEASE/projects/org.springframework.data/src/test/java/org/springframework/data/support/PropertyComparatorTests.java,70,80,11
 stackoverflow_formatted/20791703_0.java,17,27,spring-framework-3.0.5/spring-framework-3.0.5.RELEASE/projects/org.springframework.core/src/test/java/org/springframework/util/comparator/ComparatorTests.java,73,83,11
 stackoverflow_formatted/20791703_0.java,17,27,struts2-2.2.1-all/struts-2.2.1/src/apps/portlet/src/main/java/org/apache/struts2/portlet/example/model/Name.java,5,15,11
 stackoverflow_formatted/20791703_0.java,17,27,struts2-2.2.1-all/struts-2.2.1/src/plugins/oval/src/test/java/org/apache/struts2/oval/interceptor/FieldsWithProfiles.java,18,28,11
@@ -3669,7 +3669,7 @@ stackoverflow_formatted/20791703_0.java,17,27,wct-package-v1.5.2/WCTCore/src-app
 stackoverflow_formatted/20791703_0.java,17,27,wct-package-v1.5.2/WCTCore/src-app/org/webcurator/domain/model/audit/Audit.java,28,38,11
 stackoverflow_formatted/20791703_0.java,17,27,wct-package-v1.5.2/WCTCore/src-app/org/webcurator/domain/model/dto/UserDTO.java,65,75,11
 stackoverflow_formatted/20791703_0.java,17,27,wct-package-v1.5.2/WCTCore/src-app/org/webcurator/ui/admin/command/CreateUserCommand.java,102,112,11
-stackoverflow_formatted/18447971_0.java,3,13,spring-framework-3.0.5/spring-framework-3.0.5.RELEASE/projects/org.springframework.beans/src/test/java/org/springframework/beans/support/PagedListHolderTests.java,130,140,11
+stackoverflow_formatted/18447971_0.java,3,13,spring-framework-3.0.5/spring-framework-3.0.5.RELEASE/projects/org.springframework.data/src/test/java/org/springframework/data/support/PagedListHolderTests.java,130,140,11
 stackoverflow_formatted/8869781_0.java,31,41,netbeans-6.9.1-201007282301/j2ee.sun.ddui/src/org/netbeans/modules/j2ee/sun/validation/util/Utils.java,76,86,11
 stackoverflow_formatted/12377779_0.java,6,16,netbeans-6.9.1-201007282301/kenai.ui/src/org/netbeans/modules/kenai/ui/treelist/TreeList.java,130,140,11
 stackoverflow_formatted/11083864_4.java,6,16,netbeans-6.9.1-201007282301/websvc.rest.samples/CustomerDB/src/java/customerdb/Customer.java,71,81,11
@@ -3755,13 +3755,13 @@ stackoverflow_formatted/24358038_0.java,40,50,apache-roller-4.0.1/apache-roller-
 stackoverflow_formatted/24358038_0.java,40,50,apache-roller-4.0.1/apache-roller-src-4.0.1/apps/weblogger/src/java/org/apache/roller/weblogger/ui/struts2/admin/CreateUserBean.java,22,32,11
 stackoverflow_formatted/24358038_0.java,40,50,netbeans-6.9.1-201007282301/j2ee.samples/samples_src/JsfJpa/src/java/enterprise/jsf_jpa_war/UserManager.java,25,35,11
 stackoverflow_formatted/24358038_0.java,40,50,openjms-0.7.7-beta-1/openjms-0.7.7-beta-1/modules/jms/src/main/java/org/exolab/jms/authentication/User.java,12,22,11
-stackoverflow_formatted/3938161_1.java,13,23,spring-framework-3.0.5/spring-framework-3.0.5.RELEASE/projects/org.springframework.beans/src/test/java/org/springframework/beans/support/PagedListHolderTests.java,130,140,11
+stackoverflow_formatted/3938161_1.java,13,23,spring-framework-3.0.5/spring-framework-3.0.5.RELEASE/projects/org.springframework.data/src/test/java/org/springframework/data/support/PagedListHolderTests.java,130,140,11
 stackoverflow_formatted/550172_0.java,60,70,jhotdraw-7.5.1/jhotdraw_7.5.1/Source/jhotdraw7/src/main/java/org/jhotdraw/util/Images.java,71,82,11
 stackoverflow_formatted/9562517_1.java,5,15,spring-framework-3.0.5/spring-framework-3.0.5.RELEASE/projects/org.springframework.test/src/test/java/org/springframework/test/util/subpackage/Person.java,9,19,11
 stackoverflow_formatted/15705710_0.java,13,23,jstock-1.0.7c/jstock/src/org/yccheok/jstock/gui/OptionsSellAdvisorJPanel.java,295,305,11
 stackoverflow_formatted/15705710_0.java,13,23,jstock-1.0.7c/jstock/src/org/yccheok/jstock/gui/CountryJDialog.java,118,128,11
 stackoverflow_formatted/15705710_0.java,13,23,pooka_080505/net/suberic/util/gui/propedit/SectionedEditorPane.java,155,165,11
-stackoverflow_formatted/22348881_2.java,4,14,spring-framework-3.0.5/spring-framework-3.0.5.RELEASE/projects/org.springframework.beans/src/test/java/org/springframework/beans/support/PagedListHolderTests.java,130,140,11
+stackoverflow_formatted/22348881_2.java,4,14,spring-framework-3.0.5/spring-framework-3.0.5.RELEASE/projects/org.springframework.data/src/test/java/org/springframework/data/support/PagedListHolderTests.java,130,140,11
 stackoverflow_formatted/14740385_2.java,7,17,apache-roller-4.0.1/apache-roller-src-4.0.1/apps/planet/src/java/org/apache/roller/planet/pojos/PlanetGroup.java,45,55,11
 stackoverflow_formatted/14740385_2.java,7,17,apache-roller-4.0.1/apache-roller-src-4.0.1/apps/planet/src/java/org/apache/roller/planet/pojos/Planet.java,34,44,11
 stackoverflow_formatted/22600739_0.java,44,54,spring-framework-3.0.5/spring-framework-3.0.5.RELEASE/projects/org.springframework.transaction/src/test/java/org/springframework/transaction/annotation/AnnotationTransactionAttributeSourceTests.java,383,393,11
@@ -3774,7 +3774,7 @@ stackoverflow_formatted/22600739_0.java,44,54,tapestry-src-5.1.0.5/tapestry-core
 stackoverflow_formatted/13051546_0.java,35,45,jstock-1.0.7c/jstock/src/org/yccheok/jstock/gui/ChangeStockInfoJDialog.java,124,134,11
 stackoverflow_formatted/4247539_0.java,5,15,netbeans-6.9.1-201007282301/j2ee.sun.appsrv81/test/qa-functional/data/customer-cmp-ear/customer-cmp-ear-ejb/src/java/enterprise/customer_cmp_ejb/persistence/Customer_new.java,28,38,11
 stackoverflow_formatted/4247539_0.java,5,15,netbeans-6.9.1-201007282301/usersguide/tutorials/j2ee-tut/examples/ejb/savingsaccount/SavingsAccount/src/java/bank/SavingsAccountBean.java,91,101,11
-stackoverflow_formatted/4247539_0.java,5,15,spring-framework-3.0.5/spring-framework-3.0.5.RELEASE/projects/org.springframework.beans/src/test/java/org/springframework/beans/support/PropertyComparatorTests.java,70,80,11
+stackoverflow_formatted/4247539_0.java,5,15,spring-framework-3.0.5/spring-framework-3.0.5.RELEASE/projects/org.springframework.data/src/test/java/org/springframework/data/support/PropertyComparatorTests.java,70,80,11
 stackoverflow_formatted/4247539_0.java,5,15,spring-framework-3.0.5/spring-framework-3.0.5.RELEASE/projects/org.springframework.core/src/test/java/org/springframework/util/comparator/ComparatorTests.java,73,83,11
 stackoverflow_formatted/4247539_0.java,5,15,struts2-2.2.1-all/struts-2.2.1/src/apps/portlet/src/main/java/org/apache/struts2/portlet/example/model/Name.java,5,15,11
 stackoverflow_formatted/4247539_0.java,5,15,struts2-2.2.1-all/struts-2.2.1/src/plugins/oval/src/test/java/org/apache/struts2/oval/interceptor/FieldsWithProfiles.java,18,28,11
@@ -3799,7 +3799,7 @@ stackoverflow_formatted/22212300_1.java,46,56,apache-roller-4.0.1/apache-roller-
 stackoverflow_formatted/22212300_1.java,46,56,netbeans-6.9.1-201007282301/websvc.saas.codegen/src/org/netbeans/modules/websvc/saas/codegen/model/SaasBean.java,665,675,11
 stackoverflow_formatted/25321858_0.java,7,17,netbeans-6.9.1-201007282301/j2ee.sun.appsrv81/test/qa-functional/data/customer-cmp-ear/customer-cmp-ear-ejb/src/java/enterprise/customer_cmp_ejb/persistence/Customer_new.java,28,38,11
 stackoverflow_formatted/25321858_0.java,7,17,netbeans-6.9.1-201007282301/usersguide/tutorials/j2ee-tut/examples/ejb/savingsaccount/SavingsAccount/src/java/bank/SavingsAccountBean.java,91,101,11
-stackoverflow_formatted/25321858_0.java,7,17,spring-framework-3.0.5/spring-framework-3.0.5.RELEASE/projects/org.springframework.beans/src/test/java/org/springframework/beans/support/PropertyComparatorTests.java,70,80,11
+stackoverflow_formatted/25321858_0.java,7,17,spring-framework-3.0.5/spring-framework-3.0.5.RELEASE/projects/org.springframework.data/src/test/java/org/springframework/data/support/PropertyComparatorTests.java,70,80,11
 stackoverflow_formatted/25321858_0.java,7,17,spring-framework-3.0.5/spring-framework-3.0.5.RELEASE/projects/org.springframework.core/src/test/java/org/springframework/util/comparator/ComparatorTests.java,73,83,11
 stackoverflow_formatted/25321858_0.java,7,17,struts2-2.2.1-all/struts-2.2.1/src/apps/portlet/src/main/java/org/apache/struts2/portlet/example/model/Name.java,5,15,11
 stackoverflow_formatted/25321858_0.java,7,17,struts2-2.2.1-all/struts-2.2.1/src/plugins/oval/src/test/java/org/apache/struts2/oval/interceptor/FieldsWithProfiles.java,18,28,11
@@ -3853,7 +3853,7 @@ stackoverflow_formatted/13434746_0.java,7,17,netbeans-6.9.1-201007282301/editor.
 stackoverflow_formatted/12488529_1.java,98,108,jhotdraw-7.5.1/jhotdraw_7.5.1/Source/jhotdraw7/src/main/java/org/jhotdraw/util/Images.java,71,82,11
 stackoverflow_formatted/22625057_0.java,12,22,netbeans-6.9.1-201007282301/j2ee.sun.appsrv81/test/qa-functional/data/customer-cmp-ear/customer-cmp-ear-ejb/src/java/enterprise/customer_cmp_ejb/persistence/Customer_new.java,28,38,11
 stackoverflow_formatted/22625057_0.java,12,22,netbeans-6.9.1-201007282301/usersguide/tutorials/j2ee-tut/examples/ejb/savingsaccount/SavingsAccount/src/java/bank/SavingsAccountBean.java,91,101,11
-stackoverflow_formatted/22625057_0.java,12,22,spring-framework-3.0.5/spring-framework-3.0.5.RELEASE/projects/org.springframework.beans/src/test/java/org/springframework/beans/support/PropertyComparatorTests.java,70,80,11
+stackoverflow_formatted/22625057_0.java,12,22,spring-framework-3.0.5/spring-framework-3.0.5.RELEASE/projects/org.springframework.data/src/test/java/org/springframework/data/support/PropertyComparatorTests.java,70,80,11
 stackoverflow_formatted/22625057_0.java,12,22,spring-framework-3.0.5/spring-framework-3.0.5.RELEASE/projects/org.springframework.core/src/test/java/org/springframework/util/comparator/ComparatorTests.java,73,83,11
 stackoverflow_formatted/22625057_0.java,12,22,struts2-2.2.1-all/struts-2.2.1/src/apps/portlet/src/main/java/org/apache/struts2/portlet/example/model/Name.java,5,15,11
 stackoverflow_formatted/22625057_0.java,12,22,struts2-2.2.1-all/struts-2.2.1/src/plugins/oval/src/test/java/org/apache/struts2/oval/interceptor/FieldsWithProfiles.java,18,28,11
@@ -3892,7 +3892,7 @@ stackoverflow_formatted/14073238_0.java,34,44,netbeans-6.9.1-201007282301/api.vi
 stackoverflow_formatted/14073238_0.java,34,44,netbeans-6.9.1-201007282301/editor.lib/src/org/netbeans/modules/editor/lib/drawing/DrawGraphics.java,82,92,11
 stackoverflow_formatted/13136224_1.java,12,22,netbeans-6.9.1-201007282301/j2ee.sun.appsrv81/test/qa-functional/data/customer-cmp-ear/customer-cmp-ear-ejb/src/java/enterprise/customer_cmp_ejb/persistence/Customer_new.java,28,38,11
 stackoverflow_formatted/13136224_1.java,12,22,netbeans-6.9.1-201007282301/usersguide/tutorials/j2ee-tut/examples/ejb/savingsaccount/SavingsAccount/src/java/bank/SavingsAccountBean.java,91,101,11
-stackoverflow_formatted/13136224_1.java,12,22,spring-framework-3.0.5/spring-framework-3.0.5.RELEASE/projects/org.springframework.beans/src/test/java/org/springframework/beans/support/PropertyComparatorTests.java,70,80,11
+stackoverflow_formatted/13136224_1.java,12,22,spring-framework-3.0.5/spring-framework-3.0.5.RELEASE/projects/org.springframework.data/src/test/java/org/springframework/data/support/PropertyComparatorTests.java,70,80,11
 stackoverflow_formatted/13136224_1.java,12,22,spring-framework-3.0.5/spring-framework-3.0.5.RELEASE/projects/org.springframework.core/src/test/java/org/springframework/util/comparator/ComparatorTests.java,73,83,11
 stackoverflow_formatted/13136224_1.java,12,22,struts2-2.2.1-all/struts-2.2.1/src/apps/portlet/src/main/java/org/apache/struts2/portlet/example/model/Name.java,5,15,11
 stackoverflow_formatted/13136224_1.java,12,22,struts2-2.2.1-all/struts-2.2.1/src/plugins/oval/src/test/java/org/apache/struts2/oval/interceptor/FieldsWithProfiles.java,18,28,11
@@ -4466,7 +4466,7 @@ stackoverflow_formatted/19220757_0.java,1,10,wct-package-v1.5.2/WCTCore/src-app/
 stackoverflow_formatted/19220757_0.java,1,10,wct-package-v1.5.2/WCTCore/src-app/org/webcurator/domain/model/auth/User.java,180,189,10
 stackoverflow_formatted/19220757_0.java,1,10,wct-package-v1.5.2/WCTCore/src-app/org/webcurator/domain/model/dto/UserDTO.java,129,138,10
 stackoverflow_formatted/14636363_1.java,71,80,netbeans-6.9.1-201007282301/maven/src/org/netbeans/modules/maven/api/archetype/Archetype.java,49,58,10
-stackoverflow_formatted/14636363_1.java,71,80,netbeans-6.9.1-201007282301/web.jsf.editor/test/unit/data/testWebProject/src/java/beans/Product.java,19,28,10
+stackoverflow_formatted/14636363_1.java,71,80,netbeans-6.9.1-201007282301/web.jsf.editor/test/unit/data/testWebProject/src/java/data/Product.java,19,28,10
 stackoverflow_formatted/14636363_1.java,71,80,netbeans-6.9.1-201007282301/j2ee.samples/samples_src/PetCatalog/src/java/model/Item.java,61,70,10
 stackoverflow_formatted/14505129_0.java,42,51,weka-3-7-9/main/java/weka/gui/graphvisualizer/GraphVisualizer.java,782,791,10
 stackoverflow_formatted/15850476_0.java,13,22,apache-maven-3.0/apache-maven-3.0/maven-core/src/main/java/org/apache/maven/repository/DelegatingLocalArtifactRepository.java,98,107,10
@@ -5483,7 +5483,7 @@ stackoverflow_formatted/14735904_0.java,11,20,wct-package-v1.5.2/WCTCore/src-app
 stackoverflow_formatted/14735904_0.java,11,20,wct-package-v1.5.2/WCTCore/src-app/org/webcurator/domain/model/auth/User.java,180,189,10
 stackoverflow_formatted/14735904_0.java,11,20,wct-package-v1.5.2/WCTCore/src-app/org/webcurator/domain/model/dto/UserDTO.java,129,138,10
 stackoverflow_formatted/9829474_0.java,2,11,jruby-1.5.2/jruby-1.5.2/src/org/jruby/compiler/impl/StandardASMCompiler.java,387,396,10
-stackoverflow_formatted/25373489_0.java,26,35,weka-3-7-9/main/java/weka/gui/beans/KnowledgeFlowApp.java,1992,2001,10
+stackoverflow_formatted/25373489_0.java,26,35,weka-3-7-9/main/java/weka/gui/data/KnowledgeFlowApp.java,1992,2001,10
 stackoverflow_formatted/10308733_1.java,1,10,apache-maven-3.0/apache-maven-3.0/maven-core/src/main/java/org/apache/maven/repository/DelegatingLocalArtifactRepository.java,98,107,10
 stackoverflow_formatted/10308733_1.java,1,10,lucene-4.3.0/lucene-4.3.0/core/src/java/org/apache/lucene/search/FieldCacheRewriteMethod.java,113,122,10
 stackoverflow_formatted/10308733_1.java,1,10,lucene-4.3.0/lucene-4.3.0/core/src/java/org/apache/lucene/search/spans/SpanMultiTermQueryWrapper.java,136,145,10
@@ -6960,7 +6960,7 @@ stackoverflow_formatted/12913121_0.java,47,56,megamek-0.35.18/src/megamek/client
 stackoverflow_formatted/25049514_0.java,107,116,netbeans-6.9.1-201007282301/gsf.codecoverage/src/org/netbeans/modules/gsf/codecoverage/CoverageReportTopComponent.java,355,364,10
 stackoverflow_formatted/2870786_0.java,1,10,apache-tomcat-7.0.2/apache-tomcat-7.0.2-src/java/org/apache/tomcat/util/http/fileupload/IOUtils.java,25,34,10
 stackoverflow_formatted/22010866_1.java,23,32,netbeans-6.9.1-201007282301/maven/src/org/netbeans/modules/maven/api/archetype/Archetype.java,49,58,10
-stackoverflow_formatted/22010866_1.java,23,32,netbeans-6.9.1-201007282301/web.jsf.editor/test/unit/data/testWebProject/src/java/beans/Product.java,19,28,10
+stackoverflow_formatted/22010866_1.java,23,32,netbeans-6.9.1-201007282301/web.jsf.editor/test/unit/data/testWebProject/src/java/data/Product.java,19,28,10
 stackoverflow_formatted/22010866_1.java,23,32,netbeans-6.9.1-201007282301/j2ee.samples/samples_src/PetCatalog/src/java/model/Item.java,61,70,10
 stackoverflow_formatted/23415361_1.java,10,19,apache-maven-3.0/apache-maven-3.0/maven-core/src/main/java/org/apache/maven/repository/DelegatingLocalArtifactRepository.java,98,107,10
 stackoverflow_formatted/23415361_1.java,10,19,lucene-4.3.0/lucene-4.3.0/core/src/java/org/apache/lucene/search/FieldCacheRewriteMethod.java,113,122,10

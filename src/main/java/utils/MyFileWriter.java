@@ -1,3 +1,5 @@
+package utils;
+
 import org.apache.commons.io.FileUtils;
 
 import java.io.BufferedWriter;
@@ -34,17 +36,10 @@ public class MyFileWriter {
             bw.write(content);
             if (!isAppend && isPrintMessage)
                 System.out.println("Saved as: " + filename);
+            bw.close();
+            fw.close();
         } catch (IOException e) {
             e.printStackTrace();
-        } finally {
-            try {
-                if (bw != null)
-                    bw.close();
-                if (fw != null)
-                    fw.close();
-            } catch (IOException ex) {
-                ex.printStackTrace();
-            }
         }
     }
 

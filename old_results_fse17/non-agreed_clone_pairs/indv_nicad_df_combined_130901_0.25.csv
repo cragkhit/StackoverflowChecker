@@ -243,8 +243,8 @@ stackoverflow_formatted/20944074_1.java,16,26,drjava-stable-20100913-r5387-src/d
 stackoverflow_formatted/12149844_0.java,49,59,jboss-5/jboss-5.1.0.GA-src/testsuite/src/main/org/jboss/test/jbossmessaging/test/Jms11UnitTest.java,761,773,11
 stackoverflow_formatted/12149844_0.java,49,59,jboss-5/jboss-5.1.0.GA-src/testsuite/src/main/org/jboss/test/jbossmessaging/test/JBossJMSUnitTest.java,814,826,11
 stackoverflow_formatted/7811769_1.java,38,48,hadoop-1/hadoop-1.0.0/src/test/org/apache/hadoop/mapred/TestJvmManager.java,98,109,11
-stackoverflow_formatted/11574637_0.java,78,89,jboss-5/jboss-5.1.0.GA-src/testsuite/src/main/org/jboss/test/entity/beans/TestEntityBean.java,39,50,12
-stackoverflow_formatted/11574637_0.java,78,89,jboss-5/jboss-5.1.0.GA-src/testsuite/src/main/org/jboss/test/entity/beans/TestEntityBean.java,66,77,12
+stackoverflow_formatted/11574637_0.java,78,89,jboss-5/jboss-5.1.0.GA-src/testsuite/src/main/org/jboss/test/entity/data/TestEntityBean.java,39,50,12
+stackoverflow_formatted/11574637_0.java,78,89,jboss-5/jboss-5.1.0.GA-src/testsuite/src/main/org/jboss/test/entity/data/TestEntityBean.java,66,77,12
 stackoverflow_formatted/8563446_0.java,28,41,galleon-2/src/org/lnicholls/galleon/util/JarClassLoader.java,99,114,14
 stackoverflow_formatted/12008316_0.java,12,31,cobertura-1/cobertura-1.9.4.1/src/net/sourceforge/cobertura/coveragedata/TouchCollector.java,52,70,19
 stackoverflow_formatted/12008316_0.java,12,31,cobertura-1/cobertura-1.9.4.1/src/net/sourceforge/cobertura/coveragedata/TouchCollector.java,125,143,19

@@ -1,3 +1,5 @@
+import data.Fragment;
+
 import static org.junit.Assert.*;
 
 /**

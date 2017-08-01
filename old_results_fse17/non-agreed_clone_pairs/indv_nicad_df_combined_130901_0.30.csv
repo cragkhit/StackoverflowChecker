@@ -1204,7 +1204,7 @@ stackoverflow_formatted/15519652_1.java,18,27,findbugs-1/findbugs-1.3.9/src/java
 stackoverflow_formatted/15519652_1.java,18,27,jboss-5/jboss-5.1.0.GA-src/connector/src/main/org/jboss/resource/connectionmanager/JBossManagedConnectionPool.java,782,791,10
 stackoverflow_formatted/15519652_1.java,18,27,jboss-5/jboss-5.1.0.GA-src/connector/src/main/org/jboss/resource/connectionmanager/JBossManagedConnectionPool.java,725,735,10
 stackoverflow_formatted/15519652_1.java,18,27,jboss-5/jboss-5.1.0.GA-src/connector/src/main/org/jboss/resource/connectionmanager/JBossManagedConnectionPool.java,667,678,10
-stackoverflow_formatted/8524302_1.java,79,88,jboss-5/jboss-5.1.0.GA-src/testsuite/src/main/org/jboss/test/messagedriven/beans/TestMessageDriven.java,33,42,10
+stackoverflow_formatted/8524302_1.java,79,88,jboss-5/jboss-5.1.0.GA-src/testsuite/src/main/org/jboss/test/messagedriven/data/TestMessageDriven.java,33,42,10
 stackoverflow_formatted/8524302_1.java,79,88,jchempaint-src-3/org.openscience.cdk.jchempaint30/src/main/org/openscience/jchempaint/renderer/generators/ExtendedAtomGenerator.java,22,33,10
 stackoverflow_formatted/8524302_1.java,79,88,jchempaint-src-3/org.openscience.cdk.jchempaint30/src/main/org/openscience/jchempaint/renderer/generators/AtomMassGenerator.java,30,42,10
 stackoverflow_formatted/8524302_1.java,79,88,jchempaint-src-3/cdk/src/main/org/openscience/cdk/smiles/SmilesGenerator.java,274,283,10
@@ -2541,7 +2541,7 @@ stackoverflow_formatted/820837_0.java,6,15,heritrix-1/heritrix-1.14.4/src/java/o
 stackoverflow_formatted/820837_0.java,6,15,heritrix-1/heritrix-1.14.4/src/java/org/archive/crawler/util/LogReader.java,267,282,10
 stackoverflow_formatted/820837_0.java,6,15,heritrix-1/heritrix-1.14.4/src/java/org/apache/commons/pool/impl/FairGenericObjectPoolTest.java,62,71,10
 stackoverflow_formatted/820837_0.java,6,15,jag-6/jag-6.1/src/com/finalist/jaggenerator/modules/RelationPanel.java,58,67,10
-stackoverflow_formatted/22803872_0.java,2,11,aspectj-1.6.9-src/aspectjtools1.6.9-src/org/aspectj/tools/ajdoc/Main.java,515,525,10
+stackoverflow_formatted/22803872_0.java,2,11,aspectj-1.6.9-src/aspectjtools1.6.9-src/org/aspectj/tools/ajdoc/exec.Main.java,515,525,10
 stackoverflow_formatted/10082128_2.java,12,26,columba-1/columba-1.0-src/src/mail/core/org/columba/mail/spam/spamassassin/IPCHelper.java,58,70,13
 stackoverflow_formatted/10082128_2.java,12,26,columba-1/columba-1.0-src/src/columba/core/org/columba/core/base/StreamThread.java,17,29,13
 stackoverflow_formatted/10082128_2.java,12,26,columba-1/columba-1.0-src/src/columba/core/org/columba/core/base/IPCHelper.java,58,70,13
@@ -4405,8 +4405,8 @@ stackoverflow_formatted/12149844_0.java,49,59,jasperreports-3/jasperreports-3.7.
 stackoverflow_formatted/12149844_0.java,49,59,jboss-5/jboss-5.1.0.GA-src/testsuite/src/main/org/jboss/test/jmx/test/UndeployBrokenPackageUnitTestCase.java,72,81,10
 stackoverflow_formatted/12149844_0.java,49,59,jboss-5/jboss-5.1.0.GA-src/testsuite/src/main/org/jboss/test/jbossmessaging/test/Jms11UnitTest.java,761,773,11
 stackoverflow_formatted/12149844_0.java,49,59,jboss-5/jboss-5.1.0.GA-src/testsuite/src/main/org/jboss/test/jbossmessaging/test/JBossJMSUnitTest.java,814,826,11
-stackoverflow_formatted/11574637_0.java,78,89,jboss-5/jboss-5.1.0.GA-src/testsuite/src/main/org/jboss/test/entity/beans/TestEntityBean.java,66,77,12
-stackoverflow_formatted/11574637_0.java,78,89,jboss-5/jboss-5.1.0.GA-src/testsuite/src/main/org/jboss/test/entity/beans/TestEntityBean.java,39,50,12
+stackoverflow_formatted/11574637_0.java,78,89,jboss-5/jboss-5.1.0.GA-src/testsuite/src/main/org/jboss/test/entity/data/TestEntityBean.java,66,77,12
+stackoverflow_formatted/11574637_0.java,78,89,jboss-5/jboss-5.1.0.GA-src/testsuite/src/main/org/jboss/test/entity/data/TestEntityBean.java,39,50,12
 stackoverflow_formatted/24230296_1.java,3,14,drjava-stable-20100913-r5387-src/drjava-stable-20100913-r5387/src/src/edu/rice/cs/drjava/model/GlobalModelTestCase.java,310,320,11
 stackoverflow_formatted/24230296_1.java,3,14,drjava-stable-20100913-r5387-src/drjava-stable-20100913-r5387/src/src/edu/rice/cs/drjava/model/GlobalModelTestCase.java,321,331,11
 stackoverflow_formatted/24230296_1.java,3,14,drjava-stable-20100913-r5387-src/drjava-stable-20100913-r5387/src/src/edu/rice/cs/drjava/model/GlobalModelTestCase.java,343,353,11

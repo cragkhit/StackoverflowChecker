@@ -150,8 +150,8 @@ stackoverflow_formatted/92962_0.java,22,61,jgraphpad-5/jgraphpad-5.10.0.2-src/sr
 stackoverflow_formatted/2513183_0.java,45,55,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jdt/ui/actions/GenerateToStringAction.java,45,55,11
 stackoverflow_formatted/2513183_0.java,96,105,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jdt/ui/actions/GenerateToStringAction.java,102,111,10
 stackoverflow_formatted/2513183_0.java,106,159,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jdt/ui/actions/GenerateToStringAction.java,113,166,54
-stackoverflow_formatted/11574637_0.java,78,89,jboss-5/jboss-5.1.0.GA-src/testsuite/src/main/org/jboss/test/entity/beans/TestEntityBean.java,66,77,12
-stackoverflow_formatted/11574637_0.java,78,89,jboss-5/jboss-5.1.0.GA-src/testsuite/src/main/org/jboss/test/entity/beans/TestEntityBean.java,39,50,12
+stackoverflow_formatted/11574637_0.java,78,89,jboss-5/jboss-5.1.0.GA-src/testsuite/src/main/org/jboss/test/entity/data/TestEntityBean.java,66,77,12
+stackoverflow_formatted/11574637_0.java,78,89,jboss-5/jboss-5.1.0.GA-src/testsuite/src/main/org/jboss/test/entity/data/TestEntityBean.java,39,50,12
 stackoverflow_formatted/1390900_0.java,71,84,eclipse_SDK/eclipse_SDK-4.3/src/src/org/eclipse/jdt/internal/ui/wizards/NewElementWizard.java,40,53,14
 stackoverflow_formatted/13311280_0.java,2,56,netbeans-6.9.1-201007282301/swingapp/appshells/BasicShellApp/src/applicationpackage/ShellView.java,14,67,54
 stackoverflow_formatted/13311280_0.java,2,56,netbeans-6.9.1-201007282301/form/test/qa-functional/data/SampleDesktopApplication/src/sampledesktopapplication/SampleDesktopView.java,14,67,54

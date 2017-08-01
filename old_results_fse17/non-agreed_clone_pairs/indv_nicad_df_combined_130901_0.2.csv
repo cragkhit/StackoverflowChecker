@@ -58,8 +58,8 @@ stackoverflow_formatted/3851674_0.java,23,41,cobertura-1/cobertura-1.9.4.1/src/n
 stackoverflow_formatted/3851674_0.java,23,41,hadoop-1/hadoop-1.0.0/src/core/org/apache/hadoop/io/file/tfile/TFile.java,371,389,19
 stackoverflow_formatted/12921020_0.java,24,35,iReport-3/iReport-3.7.5-src/ireport-designer/src/com/jaspersoft/ireport/designer/crosstab/actions/CellSelectionAction.java,19,31,12
 stackoverflow_formatted/16462678_0.java,23,38,jboss-5/jboss-5.1.0.GA-src/testsuite/src/main/org/jboss/test/bootstrapdependencies/jbas5349/ejb3/SimpleEntity.java,24,39,16
-stackoverflow_formatted/11574637_0.java,78,89,jboss-5/jboss-5.1.0.GA-src/testsuite/src/main/org/jboss/test/entity/beans/TestEntityBean.java,66,77,12
-stackoverflow_formatted/11574637_0.java,78,89,jboss-5/jboss-5.1.0.GA-src/testsuite/src/main/org/jboss/test/entity/beans/TestEntityBean.java,39,50,12
+stackoverflow_formatted/11574637_0.java,78,89,jboss-5/jboss-5.1.0.GA-src/testsuite/src/main/org/jboss/test/entity/data/TestEntityBean.java,66,77,12
+stackoverflow_formatted/11574637_0.java,78,89,jboss-5/jboss-5.1.0.GA-src/testsuite/src/main/org/jboss/test/entity/data/TestEntityBean.java,39,50,12
 stackoverflow_formatted/24682528_2.java,143,158,jboss-5/jboss-5.1.0.GA-src/testsuite/src/main/org/jboss/test/jacc/test/portal/PortalObjectPermission.java,35,50,16
 stackoverflow_formatted/24682528_2.java,143,158,jboss-5/jboss-5.1.0.GA-src/testsuite/src/main/org/jboss/test/jacc/test/portal/ComponentPermission.java,35,50,16
 stackoverflow_formatted/24682528_2.java,143,158,jboss-5/jboss-5.1.0.GA-src/testsuite/src/main/org/jboss/test/jacc/test/portal/InstancePermission.java,35,50,16

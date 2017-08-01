@@ -38,8 +38,8 @@
 /Users/chaiyong/Downloads/ninka-1.3/ninka.pl ./jung2-2_0_1/jung-samples-2.0.1/edu/uci/ics/jung/samples/ShortestPathDemo.java
 /Users/chaiyong/Downloads/ninka-1.3/ninka.pl ./jung2-2_0_1/jung-samples-2.0.1/edu/uci/ics/jung/samples/ShortestPathDemo.java
 /Users/chaiyong/Downloads/ninka-1.3/ninka.pl ./poi-3.6-20091214/poi-3.6/src/ooxml/java/org/apache/poi/ss/usermodel/WorkbookFactory.java
-/Users/chaiyong/Downloads/ninka-1.3/ninka.pl ./spring-framework-3.0.5/spring-framework-3.0.5.RELEASE/projects/org.springframework.beans/src/main/java/org/springframework/beans/factory/support/AutowireUtils.java
-/Users/chaiyong/Downloads/ninka-1.3/ninka.pl ./spring-framework-3.0.5/spring-framework-3.0.5.RELEASE/projects/org.springframework.beans/src/main/java/org/springframework/beans/propertyeditors/CustomCollectionEditor.java
+/Users/chaiyong/Downloads/ninka-1.3/ninka.pl ./spring-framework-3.0.5/spring-framework-3.0.5.RELEASE/projects/org.springframework.data/src/main/java/org/springframework/data/factory/support/AutowireUtils.java
+/Users/chaiyong/Downloads/ninka-1.3/ninka.pl ./spring-framework-3.0.5/spring-framework-3.0.5.RELEASE/projects/org.springframework.data/src/main/java/org/springframework/data/propertyeditors/CustomCollectionEditor.java
 /Users/chaiyong/Downloads/ninka-1.3/ninka.pl ./spring-framework-3.0.5/spring-framework-3.0.5.RELEASE/projects/org.springframework.context/src/main/java/org/springframework/scheduling/config/ScheduledTasksBeanDefinitionParser.java
 /Users/chaiyong/Downloads/ninka-1.3/ninka.pl ./spring-framework-3.0.5/spring-framework-3.0.5.RELEASE/projects/org.springframework.core/src/main/java/org/springframework/util/DefaultPropertiesPersister.java
 /Users/chaiyong/Downloads/ninka-1.3/ninka.pl ./spring-framework-3.0.5/spring-framework-3.0.5.RELEASE/projects/org.springframework.oxm/src/main/java/org/springframework/oxm/jaxb/Jaxb2Marshaller.java
@@ -384,8 +384,8 @@
 /Users/chaiyong/Downloads/ninka-1.3/ninka.pl ./jung2-2_0_1/jung-samples-2.0.1/edu/uci/ics/jung/samples/VertexCollapseDemo.java
 /Users/chaiyong/Downloads/ninka-1.3/ninka.pl ./netbeans-6.9.1-201007282301/form/test/qa-functional/src/org/netbeans/qa/form/VisualDevelopmentUtil.java
 /Users/chaiyong/Downloads/ninka-1.3/ninka.pl ./jstock-1.0.7c/jstock/src/org/yccheok/jstock/alert/GoogleMail.java
-/Users/chaiyong/Downloads/ninka-1.3/ninka.pl ./weka-3-7-9/src/main/java/weka/gui/beans/KnowledgeFlowApp.java
-/Users/chaiyong/Downloads/ninka-1.3/ninka.pl ./weka-3-7-9/src/main/java/weka/gui/beans/KnowledgeFlowApp.java
+/Users/chaiyong/Downloads/ninka-1.3/ninka.pl ./weka-3-7-9/src/main/java/weka/gui/data/KnowledgeFlowApp.java
+/Users/chaiyong/Downloads/ninka-1.3/ninka.pl ./weka-3-7-9/src/main/java/weka/gui/data/KnowledgeFlowApp.java
 /Users/chaiyong/Downloads/ninka-1.3/ninka.pl ./netbeans-6.9.1-201007282301/form/test/unit/src/org/netbeans/modules/form/layoutdesign/ALT_Bug124689.java
 /Users/chaiyong/Downloads/ninka-1.3/ninka.pl ./netbeans-6.9.1-201007282301/identity.server.manager/src/org/netbeans/modules/identity/server/manager/ui/ProfileEditorPanel.java
 /Users/chaiyong/Downloads/ninka-1.3/ninka.pl ./netbeans-6.9.1-201007282301/java.source/src/org/netbeans/modules/java/ui/FmtImports.java

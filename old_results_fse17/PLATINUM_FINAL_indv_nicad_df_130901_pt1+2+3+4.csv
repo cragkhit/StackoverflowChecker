@@ -76,8 +76,8 @@ pt3,stackoverflow_formatted/16860613_0.java,166,188,eclipse_SDK/eclipse_SDK-4.3/
 pt1,stackoverflow_formatted/13462440_1.java,32,45,iReport-3/iReport-3.7.5-src/ireport-designer/src/com/jaspersoft/ireport/designer/fonts/FontLoaderDialog.java,31,45,14,,F,similar code after normalisation
 pt1,stackoverflow_formatted/13462440_1.java,32,45,iReport-3/iReport-3.7.5-src/ireport-designer/src/com/jaspersoft/ireport/designer/fonts/FontLoaderDialog.java,60,73,14,,F,similar code after normalisation
 pt1,stackoverflow_formatted/13462440_1.java,32,45,iReport-3/iReport-3.7.5-src/ireport-designer/src/com/jaspersoft/ireport/designer/fonts/FontLoaderDialog.java,46,59,14,,F,similar code after normalisation
-pt1,stackoverflow_formatted/11574637_0.java,78,89,jboss-5/jboss-5.1.0.GA-src/testsuite/src/main/org/jboss/test/entity/beans/TestEntityBean.java,66,77,12,,F,similar finally clause after normalisation
-pt1,stackoverflow_formatted/11574637_0.java,78,89,jboss-5/jboss-5.1.0.GA-src/testsuite/src/main/org/jboss/test/entity/beans/TestEntityBean.java,39,50,12,,F,similar code after normalisation
+pt1,stackoverflow_formatted/11574637_0.java,78,89,jboss-5/jboss-5.1.0.GA-src/testsuite/src/main/org/jboss/test/entity/data/TestEntityBean.java,66,77,12,,F,similar finally clause after normalisation
+pt1,stackoverflow_formatted/11574637_0.java,78,89,jboss-5/jboss-5.1.0.GA-src/testsuite/src/main/org/jboss/test/entity/data/TestEntityBean.java,39,50,12,,F,similar code after normalisation
 pt4,stackoverflow_formatted/12040310_0.java,65,78,apache-tomcat-7.0.2/apache-tomcat-7.0.2-src/java/org/apache/tomcat/util/http/fileupload/disk/DiskFileItem.java,158,171,14,,F,accidentally similar finally clause
 pt4,stackoverflow_formatted/12040310_0.java,65,78,jspwiki-2.8.4/src/com/ecyrd/jspwiki/attachment/AttachmentServlet.java,207,218,12,,F,accidentally similar finally clause
 pt4,stackoverflow_formatted/20022515_0.java,41,52,mvnforum-1.2.2-mvnad-1.0.1/mvnforum-1.2.2-mvnad-1.0.1-src-20100817/myvietnam/src/net/myvietnam/mvncore/util/ImageUtil.java,76,87,12,,F,false clone

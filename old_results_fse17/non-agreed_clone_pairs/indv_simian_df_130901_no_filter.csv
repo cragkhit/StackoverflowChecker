@@ -2225,13 +2225,13 @@ x,stackoverflow_formatted/20829961_0.java,12,22,hibernate-release-4/hibernate-re
 x,stackoverflow_formatted/1988212_1.java,19,29,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-core/src/test/java/org/hibernate/test/annotations/onetomany/Zoo.java,60,70,11
 x,stackoverflow_formatted/16206651_0.java,4,14,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-envers/src/test/java/org/hibernate/envers/test/integration/entityNames/oneToManyAudited/Person.java,19,29,11
 x,stackoverflow_formatted/20590064_1.java,10,20,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-core/src/test/java/org/hibernate/test/annotations/idmanytoone/Student.java,20,30,11
-x,stackoverflow_formatted/11083864_3.java,11,21,jboss-5/jboss-5.1.0.GA-src/embedded/docs/tutorial/junit/src/main/java/org/jboss/embedded/tutorial/junit/beans/Customer.java,12,22,11
+x,stackoverflow_formatted/11083864_3.java,11,21,jboss-5/jboss-5.1.0.GA-src/embedded/docs/tutorial/junit/src/main/java/org/jboss/embedded/tutorial/junit/data/Customer.java,12,22,11
 x,stackoverflow_formatted/3664108_0.java,7,17,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-entitymanager/src/test/java/org/hibernate/ejb/test/util/Book.java,17,27,11
 x,stackoverflow_formatted/4247539_0.java,5,15,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-core/src/test/java/org/hibernate/test/annotations/derivedidentities/e1/b/specjmapid/Customer.java,83,93,11
 x,stackoverflow_formatted/1988212_1.java,19,29,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-core/src/test/java/org/hibernate/test/propertyref/inheritence/joined/Person.java,6,16,11
 x,stackoverflow_formatted/16179971_5.java,7,17,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-core/src/test/java/org/hibernate/test/stats/Locality.java,12,22,11
-x,stackoverflow_formatted/21161594_1.java,20,30,jboss-5/jboss-5.1.0.GA-src/embedded/docs/tutorial/plain-java-application/src/org/jboss/embedded/tutorial/javase/beans/Customer.java,12,22,11
-x,stackoverflow_formatted/4377130_0.java,9,19,jboss-5/jboss-5.1.0.GA-src/embedded/docs/tutorial/junit/src/main/java/org/jboss/embedded/tutorial/junit/beans/Customer.java,12,22,11
+x,stackoverflow_formatted/21161594_1.java,20,30,jboss-5/jboss-5.1.0.GA-src/embedded/docs/tutorial/plain-java-application/src/org/jboss/embedded/tutorial/javase/data/Customer.java,12,22,11
+x,stackoverflow_formatted/4377130_0.java,9,19,jboss-5/jboss-5.1.0.GA-src/embedded/docs/tutorial/junit/src/main/java/org/jboss/embedded/tutorial/junit/data/Customer.java,12,22,11
 x,stackoverflow_formatted/3046986_1.java,10,20,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-core/src/test/java/org/hibernate/test/instrument/domain/EntityWithOneToOnes.java,12,22,11
 x,stackoverflow_formatted/12375937_0.java,5,15,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-ehcache/src/test/java/org/hibernate/test/domain/Person.java,31,41,11
 x,stackoverflow_formatted/11083864_3.java,11,21,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-core/src/test/java/org/hibernate/test/annotations/idmanytoone/Student.java,20,30,11
@@ -2324,7 +2324,7 @@ x,stackoverflow_formatted/12381574_0.java,21,31,ganttproject-2/ganttproject-2.0.
 x,stackoverflow_formatted/20829961_0.java,12,22,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-core/src/test/java/org/hibernate/subclassProxyInterface/Person.java,10,20,11
 x,stackoverflow_formatted/3046986_1.java,10,20,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-core/src/test/java/org/hibernate/test/jpa/MyEntity.java,6,16,11
 x,stackoverflow_formatted/15698192_3.java,11,21,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-core/src/test/java/org/hibernate/test/annotations/interfaces/ContactImpl.java,11,21,11
-x,stackoverflow_formatted/17997605_0.java,6,16,jboss-5/jboss-5.1.0.GA-src/embedded/docs/tutorial/tomcat/src/org/jboss/embedded/tutorial/war/beans/Customer.java,12,22,11
+x,stackoverflow_formatted/17997605_0.java,6,16,jboss-5/jboss-5.1.0.GA-src/embedded/docs/tutorial/tomcat/src/org/jboss/embedded/tutorial/war/data/Customer.java,12,22,11
 x,stackoverflow_formatted/20829961_0.java,12,22,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-core/src/test/java/org/hibernate/test/sql/hand/Organization.java,19,29,11
 x,stackoverflow_formatted/3046986_1.java,10,20,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-envers/src/test/java/org/hibernate/envers/test/integration/reference/GreetingSetPO.java,17,27,11
 x,stackoverflow_formatted/3664108_0.java,7,17,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-core/src/test/java/org/hibernate/test/schemaupdate/Version.java,6,16,11
@@ -2357,7 +2357,7 @@ x,stackoverflow_formatted/10713332_0.java,9,19,hibernate-release-4/hibernate-rel
 x,stackoverflow_formatted/3046986_1.java,10,20,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-core/src/test/java/org/hibernate/test/flush/UnrelatedEntity.java,15,25,11
 x,stackoverflow_formatted/12279998_4.java,18,28,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-envers/src/test/java/org/hibernate/envers/test/integration/entityNames/singleAssociatedNotAudited/Person.java,17,27,11
 x,stackoverflow_formatted/23605439_0.java,74,84,eXoPortal-v1/exo/services/organization/impl/src/java/org/exoplatform/services/organization/impl/UserImpl.java,33,43,11
-x,stackoverflow_formatted/11083864_1.java,12,22,jboss-5/jboss-5.1.0.GA-src/embedded/docs/tutorial/plain-java-application/src/org/jboss/embedded/tutorial/javase/beans/Customer.java,12,22,11
+x,stackoverflow_formatted/11083864_1.java,12,22,jboss-5/jboss-5.1.0.GA-src/embedded/docs/tutorial/plain-java-application/src/org/jboss/embedded/tutorial/javase/data/Customer.java,12,22,11
 x,stackoverflow_formatted/20829961_0.java,12,22,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-core/src/test/java/org/hibernate/test/manytomanyassociationclass/User.java,13,23,11
 x,stackoverflow_formatted/20829961_0.java,12,22,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-core/src/test/java/org/hibernate/test/readonly/Owner.java,11,21,11
 x,stackoverflow_formatted/10000096_1.java,5,15,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-core/src/test/java/org/hibernate/test/ops/TimestampedEntity.java,13,23,11
@@ -2485,7 +2485,7 @@ x,stackoverflow_formatted/2761630_0.java,1,11,hibernate-release-4/hibernate-rele
 x,stackoverflow_formatted/15649188_0.java,23,33,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-core/src/test/java/org/hibernate/test/criteria/CityState.java,10,20,11
 x,stackoverflow_formatted/3664108_0.java,7,17,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-envers/src/test/java/org/hibernate/envers/test/integration/onetomany/embeddedid/Person.java,54,64,11
 x,stackoverflow_formatted/16179971_5.java,7,17,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-core/src/test/java/org/hibernate/metamodel/binding/SimpleVersionedEntity.java,16,26,11
-x,stackoverflow_formatted/19154487_0.java,4,14,jboss-5/jboss-5.1.0.GA-src/embedded/docs/tutorial/tomcat/src/org/jboss/embedded/tutorial/war/beans/Customer.java,12,22,11
+x,stackoverflow_formatted/19154487_0.java,4,14,jboss-5/jboss-5.1.0.GA-src/embedded/docs/tutorial/tomcat/src/org/jboss/embedded/tutorial/war/data/Customer.java,12,22,11
 x,stackoverflow_formatted/16179971_5.java,7,17,eXoPortal-v1/exo/services/jcr/impl/src/java/org/exoplatform/services/jcr/impl/storage/rdb/container/data/PropertyRecord.java,12,22,11
 x,stackoverflow_formatted/16179971_5.java,7,17,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-core/src/test/java/org/hibernate/test/manytomany/ordered/Group.java,17,27,11
 x,stackoverflow_formatted/11903456_0.java,14,24,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-core/src/test/java/org/hibernate/test/annotations/cid/ParentPk.java,5,15,11
@@ -2608,7 +2608,7 @@ x,stackoverflow_formatted/3664108_0.java,34,44,hibernate-release-4/hibernate-rel
 x,stackoverflow_formatted/14636363_1.java,70,80,eXoPortal-v1/exo/services/xml-processing/impl/src/java/org/exoplatform/services/xml/querying/impl/xtas/resource/ResourceDescriptor.java,8,18,11
 x,stackoverflow_formatted/14908094_2.java,4,14,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-envers/src/test/java/org/hibernate/envers/test/various/Person.java,19,29,11
 x,stackoverflow_formatted/11937204_2.java,6,16,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-core/src/test/java/org/hibernate/test/annotations/manytoone/ForestType.java,39,49,11
-x,stackoverflow_formatted/11083864_3.java,11,21,jboss-5/jboss-5.1.0.GA-src/embedded/docs/tutorial/tomcat/src/org/jboss/embedded/tutorial/war/beans/Customer.java,12,22,11
+x,stackoverflow_formatted/11083864_3.java,11,21,jboss-5/jboss-5.1.0.GA-src/embedded/docs/tutorial/tomcat/src/org/jboss/embedded/tutorial/war/data/Customer.java,12,22,11
 x,stackoverflow_formatted/15698192_3.java,11,21,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-entitymanager/src/test/java/org/hibernate/ejb/test/pack/defaultpar/ApplicationServer.java,12,22,11
 x,stackoverflow_formatted/10105260_0.java,14,24,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-entitymanager/src/test/java/org/hibernate/ejb/test/cacheable/annotation/NoCacheableAnnotationEntity.java,9,19,11
 x,stackoverflow_formatted/16179971_5.java,7,17,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-core/src/test/java/org/hibernate/test/queryplan/Person.java,12,22,11
@@ -2652,7 +2652,7 @@ x,stackoverflow_formatted/20590064_1.java,10,20,hibernate-release-4/hibernate-re
 x,stackoverflow_formatted/3664108_0.java,7,17,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-core/src/test/java/org/hibernate/test/propertyref/inheritence/discrim/Person.java,6,16,11
 x,stackoverflow_formatted/20227507_1.java,10,20,castor-1/castor-1.3.1/jpa-extensions-it/src/main/java/org/castor/jpa/scenario/one_to_many/Role.java,14,24,11
 x,stackoverflow_formatted/11937204_3.java,19,29,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-entitymanager/src/test/java/org/hibernate/ejb/test/metagen/mappedsuperclass/embedded/Address.java,21,31,11
-x,stackoverflow_formatted/21161594_1.java,20,30,jboss-5/jboss-5.1.0.GA-src/embedded/docs/tutorial/junit/src/main/java/org/jboss/embedded/tutorial/junit/beans/Customer.java,12,22,11
+x,stackoverflow_formatted/21161594_1.java,20,30,jboss-5/jboss-5.1.0.GA-src/embedded/docs/tutorial/junit/src/main/java/org/jboss/embedded/tutorial/junit/data/Customer.java,12,22,11
 x,stackoverflow_formatted/19154487_0.java,4,14,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-entitymanager/src/test/java/org/hibernate/ejb/test/exception/Instrument.java,13,23,11
 x,stackoverflow_formatted/1988212_1.java,19,29,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-core/src/test/java/org/hibernate/test/propertyref/inheritence/union/Person.java,6,16,11
 x,stackoverflow_formatted/22970618_0.java,3,13,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-entitymanager/src/test/java/org/hibernate/ejb/test/callbacks/Plant.java,10,20,11
@@ -2755,7 +2755,7 @@ x,stackoverflow_formatted/9945067_0.java,10,20,eXoPortal-v1/exo/services/organiz
 x,stackoverflow_formatted/11694204_0.java,7,17,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-infinispan/src/test/java/org/hibernate/test/cache/infinispan/functional/Citizen.java,27,37,11
 x,stackoverflow_formatted/15698192_3.java,11,21,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-core/src/test/java/org/hibernate/test/annotations/any/PropertyMap.java,30,40,11
 x,stackoverflow_formatted/15698192_2.java,11,21,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-core/src/test/java/org/hibernate/test/annotations/onetomany/Monkey.java,11,21,11
-x,stackoverflow_formatted/11083864_3.java,11,21,jboss-5/jboss-5.1.0.GA-src/embedded/docs/tutorial/plain-java-application/src/org/jboss/embedded/tutorial/javase/beans/Customer.java,12,22,11
+x,stackoverflow_formatted/11083864_3.java,11,21,jboss-5/jboss-5.1.0.GA-src/embedded/docs/tutorial/plain-java-application/src/org/jboss/embedded/tutorial/javase/data/Customer.java,12,22,11
 x,stackoverflow_formatted/10814214_2.java,10,20,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-core/src/test/java/org/hibernate/test/jdbc/Person.java,18,28,11
 x,stackoverflow_formatted/24358038_0.java,40,50,jboss-5/jboss-5.1.0.GA-src/connector/src/main/org/jboss/resource/adapter/mail/inflow/MailActivationSpec.java,47,57,11
 x,stackoverflow_formatted/13824658_2.java,79,89,jag-6/jag-6.1/src/com/finalist/jaggenerator/modules/DatabaseManagerFrame.java,115,126,11
@@ -2783,7 +2783,7 @@ x,stackoverflow_formatted/11937204_3.java,19,29,hibernate-release-4/hibernate-re
 x,stackoverflow_formatted/22233192_1.java,6,16,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-envers/src/test/java/org/hibernate/envers/test/integration/entityNames/manyToManyAudited/Person.java,21,31,11
 x,stackoverflow_formatted/3939285_0.java,4,14,FitLibrary20100806/fitnesse/lib/src/fitlibrarySrc/fitlibrary/specify/AggregateDoFixture.java,34,44,11
 x,stackoverflow_formatted/3046986_1.java,10,20,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-infinispan/src/test/java/org/hibernate/test/cache/infinispan/functional/Item.java,21,31,11
-x,stackoverflow_formatted/13417932_2.java,5,15,jboss-5/jboss-5.1.0.GA-src/embedded/docs/tutorial/tomcat/src/org/jboss/embedded/tutorial/war/beans/Customer.java,12,22,11
+x,stackoverflow_formatted/13417932_2.java,5,15,jboss-5/jboss-5.1.0.GA-src/embedded/docs/tutorial/tomcat/src/org/jboss/embedded/tutorial/war/data/Customer.java,12,22,11
 x,stackoverflow_formatted/25321858_0.java,7,17,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-core/src/test/java/org/hibernate/test/annotations/derivedidentities/e1/b/specjmapid/Customer.java,83,93,11
 x,stackoverflow_formatted/10814214_2.java,10,20,eXoPortal-v1/exo/services/organization/impl/src/java/org/exoplatform/services/organization/hibernate/OrganizationConfig.java,93,103,11
 x,stackoverflow_formatted/9945067_0.java,10,20,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-core/src/test/java/org/hibernate/test/annotations/naturalid/Citizen.java,27,37,11
@@ -2845,7 +2845,7 @@ x,stackoverflow_formatted/24973385_0.java,46,56,hibernate-release-4/hibernate-re
 x,stackoverflow_formatted/24414041_0.java,11,21,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-envers/src/test/java/org/hibernate/envers/test/integration/entityNames/singleAssociatedAudited/Person.java,19,29,11
 x,stackoverflow_formatted/20829961_0.java,12,22,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-core/src/test/java/org/hibernate/test/resulttransformer/Contract.java,8,18,11
 x,stackoverflow_formatted/15698192_3.java,11,21,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-core/src/test/java/org/hibernate/test/annotations/naturalid/State.java,11,21,11
-x,stackoverflow_formatted/25198825_0.java,6,16,jboss-5/jboss-5.1.0.GA-src/embedded/docs/tutorial/plain-java-application/src/org/jboss/embedded/tutorial/javase/beans/Customer.java,12,22,11
+x,stackoverflow_formatted/25198825_0.java,6,16,jboss-5/jboss-5.1.0.GA-src/embedded/docs/tutorial/plain-java-application/src/org/jboss/embedded/tutorial/javase/data/Customer.java,12,22,11
 x,stackoverflow_formatted/3664108_0.java,7,17,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-core/src/test/java/org/hibernate/test/readonly/Container.java,22,32,11
 x,stackoverflow_formatted/20829961_0.java,12,22,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-core/src/test/java/org/hibernate/test/connections/Silly.java,16,26,11
 x,stackoverflow_formatted/15649188_0.java,23,33,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-core/src/test/java/org/hibernate/test/hql/ComponentContainer.java,41,51,11
@@ -2887,7 +2887,7 @@ x,stackoverflow_formatted/9945067_0.java,10,20,hibernate-release-4/hibernate-rel
 x,stackoverflow_formatted/1988212_1.java,19,29,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-core/src/test/java/org/hibernate/test/stats/Locality.java,12,22,11
 x,stackoverflow_formatted/17260065_0.java,5,15,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-core/src/test/java/org/hibernate/test/annotations/filter/subclass/singletable/Animal.java,24,34,11
 x,stackoverflow_formatted/9945067_0.java,10,20,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-core/src/test/java/org/hibernate/test/annotations/derivedidentities/e1/b/specjmapid/Customer.java,83,93,11
-x,stackoverflow_formatted/14908094_2.java,4,14,jboss-5/jboss-5.1.0.GA-src/embedded/docs/tutorial/plain-java-application/src/org/jboss/embedded/tutorial/javase/beans/Customer.java,12,22,11
+x,stackoverflow_formatted/14908094_2.java,4,14,jboss-5/jboss-5.1.0.GA-src/embedded/docs/tutorial/plain-java-application/src/org/jboss/embedded/tutorial/javase/data/Customer.java,12,22,11
 x,stackoverflow_formatted/11038888_1.java,24,34,jasperreports-3/jasperreports-3.7.4/demo/samples/ejbql/src/Person.java,16,26,11
 x,stackoverflow_formatted/10055548_0.java,32,42,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-entitymanager/src/test/java/org/hibernate/ejb/metamodel/VersionedEntity.java,11,21,11
 x,stackoverflow_formatted/20791703_0.java,17,27,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-core/src/test/java/org/hibernate/test/jpa/fetch/Person.java,27,37,11
@@ -2902,9 +2902,9 @@ x,stackoverflow_formatted/10105260_0.java,14,24,hibernate-release-4/hibernate-re
 x,stackoverflow_formatted/15698192_3.java,11,21,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-core/src/test/java/org/hibernate/test/annotations/various/Conductor.java,26,36,11
 x,stackoverflow_formatted/16179971_5.java,7,17,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-core/src/test/java/org/hibernate/test/flush/Author.java,26,36,11
 x,stackoverflow_formatted/3664108_0.java,7,17,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-core/src/test/java/org/hibernate/test/generated/GeneratedPropertyEntity.java,6,16,11
-x,stackoverflow_formatted/17997605_0.java,6,16,jboss-5/jboss-5.1.0.GA-src/embedded/docs/tutorial/plain-java-application/src/org/jboss/embedded/tutorial/javase/beans/Customer.java,12,22,11
+x,stackoverflow_formatted/17997605_0.java,6,16,jboss-5/jboss-5.1.0.GA-src/embedded/docs/tutorial/plain-java-application/src/org/jboss/embedded/tutorial/javase/data/Customer.java,12,22,11
 x,stackoverflow_formatted/10105260_0.java,14,24,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-core/src/test/java/org/hibernate/test/flush/Publisher.java,23,33,11
-x,stackoverflow_formatted/11058682_0.java,23,33,jboss-5/jboss-5.1.0.GA-src/embedded/docs/tutorial/plain-java-application/src/org/jboss/embedded/tutorial/javase/beans/Customer.java,12,22,11
+x,stackoverflow_formatted/11058682_0.java,23,33,jboss-5/jboss-5.1.0.GA-src/embedded/docs/tutorial/plain-java-application/src/org/jboss/embedded/tutorial/javase/data/Customer.java,12,22,11
 x,stackoverflow_formatted/17260065_0.java,5,15,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-core/src/test/java/org/hibernate/test/annotations/manytomany/KnownClient.java,14,24,11
 x,stackoverflow_formatted/22970618_0.java,3,13,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-entitymanager/src/test/java/org/hibernate/ejb/test/metadata/DeskWithRawType.java,28,38,11
 x,stackoverflow_formatted/14821842_1.java,4,14,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-core/src/test/java/org/hibernate/test/naturalid/mutable/cached/Another.java,29,39,11
@@ -2969,7 +2969,7 @@ x,stackoverflow_formatted/11937204_2.java,6,16,hibernate-release-4/hibernate-rel
 x,stackoverflow_formatted/3664108_0.java,7,17,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-envers/src/test/java/org/hibernate/envers/test/integration/entityNames/oneToManyAudited/Person.java,13,23,11
 x,stackoverflow_formatted/20829961_0.java,12,22,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-entitymanager/src/test/java/org/hibernate/ejb/test/metadata/Flower.java,10,20,11
 x,stackoverflow_formatted/16179971_5.java,7,17,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-core/src/test/java/org/hibernate/test/hql/StateProvince.java,6,16,11
-x,stackoverflow_formatted/11038888_1.java,24,34,jboss-5/jboss-5.1.0.GA-src/embedded/docs/tutorial/tomcat/src/org/jboss/embedded/tutorial/war/beans/Customer.java,12,22,11
+x,stackoverflow_formatted/11038888_1.java,24,34,jboss-5/jboss-5.1.0.GA-src/embedded/docs/tutorial/tomcat/src/org/jboss/embedded/tutorial/war/data/Customer.java,12,22,11
 x,stackoverflow_formatted/23605439_0.java,74,84,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-core/src/test/java/org/hibernate/test/annotations/collectionelement/Boy.java,51,61,11
 x,stackoverflow_formatted/16831289_0.java,23,33,jboss-5/jboss-5.1.0.GA-src/connector/src/main/org/jboss/resource/adapter/mail/inflow/MailActivationSpec.java,47,57,11
 x,stackoverflow_formatted/4247539_0.java,5,15,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-core/src/test/java/org/hibernate/test/annotations/indexcoll/AddressEntryPk.java,36,46,11
@@ -2990,7 +2990,7 @@ x,stackoverflow_formatted/1988212_1.java,19,29,hibernate-release-4/hibernate-rel
 x,stackoverflow_formatted/3664108_0.java,7,17,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-core/src/test/java/org/hibernate/test/collection/ordered/joinedInheritence/Zoo.java,21,31,11
 x,stackoverflow_formatted/16179971_5.java,7,17,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-core/src/test/java/org/hibernate/test/resulttransformer/PartnerA.java,5,15,11
 x,stackoverflow_formatted/22970618_0.java,3,13,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-core/src/test/java/org/hibernate/test/readonly/VersionedNode.java,16,26,11
-x,stackoverflow_formatted/11038888_1.java,24,34,jboss-5/jboss-5.1.0.GA-src/embedded/docs/tutorial/junit/src/main/java/org/jboss/embedded/tutorial/junit/beans/Customer.java,12,22,11
+x,stackoverflow_formatted/11038888_1.java,24,34,jboss-5/jboss-5.1.0.GA-src/embedded/docs/tutorial/junit/src/main/java/org/jboss/embedded/tutorial/junit/data/Customer.java,12,22,11
 x,stackoverflow_formatted/20829961_0.java,12,22,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-core/src/test/java/org/hibernate/test/ops/SimpleEntity.java,10,20,11
 x,stackoverflow_formatted/16179971_5.java,7,17,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-core/src/test/java/org/hibernate/test/keymanytoone/bidir/embedded/Customer.java,13,23,11
 x,stackoverflow_formatted/3046986_1.java,10,20,jboss-5/jboss-5.1.0.GA-src/testsuite/src/main/org/jboss/test/hibernate/model/Role.java,18,28,11
@@ -3058,7 +3058,7 @@ x,stackoverflow_formatted/13459971_0.java,16,26,hibernate-release-4/hibernate-re
 x,stackoverflow_formatted/3664108_0.java,7,17,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-entitymanager/src/test/java/org/hibernate/ejb/test/cacheable/annotation/ExplicitlyNonCacheableEntity.java,11,21,11
 x,stackoverflow_formatted/15698192_3.java,11,21,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-core/src/test/java/org/hibernate/test/annotations/generics/PaperType.java,11,21,11
 x,stackoverflow_formatted/15698192_2.java,11,21,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-core/src/test/java/org/hibernate/test/annotations/immutable/Foobar.java,13,23,11
-x,stackoverflow_formatted/20590064_1.java,10,20,jboss-5/jboss-5.1.0.GA-src/embedded/docs/tutorial/junit/src/main/java/org/jboss/embedded/tutorial/junit/beans/Customer.java,12,22,11
+x,stackoverflow_formatted/20590064_1.java,10,20,jboss-5/jboss-5.1.0.GA-src/embedded/docs/tutorial/junit/src/main/java/org/jboss/embedded/tutorial/junit/data/Customer.java,12,22,11
 x,stackoverflow_formatted/16179971_5.java,7,17,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-ehcache/src/test/java/org/hibernate/test/domain/Item.java,12,22,11
 x,stackoverflow_formatted/16179971_5.java,7,17,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-core/src/test/java/org/hibernate/test/annotations/onetomany/Zoo.java,60,70,11
 x,stackoverflow_formatted/11058682_0.java,23,33,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-core/src/test/java/org/hibernate/test/pagination/Entry.java,13,23,11
@@ -3102,7 +3102,7 @@ x,stackoverflow_formatted/1988212_1.java,19,29,hibernate-release-4/hibernate-rel
 x,stackoverflow_formatted/24358038_0.java,40,50,iReport-3/iReport-3.7.5-src/ireport-designer/src/com/jaspersoft/ireport/designer/connection/CustomHTTPAuthenticator.java,19,29,11
 x,stackoverflow_formatted/17260065_0.java,5,15,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-core/src/test/java/org/hibernate/test/annotations/manytoone/ForestType.java,39,49,11
 x,stackoverflow_formatted/15698192_3.java,11,21,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-core/src/test/java/org/hibernate/test/annotations/onetomany/Monkey.java,11,21,11
-x,stackoverflow_formatted/20227507_1.java,10,20,jboss-5/jboss-5.1.0.GA-src/embedded/docs/tutorial/junit/src/main/java/org/jboss/embedded/tutorial/junit/beans/Customer.java,12,22,11
+x,stackoverflow_formatted/20227507_1.java,10,20,jboss-5/jboss-5.1.0.GA-src/embedded/docs/tutorial/junit/src/main/java/org/jboss/embedded/tutorial/junit/data/Customer.java,12,22,11
 x,stackoverflow_formatted/1988212_1.java,19,29,jboss-5/jboss-5.1.0.GA-src/jmx/src/main/test/implementation/modelmbean/support/User.java,13,23,11
 x,stackoverflow_formatted/10105260_0.java,14,24,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-core/src/test/java/org/hibernate/test/bytecode/enhancement/SubEntity.java,11,21,11
 x,stackoverflow_formatted/15649188_0.java,23,33,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-core/src/test/java/org/hibernate/test/naturalid/immutableentity/Building.java,34,44,11
@@ -3110,7 +3110,7 @@ x,stackoverflow_formatted/17698380_0.java,49,59,freemind-src-0/freemind/freemind
 x,stackoverflow_formatted/20829961_0.java,12,22,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-envers/src/test/java/org/hibernate/envers/test/integration/entityNames/manyToManyAudited/Person.java,15,25,11
 x,stackoverflow_formatted/14073238_0.java,34,44,FitLibrary20100806/fitnesse/lib/src/fitlibrarySrc/fitlibrary/eg/VectorAddition.java,18,28,11
 x,stackoverflow_formatted/17260065_0.java,5,15,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-entitymanager/src/test/java/org/hibernate/ejb/test/pack/defaultpar_1_0/ApplicationServer1.java,12,22,11
-x,stackoverflow_formatted/17997605_0.java,6,16,jboss-5/jboss-5.1.0.GA-src/embedded/docs/tutorial/junit/src/main/java/org/jboss/embedded/tutorial/junit/beans/Customer.java,12,22,11
+x,stackoverflow_formatted/17997605_0.java,6,16,jboss-5/jboss-5.1.0.GA-src/embedded/docs/tutorial/junit/src/main/java/org/jboss/embedded/tutorial/junit/data/Customer.java,12,22,11
 x,stackoverflow_formatted/18013191_1.java,4,14,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-core/src/test/java/org/hibernate/test/jpa/fetch/Person.java,27,37,11
 x,stackoverflow_formatted/23528334_1.java,9,19,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-entitymanager/src/test/java/org/hibernate/ejb/metamodel/Thing.java,12,22,11
 x,stackoverflow_formatted/3664108_0.java,7,17,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-core/src/test/java/org/hibernate/test/unionsubclass/Location.java,16,26,11
@@ -3293,7 +3293,7 @@ x,stackoverflow_formatted/3664108_0.java,7,17,hibernate-release-4/hibernate-rele
 x,stackoverflow_formatted/14908094_2.java,4,14,castor-1/castor-1.3.1/jpa-extensions-it/src/main/java/org/castor/jpa/scenario/one_to_many/Role.java,14,24,11
 x,stackoverflow_formatted/16179971_5.java,7,17,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-infinispan/src/test/java/org/hibernate/test/cache/infinispan/functional/Item.java,21,31,11
 x,stackoverflow_formatted/16179971_5.java,7,17,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-core/src/test/java/org/hibernate/test/compositeelement/Parent.java,18,28,11
-x,stackoverflow_formatted/4377130_0.java,9,19,jboss-5/jboss-5.1.0.GA-src/embedded/docs/tutorial/plain-java-application/src/org/jboss/embedded/tutorial/javase/beans/Customer.java,12,22,11
+x,stackoverflow_formatted/4377130_0.java,9,19,jboss-5/jboss-5.1.0.GA-src/embedded/docs/tutorial/plain-java-application/src/org/jboss/embedded/tutorial/javase/data/Customer.java,12,22,11
 x,stackoverflow_formatted/4377130_0.java,9,19,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-core/src/test/java/org/hibernate/test/annotations/access/xml/Crew.java,5,15,11
 x,stackoverflow_formatted/20829961_0.java,12,22,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-core/src/test/java/org/hibernate/test/hql/Zoo.java,18,28,11
 x,stackoverflow_formatted/20829961_0.java,12,22,jboss-5/jboss-5.1.0.GA-src/testsuite/src/main/org/jboss/test/hibernate/model/v2/Person.java,16,26,11
@@ -3328,7 +3328,7 @@ x,stackoverflow_formatted/3664108_0.java,7,17,hibernate-release-4/hibernate-rele
 x,stackoverflow_formatted/15698192_3.java,11,21,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-entitymanager/src/test/java/org/hibernate/ejb/test/pack/explodedpar/Elephant.java,5,15,11
 x,stackoverflow_formatted/20522073_1.java,16,26,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-core/src/test/java/org/hibernate/test/annotations/filter/secondarytable/User.java,47,57,11
 x,stackoverflow_formatted/15649188_0.java,23,33,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-core/src/test/java/org/hibernate/test/annotations/override/Address.java,8,18,11
-x,stackoverflow_formatted/13933424_0.java,12,22,jboss-5/jboss-5.1.0.GA-src/embedded/docs/tutorial/plain-java-application/src/org/jboss/embedded/tutorial/javase/beans/Customer.java,12,22,11
+x,stackoverflow_formatted/13933424_0.java,12,22,jboss-5/jboss-5.1.0.GA-src/embedded/docs/tutorial/plain-java-application/src/org/jboss/embedded/tutorial/javase/data/Customer.java,12,22,11
 x,stackoverflow_formatted/3939285_0.java,4,14,FitLibrary20100806/fitnesse/lib/src/fitlibrarySrc/fitlibrary/specify/eg/FixedPoint.java,10,20,11
 x,stackoverflow_formatted/10105260_0.java,14,24,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-core/src/test/java/org/hibernate/test/annotations/fetchprofile/Customer5.java,27,37,11
 x,stackoverflow_formatted/3664108_0.java,7,17,hibernate-release-4/hibernate-release-4.2.2.Final/project/documentation/src/main/docbook/quickstart/tutorials/osgi/unmanaged-jpa/src/main/java/org/hibernate/osgitest/entity/DataPoint.java,11,21,11
@@ -3482,7 +3482,7 @@ x,stackoverflow_formatted/17260065_0.java,5,15,hibernate-release-4/hibernate-rel
 x,stackoverflow_formatted/7836146_3.java,16,26,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-core/src/test/java/org/hibernate/test/annotations/embedded/many2one/Person.java,26,36,11
 x,stackoverflow_formatted/22622437_0.java,21,31,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-envers/src/test/java/org/hibernate/envers/test/integration/entityNames/oneToManyNotAudited/Person.java,17,27,11
 x,stackoverflow_formatted/23528334_1.java,9,19,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-entitymanager/src/test/java/org/hibernate/ejb/metamodel/VersionedEntity.java,11,21,11
-x,stackoverflow_formatted/14908094_2.java,4,14,jboss-5/jboss-5.1.0.GA-src/embedded/docs/tutorial/tomcat/src/org/jboss/embedded/tutorial/war/beans/Customer.java,12,22,11
+x,stackoverflow_formatted/14908094_2.java,4,14,jboss-5/jboss-5.1.0.GA-src/embedded/docs/tutorial/tomcat/src/org/jboss/embedded/tutorial/war/data/Customer.java,12,22,11
 x,stackoverflow_formatted/11937204_2.java,6,16,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-core/src/test/java/org/hibernate/test/event/collection/detached/Character.java,23,33,11
 x,stackoverflow_formatted/16179971_5.java,7,17,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-core/src/test/java/org/hibernate/test/propertyref/basic/Person.java,25,35,11
 x,stackoverflow_formatted/15248123_2.java,10,20,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-envers/src/test/java/org/hibernate/envers/test/integration/entityNames/oneToManyAudited/Person.java,19,29,11
@@ -3490,7 +3490,7 @@ x,stackoverflow_formatted/22010866_1.java,22,32,eXoPortal-v1/exo/services/xml-pr
 x,stackoverflow_formatted/22608959_0.java,4,14,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-envers/src/test/java/org/hibernate/envers/test/integration/entityNames/singleAssociatedNotAudited/Person.java,17,27,11
 x,stackoverflow_formatted/3046986_1.java,10,20,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-core/src/test/java/org/hibernate/test/annotations/indexcoll/Trainee.java,9,19,11
 x,stackoverflow_formatted/10105260_0.java,14,24,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-envers/src/test/java/org/hibernate/envers/test/integration/entityNames/manyToManyAudited/Person.java,15,25,11
-x,stackoverflow_formatted/20590064_1.java,10,20,jboss-5/jboss-5.1.0.GA-src/embedded/docs/tutorial/tomcat/src/org/jboss/embedded/tutorial/war/beans/Customer.java,12,22,11
+x,stackoverflow_formatted/20590064_1.java,10,20,jboss-5/jboss-5.1.0.GA-src/embedded/docs/tutorial/tomcat/src/org/jboss/embedded/tutorial/war/data/Customer.java,12,22,11
 x,stackoverflow_formatted/3865391_0.java,7,17,eXoPortal-v1/exo/services/organization/impl/src/java/org/exoplatform/services/organization/ldap/OrganizationConfig.java,93,103,11
 x,stackoverflow_formatted/16179971_5.java,7,17,hibernate-release-4/hibernate-release-4.2.2.Final/project/documentation/src/main/docbook/quickstart/tutorials/osgi/managed-jpa/src/main/java/org/hibernate/osgitest/entity/DataPoint.java,11,21,11
 x,stackoverflow_formatted/17997605_0.java,6,16,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-core/src/test/java/org/hibernate/test/annotations/entity/Car.java,13,23,11
@@ -3558,7 +3558,7 @@ x,stackoverflow_formatted/3046986_1.java,10,20,hibernate-release-4/hibernate-rel
 x,stackoverflow_formatted/20829961_0.java,12,22,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-envers/src/test/java/org/hibernate/envers/test/integration/multiplerelations/Person.java,64,74,11
 x,stackoverflow_formatted/25321858_0.java,7,17,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-core/src/test/java/org/hibernate/test/annotations/collectionelement/Boy.java,51,61,11
 x,stackoverflow_formatted/20829961_0.java,12,22,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-core/src/test/java/org/hibernate/test/filter/Category.java,20,30,11
-x,stackoverflow_formatted/19154487_0.java,4,14,jboss-5/jboss-5.1.0.GA-src/embedded/docs/tutorial/plain-java-application/src/org/jboss/embedded/tutorial/javase/beans/Customer.java,12,22,11
+x,stackoverflow_formatted/19154487_0.java,4,14,jboss-5/jboss-5.1.0.GA-src/embedded/docs/tutorial/plain-java-application/src/org/jboss/embedded/tutorial/javase/data/Customer.java,12,22,11
 x,stackoverflow_formatted/16179971_5.java,7,17,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-core/src/test/java/org/hibernate/test/generated/GeneratedPropertyEntity.java,6,16,11
 x,stackoverflow_formatted/20791703_0.java,17,27,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-core/src/test/java/org/hibernate/test/annotations/derivedidentities/e1/b2/Customer.java,80,90,11
 x,stackoverflow_formatted/9945067_0.java,10,20,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-core/src/test/java/org/hibernate/test/annotations/derivedidentities/e1/b/specjmapid/lazy/CustomerTwo.java,84,94,11
@@ -3584,7 +3584,7 @@ x,stackoverflow_formatted/17260065_0.java,5,15,hibernate-release-4/hibernate-rel
 x,stackoverflow_formatted/3046986_1.java,10,20,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-core/src/test/java/org/hibernate/test/stateless/fetching/User.java,10,20,11
 x,stackoverflow_formatted/24056686_0.java,3,13,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-core/src/test/java/org/hibernate/test/annotations/override/Addr.java,19,29,11
 x,stackoverflow_formatted/24475366_0.java,8,18,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-core/src/test/java/org/hibernate/test/annotations/indexcoll/AddressEntryPk.java,36,46,11
-x,stackoverflow_formatted/4377130_0.java,9,19,jboss-5/jboss-5.1.0.GA-src/embedded/docs/tutorial/tomcat/src/org/jboss/embedded/tutorial/war/beans/Customer.java,12,22,11
+x,stackoverflow_formatted/4377130_0.java,9,19,jboss-5/jboss-5.1.0.GA-src/embedded/docs/tutorial/tomcat/src/org/jboss/embedded/tutorial/war/data/Customer.java,12,22,11
 x,stackoverflow_formatted/3046986_1.java,10,20,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-ehcache/src/test/java/org/hibernate/test/domain/Item.java,12,22,11
 x,stackoverflow_formatted/1988212_1.java,19,29,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-ehcache/src/test/java/org/hibernate/test/domain/Item.java,12,22,11
 x,stackoverflow_formatted/1988212_1.java,19,29,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-core/src/test/java/org/hibernate/subclassProxyInterface/Person.java,10,20,11
@@ -3653,7 +3653,7 @@ x,stackoverflow_formatted/11903456_0.java,14,24,hibernate-release-4/hibernate-re
 x,stackoverflow_formatted/17997605_0.java,6,16,castor-1/castor-1.3.1/jpa-extensions-it/src/main/java/org/castor/jpa/scenario/many_to_many/Author.java,14,24,11
 x,stackoverflow_formatted/10105260_0.java,14,24,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-core/src/test/java/org/hibernate/test/filter/Product.java,14,24,11
 x,stackoverflow_formatted/4247539_0.java,5,15,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-core/src/test/java/org/hibernate/test/jdbc/Person.java,18,28,11
-x,stackoverflow_formatted/11058682_0.java,23,33,jboss-5/jboss-5.1.0.GA-src/embedded/docs/tutorial/junit/src/main/java/org/jboss/embedded/tutorial/junit/beans/Customer.java,12,22,11
+x,stackoverflow_formatted/11058682_0.java,23,33,jboss-5/jboss-5.1.0.GA-src/embedded/docs/tutorial/junit/src/main/java/org/jboss/embedded/tutorial/junit/data/Customer.java,12,22,11
 x,stackoverflow_formatted/6486206_0.java,5,15,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-core/src/test/java/org/hibernate/test/annotations/derivedidentities/e1/b2/Customer.java,80,90,11
 x,stackoverflow_formatted/1988212_1.java,19,29,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-core/src/test/java/org/hibernate/test/querycache/Item.java,12,22,11
 x,stackoverflow_formatted/10105260_0.java,14,24,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-ehcache/src/test/java/org/hibernate/test/cache/ehcache/Item.java,12,22,11
@@ -3723,7 +3723,7 @@ x,stackoverflow_formatted/1988212_1.java,19,29,hibernate-release-4/hibernate-rel
 x,stackoverflow_formatted/23528334_1.java,9,19,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-core/src/test/java/org/hibernate/test/legacy/Holder.java,28,38,11
 x,stackoverflow_formatted/11083864_1.java,12,22,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-core/src/test/java/org/hibernate/test/annotations/onetoone/Father.java,5,15,11
 x,stackoverflow_formatted/10713332_0.java,9,19,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-envers/src/test/java/org/hibernate/envers/test/integration/collection/embeddable/Name.java,43,53,11
-x,stackoverflow_formatted/13417932_2.java,5,15,jboss-5/jboss-5.1.0.GA-src/embedded/docs/tutorial/plain-java-application/src/org/jboss/embedded/tutorial/javase/beans/Customer.java,12,22,11
+x,stackoverflow_formatted/13417932_2.java,5,15,jboss-5/jboss-5.1.0.GA-src/embedded/docs/tutorial/plain-java-application/src/org/jboss/embedded/tutorial/javase/data/Customer.java,12,22,11
 x,stackoverflow_formatted/10105260_0.java,14,24,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-core/src/test/java/org/hibernate/test/resulttransformer/Contract.java,8,18,11
 x,stackoverflow_formatted/20593873_1.java,90,100,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-entitymanager/src/test/java/org/hibernate/ejb/metamodel/Thing.java,12,22,11
 x,stackoverflow_formatted/1988212_1.java,19,29,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-core/src/test/java/org/hibernate/test/cfg/cache/Item.java,5,15,11
@@ -3761,7 +3761,7 @@ x,stackoverflow_formatted/15698192_2.java,11,21,hibernate-release-4/hibernate-re
 x,stackoverflow_formatted/15698192_3.java,11,21,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-infinispan/src/test/java/org/hibernate/test/cache/infinispan/functional/State.java,11,21,11
 x,stackoverflow_formatted/23568650_0.java,8,18,FitLibrary20100806/fitnesse/lib/src/fitlibrarySrc/fitlibrary/eg/VectorAddition.java,18,28,11
 x,stackoverflow_formatted/10105260_0.java,14,24,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-core/src/test/java/org/hibernate/test/resulttransformer/PartnerA.java,5,15,11
-x,stackoverflow_formatted/25198825_0.java,6,16,jboss-5/jboss-5.1.0.GA-src/embedded/docs/tutorial/tomcat/src/org/jboss/embedded/tutorial/war/beans/Customer.java,12,22,11
+x,stackoverflow_formatted/25198825_0.java,6,16,jboss-5/jboss-5.1.0.GA-src/embedded/docs/tutorial/tomcat/src/org/jboss/embedded/tutorial/war/data/Customer.java,12,22,11
 x,stackoverflow_formatted/16179971_5.java,7,17,hibernate-release-4/hibernate-release-4.2.2.Final/project/documentation/src/main/docbook/quickstart/tutorials/osgi/unmanaged-jpa/src/main/java/org/hibernate/osgitest/entity/DataPoint.java,11,21,11
 x,stackoverflow_formatted/17260065_0.java,5,15,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-entitymanager/src/test/java/org/hibernate/ejb/test/lock/Lock.java,18,28,11
 x,stackoverflow_formatted/23540649_1.java,18,28,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-core/src/test/java/org/hibernate/test/annotations/filter/secondarytable/User.java,47,57,11
@@ -3774,7 +3774,7 @@ x,stackoverflow_formatted/10194435_0.java,5,15,hibernate-release-4/hibernate-rel
 x,stackoverflow_formatted/1988212_1.java,19,29,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-core/src/test/java/org/hibernate/test/flush/Author.java,26,36,11
 x,stackoverflow_formatted/21114828_0.java,9,19,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-core/src/test/java/org/hibernate/test/naturalid/immutableentity/Building.java,28,38,11
 x,stackoverflow_formatted/11038888_1.java,24,34,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-entitymanager/src/test/java/org/hibernate/ejb/test/exception/Instrument.java,13,23,11
-x,stackoverflow_formatted/11038888_1.java,24,34,jboss-5/jboss-5.1.0.GA-src/embedded/docs/tutorial/plain-java-application/src/org/jboss/embedded/tutorial/javase/beans/Customer.java,12,22,11
+x,stackoverflow_formatted/11038888_1.java,24,34,jboss-5/jboss-5.1.0.GA-src/embedded/docs/tutorial/plain-java-application/src/org/jboss/embedded/tutorial/javase/data/Customer.java,12,22,11
 x,stackoverflow_formatted/20793662_0.java,13,23,cayenne-3/cayenne-3.0.1-src/framework/cayenne-jdk1.5-unpublished/src/main/java/org/apache/cayenne/map/EmbeddableAttribute.java,36,46,11
 x,stackoverflow_formatted/1988212_1.java,19,29,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-core/src/test/java/org/hibernate/test/compositeelement/Parent.java,18,28,11
 x,stackoverflow_formatted/15698192_2.java,11,21,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-core/src/test/java/org/hibernate/test/annotations/embedded/Manager.java,20,30,11
@@ -3879,7 +3879,7 @@ x,stackoverflow_formatted/24475366_0.java,8,18,eXoPortal-v1/exo/services/organiz
 x,stackoverflow_formatted/1988212_1.java,19,29,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-core/src/test/java/org/hibernate/test/idgen/enhanced/table/Entity.java,10,20,11
 x,stackoverflow_formatted/14505129_0.java,42,52,ganttproject-2/ganttproject-2.0.9-src/ganttproject/src/net/sourceforge/ganttproject/gui/RolesTableModel.java,22,32,11
 x,stackoverflow_formatted/3664108_0.java,7,17,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-core/src/test/java/org/hibernate/test/sql/hand/Person.java,10,20,11
-x,stackoverflow_formatted/11083864_1.java,12,22,jboss-5/jboss-5.1.0.GA-src/embedded/docs/tutorial/tomcat/src/org/jboss/embedded/tutorial/war/beans/Customer.java,12,22,11
+x,stackoverflow_formatted/11083864_1.java,12,22,jboss-5/jboss-5.1.0.GA-src/embedded/docs/tutorial/tomcat/src/org/jboss/embedded/tutorial/war/data/Customer.java,12,22,11
 x,stackoverflow_formatted/20793662_0.java,13,23,jboss-5/jboss-5.1.0.GA-src/connector/src/main/org/jboss/resource/metadata/ConfigPropertyMetaData.java,7,17,11
 x,stackoverflow_formatted/17260065_0.java,5,15,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-entitymanager/src/test/java/org/hibernate/ejb/test/Distributor.java,12,22,11
 x,stackoverflow_formatted/23528334_1.java,9,19,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-envers/src/test/java/org/hibernate/envers/test/integration/onetomany/embeddedid/Constant.java,47,57,11
@@ -3914,7 +3914,7 @@ x,stackoverflow_formatted/22625057_0.java,12,22,hibernate-release-4/hibernate-re
 x,stackoverflow_formatted/11937204_2.java,6,16,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-core/src/test/java/org/hibernate/test/annotations/various/Conductor.java,26,36,11
 x,stackoverflow_formatted/20829961_0.java,12,22,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-core/src/test/java/org/hibernate/test/querycache/Item.java,12,22,11
 x,stackoverflow_formatted/14636363_1.java,64,74,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-core/src/test/java/org/hibernate/test/nonflushedchanges/VersionedEntity.java,17,27,11
-x,stackoverflow_formatted/13933424_0.java,12,22,jboss-5/jboss-5.1.0.GA-src/embedded/docs/tutorial/junit/src/main/java/org/jboss/embedded/tutorial/junit/beans/Customer.java,12,22,11
+x,stackoverflow_formatted/13933424_0.java,12,22,jboss-5/jboss-5.1.0.GA-src/embedded/docs/tutorial/junit/src/main/java/org/jboss/embedded/tutorial/junit/data/Customer.java,12,22,11
 x,stackoverflow_formatted/11937204_2.java,6,16,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-entitymanager/src/test/java/org/hibernate/ejb/test/lock/Lockable.java,18,28,11
 x,stackoverflow_formatted/10105260_0.java,14,24,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-core/src/test/java/org/hibernate/test/interfaceproxy/ItemImpl.java,5,15,11
 x,stackoverflow_formatted/3664108_0.java,7,17,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-core/src/test/java/org/hibernate/test/sql/autodiscovery/User.java,21,31,11
@@ -3954,7 +3954,7 @@ x,stackoverflow_formatted/1988212_1.java,19,29,hibernate-release-4/hibernate-rel
 x,stackoverflow_formatted/20593873_1.java,90,100,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-entitymanager/src/test/java/org/hibernate/ejb/test/metadata/DeskWithRawType.java,28,38,11
 x,stackoverflow_formatted/3046986_1.java,10,20,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-entitymanager/src/test/java/org/hibernate/ejb/test/metadata/Flower.java,10,20,11
 x,stackoverflow_formatted/17997605_0.java,6,16,castor-1/castor-1.3.1/jpa-extensions-it/src/main/java/org/castor/jpa/scenario/one_to_many/Role.java,14,24,11
-x,stackoverflow_formatted/20227507_1.java,10,20,jboss-5/jboss-5.1.0.GA-src/embedded/docs/tutorial/tomcat/src/org/jboss/embedded/tutorial/war/beans/Customer.java,12,22,11
+x,stackoverflow_formatted/20227507_1.java,10,20,jboss-5/jboss-5.1.0.GA-src/embedded/docs/tutorial/tomcat/src/org/jboss/embedded/tutorial/war/data/Customer.java,12,22,11
 x,stackoverflow_formatted/25198825_0.java,6,16,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-core/src/test/java/org/hibernate/test/annotations/access/xml/Crew.java,5,15,11
 x,stackoverflow_formatted/3664108_0.java,7,17,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-core/src/test/java/org/hibernate/test/interfaceproxy/ItemImpl.java,5,15,11
 x,stackoverflow_formatted/1988212_1.java,19,29,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-core/src/test/java/org/hibernate/test/connections/Silly.java,16,26,11
@@ -4027,8 +4027,8 @@ x,stackoverflow_formatted/3664108_0.java,7,17,hibernate-release-4/hibernate-rele
 x,stackoverflow_formatted/22212300_1.java,46,56,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-envers/src/test/java/org/hibernate/envers/test/integration/onetomany/embeddedid/Constant.java,47,57,11
 x,stackoverflow_formatted/3046986_1.java,10,20,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-core/src/test/java/org/hibernate/test/annotations/quote/Person.java,14,24,11
 x,stackoverflow_formatted/10105260_0.java,14,24,jboss-5/jboss-5.1.0.GA-src/testsuite/src/main/org/jboss/test/hibernate/model/Role.java,18,28,11
-x,stackoverflow_formatted/11083864_1.java,12,22,jboss-5/jboss-5.1.0.GA-src/embedded/docs/tutorial/junit/src/main/java/org/jboss/embedded/tutorial/junit/beans/Customer.java,12,22,11
-x,stackoverflow_formatted/20590064_1.java,10,20,jboss-5/jboss-5.1.0.GA-src/embedded/docs/tutorial/plain-java-application/src/org/jboss/embedded/tutorial/javase/beans/Customer.java,12,22,11
+x,stackoverflow_formatted/11083864_1.java,12,22,jboss-5/jboss-5.1.0.GA-src/embedded/docs/tutorial/junit/src/main/java/org/jboss/embedded/tutorial/junit/data/Customer.java,12,22,11
+x,stackoverflow_formatted/20590064_1.java,10,20,jboss-5/jboss-5.1.0.GA-src/embedded/docs/tutorial/plain-java-application/src/org/jboss/embedded/tutorial/javase/data/Customer.java,12,22,11
 x,stackoverflow_formatted/3046986_1.java,10,20,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-core/src/test/java/org/hibernate/test/querycache/Item.java,12,22,11
 x,stackoverflow_formatted/10105260_0.java,14,24,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-core/src/test/java/org/hibernate/test/multitenancy/schema/Customer.java,15,25,11
 x,stackoverflow_formatted/15698192_3.java,11,21,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-entitymanager/src/test/java/org/hibernate/ejb/test/emops/Music.java,13,23,11
@@ -4134,7 +4134,7 @@ x,stackoverflow_formatted/10194435_0.java,5,15,hibernate-release-4/hibernate-rel
 x,stackoverflow_formatted/15698192_3.java,11,21,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-core/src/test/java/org/hibernate/test/ops/Competitor.java,10,20,11
 x,stackoverflow_formatted/15698192_3.java,11,21,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-core/src/test/java/org/hibernate/test/event/collection/detached/Character.java,23,33,11
 x,stackoverflow_formatted/22233192_1.java,6,16,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-core/src/test/java/org/hibernate/test/unidir/Child.java,14,24,11
-x,stackoverflow_formatted/19154487_0.java,4,14,jboss-5/jboss-5.1.0.GA-src/embedded/docs/tutorial/junit/src/main/java/org/jboss/embedded/tutorial/junit/beans/Customer.java,12,22,11
+x,stackoverflow_formatted/19154487_0.java,4,14,jboss-5/jboss-5.1.0.GA-src/embedded/docs/tutorial/junit/src/main/java/org/jboss/embedded/tutorial/junit/data/Customer.java,12,22,11
 x,stackoverflow_formatted/18013191_1.java,4,14,eXoPortal-v1/exo/services/organization/impl/src/java/org/exoplatform/services/organization/ldap/OrganizationConfig.java,93,103,11
 x,stackoverflow_formatted/20791703_0.java,17,27,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-core/src/test/java/org/hibernate/test/annotations/cid/ParentPk.java,5,15,11
 x,stackoverflow_formatted/12486929_0.java,83,93,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-core/src/test/java/org/hibernate/test/annotations/id/entities/FootballerPk.java,11,21,11
@@ -4224,7 +4224,7 @@ x,stackoverflow_formatted/14073238_0.java,34,44,FitLibrary20100806/fitnesse/lib/
 x,stackoverflow_formatted/20681509_0.java,4,14,FitLibrary20100806/fitnesse/lib/src/fitlibrarySrc/fitlibrary/specify/eg/FixedPoint.java,10,20,11
 x,stackoverflow_formatted/4329039_5.java,6,16,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-envers/src/test/java/org/hibernate/envers/test/integration/collection/embeddable/Name.java,43,53,11
 x,stackoverflow_formatted/13417932_2.java,5,15,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-core/src/test/java/org/hibernate/test/annotations/access/xml/Driver.java,11,21,11
-x,stackoverflow_formatted/11058682_0.java,23,33,jboss-5/jboss-5.1.0.GA-src/embedded/docs/tutorial/tomcat/src/org/jboss/embedded/tutorial/war/beans/Customer.java,12,22,11
+x,stackoverflow_formatted/11058682_0.java,23,33,jboss-5/jboss-5.1.0.GA-src/embedded/docs/tutorial/tomcat/src/org/jboss/embedded/tutorial/war/data/Customer.java,12,22,11
 x,stackoverflow_formatted/3046986_1.java,10,20,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-envers/src/test/java/org/hibernate/envers/test/integration/onetomany/embeddedid/Person.java,54,64,11
 x,stackoverflow_formatted/14908094_2.java,4,14,castor-1/castor-1.3.1/jpa-extensions-it/src/main/java/org/castor/jpa/scenario/many_to_many/Author.java,14,24,11
 x,stackoverflow_formatted/3664108_0.java,7,17,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-core/src/test/java/org/hibernate/test/manytomany/batchload/User.java,13,23,11
@@ -4369,12 +4369,12 @@ x,stackoverflow_formatted/13417932_2.java,5,15,hibernate-release-4/hibernate-rel
 x,stackoverflow_formatted/9859376_0.java,8,18,eXoPortal-v1/exo/services/communication/impl/src/java/org/exoplatform/services/communication/sms/provider/prodat/ProdatOperatorImpl.java,40,50,11
 x,stackoverflow_formatted/10194435_0.java,5,15,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-core/src/test/java/org/hibernate/test/annotations/indexcoll/AddressEntryPk.java,36,46,11
 x,stackoverflow_formatted/1988212_1.java,19,29,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-core/src/test/java/org/hibernate/test/sql/hand/quotedidentifiers/Person.java,10,20,11
-x,stackoverflow_formatted/13933424_0.java,12,22,jboss-5/jboss-5.1.0.GA-src/embedded/docs/tutorial/tomcat/src/org/jboss/embedded/tutorial/war/beans/Customer.java,12,22,11
+x,stackoverflow_formatted/13933424_0.java,12,22,jboss-5/jboss-5.1.0.GA-src/embedded/docs/tutorial/tomcat/src/org/jboss/embedded/tutorial/war/data/Customer.java,12,22,11
 x,stackoverflow_formatted/18013191_1.java,4,14,eXoPortal-v1/exo/services/organization/impl/src/java/org/exoplatform/services/organization/hibernate/OrganizationConfig.java,93,103,11
 x,stackoverflow_formatted/20829961_0.java,12,22,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-core/src/test/java/org/hibernate/metamodel/source/annotations/xml/mocker/Author.java,18,28,11
 x,stackoverflow_formatted/3664108_0.java,7,17,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-entitymanager/src/test/java/org/hibernate/ejb/test/cacheable/annotation/NoCacheableAnnotationEntity.java,9,19,11
 x,stackoverflow_formatted/14636363_1.java,64,74,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-core/src/test/java/org/hibernate/test/ops/TimestampedEntity.java,13,23,11
-x,stackoverflow_formatted/20227507_1.java,10,20,jboss-5/jboss-5.1.0.GA-src/embedded/docs/tutorial/plain-java-application/src/org/jboss/embedded/tutorial/javase/beans/Customer.java,12,22,11
+x,stackoverflow_formatted/20227507_1.java,10,20,jboss-5/jboss-5.1.0.GA-src/embedded/docs/tutorial/plain-java-application/src/org/jboss/embedded/tutorial/javase/data/Customer.java,12,22,11
 x,stackoverflow_formatted/16179971_5.java,7,17,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-core/src/test/java/org/hibernate/test/sql/autodiscovery/User.java,21,31,11
 x,stackoverflow_formatted/1988212_1.java,19,29,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-core/src/test/java/org/hibernate/test/generatedkeys/identity/MyEntity.java,15,25,11
 x,stackoverflow_formatted/10000096_1.java,5,15,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-core/src/test/java/org/hibernate/test/legacy/Holder.java,28,38,11
@@ -4468,7 +4468,7 @@ x,stackoverflow_formatted/22625057_0.java,12,22,eXoPortal-v1/exo/services/organi
 x,stackoverflow_formatted/15698192_2.java,11,21,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-core/src/test/java/org/hibernate/test/annotations/embedded/AddressType.java,11,21,11
 x,stackoverflow_formatted/22959859_1.java,4,14,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-envers/src/test/java/org/hibernate/envers/test/integration/entityNames/manyToManyAudited/Person.java,21,31,11
 x,stackoverflow_formatted/20791703_0.java,17,27,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-core/src/test/java/org/hibernate/test/annotations/collectionelement/Boy.java,51,61,11
-x,stackoverflow_formatted/14908094_2.java,4,14,jboss-5/jboss-5.1.0.GA-src/embedded/docs/tutorial/junit/src/main/java/org/jboss/embedded/tutorial/junit/beans/Customer.java,12,22,11
+x,stackoverflow_formatted/14908094_2.java,4,14,jboss-5/jboss-5.1.0.GA-src/embedded/docs/tutorial/junit/src/main/java/org/jboss/embedded/tutorial/junit/data/Customer.java,12,22,11
 x,stackoverflow_formatted/15698192_3.java,11,21,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-core/src/test/java/org/hibernate/test/annotations/onetomany/Troop.java,30,40,11
 x,stackoverflow_formatted/1988212_1.java,19,29,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-entitymanager/src/test/java/org/hibernate/ejb/test/metadata/Garden.java,15,25,11
 x,stackoverflow_formatted/6486206_0.java,5,15,eXoPortal-v1/exo/services/organization/impl/src/java/org/exoplatform/services/organization/hibernate/OrganizationConfig.java,93,103,11
@@ -4494,7 +4494,7 @@ x,stackoverflow_formatted/10814214_2.java,10,20,hibernate-release-4/hibernate-re
 x,stackoverflow_formatted/16179971_5.java,7,17,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-core/src/test/java/org/hibernate/test/resulttransformer/Contract.java,8,18,11
 x,stackoverflow_formatted/20829961_0.java,12,22,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-core/src/test/java/org/hibernate/test/criteria/Person.java,38,48,11
 x,stackoverflow_formatted/3664108_0.java,7,17,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-core/src/test/java/org/hibernate/test/instrument/domain/Entity.java,12,22,11
-x,stackoverflow_formatted/21161594_1.java,20,30,jboss-5/jboss-5.1.0.GA-src/embedded/docs/tutorial/tomcat/src/org/jboss/embedded/tutorial/war/beans/Customer.java,12,22,11
+x,stackoverflow_formatted/21161594_1.java,20,30,jboss-5/jboss-5.1.0.GA-src/embedded/docs/tutorial/tomcat/src/org/jboss/embedded/tutorial/war/data/Customer.java,12,22,11
 x,stackoverflow_formatted/24056686_0.java,3,13,db-derby-10/db-derby-10.6.1.0-src/java/testing/org/apache/derbyTesting/system/oe/model/Address.java,11,21,11
 x,stackoverflow_formatted/22970618_0.java,3,13,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-core/src/test/java/org/hibernate/test/ops/TimestampedEntity.java,13,23,11
 x,stackoverflow_formatted/1988212_1.java,19,29,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-core/src/test/java/org/hibernate/metamodel/binding/EntityWithBasicCollections.java,21,31,11
@@ -4550,7 +4550,7 @@ x,stackoverflow_formatted/15698192_3.java,11,21,hibernate-release-4/hibernate-re
 x,stackoverflow_formatted/16179971_5.java,7,17,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-core/src/test/java/org/hibernate/test/interfaceproxy/ItemImpl.java,5,15,11
 x,stackoverflow_formatted/1988212_1.java,19,29,hibernate-release-4/hibernate-release-4.2.2.Final/project/documentation/src/main/docbook/quickstart/tutorials/osgi/unmanaged-jpa/src/main/java/org/hibernate/osgitest/entity/DataPoint.java,11,21,11
 x,stackoverflow_formatted/3046986_1.java,10,20,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-core/src/test/java/org/hibernate/test/filter/Salesperson.java,12,22,11
-x,stackoverflow_formatted/25198825_0.java,6,16,jboss-5/jboss-5.1.0.GA-src/embedded/docs/tutorial/junit/src/main/java/org/jboss/embedded/tutorial/junit/beans/Customer.java,12,22,11
+x,stackoverflow_formatted/25198825_0.java,6,16,jboss-5/jboss-5.1.0.GA-src/embedded/docs/tutorial/junit/src/main/java/org/jboss/embedded/tutorial/junit/data/Customer.java,12,22,11
 x,stackoverflow_formatted/3046986_1.java,10,20,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-core/src/test/java/org/hibernate/test/resulttransformer/PartnerB.java,5,15,11
 x,stackoverflow_formatted/14908094_2.java,4,14,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-envers/src/demo/java/org/hibernate/envers/demo/Person.java,19,29,11
 x,stackoverflow_formatted/16179971_5.java,7,17,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-core/src/test/java/org/hibernate/test/schemaupdate/Version.java,6,16,11
@@ -4580,7 +4580,7 @@ x,stackoverflow_formatted/3664108_0.java,7,17,eXoPortal-v1/exo/services/jcr/impl
 x,stackoverflow_formatted/24973385_0.java,46,56,jboss-5/jboss-5.1.0.GA-src/testsuite/src/main/org/jboss/test/bankiiop/ejb/CustomerBean.java,10,20,11
 x,stackoverflow_formatted/16179971_5.java,7,17,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-entitymanager/src/test/java/org/hibernate/ejb/test/xml/Employee.java,11,21,11
 x,stackoverflow_formatted/11202699_0.java,1,11,hsqldb-2/hsqldb-2.0.0/hsqldb/src/org/hsqldb/test/HsqldbTestCase.java,11,21,11
-x,stackoverflow_formatted/13417932_2.java,5,15,jboss-5/jboss-5.1.0.GA-src/embedded/docs/tutorial/junit/src/main/java/org/jboss/embedded/tutorial/junit/beans/Customer.java,12,22,11
+x,stackoverflow_formatted/13417932_2.java,5,15,jboss-5/jboss-5.1.0.GA-src/embedded/docs/tutorial/junit/src/main/java/org/jboss/embedded/tutorial/junit/data/Customer.java,12,22,11
 x,stackoverflow_formatted/10055548_0.java,32,42,jag-6/jag-6.1/src/com/finalist/jaggenerator/template/TemplateConfigParameter.java,21,31,11
 x,stackoverflow_formatted/20829961_0.java,12,22,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-envers/src/test/java/org/hibernate/envers/test/integration/entityNames/singleAssociatedNotAudited/Person.java,11,21,11
 x,stackoverflow_formatted/20227507_1.java,10,20,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-core/src/test/java/org/hibernate/test/annotations/idmanytoone/Student.java,20,30,11

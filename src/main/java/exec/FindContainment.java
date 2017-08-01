@@ -1,3 +1,8 @@
+package exec;
+
+import data.Fragment;
+import utils.MyFileWriter;
+
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
@@ -12,8 +17,8 @@ import java.util.Map;
  */
 public class FindContainment {
     private static String DIR = "/Users/Chaiyong/IdeasProjects/StackoverflowChecker/";
-    private static String FILE1 = "PLATINUM_all_pairs_combined_outdated_checks_with_missing_ND.csv";
-    private static String FILE2 = "indv_simian_df_130901_rerun_no_BP.csv";
+    private static String FILE1 = "ok_common_pairs_simiandf-sccdf-0.7_130901_pt1+2+3+4_checked.csv";
+    private static String FILE2 = "indv_simian_df_130901_pt1+2+3+4_filtered.csv";
 
     public static void main(String args[]) {
 //        checkAndMergePairsWithSpecificLength("/Users/Chaiyong/IdeasProjects/StackoverflowChecker/ok+good_160814_merged.csv"
@@ -23,7 +28,7 @@ public class FindContainment {
         checkPairAndCopyDetails(
                 DIR + "/" + FILE1
                 ,DIR + "/" + FILE2
-                , 3, 0, true, "");
+                , 1, 0, true, "");
 //        checkIndvInGoodOkPairs(
 //                DIR + "/PLATINUM_FINAL_good_130901_pt1+2+3.csv"
 //                , DIR + "/a.csv"
@@ -335,20 +340,20 @@ public class FindContainment {
                 // use comma as separator
                 String[] clone = line.split(cvsSplitBy);
 
-                // processing a nicad fragment
-                Fragment f = new Fragment(
-                        clone[bFileStartOffset].trim(),
-                        Integer.parseInt(clone[1 + bFileStartOffset]),
-                        Integer.parseInt(clone[2 + bFileStartOffset]),
-                        clone[3 + bFileStartOffset].trim(),
-                        Integer.parseInt(clone[4 + bFileStartOffset]),
-                        Integer.parseInt(clone[5 + bFileStartOffset]));
-
-                baseFileMap.put(f.toString(), line);
+//                // processing a nicad fragment
+//                Fragment f = new Fragment(
+//                        clone[bFileStartOffset].trim(),
+//                        Integer.parseInt(clone[1 + bFileStartOffset]),
+//                        Integer.parseInt(clone[2 + bFileStartOffset]),
+//                        clone[3 + bFileStartOffset].trim(),
+//                        Integer.parseInt(clone[4 + bFileStartOffset]),
+//                        Integer.parseInt(clone[5 + bFileStartOffset]));
+//
+//                baseFileMap.put(f.toString(), line);
 
                 // this pair has 2 fragments,
                 // processing a simian fragment
-                if (clone[bFileStartOffset + 6].trim().startsWith("stackoverflow_formatted")) {
+//                if (clone[bFileStartOffset + 6].trim() != "") {
                     Fragment fs = new Fragment(
                             clone[bFileStartOffset + 6].trim(),
                             Integer.parseInt(clone[7 + bFileStartOffset]),
@@ -356,21 +361,35 @@ public class FindContainment {
                             clone[9 + bFileStartOffset].trim(),
                             Integer.parseInt(clone[10 + bFileStartOffset]),
                             Integer.parseInt(clone[11 + bFileStartOffset]));
-
-                    // also add simian fragment to the hash map
                     baseFileMap.put(fs.toString(), line);
-                }
+//                    System.out.println(fs);
+//                }
+//                else {
+//                    // this pair has 1 fragment
+//                    Fragment fs = new Fragment(
+//                            clone[bFileStartOffset].trim(),
+//                            Integer.parseInt(clone[1 + bFileStartOffset]),
+//                            Integer.parseInt(clone[2 + bFileStartOffset]),
+//                            clone[3 + bFileStartOffset].trim(),
+//                            Integer.parseInt(clone[4 + bFileStartOffset]),
+//                            Integer.parseInt(clone[5 + bFileStartOffset]));
+//
+//                    baseFileMap.put(fs.toString(), line);
+////                    System.out.println(fs);
+//                }
             }
 
+            System.out.println("Base file size: " + baseFileMap.size());
             br.close();
             br = new BufferedReader(new FileReader(searchFile));
-
-//            System.out.println("### Start searching ... ###");
+            System.out.println("### Start searching ... ###");
 
             linecount = 0;
             currentFile = searchFile;
             while ((line = br.readLine()) != null) {
+
                 linecount++;
+
                 // skip blank lines
                 if (line.startsWith(",,,,,,")) {
                     continue;
@@ -389,24 +408,28 @@ public class FindContainment {
                 searchFileArr.add(f);
             }
 
+            System.out.println("Search file size: " + linecount);
+
             br.close();
 
             // start searching
             for (Fragment f : searchFileArr) {
-
-//                System.out.println(f.toString());
-
                 if (baseFileMap.containsKey(f.toString())) {
-                    String bf = baseFileMap.get(f.toString());
-                    if (copyComments)
-                        results.append(bf).append("\n");
-                    else
-                        results.append(bf).append(text).append("\n");
+                    String[] bf = baseFileMap.get(f.toString()).split(cvsSplitBy);
+                    results.append(f.getOther());
+                    results.append(",Found in OK");
+                    results.append("\n");
                 } else {
-                    System.out.println("Can't find " + f.toString());
-                    results.append("simian,,,").append(f.getOther()).append("\n");
+                    results.append(f.getOther()).append("\n");
                 }
             }
+
+            br.close();
+            MyFileWriter.writeToFile("",
+                    searchFile.replace(".csv", "_checked.csv"),
+                    results.toString(),
+                    false,
+                    true);
 
         } catch (IOException e) {
             e.printStackTrace();
@@ -415,20 +438,6 @@ public class FindContainment {
                     + currentFile + " at line "
                     + linecount + ". Check your data.");
             e2.printStackTrace();
-        }
-        finally {
-            if (br != null) {
-                try {
-                    br.close();
-                    MyFileWriter.writeToFile("",
-                            searchFile.replace(".csv", "_checked.csv"),
-                            results.toString(),
-                            false,
-                            true);
-                } catch (IOException e) {
-                    e.printStackTrace();
-                }
-            }
         }
     }
 

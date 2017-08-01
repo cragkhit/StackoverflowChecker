@@ -1,9 +1,15 @@
+package exec;
+
 import java.io.*;
 import java.nio.file.Files;
 import java.util.ArrayList;
 
 import javax.xml.parsers.*;
 
+import data.ReportedFragment;
+import data.SimianLog;
+import data.UsefulSimianFragmentHandler;
+import exception.SaxTerminatorException;
 import org.xml.sax.SAXException;
 import org.xml.sax.helpers.DefaultHandler;
 
@@ -14,7 +20,7 @@ public class IndvCloneFilter {
     public static String pathToRemove = "";
     public static String pathSo = "stackoverflow_formatted";
     public static String pathQualitas = "QualitasCorpus-20130901r";
-    public static String tool = "simian";
+    public static String tool = "scc";
     public static String settings = "df";
     public static String timestamp = "130901_pt1+2+3+4";
     public static int NUMBER_OF_POSTS = 0;
@@ -82,10 +88,8 @@ public class IndvCloneFilter {
             System.out.println("File: " + inputFile.getName());
             this.handler = new UsefulSimianFragmentHandler(simianLogs);
             this.saxParser.parse(inputFile, handler);
-
-            System.out.println("simian log size: " + simianLogs.size());
-
             result = SimianLog.filterSimianClones(simianLogs, minCloneSize);
+            System.out.println("Log size: " + result.size());
         } catch (SAXException | IOException e) {
             e.printStackTrace();
         } catch (SaxTerminatorException allDone) {

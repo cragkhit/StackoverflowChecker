@@ -1,7 +1,9 @@
+package exec;
+
 /**
  * Created by Chaiyong on 9/3/16.
  */
-public class Test {
+public class RegExpTest {
     public static void main(String[] args) {
         // String s = "         result = prime * result + ( ( id == null ) ? 0 : id.hashCode() );";
         String s = "     public int hashCode() {";

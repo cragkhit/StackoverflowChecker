@@ -1,3 +1,7 @@
+package data;
+
+import utils.CommonUtils;
+
 import java.io.BufferedInputStream;
 import java.io.FileInputStream;
 import java.io.IOException;

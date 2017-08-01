@@ -5,7 +5,7 @@ vim -c ":e qualitas/jspwiki-2.8.4/src/com/ecyrd/jspwiki/attachment/AttachmentSer
 vim -c ":e qualitas/lucene-4.3.0/lucene-4.3.0/test-framework/src/java/org/apache/lucene/index/BasePostingsFormatTestCase.java|:678|:vsplit stackoverflow_formatted/12293735_3.java|:82"
 vim -c ":e qualitas/lucene-4.3.0/lucene-4.3.0/core/src/java/org/apache/lucene/search/FieldCacheRangeFilter.java|:20|:vsplit stackoverflow_formatted/12293735_3.java|:82"
 vim -c ":e qualitas/lucene-4.3.0/lucene-4.3.0/core/src/java/org/apache/lucene/index/SegmentReadState.java|:22|:vsplit stackoverflow_formatted/12293735_3.java|:82"
-vim -c ":e qualitas/netbeans-6.9.1-201007282301/xml.tax/src/org/netbeans/modules/xml/tax/beans/editor/TreeElementAttributeListCustomizer.java|:447|:vsplit stackoverflow_formatted/13171520_0.java|:7"
+vim -c ":e qualitas/netbeans-6.9.1-201007282301/xml.tax/src/org/netbeans/modules/xml/tax/data/editor/TreeElementAttributeListCustomizer.java|:447|:vsplit stackoverflow_formatted/13171520_0.java|:7"
 vim -c ":e qualitas/netbeans-6.9.1-201007282301/swingapp/appshells/CRUDShellApp/src/applicationpackage/ShellView.java|:52|:vsplit stackoverflow_formatted/13311280_0.java|:29"
 vim -c ":e qualitas/netbeans-6.9.1-201007282301/java.examples/DocumentEditor/src/documenteditor/DocumentEditorView.java|:53|:vsplit stackoverflow_formatted/13311280_0.java|:29"
 vim -c ":e qualitas/netbeans-6.9.1-201007282301/form/test/qa-functional/data/SampleDesktopApplication/src/sampledesktopapplication/SampleDesktopView.java|:14|:vsplit stackoverflow_formatted/13311280_0.java|:2"

@@ -1,3 +1,7 @@
+package exec;
+
+import utils.MyFileWriter;
+
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
@@ -7,23 +11,28 @@ import java.io.IOException;
  * Created by Chaiyong on 8/14/16.
  */
 public class CheckEqualsMethodsAndGettersSetters {
-    private static String QPath = "QualitasCorpus-20130901r/projects_130901r_pt1+2+3";
-    private static String HOMEDIR = "/Users/chaiyong";
-    private static String projectLocation = HOMEDIR + "/Documents/phd/2016";
+    private static String HOMEDIR = "/Users/Chaiyong";
+
+    private static String projectLocation = HOMEDIR + "/IdeasProjects";
     private static String projectName = "StackoverflowChecker";
-    private static String SO_DIR = HOMEDIR + "/Downloads/stackoverflow/";
-    private static String fileName = "indv_nicad_df_130901_pt1+2+3+4.csv";
+
+    private static String DATADIR = HOMEDIR + "/Downloads/stackoverflow";
+    private static String SO_DIR = DATADIR + "/stackoverflow_formatted";
+    private static String QPath = DATADIR + "/QualitasCorpus-20130901r/projects_130901r_pt1+2+3";
+
+    private static String fileName = "/indv_scc_df_130901_pt1+2+3+4.csv";
 
     public static void main(String[] args) {
         checkEqualsMethodsAndGettersSetters(
                 projectLocation + "/" + projectName + "/" + fileName
                 , 1
                 , -1
-                , 0
-                , SO_DIR);
+                , 0);
     }
 
-    private static void checkEqualsMethodsAndGettersSetters(String file1, int start, int end, int so_starting_index, String path) {
+    private static void checkEqualsMethodsAndGettersSetters(
+            String file1, int start, int end,
+            int so_starting_index) {
         String cloneFile = file1;
         BufferedReader br = null;
         BufferedReader sF = null;
@@ -45,7 +54,7 @@ public class CheckEqualsMethodsAndGettersSetters {
                     boolean foundFirstGetter = false, foundSecondGetter = false, foundFirstHashCode = false, foundSecondHashCode = false;
                     String getterText = "";
 
-                    sF = new BufferedReader(new FileReader(path + clone[so_starting_index]));
+                    sF = new BufferedReader(new FileReader(SO_DIR + "/" + clone[so_starting_index]));
                     int lineCount = 0;
                     while ((sLine = sF.readLine()) != null) {
                         lineCount++;
@@ -164,7 +173,7 @@ public class CheckEqualsMethodsAndGettersSetters {
                     }
                     sF.close();
 
-                    qF = new BufferedReader(new FileReader(path + "/" + QPath + "/" + clone[so_starting_index+3]));
+                    qF = new BufferedReader(new FileReader(QPath + "/" + clone[so_starting_index+3]));
                     lineCount = 0;
                     while ((qLine = qF.readLine()) != null) {
                         lineCount++;

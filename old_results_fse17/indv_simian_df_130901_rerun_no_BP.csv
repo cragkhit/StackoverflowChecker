@@ -437,7 +437,7 @@ stackoverflow_formatted/10814214_1.java,45,54,netbeans-6.9.1-201007282301/form/t
 stackoverflow_formatted/10814214_1.java,45,54,netbeans-6.9.1-201007282301/websvc.wsitconf/src/org/netbeans/modules/websvc/wsitconf/ui/service/subpanels/TargetsPanel.java,99,108,10
 stackoverflow_formatted/10814214_1.java,45,54,netbeans-6.9.1-201007282301/identity.server.manager/src/org/netbeans/modules/identity/server/manager/ui/ProfileEditorPanel.java,350,359,10
 stackoverflow_formatted/10814214_1.java,45,54,netbeans-6.9.1-201007282301/vmd.midpnb/src/org/netbeans/modules/vmd/midpnb/propertyeditors/SVGFormEditorElement.java,640,649,10
-stackoverflow_formatted/18623736_0.java,1,39,spring-framework-3.0.5/spring-framework-3.0.5.RELEASE/projects/org.springframework.beans/src/main/java/org/springframework/beans/propertyeditors/CustomCollectionEditor.java,33,71,39
+stackoverflow_formatted/18623736_0.java,1,39,spring-framework-3.0.5/spring-framework-3.0.5.RELEASE/projects/org.springframework.data/src/main/java/org/springframework/data/propertyeditors/CustomCollectionEditor.java,33,71,39
 stackoverflow_formatted/4781746_0.java,1,13,spring-framework-3.0.5/spring-framework-3.0.5.RELEASE/projects/org.springframework.web.servlet/src/main/java/org/springframework/web/servlet/DispatcherServlet.java,91,103,13
 stackoverflow_formatted/16875949_0.java,73,83,jstock-1.0.7c/jstock/src/org/yccheok/jstock/gui/ChangeStockInfoJDialog.java,124,134,11
 stackoverflow_formatted/23473251_1.java,73,86,netbeans-6.9.1-201007282301/form/test/qa-functional/data/SampleProject/src/org/netbeans/test/editor/formatting/testAdvancedIndentation.java,68,81,14
@@ -572,14 +572,14 @@ stackoverflow_formatted/20227507_1.java,7,20,myfaces-core-2.0.2/myfaces-core-2.0
 stackoverflow_formatted/13225961_0.java,12,24,netbeans-6.9.1-201007282301/cnd.utils/src/org/netbeans/modules/cnd/utils/cache/CharSequenceUtils.java,165,176,12
 stackoverflow_formatted/8794109_0.java,32,43,apache-jmeter-2.9/apache-jmeter-2.9/src/core/org/apache/jmeter/gui/MainFrame.java,380,391,12
 stackoverflow_formatted/22233192_1.java,4,16,spring-framework-3.0.5/spring-framework-3.0.5.RELEASE/projects/org.springframework.transaction/src/test/java/org/springframework/transaction/annotation/AnnotationTransactionAttributeSourceTests.java,381,393,13
-stackoverflow_formatted/25373489_0.java,47,58,weka-3-7-9/main/java/weka/gui/beans/KnowledgeFlowApp.java,2037,2048,12
-stackoverflow_formatted/25373489_0.java,26,35,weka-3-7-9/main/java/weka/gui/beans/KnowledgeFlowApp.java,1992,2001,10
+stackoverflow_formatted/25373489_0.java,47,58,weka-3-7-9/main/java/weka/gui/data/KnowledgeFlowApp.java,2037,2048,12
+stackoverflow_formatted/25373489_0.java,26,35,weka-3-7-9/main/java/weka/gui/data/KnowledgeFlowApp.java,1992,2001,10
 stackoverflow_formatted/13933424_0.java,11,22,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-core/src/test/java/org/hibernate/test/annotations/entity/Car.java,12,23,12
 stackoverflow_formatted/13933424_0.java,11,22,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-core/src/test/java/org/hibernate/test/annotations/access/xml/Crew.java,4,15,12
 stackoverflow_formatted/13933424_0.java,11,22,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-core/src/test/java/org/hibernate/test/annotations/access/xml/Driver.java,10,21,12
 stackoverflow_formatted/13933424_0.java,11,22,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-core/src/test/java/org/hibernate/test/annotations/onetoone/Father.java,4,15,12
 stackoverflow_formatted/13933424_0.java,11,22,hibernate-release-4/hibernate-release-4.2.2.Final/project/hibernate-core/src/test/java/org/hibernate/metamodel/source/annotations/xml/Father.java,4,15,12
-stackoverflow_formatted/20913543_1.java,4,14,spring-framework-3.0.5/spring-framework-3.0.5.RELEASE/projects/org.springframework.beans/src/main/java/org/springframework/beans/factory/support/AutowireUtils.java,32,42,11
+stackoverflow_formatted/20913543_1.java,4,14,spring-framework-3.0.5/spring-framework-3.0.5.RELEASE/projects/org.springframework.data/src/main/java/org/springframework/data/factory/support/AutowireUtils.java,32,42,11
 stackoverflow_formatted/17461205_0.java,121,131,jhotdraw-7.5.1/jhotdraw_7.5.1/Source/jhotdraw7/src/main/java/org/jhotdraw/gui/plaf/palette/PaletteFontChooserUI.java,352,362,11
 stackoverflow_formatted/17461205_0.java,118,128,netbeans-6.9.1-201007282301/welcome/src/org/netbeans/modules/welcome/content/LinkButton.java,66,76,11
 stackoverflow_formatted/17461205_0.java,121,131,netbeans-6.9.1-201007282301/options.keymap/src/org/netbeans/modules/options/keymap/KeymapPanel.java,361,371,11

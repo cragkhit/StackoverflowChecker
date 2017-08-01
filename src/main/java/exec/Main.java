@@ -1,26 +1,17 @@
+package exec;
+
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.Iterator;
 import java.util.List;
-import java.util.Scanner;
 
-import javax.xml.parsers.DocumentBuilder;
-import javax.xml.parsers.DocumentBuilderFactory;
-import javax.xml.parsers.ParserConfigurationException;
-import javax.xml.xpath.XPath;
-import javax.xml.xpath.XPathConstants;
-import javax.xml.xpath.XPathExpression;
-import javax.xml.xpath.XPathExpressionException;
-import javax.xml.xpath.XPathFactory;
+import data.Fragment;
+import data.FragmentComparator;
+import data.ReportedFragment;
 
-import org.w3c.dom.Document;
-import org.w3c.dom.Node;
-import org.w3c.dom.NodeList;
-import org.xml.sax.SAXException;
-import java.io.BufferedReader;
 import java.io.BufferedWriter;
-import java.io.FileReader;
 import java.io.FileWriter;
 
 public class Main {
@@ -44,6 +35,7 @@ public class Main {
     private static int minCloneSize = 10;
 
     private static HashMap<String, ArrayList<Fragment>> fragmentMap = new HashMap<>();
+    private static ArrayList<ReportedFragment> firstFragmentList = new ArrayList<>();
 
 	public static void main(String[] args) {
         readFirstFile("/Users/Chaiyong/IdeasProjects/StackOverflowAnalyzer/fragments_" + tool1 + "_" + settings1 + ending + ".xml"
@@ -58,11 +50,12 @@ public class Main {
     public static void readFirstFile(String file, String fragListFile, String outFile) {
         System.out.println("Reading the first file: " + file);
 
-        List<ReportedFragment> result =
+        List<ReportedFragment> firstFileResult =
                 IndvCloneFilter.getInstance().getClonePairs(file, minCloneSize);
 
-        for (ReportedFragment rf: result) {
-            addToFragmentMap(rf);
+        for (ReportedFragment rf: firstFileResult) {
+//            addToFragmentMap(rf);
+            addToFragmentList(rf);
         }
     }
 
@@ -70,27 +63,58 @@ public class Main {
         System.out.println("\nReading the second file: " + file);
 
         try {
-            FileWriter fwriter = new FileWriter("good_" + outFile, true);
-            BufferedWriter bw = new BufferedWriter(fwriter);
-            PrintWriter writer = new PrintWriter(bw);
+//            FileWriter fwriter = new FileWriter("good_" + outFile, false);
+//            BufferedWriter bw = new BufferedWriter(fwriter);
+//            PrintWriter writer = new PrintWriter(bw);
 
-            FileWriter fwriterOk = new FileWriter("ok_" + outFile, true);
+            FileWriter fwriterOk = new FileWriter("ok_" + outFile, false);
             BufferedWriter bwOk = new BufferedWriter(fwriterOk);
             PrintWriter writerOk = new PrintWriter(bwOk);
 
-            List<ReportedFragment> result =
+            FileWriter fwriterIndv1 = new FileWriter(
+                    "indv_"
+                            + tool1 + "_"
+                            + settings1 + "_"
+                            + ending + ".csv", false);
+            BufferedWriter bwIndv1 = new BufferedWriter(fwriterIndv1);
+            PrintWriter writerIndv1 = new PrintWriter(bwIndv1);
+
+            FileWriter fwriterIndv2 = new FileWriter(
+                    "indv_"
+                    + tool2 + "_"
+                    + settings2 + "_"
+                    + ending + ".csv", false);
+            BufferedWriter bwIndv2 = new BufferedWriter(fwriterIndv2);
+            PrintWriter writerIndv2 = new PrintWriter(bwIndv2);
+
+            List<ReportedFragment> secondFragmentList =
                     IndvCloneFilter.getInstance().getClonePairs(file, minCloneSize);
 
-            for (ReportedFragment rf : result) {
-                goodOverlapWithFragmentMap(rf, writer);
-                okOverlapWithFragmentMap(rf, writerOk);
+            for (Iterator<ReportedFragment> iterator = secondFragmentList.iterator(); iterator.hasNext();) {
+                ReportedFragment rf = iterator.next();
+//                goodOverlapWithFragmentMap(rf, writer);
+                boolean found = okOverlapWithFragmentList(rf, writerOk);
+                if (found) {
+                    // remove fragment from the list
+                    iterator.remove();
+                }
             }
 
-            writer.close();
+            writeFragmentListToFile(firstFragmentList, writerIndv1);
+            writeFragmentListToFile(secondFragmentList, writerIndv2);
+
             writerOk.close();
+            writerIndv1.close();
+            writerIndv2.close();
 
         } catch (IOException e) {
             e.printStackTrace();
+        }
+    }
+
+    private static void writeFragmentListToFile(List<ReportedFragment> list, PrintWriter writer) {
+	    for (ReportedFragment rf: list) {
+            writer.print(rf.toString() + "\n");
         }
     }
 
@@ -106,6 +130,10 @@ public class Main {
         // add to the list
         flist.add(f);
         fragmentMap.put(key, flist);
+    }
+
+    private static void addToFragmentList(ReportedFragment f) {
+        firstFragmentList.add(f);
     }
 
     private static String matchWithFragmentMap(Fragment f) {
@@ -137,18 +165,19 @@ public class Main {
                 if (val >= p) {
                     // print out if it's a match
 //                    System.out.print("good ");
-                    System.out.println(val + "," + f.toString() + "," + frag.toString());
-                    writer.print(val + "," + f.toString() + "," + frag.toString() + "\n");
-                    returnStr += val + "," + f.toString() + "," + frag.toString() + "\n";
+//                    System.out.println(val + "," + f.toString() + "," + frag.toString());
+                    writer.print(f.toString() + "," + frag.toString() + "\n");
+                    returnStr += f.toString() + "," + frag.toString() + "\n";
                 }
             }
         }
         return returnStr;
     }
 
-    private static String okOverlapWithFragmentMap(Fragment f, PrintWriter writer) {
+    private static boolean okOverlapWithFragmentMap(Fragment f, PrintWriter writer, PrintWriter indvWriter) {
         String key = f.getFirstFile() + ":" + f.getSecondFile();
         String returnStr = "";
+        boolean found = false;
 
         if (fragmentMap.containsKey(key)) {
             ArrayList<Fragment> flist = fragmentMap.get(key);
@@ -156,12 +185,42 @@ public class Main {
                 double val = FragmentComparator.getOk(frag, f);
                 if (val >= p) {
                     // print out if it's a match
-                    System.out.println(val + "," + f.toString() + "," + frag.toString());
-                    writer.print(val + "," + f.toString() + "," + frag.toString() + "\n");
-                    returnStr += val + "," + f.toString() + "," + frag.toString() + "\n";
+                    writer.print(f.toString() + "," + frag.toString() + "\n");
+                    found = true;
+                }
+                // not found, it's an individual clone pair
+                else {
+                    indvWriter.print(f.toString() + "," + frag.toString() + "\n");
                 }
             }
         }
-        return returnStr;
+        return found;
+    }
+
+    private static boolean okOverlapWithFragmentList(Fragment f, PrintWriter writer) {
+
+	    Fragment bestMatch = new Fragment();
+	    double bestOkValue = 0;
+	    boolean found = false;
+
+        for (Fragment frag: firstFragmentList) {
+            double val = FragmentComparator.getOk(frag, f);
+            if (val >= p) {
+                if (val > bestOkValue) {
+                    bestMatch = frag;
+                    bestOkValue = val;
+                }
+            }
+        }
+
+        if (bestOkValue != 0) {
+            found = true;
+            writer.print(f.toString() + "," + bestMatch.toString() + "\n");
+            System.out.println(f.toString() + "," + bestMatch.toString());
+            // remove the fragment from the list
+            firstFragmentList.remove(bestMatch);
+        }
+
+        return found;
     }
 }

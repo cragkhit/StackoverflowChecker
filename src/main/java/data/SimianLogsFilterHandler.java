@@ -1,3 +1,6 @@
+package data;
+
+import data.SimianLog;
 import org.xml.sax.Attributes;
 import org.xml.sax.SAXException;
 import org.xml.sax.helpers.DefaultHandler;
@@ -42,7 +45,7 @@ public class SimianLogsFilterHandler extends DefaultHandler {
             this.end = false;
             this.start = false;
         }
-        if (qName.equals("Fragment")) {
+        if (qName.equals("data.Fragment")) {
             this.logFragment = this.simianLog.getEmptyFragment();
         }
         if (qName.equals("File")) {

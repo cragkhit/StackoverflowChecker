@@ -1,3 +1,7 @@
+package data;
+
+import utils.CommonUtils;
+
 import java.io.IOException;
 import java.util.*;
 
@@ -37,7 +41,7 @@ public class SimianLog {
 
     @Override
     public String toString() {
-        return "SimianLog{" +
+        return "data.SimianLog{" +
                 "id=" + id +
                 ", fragmentList=" + fragmentList +
                 '}';
@@ -52,7 +56,7 @@ public class SimianLog {
         int pairCount = 0;
 
         for (SimianLog s : simianLogs) {
-            System.out.println(count + "/" + simianLogs.size());
+//            System.out.println(count + "/" + simianLogs.size());
             count++;
             for (LogFragment lF : s.fragmentList) {
                 /* Check if it exists in the result list.*/

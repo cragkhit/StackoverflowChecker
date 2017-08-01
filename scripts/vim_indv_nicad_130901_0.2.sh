@@ -30,7 +30,7 @@ vim -c ":e QualitasCorpus-20130901r/projects/iReport-3/iReport-3.7.5-src/ireport
 vim -c ":e QualitasCorpus-20130901r/projects/jgraph-latest-bsd-src/examples/org/jgraph/example/GroupingRemoving.java|:53|:vsplit stackoverflow_formatted/6722760_1.java|:39"
 vim -c ":e QualitasCorpus-20130901r/projects/jgraph-latest-bsd-src/examples/org/jgraph/example/HelloWorld.java|:39|:vsplit stackoverflow_formatted/6722760_1.java|:39"
 vim -c ":e QualitasCorpus-20130901r/projects/iReport-3/iReport-3.7.5-src/ireport-designer/src/com/jaspersoft/ireport/designer/crosstab/actions/CellSelectionAction.java|:19|:vsplit stackoverflow_formatted/12921020_0.java|:24"
-vim -c ":e QualitasCorpus-20130901r/projects/jboss-5/jboss-5.1.0.GA-src/testsuite/src/main/org/jboss/test/entity/beans/TestEntityBean.java|:39|:vsplit stackoverflow_formatted/11574637_0.java|:78"
+vim -c ":e QualitasCorpus-20130901r/projects/jboss-5/jboss-5.1.0.GA-src/testsuite/src/main/org/jboss/test/entity/data/TestEntityBean.java|:39|:vsplit stackoverflow_formatted/11574637_0.java|:78"
 vim -c ":e QualitasCorpus-20130901r/projects/iReport-3/iReport-3.7.5-src/jasperserver-plugin/src/com/jaspersoft/ireport/jasperserver/ws/IReportTrustManager.java|:113|:vsplit stackoverflow_formatted/20513679_0.java|:103"
 vim -c ":e QualitasCorpus-20130901r/projects/iReport-3/iReport-3.7.5-src/jasperserver-plugin/src/com/jaspersoft/ireport/jasperserver/ws/IReportTrustManager.java|:113|:vsplit stackoverflow_formatted/15373186_0.java|:104"
 vim -c ":e QualitasCorpus-20130901r/projects/iReport-3/iReport-3.7.5-src/ireport-designer/src/com/jaspersoft/ireport/designer/subreport/TableComboBoxRenderer.java|:12|:vsplit stackoverflow_formatted/17966859_0.java|:8"

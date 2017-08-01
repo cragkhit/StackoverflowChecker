@@ -1,6 +1,11 @@
+package data;
+
+import data.SimianLog;
+import exception.SaxTerminatorException;
 import org.xml.sax.Attributes;
 import org.xml.sax.SAXException;
 import org.xml.sax.helpers.DefaultHandler;
+import utils.CommonUtils;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -43,21 +48,21 @@ public class UsefulSimianFragmentHandler extends DefaultHandler {
     @Override
     public void endElement(String uri, String localName, String qName) throws SAXException {
         if (CommonUtils.TEST_MODE) {
-            if (IndvCloneFilter.NUMBER_OF_POSTS >= CommonUtils.STOP_PROCESS_FLAG) {
+            if (exec.IndvCloneFilter.NUMBER_OF_POSTS >= CommonUtils.STOP_PROCESS_FLAG) {
                 throw new SaxTerminatorException();
             }
         }
     }
     /*
     private void getFragmentStats(String qName, Attributes attributes) {
-        SimianStackoverflowFragment actualFragment = new SimianStackoverflowFragment();
+        data.SimianStackoverflowFragment actualFragment = new data.SimianStackoverflowFragment();
         if (qName.equals("FRAGMENT_LOG")) {
             String filePath = attributes.getValue("filePath");
             if (filePath.contains("extracted_data_full")) {
                 String[] parts = filePath.split("/");
                 String fragmentName = parts[parts.length - 1];
                 boolean exixt = false;
-                for (SimianStackoverflowFragment fragment : this.stackoverflowFragments) {
+                for (data.SimianStackoverflowFragment fragment : this.stackoverflowFragments) {
                     if (fragment.fragmentName.equals(fragmentName)) {
                         exixt = true;
                         actualFragment = fragment;

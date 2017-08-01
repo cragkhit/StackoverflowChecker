@@ -1,3 +1,5 @@
+package exception;
+
 /**
  * Created by GiusWhite on 20/01/2016.
  */
