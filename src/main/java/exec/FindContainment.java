@@ -17,30 +17,14 @@ import java.util.Map;
  */
 public class FindContainment {
     private static String DIR = "/Users/Chaiyong/IdeasProjects/StackoverflowChecker/";
-    private static String FILE1 = "ok_common_pairs_simiandf-sccdf-0.7_130901_pt1+2+3+4_checked.csv";
-    private static String FILE2 = "indv_simian_df_130901_pt1+2+3+4_filtered.csv";
+    private static String FILE1 = "matheus.csv";
+    private static String FILE2 = "indv_simian_df_130901_pt1+2+3+4_filtered_for_M.csv";
 
     public static void main(String args[]) {
-//        checkAndMergePairsWithSpecificLength("/Users/Chaiyong/IdeasProjects/StackoverflowChecker/ok+good_160814_merged.csv"
-//                , "/Users/Chaiyong/IdeasProjects/StackoverflowChecker/ok+good_160814.csv", 2, 13, false);
-//        checkPairContainment("/Users/Chaiyong/Desktop/GOLD_ok+good_160816_merged_no_dup.csv"
-//                , "/Users/Chaiyong/IdeasProjects/StackoverflowChecker/indv_simian_df_combined_latest_v_new_only_160825.csv");
-        checkPairAndCopyDetails(
+            checkPairAndCopyDetails(
                 DIR + "/" + FILE1
                 ,DIR + "/" + FILE2
-                , 1, 0, true, "");
-//        checkIndvInGoodOkPairs(
-//                DIR + "/PLATINUM_FINAL_good_130901_pt1+2+3.csv"
-//                , DIR + "/a.csv"
-//                , 2, 1, false, ",duplicated_with_good_pair");
-//        checkTwoPairAndCopyDetails(
-//                "/Users/Chaiyong/Desktop/a.csv"
-//                ,DIR + "GOLD_ok_common_pairs_simiandf-nicaddf-0.7_130901_pt1+2+3_fixed_missing_ND_pairs_checked.csv"
-//                , 3, 1, false, ",duplicated_with_SEND");
-//        checkExistAndCopyDetails(
-//                "/Users/Chaiyong/IdeasProjects/StackoverflowChecker/indv_simian_df_combined_latest_v_new_only_160825.csv"
-//                ,"/Users/Chaiyong/IdeasProjects/StackoverflowChecker/indv_nicad_df_combined_latest_v_new_only_160816_checked_equals.csv"
-//                , 0, 5);
+                , 0, 0, true, "");
     }
 
 
@@ -340,20 +324,8 @@ public class FindContainment {
                 // use comma as separator
                 String[] clone = line.split(cvsSplitBy);
 
-//                // processing a nicad fragment
-//                Fragment f = new Fragment(
-//                        clone[bFileStartOffset].trim(),
-//                        Integer.parseInt(clone[1 + bFileStartOffset]),
-//                        Integer.parseInt(clone[2 + bFileStartOffset]),
-//                        clone[3 + bFileStartOffset].trim(),
-//                        Integer.parseInt(clone[4 + bFileStartOffset]),
-//                        Integer.parseInt(clone[5 + bFileStartOffset]));
-//
-//                baseFileMap.put(f.toString(), line);
-
-                // this pair has 2 fragments,
-                // processing a simian fragment
-//                if (clone[bFileStartOffset + 6].trim() != "") {
+                try {
+                    // has 2 clone pairs (NiCad + Simian)
                     Fragment fs = new Fragment(
                             clone[bFileStartOffset + 6].trim(),
                             Integer.parseInt(clone[7 + bFileStartOffset]),
@@ -362,21 +334,17 @@ public class FindContainment {
                             Integer.parseInt(clone[10 + bFileStartOffset]),
                             Integer.parseInt(clone[11 + bFileStartOffset]));
                     baseFileMap.put(fs.toString(), line);
-//                    System.out.println(fs);
-//                }
-//                else {
-//                    // this pair has 1 fragment
-//                    Fragment fs = new Fragment(
-//                            clone[bFileStartOffset].trim(),
-//                            Integer.parseInt(clone[1 + bFileStartOffset]),
-//                            Integer.parseInt(clone[2 + bFileStartOffset]),
-//                            clone[3 + bFileStartOffset].trim(),
-//                            Integer.parseInt(clone[4 + bFileStartOffset]),
-//                            Integer.parseInt(clone[5 + bFileStartOffset]));
-//
-//                    baseFileMap.put(fs.toString(), line);
-////                    System.out.println(fs);
-//                }
+                } catch (NumberFormatException e) {
+                    // has only a single clone pair (Simian/NiCad)
+                    Fragment fs = new Fragment(
+                            clone[bFileStartOffset].trim(),
+                            Integer.parseInt(clone[1 + bFileStartOffset]),
+                            Integer.parseInt(clone[2 + bFileStartOffset]),
+                            clone[3 + bFileStartOffset].trim(),
+                            Integer.parseInt(clone[4 + bFileStartOffset]),
+                            Integer.parseInt(clone[5 + bFileStartOffset]));
+                    baseFileMap.put(fs.toString(), line);
+                }
             }
 
             System.out.println("Base file size: " + baseFileMap.size());
@@ -405,9 +373,9 @@ public class FindContainment {
                         Integer.parseInt(clone[4 + sFileStartOffset]),
                         Integer.parseInt(clone[5 + sFileStartOffset]));
                 f.setOther(line);
+
                 searchFileArr.add(f);
             }
-
             System.out.println("Search file size: " + linecount);
 
             br.close();
@@ -417,7 +385,7 @@ public class FindContainment {
                 if (baseFileMap.containsKey(f.toString())) {
                     String[] bf = baseFileMap.get(f.toString()).split(cvsSplitBy);
                     results.append(f.getOther());
-                    results.append(",Found in OK");
+                    results.append(",EX-" + bf[13] + ",\"" + bf[14] + "\"");
                     results.append("\n");
                 } else {
                     results.append(f.getOther()).append("\n");
