@@ -17,8 +17,8 @@ import java.util.Map;
  */
 public class FindContainment {
     private static String DIR = "/Users/Chaiyong/IdeasProjects/StackoverflowChecker/";
-    private static String FILE1 = "matheus.csv";
-    private static String FILE2 = "indv_simian_df_130901_pt1+2+3+4_filtered_for_M.csv";
+    private static String FILE1 = "old_results_fse17/PLATINUM_all_pairs_combined_outdated_checks_with_missing_ND.csv";
+    private static String FILE2 = "ok_common_pairs_simian_df-scc_df-0.7_130817_auto-d.csv";
 
     public static void main(String args[]) {
             checkPairAndCopyDetails(
@@ -394,7 +394,7 @@ public class FindContainment {
 
             br.close();
             MyFileWriter.writeToFile("",
-                    searchFile.replace(".csv", "_checked.csv"),
+                    searchFile.replace(".csv", "_ex-manual.csv"),
                     results.toString(),
                     false,
                     true);

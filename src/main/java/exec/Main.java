@@ -21,16 +21,16 @@ public class Main {
 	private static String pathSo = "stackoverflow_formatted/";
 	// private static String pathQualitas = "QualitasCorpus-20130901r/compressed_src";
 
-    private static String tool1 = "simian";
+    private static String tool1 = "scc";
     private static String settings1 = "df";
 
     // choose mode between old, good, ok
     // private static String mode = "ok";
     private static double p = 0.7;
 
-    private static String tool2 = "scc";
+    private static String tool2 = "simian";
     private static String settings2 = "df";
-    private static String ending = "_130901_pt1+2+3+4";
+    private static String ending = "_130817";
 
     private static int minCloneSize = 10;
 
@@ -38,16 +38,17 @@ public class Main {
     private static ArrayList<ReportedFragment> firstFragmentList = new ArrayList<>();
 
 	public static void main(String[] args) {
-        readFirstFile("/Users/Chaiyong/IdeasProjects/StackOverflowAnalyzer/fragments_" + tool1 + "_" + settings1 + ending + ".xml"
-                , "/Users/Chaiyong/IdeasProjects/StackOverflowAnalyzer/fragment_list_" + tool1 + "_" + settings1 + ending + ".txt"
+        readFirstFile("/Users/Chaiyong/IdeasProjects/StackOverflowAnalyzer/results/fragments_"
+                        + tool1 + "_" + settings1 + ending + ".xml"
                 , tool1 + "_fragments_pairs_" + settings1 + ".csv");
 
-        readSecondFileAndCompare("/Users/Chaiyong/IdeasProjects/StackOverflowAnalyzer/fragments_" + tool2 + "_" + settings2 + ending + ".xml"
-                , "/Users/Chaiyong/IdeasProjects/StackOverflowAnalyzer/fragment_list_" + tool2 + "_" + settings2 + ending + ".txt"
-                , "common_pairs_" + tool1 + settings1 + "-" + tool2 + settings2 + "-" + p + ending + ".csv");
+        readSecondFileAndCompare("/Users/Chaiyong/IdeasProjects/StackOverflowAnalyzer/results/fragments_"
+                        + tool2 + "_" + settings2 + ending + ".xml"
+                , "common_pairs_" + tool2 + "_" + settings2 + "-"
+                        + tool1 + "_" + settings1 + "-" + p + ending + ".csv");
 	}
 
-    public static void readFirstFile(String file, String fragListFile, String outFile) {
+    public static void readFirstFile(String file, String outFile) {
         System.out.println("Reading the first file: " + file);
 
         List<ReportedFragment> firstFileResult =
@@ -59,8 +60,9 @@ public class Main {
         }
     }
 
-    private static void readSecondFileAndCompare(String file, String fragListFile, String outFile) {
+    private static void readSecondFileAndCompare(String file, String outFile) {
         System.out.println("\nReading the second file: " + file);
+        int foundCount = 0;
 
         try {
 //            FileWriter fwriter = new FileWriter("good_" + outFile, false);
@@ -74,7 +76,7 @@ public class Main {
             FileWriter fwriterIndv1 = new FileWriter(
                     "indv_"
                             + tool1 + "_"
-                            + settings1 + "_"
+                            + settings1
                             + ending + ".csv", false);
             BufferedWriter bwIndv1 = new BufferedWriter(fwriterIndv1);
             PrintWriter writerIndv1 = new PrintWriter(bwIndv1);
@@ -82,7 +84,7 @@ public class Main {
             FileWriter fwriterIndv2 = new FileWriter(
                     "indv_"
                     + tool2 + "_"
-                    + settings2 + "_"
+                    + settings2
                     + ending + ".csv", false);
             BufferedWriter bwIndv2 = new BufferedWriter(fwriterIndv2);
             PrintWriter writerIndv2 = new PrintWriter(bwIndv2);
@@ -97,6 +99,7 @@ public class Main {
                 if (found) {
                     // remove fragment from the list
                     iterator.remove();
+                    foundCount++;
                 }
             }
 
@@ -110,6 +113,13 @@ public class Main {
         } catch (IOException e) {
             e.printStackTrace();
         }
+
+        if (foundCount == 0)
+            System.out.println("\nhmmm... did not find any ok pairs..." +
+                    "did you make sure the Qualitas file path are consistent?");
+        else
+            System.out.println("\nhooray! found " + foundCount + " ok pairs.");
+
     }
 
     private static void writeFragmentListToFile(List<ReportedFragment> list, PrintWriter writer) {
@@ -204,11 +214,16 @@ public class Main {
 	    boolean found = false;
 
         for (Fragment frag: firstFragmentList) {
-            double val = FragmentComparator.getOk(frag, f);
-            if (val >= p) {
-                if (val > bestOkValue) {
-                    bestMatch = frag;
-                    bestOkValue = val;
+            // check if they're the same fragment pair
+            if (frag.getFirstFile().equals(f.getFirstFile())
+                    && frag.getSecondFile().equals(f.getSecondFile())) {
+                // check ok-value
+                double val = FragmentComparator.getOk(frag, f);
+                if (val >= p) {
+                    if (val > bestOkValue) {
+                        bestMatch = frag;
+                        bestOkValue = val;
+                    }
                 }
             }
         }

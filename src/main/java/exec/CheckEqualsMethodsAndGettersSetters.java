@@ -20,7 +20,7 @@ public class CheckEqualsMethodsAndGettersSetters {
     private static String SO_DIR = DATADIR + "/stackoverflow_formatted";
     private static String QPath = DATADIR + "/QualitasCorpus-20130901r/projects_130901r_pt1+2+3";
 
-    private static String fileName = "/indv_scc_df_130901_pt1+2+3+4.csv";
+    private static String fileName = "/ok_common_pairs_simian_df-scc_df-0.7_130817.csv";
 
     public static void main(String[] args) {
         checkEqualsMethodsAndGettersSetters(
@@ -273,15 +273,15 @@ public class CheckEqualsMethodsAndGettersSetters {
 
                     // both are equals() methods
                     if (foundFirst && foundSecond) {
-                        results.append(line).append(",D,similar equals() methods\n");
+                        results.append(line).append(",AUTO-D,similar equals() methods\n");
                     } else if (foundFirstGetter && foundSecondGetter) {
-                        results.append(line).append(",D,similar getters & setters methods\n");
+                        results.append(line).append(",AUTO-D,similar getters & setters methods\n");
                     } else if (foundGetter) {
-                        results.append(line).append(",D,accidentally similar getter\n");
+                        results.append(line).append(",AUTO-D,accidentally similar getter\n");
                     } else if (foundSetter) {
-                        results.append(line).append(",D,accidentally similar setter\n");
+                        results.append(line).append(",AUTO-D,accidentally similar setter\n");
                     } else if (foundFirstHashCode && foundSecondHashCode) {
-                        results.append(line).append(",D,accidentally similar hashCode() and equals()\n");
+                        results.append(line).append(",AUTO-D,accidentally similar hashCode() and equals()\n");
                     } else {
                         results.append(line).append("\n");
                     }
@@ -293,7 +293,7 @@ public class CheckEqualsMethodsAndGettersSetters {
 
             // write the resulst to another file
             MyFileWriter.writeToFile(".",
-                    fileName.replace(".csv","_filtered.csv"),
+                    fileName.replace(".csv","_auto-d.csv"),
                     results.toString(),
                     false,
                     true);
