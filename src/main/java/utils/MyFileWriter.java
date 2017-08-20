@@ -29,6 +29,7 @@ public class MyFileWriter {
         /* copied from https://www.mkyong.com/java/how-to-write-to-file-in-java-bufferedwriter-example/ */
         BufferedWriter bw = null;
         FileWriter fw = null;
+        System.out.println(filename);
 
         try {
             fw = new FileWriter(location + "/" + filename, isAppend);

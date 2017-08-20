@@ -20,7 +20,7 @@ public class CheckEqualsMethodsAndGettersSetters {
     private static String SO_DIR = DATADIR + "/stackoverflow_formatted";
     private static String QPath = DATADIR + "/QualitasCorpus-20130901r/projects_130901r_pt1+2+3";
 
-    private static String fileName = "/ok_common_pairs_simian_df-scc_df-0.7_130817.csv";
+    private static String fileName = "/ok_common_pairs_simian_df-scc_df-0.7_200817.csv";
 
     public static void main(String[] args) {
         checkEqualsMethodsAndGettersSetters(
@@ -30,10 +30,19 @@ public class CheckEqualsMethodsAndGettersSetters {
                 , 0);
     }
 
+
+    public static void check(String file) {
+        checkEqualsMethodsAndGettersSetters(
+                projectLocation + "/" + projectName + "/" + file
+                , 1
+                , -1
+                , 0);
+    }
+
     private static void checkEqualsMethodsAndGettersSetters(
-            String file1, int start, int end,
+            String fileName, int start, int end,
             int so_starting_index) {
-        String cloneFile = file1;
+        String cloneFile = fileName;
         BufferedReader br = null;
         BufferedReader sF = null;
         BufferedReader qF = null;
@@ -293,7 +302,7 @@ public class CheckEqualsMethodsAndGettersSetters {
 
             // write the resulst to another file
             MyFileWriter.writeToFile(".",
-                    fileName.replace(".csv","_auto-d.csv"),
+                    CheckEqualsMethodsAndGettersSetters.fileName.replace(".csv","_auto-d.csv"),
                     results.toString(),
                     false,
                     true);

@@ -1,9 +1,11 @@
 package data;
 
+import org.apache.commons.lang.builder.CompareToBuilder;
+
 /**
  * Created by Chaiyong on 6/19/16.
  */
-public class Fragment {
+public class Fragment implements Comparable<Fragment> {
     protected String firstFile;
     protected String secondFile;
     protected int fStart;
@@ -219,5 +221,18 @@ public class Fragment {
 
     public int getMinCloneLine() {
         return Math.min((this.fEnd - this.fStart + 1), (this.sEnd-this.sStart+1));
+    }
+
+    @Override
+    public int compareTo(Fragment o) {
+        Fragment f = (Fragment) o;
+        return new CompareToBuilder()
+                .append(this.firstFile, f.firstFile)
+                .append(this.fStart, f.fStart)
+                .append(this.fEnd, f.fEnd)
+                .append(this.secondFile, f.secondFile)
+                .append(this.sStart, f.sStart)
+                .append(this.sEnd, f.sEnd)
+                .toComparison();
     }
 }

@@ -17,16 +17,20 @@ import java.util.Map;
  */
 public class FindContainment {
     private static String DIR = "/Users/Chaiyong/IdeasProjects/StackoverflowChecker/";
-    private static String FILE1 = "old_results_fse17/PLATINUM_all_pairs_combined_outdated_checks_with_missing_ND.csv";
-    private static String FILE2 = "ok_common_pairs_simian_df-scc_df-0.7_130817_auto-d.csv";
+//    private static String FILE1 = "old_results_fse17/PLATINUM_all_pairs_combined_outdated_checks_with_missing_ND.csv";
+private static String FILE1 = "old_results_fse17/clones_validation/matheus.csv";
+    private static String FILE2 = "ok_common_pairs_simian_df-scc_df-0.7_200817_auto-d.csv";
 
     public static void main(String args[]) {
             checkPairAndCopyDetails(
-                DIR + "/" + FILE1
-                ,DIR + "/" + FILE2
-                , 0, 0, true, "");
+                DIR + "/" + FILE1,
+                    DIR + "/" + FILE2,
+                    0,
+                    0,
+                    true,
+                    "",
+                    "mp");
     }
-
 
     public static void checkIndvInGoodOkPairs(String baseFile, String searchFile, int offset, int offset2, boolean copyComments, String text) {
         HashMap<String, String> baseFileMap = new HashMap<>();
@@ -301,7 +305,8 @@ public class FindContainment {
                                                 int bFileStartOffset,
                                                 int sFileStartOffset,
                                                 boolean copyComments,
-                                                String text) {
+                                                String text,
+                                                String fileExtension) {
         HashMap<String, String> baseFileMap = new HashMap<>();
         ArrayList<Fragment> searchFileArr = new ArrayList<>();
         BufferedReader br = null;
@@ -394,7 +399,7 @@ public class FindContainment {
 
             br.close();
             MyFileWriter.writeToFile("",
-                    searchFile.replace(".csv", "_ex-manual.csv"),
+                    searchFile.replace(".csv", "_" + fileExtension + ".csv"),
                     results.toString(),
                     false,
                     true);

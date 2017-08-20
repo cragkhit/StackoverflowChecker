@@ -20,9 +20,9 @@ public class IndvCloneFilter {
     public static String pathToRemove = "";
     public static String pathSo = "stackoverflow_formatted";
     public static String pathQualitas = "QualitasCorpus-20130901r";
-    public static String tool = "simian";
-    public static String settings = "ignoreV";
-    public static String timestamp = "170817";
+    public static String tool = "scc";
+    public static String settings = "df";
+    public static String timestamp = "130817";
     public static int NUMBER_OF_POSTS = 0;
     public static String outfilePath = basePath + "/indv_" + tool + "_" + settings + "_" + timestamp + ".csv";
     public static int minCloneSize = 10;

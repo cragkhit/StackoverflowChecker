@@ -2,13 +2,13 @@ package exec;
 
 import java.io.IOException;
 import java.io.PrintWriter;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.List;
+import java.lang.reflect.Array;
+import java.util.*;
 
+import com.sun.tools.javac.comp.Check;
 import data.Fragment;
 import data.FragmentComparator;
+import data.OkPair;
 import data.ReportedFragment;
 
 import java.io.BufferedWriter;
@@ -30,7 +30,7 @@ public class Main {
 
     private static String tool2 = "simian";
     private static String settings2 = "df";
-    private static String ending = "_130817";
+    private static String ending = "_200817";
 
     private static int minCloneSize = 10;
 
@@ -92,16 +92,31 @@ public class Main {
             List<ReportedFragment> secondFragmentList =
                     IndvCloneFilter.getInstance().getClonePairs(file, minCloneSize);
 
+            ArrayList<OkPair> okPairList = new ArrayList<>();
+
+            // sort the two list
+            Collections.sort(firstFragmentList);
+            Collections.sort(secondFragmentList);
+
             for (Iterator<ReportedFragment> iterator = secondFragmentList.iterator(); iterator.hasNext();) {
                 ReportedFragment rf = iterator.next();
 //                goodOverlapWithFragmentMap(rf, writer);
-                boolean found = okOverlapWithFragmentList(rf, writerOk);
-                if (found) {
+//                ArrayList<OkPair> okPairs = okOverlapWithFragmentList(rf, writerOk);
+                boolean isFound = okOverlapWithFragmentList(rf, writerOk);
+//                okPairList.addAll(okPairs);
+                if (isFound) {
                     // remove fragment from the list
                     iterator.remove();
                     foundCount++;
                 }
             }
+
+//            ArrayList<OkPair> resulst = filterOkPairs(okPairList);
+//            foundCount = resulst.size();
+//
+//            for (OkPair pair: resulst) {
+//                writerOk.write(pair.toString() + "\n");
+//            }
 
             writeFragmentListToFile(firstFragmentList, writerIndv1);
             writeFragmentListToFile(secondFragmentList, writerIndv2);
@@ -120,6 +135,34 @@ public class Main {
         else
             System.out.println("\nhooray! found " + foundCount + " ok pairs.");
 
+    }
+
+    private static ArrayList<OkPair> filterOkPairs(ArrayList<OkPair> okPairList) {
+	    int amount = 0;
+	    double highestOkVal = 0;
+
+	    OkPair bestPair = new OkPair();
+
+	    ArrayList<OkPair> results = new ArrayList<>();
+	    // sort the list first
+        Collections.sort(okPairList);
+
+        Fragment f = okPairList.get(0).getF1();
+        for (OkPair pair: okPairList) {
+            // if finding the same left-handed fragment,
+            // keep moving down.
+            if (f == pair.getF1())
+                bestPair = pair;
+            else {
+                // when we already saw the next fragment
+                // add the last seen one (highest ok-val).
+                results.add(bestPair);
+
+                f = pair.getF1();
+            }
+        }
+
+        return results;
     }
 
     private static void writeFragmentListToFile(List<ReportedFragment> list, PrintWriter writer) {
@@ -212,6 +255,7 @@ public class Main {
 	    Fragment bestMatch = new Fragment();
 	    double bestOkValue = 0;
 	    boolean found = false;
+        ArrayList<OkPair> okPairList = new ArrayList<>();
 
         for (Fragment frag: firstFragmentList) {
             // check if they're the same fragment pair
@@ -219,12 +263,15 @@ public class Main {
                     && frag.getSecondFile().equals(f.getSecondFile())) {
                 // check ok-value
                 double val = FragmentComparator.getOk(frag, f);
+                // add all pairs what have ok-values >= threshold p
                 if (val >= p) {
                     if (val > bestOkValue) {
                         bestMatch = frag;
                         bestOkValue = val;
                     }
+//                    okPairList.add(new OkPair(frag, f));
                 }
+
             }
         }
 
