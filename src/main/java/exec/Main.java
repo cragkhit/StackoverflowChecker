@@ -26,23 +26,25 @@ public class Main {
 
     // choose mode between old, good, ok
     // private static String mode = "ok";
-    private static double p = 0.7;
+    private static double p = 0.5;
 
     private static String tool2 = "simian";
     private static String settings2 = "df";
-    private static String ending = "_200817";
+//    private static String ending = "_200817";
+    private static String ending = "_080518";
 
-    private static int minCloneSize = 10;
+//    private static int minCloneSize = 10;
+    private static int minCloneSize = 6;
 
     private static HashMap<String, ArrayList<Fragment>> fragmentMap = new HashMap<>();
     private static ArrayList<ReportedFragment> firstFragmentList = new ArrayList<>();
 
 	public static void main(String[] args) {
-        readFirstFile("/Users/Chaiyong/IdeasProjects/StackOverflowAnalyzer/results/fragments_"
+        readFirstFile("/Users/Chaiyong/IdeasProjects/cloverflowtools/results/fragments_"
                         + tool1 + "_" + settings1 + ending + ".xml"
                 , tool1 + "_fragments_pairs_" + settings1 + ".csv");
 
-        readSecondFileAndCompare("/Users/Chaiyong/IdeasProjects/StackOverflowAnalyzer/results/fragments_"
+        readSecondFileAndCompare("/Users/Chaiyong/IdeasProjects/cloverflowtools/results/fragments_"
                         + tool2 + "_" + settings2 + ending + ".xml"
                 , "common_pairs_" + tool2 + "_" + settings2 + "-"
                         + tool1 + "_" + settings1 + "-" + p + ending + ".csv");
