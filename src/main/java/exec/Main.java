@@ -38,17 +38,89 @@ public class Main {
 
     private static HashMap<String, ArrayList<Fragment>> fragmentMap = new HashMap<>();
     private static ArrayList<ReportedFragment> firstFragmentList = new ArrayList<>();
+    private static ArrayList<ReportedFragment> secondFragmentList = new ArrayList<>();
 
 	public static void main(String[] args) {
-        readFirstFile("/Users/Chaiyong/IdeasProjects/cloverflowtools/results/fragments_"
+        readFileToList("/Users/Chaiyong/IdeasProjects/cloverflowtools/results/fragments_"
                         + tool1 + "_" + settings1 + ending + ".xml"
-                , tool1 + "_fragments_pairs_" + settings1 + ".csv");
-
-        readSecondFileAndCompare("/Users/Chaiyong/IdeasProjects/cloverflowtools/results/fragments_"
+                , tool1 + "_fragments_pairs_" + settings1 + ".csv", firstFragmentList);
+        readFileToList("/Users/Chaiyong/IdeasProjects/cloverflowtools/results/fragments_"
                         + tool2 + "_" + settings2 + ending + ".xml"
-                , "common_pairs_" + tool2 + "_" + settings2 + "-"
+                , tool2 + "_fragments_pairs_" + settings2 + ".csv", secondFragmentList);
+
+        findOkMatches(firstFragmentList, secondFragmentList,
+                "common_pairs_" + tool2 + "_" + settings2 + "-"
                         + tool1 + "_" + settings1 + "-" + p + ending + ".csv");
+//        readSecondFileAndCompare("/Users/Chaiyong/IdeasProjects/cloverflowtools/results/fragments_"
+//                        + tool2 + "_" + settings2 + ending + ".xml"
+//                , "common_pairs_" + tool2 + "_" + settings2 + "-"
+//                        + tool1 + "_" + settings1 + "-" + p + ending + ".csv");
 	}
+
+    public static ArrayList<ReportedFragment> readFileToList(String file, String outFile, ArrayList<ReportedFragment> fragmentList) {
+        System.out.println("Reading the first file: " + file);
+
+        List<ReportedFragment> firstFileResult =
+                IndvCloneFilter.getInstance().getClonePairs(file, minCloneSize);
+
+        for (ReportedFragment rf: firstFileResult) {
+//            addToFragmentMap(rf);
+//            addToFragmentList(rf);
+            fragmentList.add(rf);
+        }
+        return fragmentList;
+    }
+
+    private static void findOkMatches(ArrayList<ReportedFragment> firstFragmentList,
+                                      ArrayList<ReportedFragment> secondFragmentList, String outFile) {
+        int foundCount = 0;
+        try {
+            FileWriter fwriterOk = new FileWriter("ok_" + outFile, false);
+            BufferedWriter bwOk = new BufferedWriter(fwriterOk);
+            PrintWriter writerOk = new PrintWriter(bwOk);
+            FileWriter fwriterIndv1 = new FileWriter(
+                    "indv_"
+                            + tool1 + "_"
+                            + settings1
+                            + ending + ".csv", false);
+            BufferedWriter bwIndv1 = new BufferedWriter(fwriterIndv1);
+            PrintWriter writerIndv1 = new PrintWriter(bwIndv1);
+            FileWriter fwriterIndv2 = new FileWriter(
+                    "indv_"
+                            + tool2 + "_"
+                            + settings2
+                            + ending + ".csv", false);
+            BufferedWriter bwIndv2 = new BufferedWriter(fwriterIndv2);
+            PrintWriter writerIndv2 = new PrintWriter(bwIndv2);
+            ArrayList<OkPair> okPairList = new ArrayList<>();
+            // sort the two list
+            Collections.sort(firstFragmentList);
+            Collections.sort(secondFragmentList);
+            for (Iterator<ReportedFragment> iterator = secondFragmentList.iterator(); iterator.hasNext();) {
+                ReportedFragment rf = iterator.next();
+                boolean isFound = okOverlapWithFragmentList(rf, writerOk);
+                if (isFound) {
+                    // remove fragment from the list
+                    iterator.remove();
+                    foundCount++;
+                }
+            }
+            writeFragmentListToFile(firstFragmentList, writerIndv1);
+            writeFragmentListToFile(secondFragmentList, writerIndv2);
+            writerOk.close();
+            writerIndv1.close();
+            writerIndv2.close();
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        if (foundCount == 0)
+            System.out.println("\nhmmm... did not find any ok pairs..." +
+                    "did you make sure the Qualitas file path are consistent?");
+        else
+            System.out.println("\nhooray! found " + foundCount + " ok pairs.");
+    }
 
     public static void readFirstFile(String file, String outFile) {
         System.out.println("Reading the first file: " + file);
