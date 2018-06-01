@@ -2,10 +2,8 @@ package exec;
 
 import java.io.IOException;
 import java.io.PrintWriter;
-import java.lang.reflect.Array;
 import java.util.*;
 
-import com.sun.tools.javac.comp.Check;
 import data.Fragment;
 import data.FragmentComparator;
 import data.OkPair;
@@ -21,17 +19,17 @@ public class Main {
 	private static String pathSo = "stackoverflow_formatted/";
 	// private static String pathQualitas = "QualitasCorpus-20130901r/compressed_src";
 
-    private static String tool1 = "scc";
+    private static String tool1 = "cloverflow";
     private static String settings1 = "df";
 
     // choose mode between old, good, ok
     // private static String mode = "ok";
     private static double p = 0.5;
 
-    private static String tool2 = "simian";
+    private static String tool2 = "siamese";
     private static String settings2 = "df";
 //    private static String ending = "_200817";
-    private static String ending = "_080518";
+    private static String ending = "_010618";
 
 //    private static int minCloneSize = 10;
     private static int minCloneSize = 6;
@@ -41,29 +39,48 @@ public class Main {
     private static ArrayList<ReportedFragment> secondFragmentList = new ArrayList<>();
 
 	public static void main(String[] args) {
-        readFileToList("/Users/Chaiyong/IdeasProjects/cloverflowtools/results/fragments_"
-                        + tool1 + "_" + settings1 + ending + ".xml"
-                , tool1 + "_fragments_pairs_" + settings1 + ".csv", firstFragmentList);
-        readFileToList("/Users/Chaiyong/IdeasProjects/cloverflowtools/results/fragments_"
-                        + tool2 + "_" + settings2 + ending + ".xml"
-                , tool2 + "_fragments_pairs_" + settings2 + ".csv", secondFragmentList);
+//        readXMLFileToList("/Users/Chaiyong/IdeasProjects/cloverflowtools/results/fragments_"
+//                        + tool1 + "_" + settings1 + ending + ".xml", firstFragmentList);
+//        readXMLFileToList("/Users/Chaiyong/IdeasProjects/cloverflowtools/results/fragments_"
+//                        + tool2 + "_" + settings2 + ending + ".xml", secondFragmentList);
+//        findOkMatches(firstFragmentList, secondFragmentList,
+//                "common_pairs_" + tool2 + "_" + settings2 + "-"
+//                        + tool1 + "_" + settings1 + "-" + p + ending + ".csv");
 
+        /* For comparing results from SIAMESE to CLOVERFLOW */
+        readCSVFileToList("so-qualitas_2289.csv", firstFragmentList);
+        readCSVFileToList("so-qualitas_siamese_clone_pairs_95.csv", secondFragmentList);
         findOkMatches(firstFragmentList, secondFragmentList,
                 "common_pairs_" + tool2 + "_" + settings2 + "-"
                         + tool1 + "_" + settings1 + "-" + p + ending + ".csv");
+        /* OLD CODE */
 //        readSecondFileAndCompare("/Users/Chaiyong/IdeasProjects/cloverflowtools/results/fragments_"
 //                        + tool2 + "_" + settings2 + ending + ".xml"
 //                , "common_pairs_" + tool2 + "_" + settings2 + "-"
 //                        + tool1 + "_" + settings1 + "-" + p + ending + ".csv");
+
+
 	}
 
-    public static ArrayList<ReportedFragment> readFileToList(String file, String outFile, ArrayList<ReportedFragment> fragmentList) {
+    public static ArrayList<ReportedFragment> readXMLFileToList(String file,
+                                                                ArrayList<ReportedFragment> fragmentList) {
         System.out.println("Reading the first file: " + file);
-
         List<ReportedFragment> firstFileResult =
                 IndvCloneFilter.getInstance().getClonePairs(file, minCloneSize);
-
         for (ReportedFragment rf: firstFileResult) {
+//            addToFragmentMap(rf);
+//            addToFragmentList(rf);
+            fragmentList.add(rf);
+        }
+        return fragmentList;
+    }
+
+    public static ArrayList<ReportedFragment> readCSVFileToList(String file,
+                                                                ArrayList<ReportedFragment> fragmentList) {
+        System.out.println("Reading the first file: " + file);
+        List<ReportedFragment> flist =
+                IndvCloneFilter.getInstance().getCSVClonePairs(file, minCloneSize);
+        for (ReportedFragment rf: flist) {
 //            addToFragmentMap(rf);
 //            addToFragmentList(rf);
             fragmentList.add(rf);

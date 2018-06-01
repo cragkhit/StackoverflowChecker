@@ -2,6 +2,7 @@ package exec;
 
 import java.io.*;
 import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.util.ArrayList;
 
 import javax.xml.parsers.*;
@@ -10,6 +11,9 @@ import data.ReportedFragment;
 import data.SimianLog;
 import data.UsefulSimianFragmentHandler;
 import exception.SaxTerminatorException;
+import org.apache.commons.csv.CSVFormat;
+import org.apache.commons.csv.CSVParser;
+import org.apache.commons.csv.CSVRecord;
 import org.xml.sax.SAXException;
 import org.xml.sax.helpers.DefaultHandler;
 
@@ -61,7 +65,7 @@ public class IndvCloneFilter {
             List<ReportedFragment> result =
                     IndvCloneFilter.getInstance().getClonePairs(
                             basePath + "/fragments_" + tool + "_"
-                            + settings + "_" + timestamp + ".xml", minCloneSize);
+                                    + settings + "_" + timestamp + ".xml", minCloneSize);
 
             System.out.println("No. of filtered pairs: " + result.size());
 
@@ -99,4 +103,29 @@ public class IndvCloneFilter {
         return result;
     }
 
+    public List<ReportedFragment> getCSVClonePairs(String file, int minCloneSize) {
+        List<ReportedFragment> result = new ArrayList<>();
+        File inputFile = new File(file);
+        System.out.println("File: " + inputFile.getName());
+
+        try (
+                Reader reader = Files.newBufferedReader(Paths.get(file));
+                CSVParser csvParser = new CSVParser(reader, CSVFormat.DEFAULT);
+        ) {
+            for (CSVRecord csvRecord : csvParser) {
+                // Accessing Values by Column Index
+                String sofile = csvRecord.get(0);
+                int sostart = Integer.parseInt(csvRecord.get(1));
+                int soend = Integer.parseInt(csvRecord.get(2));
+                String qfile = csvRecord.get(3);
+                int qstart = Integer.parseInt(csvRecord.get(4));
+                int qend = Integer.parseInt(csvRecord.get(5));
+                ReportedFragment rf = new ReportedFragment(sofile, sostart, soend, qfile, qstart, qend, "");
+                result.add(rf);
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return result;
+    }
 }
