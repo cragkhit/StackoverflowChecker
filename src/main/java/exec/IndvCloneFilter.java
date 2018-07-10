@@ -120,7 +120,13 @@ public class IndvCloneFilter {
                 String qfile = csvRecord.get(3);
                 int qstart = Integer.parseInt(csvRecord.get(4));
                 int qend = Integer.parseInt(csvRecord.get(5));
-                ReportedFragment rf = new ReportedFragment(sofile, sostart, soend, qfile, qstart, qend, "");
+                String notes = "";
+                if (csvRecord.size() > 6) {
+                    for (int i=6; i<csvRecord.size(); i++) {
+                        notes += csvRecord.get(i) + ",";
+                    }
+                }
+                ReportedFragment rf = new ReportedFragment(sofile, sostart, soend, qfile, qstart, qend, "", notes);
                 result.add(rf);
             }
         } catch (IOException e) {

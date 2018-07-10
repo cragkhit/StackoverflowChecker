@@ -49,7 +49,7 @@ public class Main {
 
         /* For comparing results from SIAMESE to CLOVERFLOW */
         readCSVFileToList("so-qualitas_2289.csv", firstFragmentList);
-        readCSVFileToList("so-qualitas_siamese_clone_pairs_95.csv", secondFragmentList);
+        readCSVFileToList("so-qualitas_siamese_clone_pairs_fw100_4rep.csv", secondFragmentList);
         findOkMatches(firstFragmentList, secondFragmentList,
                 "common_pairs_" + tool2 + "_" + settings2 + "-"
                         + tool1 + "_" + settings1 + "-" + p + ending + ".csv");
@@ -77,7 +77,7 @@ public class Main {
 
     public static ArrayList<ReportedFragment> readCSVFileToList(String file,
                                                                 ArrayList<ReportedFragment> fragmentList) {
-        System.out.println("Reading the first file: " + file);
+        System.out.println("Reading the file: " + file);
         List<ReportedFragment> flist =
                 IndvCloneFilter.getInstance().getCSVClonePairs(file, minCloneSize);
         for (ReportedFragment rf: flist) {
@@ -368,7 +368,12 @@ public class Main {
 
         if (bestOkValue != 0) {
             found = true;
-            writer.print(f.toString() + "," + bestMatch.toString() + "\n");
+            ReportedFragment rf = (ReportedFragment) bestMatch;
+            if (!rf.getNotes().equals("")) {
+                writer.print(f.toString() + "," + rf.toString() + "," + rf.getNotes() + "\n");
+            } else {
+                writer.print(f.toString() + "," + bestMatch.toString() + "\n");
+            }
             System.out.println(f.toString() + "," + bestMatch.toString());
             // remove the fragment from the list
             firstFragmentList.remove(bestMatch);

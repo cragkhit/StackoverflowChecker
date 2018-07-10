@@ -17,15 +17,15 @@ import java.util.Map;
  */
 public class FindContainment {
     private static String DIR = "/Users/Chaiyong/IdeasProjects/StackoverflowChecker/";
-//    private static String FILE1 = "old_results_fse17/PLATINUM_all_pairs_combined_outdated_checks_with_missing_ND.csv";
-private static String FILE1 = "old_results_fse17/PLATINUM_all_pairs_combined_outdated_checks_with_missing_ND.csv";
-    private static String FILE2 = "indv_simian_df_200817_auto-d.csv";
+    //    private static String FILE1 = "old_results_fse17/PLATINUM_all_pairs_combined_outdated_checks_with_missing_ND.csv";
+    private static String FILE1 = "all_pairs_mp-cr_classifications_2289_with_dates.csv";
+    private static String FILE2 = "ok_common_pairs_siamese_df-cloverflow_df-0.5_010618.csv";
 
     public static void main(String args[]) {
             checkPairAndCopyDetails(
                 DIR + "/" + FILE1,
                     DIR + "/" + FILE2,
-                    0,
+                    2,
                     0,
                     true,
                     "",
@@ -390,7 +390,7 @@ private static String FILE1 = "old_results_fse17/PLATINUM_all_pairs_combined_out
                 if (baseFileMap.containsKey(f.toString())) {
                     String[] bf = baseFileMap.get(f.toString()).split(cvsSplitBy);
                     results.append(f.getOther());
-                    results.append(",EX-" + bf[13] + ",\"" + bf[14] + "\"");
+                    results.append("," + bf[8] + "," + bf[9]);
                     results.append("\n");
                 } else {
                     results.append(f.getOther()).append("\n");
