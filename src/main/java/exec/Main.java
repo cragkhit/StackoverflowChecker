@@ -49,7 +49,7 @@ public class Main {
 
         /* For comparing results from SIAMESE to CLOVERFLOW */
         readCSVFileToList("so-qualitas_2289.csv", firstFragmentList);
-        readCSVFileToList("so-qualitas_siamese_clone_pairs_fw100_4rep.csv", secondFragmentList);
+        readCSVFileToList("so-qualitas_siamese_clone_pairs_fw95_4rep.csv", secondFragmentList);
         findOkMatches(firstFragmentList, secondFragmentList,
                 "common_pairs_" + tool2 + "_" + settings2 + "-"
                         + tool1 + "_" + settings1 + "-" + p + ending + ".csv");
